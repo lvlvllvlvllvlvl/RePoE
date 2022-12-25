@@ -290,7 +290,6 @@
       {
         "condition": [
           {
-            "max": 99,
             "min": 1
           }
         ],
@@ -301,20 +300,6 @@
           []
         ],
         "string": "Monsters have {0}% chance to Avoid being Chilled"
-      },
-      {
-        "condition": [
-          {
-            "min": 100
-          }
-        ],
-        "format": [
-          "ignore"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Monsters Cannot be Chilled"
       }
     ],
     "ids": [
@@ -326,7 +311,6 @@
       {
         "condition": [
           {
-            "max": 99,
             "min": 1
           }
         ],
@@ -337,20 +321,6 @@
           []
         ],
         "string": "Monsters have {0}% chance to Avoid being Frozen"
-      },
-      {
-        "condition": [
-          {
-            "min": 100
-          }
-        ],
-        "format": [
-          "ignore"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Monsters Cannot be Frozen"
       }
     ],
     "ids": [
@@ -362,7 +332,6 @@
       {
         "condition": [
           {
-            "max": 99,
             "min": 1
           }
         ],
@@ -373,20 +342,6 @@
           []
         ],
         "string": "Monsters have {0}% chance to Avoid being Ignited"
-      },
-      {
-        "condition": [
-          {
-            "min": 100
-          }
-        ],
-        "format": [
-          "ignore"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Monsters Cannot be Ignited"
       }
     ],
     "ids": [
@@ -398,7 +353,6 @@
       {
         "condition": [
           {
-            "max": 99,
             "min": 1
           }
         ],
@@ -409,20 +363,6 @@
           []
         ],
         "string": "Monsters have {0}% chance to Avoid being Shocked"
-      },
-      {
-        "condition": [
-          {
-            "min": 100
-          }
-        ],
-        "format": [
-          "ignore"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Monsters Cannot be Shocked"
       }
     ],
     "ids": [
@@ -1966,7 +1906,9 @@
           "ignore"
         ],
         "index_handlers": [
-          []
+          [
+            "negate"
+          ]
         ],
         "string": "<enchanted>{0}% reduced Quantity of Artifacts found in Excavated Chests}}"
       }
@@ -2001,7 +1943,9 @@
           "ignore"
         ],
         "index_handlers": [
-          []
+          [
+            "negate"
+          ]
         ],
         "string": "<enchanted>{0}% reduced Quantity of Expedition Logbooks found in Excavated Chests}}"
       }
@@ -5785,7 +5729,7 @@
         "index_handlers": [
           []
         ],
-        "string": "{0}% increased Damage per 10 Rampage Stacks"
+        "string": "{0}% increased Damage per 20 Rampage Stacks"
       }
     ],
     "hidden": true,

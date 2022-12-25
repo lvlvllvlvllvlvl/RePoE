@@ -49,137 +49,6 @@
         "index_handlers": [
           []
         ],
-        "string": "Group Frenzy on Death"
-      }
-    ],
-    "ids": [
-      "monster_grants_frenzy_charges_to_allies_within_distance_on_death"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {}
-        ],
-        "format": [
-          "ignore"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Undead"
-      }
-    ],
-    "ids": [
-      "undead_description"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {
-            "max": 1,
-            "min": 1
-          }
-        ],
-        "format": [
-          "ignore"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Explodes"
-      },
-      {
-        "condition": [
-          {
-            "max": 2,
-            "min": 2
-          }
-        ],
-        "format": [
-          "ignore"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Explodes when on Low Life"
-      }
-    ],
-    "ids": [
-      "monster_explodes_on_its_target_text"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {
-            "max": 1,
-            "min": 1
-          }
-        ],
-        "format": [
-          "ignore"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Explodes"
-      },
-      {
-        "condition": [
-          {
-            "max": 2,
-            "min": 2
-          }
-        ],
-        "format": [
-          "ignore"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Explodes when Killed"
-      }
-    ],
-    "ids": [
-      "monster_explodes_on_death_text"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {}
-        ],
-        "format": [
-          "ignore"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Raises Undead"
-      }
-    ],
-    "ids": [
-      "monster_raises_undead_text"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {}
-        ],
-        "format": [
-          "ignore"
-        ],
-        "index_handlers": [
-          []
-        ],
         "string": "Burns Ground on Death"
       }
     ],
@@ -294,44 +163,6 @@
     ],
     "ids": [
       "necromancer_additional_rarity_levels_can_be_raised"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {}
-        ],
-        "format": [
-          "ignore"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Blocks Attacks"
-      }
-    ],
-    "ids": [
-      "combined_base_block_%"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {}
-        ],
-        "format": [
-          "ignore"
-        ],
-        "index_handlers": [
-          []
-        ],
-        "string": "Blocks Spells"
-      }
-    ],
-    "ids": [
-      "spell_block_%"
     ]
   },
   {
@@ -702,65 +533,6 @@
     ],
     "ids": [
       "action_speed_+%_minimum_value"
-    ]
-  },
-  {
-    "English": [
-      {
-        "condition": [
-          {},
-          {
-            "max": 0,
-            "min": 0
-          }
-        ],
-        "format": [
-          "ignore",
-          "ignore"
-        ],
-        "index_handlers": [
-          [],
-          []
-        ],
-        "string": "Blocks Attacks"
-      },
-      {
-        "condition": [
-          {
-            "max": 0,
-            "min": 0
-          },
-          {}
-        ],
-        "format": [
-          "ignore",
-          "ignore"
-        ],
-        "index_handlers": [
-          [],
-          []
-        ],
-        "string": "Blocks Spells"
-      },
-      {
-        "condition": [
-          {},
-          {}
-        ],
-        "format": [
-          "ignore",
-          "ignore"
-        ],
-        "index_handlers": [
-          [],
-          []
-        ],
-        "string": "Blocks Attacks and Spells"
-      }
-    ],
-    "ids": [
-      "monster_base_block_%",
-      "base_spell_block_%"
     ]
   },
   {
@@ -2197,7 +1969,7 @@
         "index_handlers": [
           []
         ],
-        "string": "{0}% increased Damage per 10 Rampage Stacks"
+        "string": "{0}% increased Damage per 20 Rampage Stacks"
       }
     ],
     "hidden": true,

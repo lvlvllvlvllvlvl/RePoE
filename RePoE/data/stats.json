@@ -429,6 +429,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "action_speed_cannot_be_slowed_below_base_if_cast_temporal_chains_in_past_10_seconds": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "action_speed_is_at_least_108%": {
     "alias": {},
     "is_aliased": false,
@@ -579,6 +584,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "active_skill_chill_effect_+%_final": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "active_skill_cold_damage_+%_final": {
     "alias": {},
     "is_aliased": false,
@@ -659,6 +669,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "active_skill_hit_ailment_damage_with_projectile_+%_final": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "active_skill_if_used_through_frostbolt_damage_+%_final": {
     "alias": {},
     "is_aliased": false,
@@ -710,6 +725,11 @@
     "is_local": false
   },
   "active_skill_lightning_damage_+%_final_from_skill_specific_stat": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "active_skill_merged_damage_+%_final_while_dual_wielding": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -810,6 +830,11 @@
     "is_local": false
   },
   "active_skill_shock_duration_+%_final": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "active_skill_shock_effect_+%_final": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -1069,12 +1094,22 @@
     "is_aliased": false,
     "is_local": false
   },
+  "additional_awakened_sextant_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "additional_base_critical_strike_chance": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
   },
   "additional_beam_only_chains": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_blessed_orb_to_drop": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -1156,6 +1191,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "additional_cartographers_chisel_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "additional_chain_chance_%": {
     "alias": {},
     "is_aliased": false,
@@ -1166,7 +1206,17 @@
     "is_aliased": false,
     "is_local": false
   },
+  "additional_chaos_orb_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "additional_chaos_resistance_against_damage_over_time_%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_chromatic_orb_to_drop": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -1177,6 +1227,11 @@
     "is_local": false
   },
   "additional_cleansing_influenced_items": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_cold_damage_reduction_%_against_hits": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -1246,7 +1301,127 @@
     "is_aliased": false,
     "is_local": false
   },
+  "additional_divination_cards_corrupted_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_divination_cards_currency_basic_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_divination_cards_currency_exotic_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_divination_cards_currency_league_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_divination_cards_currency_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_divination_cards_gems_levelled_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_divination_cards_gems_quality_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_divination_cards_gems_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_divination_cards_gives_other_divination_cards_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_divination_cards_map_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_divination_cards_map_unique_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "additional_divination_cards_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_divination_cards_unique_armour_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_divination_cards_unique_corrupted_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_divination_cards_unique_jewellery_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_divination_cards_unique_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_divination_cards_unique_weapon_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_divine_orb_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_eldritch_chaos_orb_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_eldritch_exalted_orb_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_eldritch_orb_of_annulment_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_elemental_damage_reduction_as_half_of_chaos_resistance": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_enkindling_orb_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_exalted_orb_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_fire_damage_reduction_%_against_hits": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -1256,12 +1431,52 @@
     "is_aliased": false,
     "is_local": false
   },
+  "additional_fusing_orb_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_gemcutters_prism_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "additional_gems_to_drop": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
   },
+  "additional_glassblowers_bauble_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_grand_eldritch_ember_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_grand_eldritch_ichor_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_greater_eldritch_ember_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_greater_eldritch_ichor_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "additional_insanity_effects_while_delirious": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_instilling_orb_to_drop": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -1281,7 +1496,27 @@
     "is_aliased": false,
     "is_local": false
   },
+  "additional_jewellers_orb_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_lesser_eldritch_ember_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_lesser_eldritch_ichor_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "additional_life_scaling_index": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_lightning_damage_reduction_%_against_hits": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -1317,6 +1552,11 @@
     "is_local": false
   },
   "additional_maximum_all_elemental_resistances_%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_maximum_all_elemental_resistances_%_if_killed_cursed_enemy_recently": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -1362,6 +1602,41 @@
     "is_local": false
   },
   "additional_off_hand_critical_strike_chance_while_dual_wielding": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_orb_of_alteration_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_orb_of_annulment_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_orb_of_binding_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_orb_of_horizons_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_orb_of_regret_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_orb_of_scouring_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_orb_of_unmaking_to_drop": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -1501,7 +1776,252 @@
     "is_aliased": false,
     "is_local": false
   },
+  "additional_regal_orb_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_scarabs_abyss_gilded_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_scarabs_abyss_polished_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_scarabs_abyss_rusted_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_scarabs_beasts_gilded_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_scarabs_beasts_polished_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_scarabs_beasts_rusted_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_scarabs_blight_gilded_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_scarabs_blight_polished_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_scarabs_blight_rusted_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_scarabs_breach_gilded_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_scarabs_breach_polished_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_scarabs_breach_rusted_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_scarabs_divination_cards_gilded_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_scarabs_divination_cards_polished_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_scarabs_divination_cards_rusted_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_scarabs_elder_gilded_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_scarabs_elder_polished_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_scarabs_elder_rusted_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_scarabs_harbinger_gilded_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_scarabs_harbinger_polished_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_scarabs_harbinger_rusted_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_scarabs_legion_gilded_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_scarabs_legion_polished_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_scarabs_legion_rusted_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_scarabs_maps_gilded_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_scarabs_maps_polished_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_scarabs_maps_rusted_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_scarabs_metamorph_gilded_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_scarabs_metamorph_polished_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_scarabs_metamorph_rusted_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_scarabs_perandus_gilded_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_scarabs_perandus_polished_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_scarabs_perandus_rusted_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_scarabs_shaper_gilded_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_scarabs_shaper_polished_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_scarabs_shaper_rusted_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_scarabs_strongbox_gilded_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_scarabs_strongbox_polished_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_scarabs_strongbox_rusted_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_scarabs_sulphite_gilded_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_scarabs_sulphite_polished_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_scarabs_sulphite_rusted_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "additional_scarabs_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_scarabs_torment_gilded_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_scarabs_torment_polished_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_scarabs_torment_rusted_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_scarabs_uniques_gilded_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_scarabs_uniques_polished_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_scarabs_uniques_rusted_to_drop": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -1567,6 +2087,16 @@
     "is_local": false
   },
   "additional_uniques_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_vaal_orb_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "additional_veiled_chaos_orb_to_drop": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -1667,6 +2197,11 @@
     "is_local": false
   },
   "additive_vaal_skill_damage_modifiers_apply_to_all_skills": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "adjacent_relic_effect_+%": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -1946,12 +2481,27 @@
     "is_aliased": false,
     "is_local": false
   },
+  "alchemists_mark_art_variation": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "alchemists_mark_curse_effect_+%": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
   },
   "alchemists_mark_grant_attacker_x_flask_charges_when_hit_once_per_3s": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "alchemists_mark_ground_caustic_art_variation": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "alchemists_mark_ground_fire_art_variation": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -2016,6 +2566,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "all_damage_can_ignite_freeze_shock": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "all_damage_can_inflict_brittle": {
     "alias": {},
     "is_aliased": false,
@@ -2067,6 +2622,11 @@
     "is_local": false
   },
   "all_damage_taken_can_scorch": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "all_relic_effect_+%": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -2237,6 +2797,11 @@
     "is_local": false
   },
   "ancestor_totem_buff_effect_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "ancestor_totem_buff_linger_time_ms": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -2501,12 +3066,22 @@
     "is_aliased": false,
     "is_local": false
   },
+  "apply_binding_chains_for_X_seconds_on_hit": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "apply_covered_in_ash_to_attacker_on_hit_%_vs_rare_or_unique_enemy": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
   },
   "apply_covered_in_ash_to_attacker_when_hit_%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "apply_cut_debuff_on_hit": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -2537,6 +3112,11 @@
     "is_local": false
   },
   "apply_poison_on_hit_vs_bleeding_enemies_%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "apply_resolve_vulnerability_for_X_seconds_on_hit": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -3396,7 +3976,22 @@
     "is_aliased": false,
     "is_local": false
   },
+  "atlas_keystone_scarab_pack_size": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "atlas_keystone_scarab_pack_size_hard_mode": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "atlas_keystone_uber_cortex": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "atlas_keystone_uber_cortex_display_bonus": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -3407,6 +4002,11 @@
     "is_local": false
   },
   "atlas_keystone_uber_maven": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "atlas_keystone_uber_maven_display_bonus": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -5188,6 +5788,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "avarius_beam_rotation_speed_+%_while_firing": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "avarius_cast_on_charge_contact": {
     "alias": {},
     "is_aliased": false,
@@ -5239,6 +5844,16 @@
     "is_local": false
   },
   "avoid_bleed_%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "avoid_bleeding_and_all_elemental_ailments_%_from_flask_stat": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "avoid_bleeding_ignite_freeze_shock_%_from_flask_stat": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -5399,6 +6014,11 @@
     "is_local": false
   },
   "avoid_maim_%_chance": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "avoid_only_shock_%": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -5768,6 +6388,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "base_ascendance": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "base_attack_block_luck": {
     "alias": {},
     "is_aliased": false,
@@ -5974,6 +6599,26 @@
     "is_local": false
   },
   "base_can_only_have_one_permanent_aura": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "base_cannot_be_chilled": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "base_cannot_be_frozen": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "base_cannot_be_ignited": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "base_cannot_be_shocked": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -6234,11 +6879,6 @@
     "is_local": false
   },
   "base_curse_duration_+%": {
-    "alias": {},
-    "is_aliased": false,
-    "is_local": false
-  },
-  "base_curse_skill_doom_gain_per_minute_if_cast_yourself": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -6664,6 +7304,11 @@
     "is_local": false
   },
   "base_helmet_ward": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "base_hex_zone_skill_duration_ms": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -7668,6 +8313,31 @@
     "is_aliased": false,
     "is_local": false
   },
+  "base_sanctum_damage": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "base_sanctum_damage_taken_per_minute": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "base_sanctum_damage_to_deal_per_minute": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "base_sanctum_gold_piles": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "base_sanctum_gold_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "base_secondary_skill_effect_duration": {
     "alias": {},
     "is_aliased": false,
@@ -7729,6 +8399,11 @@
     "is_local": false
   },
   "base_shock_proliferation_radius": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "base_should_have_onslaught_from_stat": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -7828,6 +8503,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "base_smite_number_of_targets": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "base_soul_prevention_time_ms": {
     "alias": {},
     "is_aliased": false,
@@ -7859,6 +8539,11 @@
     "is_local": false
   },
   "base_spell_cooldown_speed_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "base_spell_critical_chance_equal_to_the_critical_strike_chance_of_main_weapon": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -9213,6 +9898,16 @@
     "is_aliased": false,
     "is_local": false
   },
+  "blight_tower_damage_+%_final_from_atlas_passive": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "blight_tower_damage_+%_final_from_atlas_passive_owner": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "blight_tower_damage_+%_final_vs_chaos_monster": {
     "alias": {},
     "is_aliased": false,
@@ -9424,6 +10119,11 @@
     "is_local": false
   },
   "block_recovery_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "block_sanctum_damage_from_hits": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -10048,12 +10748,42 @@
     "is_aliased": false,
     "is_local": false
   },
+  "breach_boss_spawn_distance_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "breach_chaos_rare_monster_chance_to_drop_blessing_permyriad": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "breach_cold_rare_monster_chance_to_drop_blessing_permyriad": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "breach_fire_rare_monster_chance_to_drop_blessing_permyriad": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "breach_lightning_rare_monster_chance_to_drop_blessing_permyriad": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "breach_map_initial_time_ms": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
   },
   "breach_map_time_to_portal_ms": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "breach_physical_rare_monster_chance_to_drop_blessing_permyriad": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -10253,6 +10983,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "buff_grants_smite_additional_lightning_targets": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "buff_impl_stat": {
     "alias": {},
     "is_aliased": false,
@@ -10374,6 +11109,11 @@
     "is_local": false
   },
   "can_inflict_multiple_ignites": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "can_only_have_one_ancestor_totem_buff": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -10798,6 +11538,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "cannot_critical_strike_with_attacks": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "cannot_damage_ultimatum_altar": {
     "alias": {},
     "is_aliased": false,
@@ -10839,6 +11584,11 @@
     "is_local": false
   },
   "cannot_gain_bleeding": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "cannot_gain_brittle": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -10999,6 +11749,11 @@
     "is_local": false
   },
   "cannot_pierce": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "cannot_receive_elemental_ailments_from_cursed_enemies": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -11633,6 +12388,31 @@
     "is_aliased": false,
     "is_local": false
   },
+  "chance_%_to_drop_additional_awakened_sextant": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_blessed_orb": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_cartographers_chisel": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_chaos_orb": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_chromatic_orb": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "chance_%_to_drop_additional_cleansing_currency": {
     "alias": {},
     "is_aliased": false,
@@ -11653,7 +12433,172 @@
     "is_aliased": false,
     "is_local": false
   },
+  "chance_%_to_drop_additional_divination_cards_corrupted": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_divination_cards_currency": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_divination_cards_currency_basic": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_divination_cards_currency_exotic": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_divination_cards_currency_league": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_divination_cards_gems": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_divination_cards_gems_levelled": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_divination_cards_gems_quality": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_divination_cards_gives_other_divination_cards": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_divination_cards_map": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_divination_cards_map_unique": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_divination_cards_unique": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_divination_cards_unique_armour": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_divination_cards_unique_corrupted": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_divination_cards_unique_jewellery": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_divination_cards_unique_weapon": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_divine_orb": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_eldritch_chaos_orb": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_eldritch_exalted_orb": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_eldritch_orb_of_annulment": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_enkindling_orb": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_exalted_orb": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_fusing_orb": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "chance_%_to_drop_additional_gem": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_gemcutters_prism": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_glassblowers_bauble": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_grand_eldritch_ember": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_grand_eldritch_ichor": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_greater_eldritch_ember": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_greater_eldritch_ichor": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_instilling_orb": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_jewellers_orb": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_lesser_eldritch_ember": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_lesser_eldritch_ichor": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -11668,7 +12613,287 @@
     "is_aliased": false,
     "is_local": false
   },
+  "chance_%_to_drop_additional_orb_of_alteration": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_orb_of_annulment": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_orb_of_binding": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_orb_of_horizons": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_orb_of_regret": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_orb_of_scouring": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_orb_of_unmaking": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_regal_orb": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "chance_%_to_drop_additional_scarab": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_scarab_abyss_gilded": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_scarab_abyss_polished": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_scarab_abyss_rusted": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_scarab_beasts_gilded": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_scarab_beasts_polished": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_scarab_beasts_rusted": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_scarab_blight_gilded": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_scarab_blight_polished": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_scarab_blight_rusted": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_scarab_breach_gilded": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_scarab_breach_polished": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_scarab_breach_rusted": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_scarab_divination_cards_gilded": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_scarab_divination_cards_polished": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_scarab_divination_cards_rusted": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_scarab_elder_gilded": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_scarab_elder_polished": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_scarab_elder_rusted": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_scarab_harbinger_gilded": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_scarab_harbinger_polished": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_scarab_harbinger_rusted": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_scarab_legion_gilded": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_scarab_legion_polished": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_scarab_legion_rusted": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_scarab_maps_gilded": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_scarab_maps_polished": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_scarab_maps_rusted": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_scarab_metamorph_gilded": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_scarab_metamorph_polished": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_scarab_metamorph_rusted": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_scarab_perandus_gilded": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_scarab_perandus_polished": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_scarab_perandus_rusted": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_scarab_shaper_gilded": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_scarab_shaper_polished": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_scarab_shaper_rusted": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_scarab_strongbox_gilded": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_scarab_strongbox_polished": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_scarab_strongbox_rusted": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_scarab_sulphite_gilded": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_scarab_sulphite_polished": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_scarab_sulphite_rusted": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_scarab_torment_gilded": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_scarab_torment_polished": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_scarab_torment_rusted": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_scarab_uniques_gilded": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_scarab_uniques_polished": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_scarab_uniques_rusted": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -11684,6 +12909,16 @@
     "is_local": false
   },
   "chance_%_to_drop_additional_unique": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_vaal_orb": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_%_to_drop_additional_veiled_chaos_orb": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -11944,6 +13179,11 @@
     "is_local": false
   },
   "chance_to_deal_double_damage_%_while_focused": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "chance_to_deal_double_damage_+%_if_cast_vulnerability_in_past_10_seconds": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -12968,6 +14208,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "chaos_weakness_ignores_hexproof": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "chaos_weakness_mana_reservation_+%": {
     "alias": {},
     "is_aliased": false,
@@ -13828,6 +15073,16 @@
     "is_aliased": false,
     "is_local": false
   },
+  "cleave_area_of_effect_+%_final": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "cleave_area_of_effect_+%_final_from_executioner": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "cleave_attack_speed_+%": {
     "alias": {},
     "is_aliased": false,
@@ -13838,7 +15093,12 @@
     "is_aliased": false,
     "is_local": false
   },
-  "cleave_damage_+%_final_while_dual_wielding": {
+  "cleave_damage_against_enemies_on_low_life_+%_final": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "cleave_damage_against_enemies_on_low_life_+%_final_from_executioner": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -13849,6 +15109,11 @@
     "is_local": false
   },
   "cleave_fortify_on_hit": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "cleave_has_culling_strike": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -14488,6 +15753,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "cold_weakness_ignores_hexproof": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "combat_rush_effect_+%": {
     "alias": {},
     "is_aliased": false,
@@ -14699,6 +15969,16 @@
     "is_local": false
   },
   "combined_bleeding_duration_on_self_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "combined_bleeding_skill_effect_duration_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "combined_bleeding_skill_effect_duration_+%_final": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -15218,6 +16498,16 @@
     "is_aliased": false,
     "is_local": false
   },
+  "combined_poison_skill_effect_duration_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "combined_poison_skill_effect_duration_+%_final": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "combined_projectile_speed_+%": {
     "alias": {},
     "is_aliased": false,
@@ -15368,11 +16658,6 @@
     "is_aliased": false,
     "is_local": false
   },
-  "conditonal_move_if_enemy_beyond_%_of_maximum_action_distance": {
-    "alias": {},
-    "is_aliased": false,
-    "is_local": false
-  },
   "conductivity_curse_effect_+%": {
     "alias": {},
     "is_aliased": false,
@@ -15508,6 +16793,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "consecrated_ground_while_stationary_radius_if_highest_attribute_is_strength": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "consecrated_path_area_of_effect_+%": {
     "alias": {},
     "is_aliased": false,
@@ -15568,6 +16858,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "convert_all_elemental_damage_to_chaos": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "convert_all_physical_damage_to_fire": {
     "alias": {},
     "is_aliased": false,
@@ -15594,6 +16889,11 @@
     "is_local": false
   },
   "convocation_max_number_of_minions_to_teleport": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "cooldown_recovery_+%_if_cast_temporal_chains_in_past_10_seconds": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -16220,6 +17520,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "critical_strike_chance_against_cursed_enemies_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "critical_strike_chance_against_enemies_on_consecrated_ground_%": {
     "alias": {},
     "is_aliased": false,
@@ -16256,6 +17561,11 @@
     "is_local": false
   },
   "critical_strike_damage_cannot_be_reflected": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "critical_strike_multiplier_+%_if_cast_enfeeble_in_past_10_seconds": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -16850,6 +18160,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "currently_has_onslaught": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "currently_unused_damage_taken_over_time_pluspercent_final": {
     "alias": {},
     "is_aliased": false,
@@ -16915,6 +18230,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "curse_effect_+%_final_from_keystone": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "curse_effect_+%_final_vs_players": {
     "alias": {},
     "is_aliased": false,
@@ -16960,7 +18280,7 @@
     "is_aliased": false,
     "is_local": false
   },
-  "curse_maximum_doom": {
+  "curse_mana_cost_+%": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -17135,12 +18455,12 @@
     "is_aliased": false,
     "is_local": false
   },
-  "curse_skill_doom_gain_per_minute": {
+  "curse_skill_effect_duration_+%": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
   },
-  "curse_skill_effect_duration_+%": {
+  "curse_skill_gem_level_+": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -17176,6 +18496,11 @@
     "is_local": false
   },
   "cursed_enemies_%_chance_to_grant_power_charge_when_hit": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "cursed_enemies_are_exorcised_on_kill": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -18342,6 +19667,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "damage_taken_+%_final_from_vaal_charged_attack": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "damage_taken_+%_final_per_gale_force": {
     "alias": {},
     "is_aliased": false,
@@ -18868,6 +20198,11 @@
     "is_local": false
   },
   "deal_no_elemental_damage": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "deal_no_elemental_physical_damage": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -19767,6 +21102,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "disable_default_blood_effect_when_hit": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "disable_highlight": {
     "alias": {},
     "is_aliased": false,
@@ -20502,6 +21842,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "display_linked_curse_effect_+%_final": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "display_mana_cost_reduction_%": {
     "alias": {},
     "is_aliased": false,
@@ -21157,6 +22502,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "domination_memory_line_specific_rare_mod_reward_chance_+%_final": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "dont_replace_minion_if_level_changed": {
     "alias": {},
     "is_aliased": false,
@@ -21168,16 +22518,6 @@
     "is_local": false
   },
   "doom_arrow_number_of_arrows": {
-    "alias": {},
-    "is_aliased": false,
-    "is_local": false
-  },
-  "doom_blast_ailment_damage_+%_final_per_5_doom_on_hex": {
-    "alias": {},
-    "is_aliased": false,
-    "is_local": false
-  },
-  "doom_blast_hit_damage_+%_final_per_5_doom_on_hex": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -21203,11 +22543,6 @@
     "is_local": false
   },
   "double_damage_%_chance_while_wielding_mace_sceptre_staff": {
-    "alias": {},
-    "is_aliased": false,
-    "is_local": false
-  },
-  "double_doom_effect": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -21362,7 +22697,17 @@
     "is_aliased": false,
     "is_local": false
   },
+  "dropped_abyss_jewels_are_rare_and_corrupted_chance_%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "dropped_items_are_converted_to_amulets": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "dropped_items_are_converted_to_armour": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -21387,6 +22732,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "dropped_items_are_converted_to_jewellery_and_jewels": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "dropped_items_are_converted_to_jewels": {
     "alias": {},
     "is_aliased": false,
@@ -21407,7 +22757,17 @@
     "is_aliased": false,
     "is_local": false
   },
+  "dropped_items_are_converted_to_top_tier_base_item_types_in_same_item_class": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "dropped_items_are_converted_to_utility_flasks": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "dropped_items_are_converted_to_weapons": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -21442,6 +22802,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "dropped_items_have_1_to_30_quality": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "dropped_items_have_additional_sockets": {
     "alias": {},
     "is_aliased": false,
@@ -21452,7 +22817,22 @@
     "is_aliased": false,
     "is_local": false
   },
+  "dropped_items_have_influence_type": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "dropped_items_have_maximum_sockets": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "dropped_items_have_random_conqueror_influence": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "dropped_items_have_shaper_or_elder_influence": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -22142,6 +23522,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "elemental_weakness_ignores_hexproof": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "elemental_weakness_no_reservation": {
     "alias": {},
     "is_aliased": false,
@@ -22417,6 +23802,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "endurance_charge_flame_charged_helmet": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "endurance_charge_granted_per_X_monster_power_during_endurance_warcry": {
     "alias": {},
     "is_aliased": false,
@@ -22678,6 +24068,11 @@
     "is_local": false
   },
   "enemies_you_curse_are_unnerved": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "enemies_you_curse_cannot_recharge_energy_shield": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -23287,6 +24682,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "enfeeble_ignores_hexproof": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "enfeeble_no_reservation": {
     "alias": {},
     "is_aliased": false,
@@ -23681,6 +25081,11 @@
     "is_local": false
   },
   "every_4_seconds_freeze_chilled_non_unique_enemies_for_X_ms": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "exalted_armour_footprints_from_mtx": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -24110,6 +25515,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "explode_enemies_for_10%_life_as_random_element_on_kill_chance_%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "explode_enemies_for_25%_life_as_chaos_on_kill_chance_%": {
     "alias": {},
     "is_aliased": false,
@@ -24171,11 +25581,6 @@
     "is_local": false
   },
   "explode_on_kill_%_fire_damage_to_deal": {
-    "alias": {},
-    "is_aliased": false,
-    "is_local": false
-  },
-  "explode_on_kill_%_fire_damage_to_deal_while_not_flame_touched": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -24311,6 +25716,11 @@
     "is_local": false
   },
   "extra_damage_taken_from_crit_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "extra_damage_taken_from_crit_+%_from_cursed_enemy": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -25136,6 +26546,11 @@
     "is_local": false
   },
   "fire_wand_damage_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "fire_weakness_ignores_hexproof": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -26035,6 +27450,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "freeze_duration_against_cursed_enemies_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "freeze_mine_cold_resistance_+_while_frozen": {
     "alias": {},
     "is_aliased": false,
@@ -26116,6 +27536,11 @@
     "is_local": false
   },
   "frenzy_charge_duration_+%_per_frenzy_charge": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "frenzy_charge_flame_charged_helmet": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -26590,7 +28015,27 @@
     "is_aliased": false,
     "is_local": false
   },
+  "frozen_legion_%_chance_to_summon_additional_statue": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "frozen_legion_added_cooldown_count": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "frozen_legion_cooldown_speed_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "frozen_monsters_take_increased_damage": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "frozen_sweep_damage_+%": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -26645,6 +28090,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "gain_+%_physical_damage_as_random_element_if_cast_elemental_weakness_in_past_10_seconds": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "gain_1_rage_on_use_%_chance": {
     "alias": {},
     "is_aliased": false,
@@ -26681,6 +28131,11 @@
     "is_local": false
   },
   "gain_X_life_on_stun": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "gain_X_power_charges_on_casting_a_spell": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -26731,6 +28186,11 @@
     "is_local": false
   },
   "gain_adrenaline_for_X_seconds_on_low_life_unless_you_have_adrenaline": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "gain_adrenaline_on_gaining_flame_touched": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -27405,6 +28865,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "gain_power_charge_on_curse_cast_%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "gain_power_charge_on_hit_%_chance_against_frozen_enemy": {
     "alias": {},
     "is_aliased": false,
@@ -27526,6 +28991,26 @@
     "is_local": false
   },
   "gain_sacrificial_zeal_on_skill_use_%_cost_as_damage_per_minute": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "gain_sanctum_shield_at_start_of_each_floor": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "gain_sanctum_shield_every_room": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "gain_sanctum_shield_on_completing_room_with_no_damage": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "gain_sanctum_shield_on_gaining_curse": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -27676,6 +29161,16 @@
     "is_local": false
   },
   "gain_x_rage_on_hit_with_axes_swords_1s_cooldown": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "gain_x_sanctum_gold_on_room_completion": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "gain_x_sanctum_gold_when_taking_sanctum_hit_damage": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -28655,6 +30150,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "ground_sanctum_art_variation": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "ground_slam_angle_+%": {
     "alias": {},
     "is_aliased": false,
@@ -28940,6 +30440,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "has_ancestor_totem_buff": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "has_arcane_surge": {
     "alias": {},
     "is_aliased": false,
@@ -28970,6 +30475,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "has_avoid_shock_as_avoid_all_elemental_ailments": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "has_cat_aspect": {
     "alias": {},
     "is_aliased": false,
@@ -28986,6 +30496,11 @@
     "is_local": false
   },
   "has_conditional_apparation_effect": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "has_curse_limit_equal_to_maximum_power_charges": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -29025,6 +30540,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "has_ignite_duration_on_self_as_all_elemental_ailments_on_self": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "has_infusion": {
     "alias": {},
     "is_aliased": false,
@@ -29036,11 +30556,6 @@
     "is_local": false
   },
   "has_mastered_the_hollow_palm": {
-    "alias": {},
-    "is_aliased": false,
-    "is_local": false
-  },
-  "has_onslaught": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -29101,6 +30616,11 @@
     "is_local": false
   },
   "has_unique_massive_shrine_effect": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "has_vaal_smite_behaviour": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -29516,6 +31036,11 @@
     "is_local": false
   },
   "have_your_skills_crit_recently": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "heal_aura_owner_%_max_life_on_death": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -30985,12 +32510,12 @@
     "is_aliased": false,
     "is_local": false
   },
-  "hex_%_chance_to_gain_maximum_doom_on_cast": {
+  "hex_effect_gain_per_minute": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
   },
-  "hex_doom_gain_rate_+%": {
+  "hex_remove_at_effect_variance": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -31005,12 +32530,17 @@
     "is_aliased": false,
     "is_local": false
   },
-  "hex_starting_doom": {
+  "hex_time_does_not_tick": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
   },
-  "hex_time_does_not_tick": {
+  "hex_transfer_on_death_range_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "hex_transfer_on_death_total_range": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -31020,7 +32550,7 @@
     "is_aliased": false,
     "is_local": false
   },
-  "hexblast_ailment_damage_+%_final_per_5_doom_on_consumed_curse": {
+  "hexblast_ailment_damage_+%_final_if_hexed": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -31030,7 +32560,7 @@
     "is_aliased": false,
     "is_local": false
   },
-  "hexblast_hit_damage_+%_final_per_5_doom_on_consumed_curse": {
+  "hexblast_hit_damage_+%_final_if_hexed": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -31040,7 +32570,12 @@
     "is_aliased": false,
     "is_local": false
   },
-  "hexes_expire_500ms_after_reaching_max_doom": {
+  "hexes_expire_on_reaching_200%_effect": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "hexes_not_tracked": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -31735,6 +33270,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "ignite_damage_against_cursed_enemies_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "ignite_damage_from_attack_skills_+%": {
     "alias": {},
     "is_aliased": false,
@@ -31980,6 +33520,16 @@
     "is_aliased": false,
     "is_local": false
   },
+  "immune_to_curses_if_cast_dispair_in_past_10_seconds": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "immune_to_curses_on_killing_cursed_enemy_for_remaining_duration_of_curse": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "immune_to_curses_while_at_least_X_rage": {
     "alias": {},
     "is_aliased": false,
@@ -32016,6 +33566,16 @@
     "is_local": false
   },
   "immune_to_elemental_status_ailments_while_affected_by_glorious_madness": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "immune_to_exposure": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "immune_to_exposure_if_cast_elemental_weakness_in_past_10_seconds": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -32081,6 +33641,21 @@
     "is_local": false
   },
   "immune_to_poison": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "immune_to_reflect_damage_if_cast_punishment_in_past_10_seconds": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "immune_to_reflected_damage": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "immune_to_sanctum_damage": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -32161,6 +33736,11 @@
     "is_local": false
   },
   "impale_debuff_effect_+%_from_hits_that_also_inflict_bleeding": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "impale_effect_+%_for_impales_inficted_by_spells": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -32425,6 +34005,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "inflict_cold_exposure_if_cast_frostbite_in_past_10_seconds": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "inflict_cold_exposure_on_hit_%_chance_at_devotion_threshold": {
     "alias": {},
     "is_aliased": false,
@@ -32435,7 +34020,17 @@
     "is_aliased": false,
     "is_local": false
   },
+  "inflict_fire_exposure_if_cast_flammability_in_past_10_seconds": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "inflict_fire_exposure_on_hit_%_chance_at_devotion_threshold": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "inflict_lightning_exposure_if_cast_conductivity_in_past_10_seconds": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -32446,6 +34041,11 @@
     "is_local": false
   },
   "inflict_malignant_madness_on_critical_strike_%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "inflict_withered_for_2_seconds_on_hit_if_cast_dispair_in_past_10_seconds": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -32780,6 +34380,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "intimidate_enemies_on_hit_if_cast_punishment_in_past_10_seconds": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "intimidate_nearby_enemies_on_use_for_ms": {
     "alias": {},
     "is_aliased": false,
@@ -33021,6 +34626,11 @@
     "is_local": false
   },
   "is_exerted": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "is_exposed": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -33311,6 +34921,31 @@
     "is_local": false
   },
   "is_ruthless_hit": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "is_sanctum_boss": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "is_sanctum_final_boss": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "is_sanctum_floor_boss": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "is_sanctum_guard": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "is_sanctum_test": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -33880,7 +35515,7 @@
     "is_aliased": false,
     "is_local": false
   },
-  "keystone_hex_zone_behaviour": {
+  "keystone_hex_master": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -34241,6 +35876,16 @@
     "is_local": false
   },
   "kinetic_wand_base_number_of_zig_zags": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "kirac_blight_craft_always_available": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "kirac_blight_craft_cost_+%": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -34625,6 +36270,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "legion_monster_+%_life_per_reward_final": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "legion_monster_damage_taken_+%_final": {
     "alias": {},
     "is_aliased": false,
@@ -34651,6 +36301,11 @@
     "is_local": false
   },
   "lesser_projectile_intensity_projectile_damage_+%_final_per_intensity": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "lethal_sanctum_damage": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -35180,6 +36835,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "life_loss_%_to_prevent_to_lose_over_time": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "life_loss_per_second_in_hellscape": {
     "alias": {},
     "is_aliased": false,
@@ -35191,6 +36851,11 @@
     "is_local": false
   },
   "life_mana_es_recovery_rate_+%_per_endurance_charge": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "life_mastery_nearby_enemy_life_regeneration_rate_+%": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -36276,6 +37941,11 @@
     "is_local": false
   },
   "lightning_warp_use_non_screen_shake_effects": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "lightning_weakness_ignores_hexproof": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -39286,6 +40956,11 @@
     "is_aliased": false,
     "is_local": true
   },
+  "local_display_nearby_enemy_no_chaos_damage_resistance": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": true
+  },
   "local_display_nearby_enemy_physical_damage_taken_+%": {
     "alias": {},
     "is_aliased": false,
@@ -39841,6 +41516,11 @@
     "is_aliased": false,
     "is_local": true
   },
+  "local_display_socketed_gems_supported_by_level_x_cursed_ground": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": true
+  },
   "local_display_socketed_gems_supported_by_level_x_deadly_ailments": {
     "alias": {},
     "is_aliased": false,
@@ -39952,6 +41632,11 @@
     "is_local": true
   },
   "local_display_socketed_gems_supported_by_level_x_greater_volley": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": true
+  },
+  "local_display_socketed_gems_supported_by_level_x_hex_bloom": {
     "alias": {},
     "is_aliased": false,
     "is_local": true
@@ -41909,6 +43594,14 @@
     "is_aliased": false,
     "is_local": true
   },
+  "local_hit_and_kill_effect_holy_against_undead": {
+    "alias": {
+      "when_in_main_hand": "main_hand_hit_and_kill_effect_holy_against_undead",
+      "when_in_off_hand": "off_hand_hit_and_kill_effect_holy_against_undead"
+    },
+    "is_aliased": true,
+    "is_local": true
+  },
   "local_hit_causes_monster_flee_%": {
     "alias": {
       "when_in_main_hand": "main_hand_local_hit_causes_monster_flee_%",
@@ -42453,6 +44146,11 @@
     "is_aliased": true,
     "is_local": true
   },
+  "local_life_loss_%_to_prevent_during_flask_effect_to_lose_over_time": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": true
+  },
   "local_lightning_penetration_%": {
     "alias": {
       "when_in_main_hand": "main_hand_lightning_penetration_%",
@@ -42671,6 +44369,14 @@
   "local_movement_speed_+%_if_item_corrupted": {
     "alias": {},
     "is_aliased": false,
+    "is_local": true
+  },
+  "local_mtx_bee_swarm_on_hit": {
+    "alias": {
+      "when_in_main_hand": "mtx_main_hand_bee_swarm_on_hit",
+      "when_in_off_hand": "mtx_off_hand_bee_swarm_on_hit"
+    },
+    "is_aliased": true,
     "is_local": true
   },
   "local_mtx_cold_iron_point_hit_effect_variation": {
@@ -43499,6 +45205,11 @@
     "is_local": true
   },
   "local_unique_flask_elemental_penetration_%_of_highest_uncapped_resistance_type": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": true
+  },
+  "local_unique_flask_explode_enemies_for_10%_life_as_random_element_on_kill_chance_%_during_flask_effect": {
     "alias": {},
     "is_aliased": false,
     "is_local": true
@@ -44558,6 +46269,11 @@
     "is_aliased": false,
     "is_local": true
   },
+  "local_unique_relic_destroyed_on_sanctum_end": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": true
+  },
   "local_unique_remove_life_and_regen_es_from_removed_life": {
     "alias": {},
     "is_aliased": false,
@@ -44726,6 +46442,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "lose_adrenaline_on_losing_flame_touched": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "lose_all_charges_on_starting_movement": {
     "alias": {},
     "is_aliased": false,
@@ -44817,6 +46538,16 @@
     "is_local": false
   },
   "lose_x_mana_when_you_use_skill": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "lose_x_sanctum_gold_on_room_completion": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "lose_x_sanctum_gold_when_taking_sanctum_hit_damage": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -45126,6 +46857,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "main_hand_base_crit_chance_from_weapon": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "main_hand_base_maximum_attack_distance": {
     "alias": {},
     "is_aliased": false,
@@ -45262,6 +46998,11 @@
     "is_local": false
   },
   "main_hand_fire_penetration_%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "main_hand_hit_and_kill_effect_holy_against_undead": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -46671,12 +48412,37 @@
     "is_aliased": false,
     "is_local": false
   },
+  "map_abyss_%_chance_chasm_spawns_at_least_magic_monsters": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_abyss_%_chance_path_spawns_at_least_magic_monsters": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_abyss_%_chance_path_spawns_at_least_magic_monsters_per_chasm_closed": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "map_abyss_chance_%": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
   },
   "map_abyss_chance_%_per_+2%_pack_size": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_abyss_chasm_%_chance_to_spawn_5_additional_rare_monsters": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_abyss_chasm_chance_%_to_spawn_100%_increased_monsters": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -46716,6 +48482,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "map_abyss_encounter_chance_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "map_abyss_jewels_%_chance_to_drop_corrupted_with_more_mods": {
     "alias": {},
     "is_aliased": false,
@@ -46736,7 +48507,47 @@
     "is_aliased": false,
     "is_local": false
   },
+  "map_abyss_monster_spawn_amount_per_chasm_closed_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_abyss_not_depths_length_at_least_2": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_abyss_not_depths_length_at_least_3": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_abyss_not_depths_length_at_least_4": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_abyss_num_additional_rare_monsters": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_abyss_path_chance_%_to_spawn_100%_increased_monsters": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_abyssal_trove_drop_abyss_scarab_chance_permyriad": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "map_abyssal_trove_drop_rare_with_abyss_socket_chance_%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_abyssal_trove_dropped_abyss_jewels_are_rare_and_corrupted_chance_%": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -46747,6 +48558,16 @@
     "is_local": false
   },
   "map_abyssal_trove_item_quantity_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_abyssal_trove_item_rarity_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_abyssal_trove_jewel_chance_+%": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -46871,6 +48692,16 @@
     "is_aliased": false,
     "is_local": true
   },
+  "map_affliction_additional_reward_on_map_complete": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_affliction_afflicted_monsters_dropped_item_quantity_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "map_affliction_encounter_additional_chance_%": {
     "alias": {},
     "is_aliased": false,
@@ -46881,12 +48712,32 @@
     "is_aliased": false,
     "is_local": false
   },
+  "map_affliction_encounter_chance_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "map_affliction_encounter_monster_depth_+%": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
   },
+  "map_affliction_encounter_reward_cluster_jewel_item_rarity_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "map_affliction_encounter_reward_types_+": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_affliction_everywhere_max_fog_depth": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_affliction_everywhere_min_fog_depth": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -46901,7 +48752,22 @@
     "is_aliased": false,
     "is_local": false
   },
+  "map_affliction_pack_size_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "map_affliction_reward_kills_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_affliction_reward_progress_on_kill_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_affliction_rewards_+%_chance_to_drop_delirium_orbs": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -46912,6 +48778,16 @@
     "is_local": false
   },
   "map_affliction_secondary_wave_delay_ms_+": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_affliction_unique_monsters_have_%_chance_to_drop_clusters": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_affliction_unique_monsters_have_%_chance_to_drop_delirium_orbs": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -47331,6 +49207,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "map_bestiary_monster_damage_+%_final": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "map_bestiary_monster_life_+%_final": {
     "alias": {},
     "is_aliased": false,
@@ -47387,6 +49268,11 @@
     "is_local": false
   },
   "map_betrayal_target_double_experience_chance_%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_betrayal_target_item_drop_rarity_+%": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -47476,12 +49362,27 @@
     "is_aliased": false,
     "is_local": false
   },
+  "map_blight_bosses_have_%_chance_to_add_additional_reward": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "map_blight_chest_%_chance_for_additional_drop": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
   },
+  "map_blight_chest_blighted_map_chance_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "map_blight_chest_duplicate_rewards_chance_permillage": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_blight_chest_oil_chance_+%": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -47502,6 +49403,11 @@
     "is_local": false
   },
   "map_blight_encounter_blighted_map_reward_chance_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_blight_encounter_chance_+%": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -47536,6 +49442,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "map_blight_monsters_take_+%_damage": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "map_blight_oil_chests_drop_oil_extractor_chance_%": {
     "alias": {},
     "is_aliased": false,
@@ -47552,6 +49463,11 @@
     "is_local": false
   },
   "map_blight_tower_cost_doubled": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_blight_tower_damage_+%_final_from_atlas_passive": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -47601,7 +49517,32 @@
     "is_aliased": false,
     "is_local": false
   },
+  "map_boss_additional_awakened_sextant_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_blessed_orb_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_cartographers_chisel_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "map_boss_additional_chance_to_drop_adjacent_map_permyriad": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_chaos_orb_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_chromatic_orb_to_drop": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -47621,12 +49562,177 @@
     "is_aliased": false,
     "is_local": false
   },
+  "map_boss_additional_divination_cards_corrupted_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_divination_cards_currency_basic_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_divination_cards_currency_exotic_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_divination_cards_currency_league_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_divination_cards_currency_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_divination_cards_gems_levelled_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_divination_cards_gems_quality_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_divination_cards_gems_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_divination_cards_gives_other_divination_cards_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_divination_cards_map_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_divination_cards_map_unique_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "map_boss_additional_divination_cards_to_drop": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
   },
+  "map_boss_additional_divination_cards_unique_armour_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_divination_cards_unique_corrupted_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_divination_cards_unique_jewellery_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_divination_cards_unique_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_divination_cards_unique_weapon_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_divine_orb_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_eldritch_chaos_orb_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_eldritch_exalted_orb_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_eldritch_orb_of_annulment_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_enkindling_orb_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_exalted_orb_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_fusing_orb_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_gemcutters_prism_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "map_boss_additional_gems_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_glassblowers_bauble_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_grand_eldritch_ember_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_grand_eldritch_ichor_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_greater_eldritch_ember_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_greater_eldritch_ichor_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_instilling_orb_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_jewellers_orb_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_lesser_eldritch_ember_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_lesser_eldritch_ichor_to_drop": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -47641,7 +49747,407 @@
     "is_aliased": false,
     "is_local": false
   },
+  "map_boss_additional_orb_of_alteration_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_orb_of_annulment_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_orb_of_binding_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_orb_of_horizons_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_orb_of_regret_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_orb_of_scouring_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_orb_of_unmaking_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_regal_orb_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_scarabs_abyss_gilded_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_scarabs_abyss_polished_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_scarabs_abyss_rusted_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_scarabs_beasts_gilded": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_scarabs_beasts_gilded_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_scarabs_beasts_polished": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_scarabs_beasts_polished_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_scarabs_beasts_rusted": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_scarabs_beasts_rusted_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_scarabs_blight_gilded": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_scarabs_blight_gilded_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_scarabs_blight_polished": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_scarabs_blight_polished_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_scarabs_blight_rusted": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_scarabs_blight_rusted_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_scarabs_breach_gilded_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_scarabs_breach_polished_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_scarabs_breach_rusted_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_scarabs_divination_cards_gilded": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_scarabs_divination_cards_gilded_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_scarabs_divination_cards_polished": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_scarabs_divination_cards_polished_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_scarabs_divination_cards_rusted": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_scarabs_divination_cards_rusted_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_scarabs_elder_gilded_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_scarabs_elder_polished_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_scarabs_elder_rusted_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_scarabs_harbinger_gilded_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_scarabs_harbinger_polished_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_scarabs_harbinger_rusted_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_scarabs_legion_gilded_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_scarabs_legion_polished_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_scarabs_legion_rusted_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_scarabs_maps_gilded": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_scarabs_maps_gilded_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_scarabs_maps_polished": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_scarabs_maps_polished_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_scarabs_maps_rusted": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_scarabs_maps_rusted_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_scarabs_metamorph_gilded": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_scarabs_metamorph_gilded_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_scarabs_metamorph_polished": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_scarabs_metamorph_polished_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_scarabs_metamorph_rusted": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_scarabs_metamorph_rusted_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_scarabs_perandus_gilded_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_scarabs_perandus_polished_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_scarabs_perandus_rusted_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_scarabs_shaper_gilded": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_scarabs_shaper_gilded_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_scarabs_shaper_polished": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_scarabs_shaper_polished_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_scarabs_shaper_rusted": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_scarabs_shaper_rusted_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_scarabs_strongbox_gilded_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_scarabs_strongbox_polished_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_scarabs_strongbox_rusted_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_scarabs_sulphite_gilded_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_scarabs_sulphite_polished_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_scarabs_sulphite_rusted_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "map_boss_additional_scarabs_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_scarabs_torment_gilded": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_scarabs_torment_gilded_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_scarabs_torment_polished": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_scarabs_torment_polished_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_scarabs_torment_rusted": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_scarabs_torment_rusted_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_scarabs_uniques_gilded": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_scarabs_uniques_gilded_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_scarabs_uniques_polished": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_scarabs_uniques_polished_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_scarabs_uniques_rusted": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_scarabs_uniques_rusted_to_drop": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -47657,6 +50163,16 @@
     "is_local": false
   },
   "map_boss_additional_uniques_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_vaal_orb_to_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_boss_additional_veiled_chaos_orb_to_drop": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -47841,6 +50357,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "map_boss_has_two_rogues_exiles_chance_%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "map_boss_is_possessed": {
     "alias": {},
     "is_aliased": false,
@@ -47911,6 +50432,31 @@
     "is_aliased": false,
     "is_local": false
   },
+  "map_breach_%_chance_for_10_additional_breach": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_breach_%_chance_for_1_additional_breach": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_breach_%_chance_for_2_additional_breach": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_breach_%_chance_for_3_additional_breach": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_breach_%_chance_to_spawn_breachlord_on_opening_large_chest": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "map_breach_X_additional_rare_monsters": {
     "alias": {},
     "is_aliased": false,
@@ -47946,6 +50492,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "map_breach_encounter_chance_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "map_breach_hands_are_small": {
     "alias": {},
     "is_aliased": false,
@@ -47971,6 +50522,16 @@
     "is_aliased": false,
     "is_local": false
   },
+  "map_breach_monster_splinter_quantity_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_breach_monster_unique_item_drop_chance_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "map_breach_monsters_damage_+%": {
     "alias": {},
     "is_aliased": false,
@@ -47982,6 +50543,11 @@
     "is_local": false
   },
   "map_breach_number_of_magic_packs_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_breach_rare_monster_chance_to_drop_blessing_permyriad": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -48041,6 +50607,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "map_breaches_num_additional_large_chests_to_spawn": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "map_cadiro_offer_X_lucky_rolls": {
     "alias": {},
     "is_aliased": false,
@@ -48061,12 +50632,57 @@
     "is_aliased": false,
     "is_local": false
   },
+  "map_chance_for_2_additional_abysses_%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_chance_for_3_additional_abysses_%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_chance_for_4_additional_abysses_%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_chance_for_additional_abyss_%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "map_chance_for_area_%_to_contain_breach": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
   },
   "map_chance_for_area_%_to_contain_harvest": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_chance_for_area_%_to_duplicate_breach_boss_chayula": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_chance_for_area_%_to_duplicate_breach_boss_esh": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_chance_for_area_%_to_duplicate_breach_boss_tul": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_chance_for_area_%_to_duplicate_breach_boss_uul_netol": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_chance_for_area_%_to_duplicate_breach_boss_xoph": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -48131,6 +50747,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "map_cleansing_fire_influence_monster_dropped_item_quantity_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "map_cleansing_fire_influence_pack_size_+%": {
     "alias": {},
     "is_aliased": false,
@@ -48152,6 +50773,11 @@
     "is_local": false
   },
   "map_cleansing_fire_influenced_packs_additional_flame_wraith_chance_%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_conqueror_influence_pack_size_+%": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -48402,6 +51028,11 @@
     "is_local": false
   },
   "map_corrupted_bosses_drop_x_additional_vaal_items": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_cortex_synthesis_mod_effect_+%": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -48741,6 +51372,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "map_disable_essence_from_chance": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "map_disable_expedition_from_chance": {
     "alias": {},
     "is_aliased": false,
@@ -48762,6 +51398,11 @@
     "is_local": false
   },
   "map_disable_heist_from_chance": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_disable_leagues": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -48806,7 +51447,32 @@
     "is_aliased": false,
     "is_local": false
   },
+  "map_disable_rogue_exiles_from_chance": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_disable_shrines_from_chance": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_disable_strongboxes_from_chance": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_disable_torment_from_chance": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "map_disable_torment_spirits": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_disable_vaal_side_areas_from_chance": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -48877,6 +51543,11 @@
     "is_local": false
   },
   "map_dropped_maps_are_duplicated_chance_permillage": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_dropped_maps_rarity_+%": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -48962,6 +51633,11 @@
     "is_local": false
   },
   "map_elder_influence_additional_packs_of_elder_monsters": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_elder_influence_pack_size_+%": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -49116,7 +51792,7 @@
     "is_aliased": false,
     "is_local": false
   },
-  "map_essences_are_1_tier_higher": {
+  "map_essences_are_1_tier_higher_chance_%": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -49146,12 +51822,22 @@
     "is_aliased": false,
     "is_local": false
   },
+  "map_expedition_danning_encounter_chance_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "map_expedition_elite_marker_count_+%": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
   },
   "map_expedition_encounter_additional_chance_%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_expedition_encounter_chance_+%": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -49181,12 +51867,27 @@
     "is_aliased": false,
     "is_local": false
   },
+  "map_expedition_fuse_burn_time_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_expedition_gwennen_encounter_chance_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "map_expedition_league": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
   },
   "map_expedition_maximum_placement_distance_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_expedition_monster_spawn_additional_missing_life_%": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -49206,12 +51907,22 @@
     "is_aliased": false,
     "is_local": false
   },
+  "map_expedition_rog_encounter_chance_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "map_expedition_saga_additional_terrain_features": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
   },
   "map_expedition_saga_contains_boss": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_expedition_tujen_encounter_chance_+%": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -49237,6 +51948,11 @@
     "is_local": false
   },
   "map_extra_content_weighting": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_extra_incursion_per_area": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -49381,7 +52097,17 @@
     "is_aliased": false,
     "is_local": false
   },
+  "map_gain_additional_alva_mission_permyriad_chance_on_map_completion": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "map_gain_additional_einhar_mission_%_chance_on_map_completion": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_gain_additional_einhar_mission_permyriad_chance_on_map_completion": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -49391,12 +52117,37 @@
     "is_aliased": false,
     "is_local": false
   },
+  "map_gain_additional_jun_mission_permyriad_chance_on_map_completion": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "map_gain_additional_niko_mission_%_chance_on_map_completion": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
   },
+  "map_gain_additional_niko_mission_permyriad_chance_on_map_completion": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "map_gain_additional_zana_mission_%_chance_on_map_completion": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_gain_additional_zana_mission_permyriad_chance_on_map_completion": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_gain_blight_map_craft_on_completion_chance_%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_gain_master_missions_instead_of_master_naturally_spawning": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -49427,6 +52178,11 @@
     "is_local": false
   },
   "map_grandmaster_seed": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_grants_players_level_20_dash_skill": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -49536,7 +52292,22 @@
     "is_aliased": false,
     "is_local": false
   },
+  "map_hard_mode_leagues": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_harvest_%_chance_to_duplicate_lifeforce": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "map_harvest_additional_plot_chance_%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_harvest_blue_plot_chance_+%": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -49567,6 +52338,16 @@
     "is_local": false
   },
   "map_harvest_double_lifeforce_dropped": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_harvest_encounter_chance_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_harvest_green_plot_chance_+%": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -49611,6 +52392,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "map_harvest_red_plot_chance_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "map_harvest_seed_t2_upgrade_%_chance": {
     "alias": {},
     "is_aliased": false,
@@ -49636,12 +52422,22 @@
     "is_aliased": false,
     "is_local": false
   },
+  "map_harvest_seeds_%_chance_to_spawn_duplicated_monsters": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "map_harvest_seeds_1_of_every_2_plot_type_override": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
   },
   "map_harvest_seeds_are_at_least_t2": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_harvest_t3_chance_+%": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -49686,12 +52482,57 @@
     "is_aliased": false,
     "is_local": false
   },
+  "map_heist_contract_agility_deception_engineering_job_chance_+%_final_from_atlas_passive": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "map_heist_contract_chest_no_rewards_%_chance": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
   },
+  "map_heist_contract_demolition_counterthaumaturgy_trapdisarm_job_chance_+%_final_from_atlas_passive": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_heist_contract_high_value_target_chance_+%_final_from_atlas_passive": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_heist_contract_item_drop_chance_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_heist_contract_level_3_job_chance_+%_final_from_atlas_passive": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_heist_contract_level_4_job_chance_+%_final_from_atlas_passive": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_heist_contract_level_5_job_chance_+%_final_from_atlas_passive": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_heist_contract_lockpicking_bruteforce_perception_job_chance_+%_final_from_atlas_passive": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "map_heist_contract_npc_items_cannot_drop": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_heist_contract_precious_target_chance_+%_final_from_atlas_passive": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -49702,6 +52543,11 @@
     "is_local": false
   },
   "map_heist_data": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_heist_huck_spawns_from_smugglers_cache": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -49721,7 +52567,27 @@
     "is_aliased": false,
     "is_local": false
   },
+  "map_heist_smugglers_cache_blueprint_chance_for_each_opened_smugglers_cache_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "map_heist_smugglers_cache_encounter_chance_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_heist_smugglers_cache_rogue_markers_for_each_opened_smugglers_cache_+%_final_from_atlas_passive": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_heist_spawn_6_additional_smugglers_caches_chance_%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_heist_spawn_additional_smugglers_cache_chance_%": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -50082,6 +52948,11 @@
     "is_local": false
   },
   "map_imprisoned_monsters_damage_taken_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_inchor_pump_has_double_durability": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -50496,6 +53367,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "map_items_drop_corrupted_in_corrupted_maps_%_chance": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "map_items_drop_fully_linked_chance_permillage": {
     "alias": {},
     "is_aliased": false,
@@ -50507,6 +53383,11 @@
     "is_local": false
   },
   "map_items_have_random_quality": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_kirac_mission_everchanging_divinationcard": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -50821,12 +53702,32 @@
     "is_aliased": false,
     "is_local": false
   },
+  "map_legion_chest_only_splinter_drops_duplicated_chance_%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_legion_chests_break_out_range_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_legion_chests_contains_an_additional_reward": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "map_legion_duration_+%": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
   },
   "map_legion_encounter_additional_chance_%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_legion_encounter_chance_+%": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -50946,12 +53847,42 @@
     "is_aliased": false,
     "is_local": false
   },
+  "map_legion_monster_only_splinter_drops_duplicated_chance_%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "map_legion_monster_splinter_emblem_drops_duplicated": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
   },
+  "map_legion_monsters_+%_life_per_reward_final": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "map_legion_monsters_chests_additional_splinter_chance_%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_legion_monsters_with_rewards_have_%_chance_to_gain_additional_reward": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_legion_monsters_with_rewards_have_%_chance_to_gain_two_additional_rewards": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_legion_pack_size_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_legion_sergeants_dropped_item_rarity_+%": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -50977,6 +53908,51 @@
     "is_local": false
   },
   "map_lock_reason": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_lycia2_aureus_converted_to_experience": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_lycia2_aureus_converted_to_relics": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_lycia2_aureus_converted_to_uniques": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_lycia2_damage_+%_final": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_lycia2_damage_taken_+%_final": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_lycia2_drop_additional_balance_of_terror_3_mods": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_lycia2_drop_additional_sanctified_relic": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_lycia2_drop_additional_sanctified_relic_corruption_currency": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_lycia2_drop_additional_special_unique": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -51121,7 +54097,42 @@
     "is_aliased": false,
     "is_local": false
   },
+  "map_maximum_monster_archnemesis_mods": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "map_metamorph_all_metamorphs_have_rewards": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_metamorph_boss_action_speed_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_metamorph_boss_additional_catalyst_drop_chance_%_per_magic_organ": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_metamorph_boss_additional_catalyst_drop_chance_%_per_rare_organ": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_metamorph_boss_additional_catalyst_drop_chance_%_per_unique_organ": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_metamorph_boss_additional_rare_monster_reward_modifier": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_metamorph_boss_damage_magnitude_from_vat_+%": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -51131,7 +54142,37 @@
     "is_aliased": false,
     "is_local": false
   },
+  "map_metamorph_boss_experience_+%_per_10%_power": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_metamorph_boss_item_quantity_+%_per_monster_modifier": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_metamorph_boss_item_rarity_+%_per_monster_modifier": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_metamorph_boss_life_magnitude_from_vat_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_metamorph_boss_scarab_drop_chance_permyriad_per_10%_power": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "map_metamorph_catalyst_drops_duplicated": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_metamorph_itemised_boss_additional_reward": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -51147,6 +54188,16 @@
     "is_local": false
   },
   "map_metamorph_life_+%_final_from_sextant": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_metamorph_rewards_catalyst_chance_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_metamorph_sample_dropping_monster_rarity_upgrade_chance_%": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -51177,6 +54228,11 @@
     "is_local": false
   },
   "map_metamorphosis_encounter_additional_chance_%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_metamorphosis_encounter_chance_+%": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -51242,6 +54298,11 @@
     "is_local": false
   },
   "map_mod_effect_+%_for_non_unique_maps": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_monolith_chance_%": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -51331,6 +54392,21 @@
     "is_aliased": false,
     "is_local": false
   },
+  "map_monster_sanctum_damage_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_monster_sanctum_damage_+%_final": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_monster_sanctum_damage_+%_final_from_boon": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "map_monster_skills_chain_X_additional_times": {
     "alias": {},
     "is_aliased": false,
@@ -51402,6 +54478,11 @@
     "is_local": false
   },
   "map_monsters_accuracy_rating_+%_hidden": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_monsters_action_speed_-%": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -51531,6 +54612,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "map_monsters_binding_chains_for_X_seconds_on_hit": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "map_monsters_cannot_be_leeched_from": {
     "alias": {},
     "is_aliased": false,
@@ -51656,6 +54742,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "map_monsters_knockback": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "map_monsters_life_+%": {
     "alias": {},
     "is_aliased": false,
@@ -51702,6 +54793,11 @@
     "is_local": false
   },
   "map_monsters_penetrate_elemental_resistances_%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_monsters_petrification_for_X_seconds_on_hit": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -51757,6 +54853,11 @@
     "is_local": false
   },
   "map_monsters_remove_enemy_flask_charge_on_hit_%_chance": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_monsters_resolve_vulenerability_for_X_seconds_on_hit": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -51946,7 +55047,17 @@
     "is_aliased": false,
     "is_local": false
   },
+  "map_num_alva_missions_on_map_completion": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "map_num_betrayal_fort_terrain_failures": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_num_einhar_missions_on_map_completion": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -52001,7 +55112,17 @@
     "is_aliased": false,
     "is_local": false
   },
+  "map_num_jun_missions_on_map_completion": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "map_num_leaguestones_active": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_num_niko_missions_on_map_completion": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -52012,6 +55133,11 @@
     "is_local": false
   },
   "map_num_terrain_failures": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_num_zana_missions_on_map_completion": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -52386,6 +55512,16 @@
     "is_aliased": false,
     "is_local": false
   },
+  "map_player_damage_+%_final_from_sanctum_boon": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_player_damage_+%_final_from_sanctum_curse": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "map_player_damage_+%_vs_breach_monsters": {
     "alias": {},
     "is_aliased": false,
@@ -52402,6 +55538,11 @@
     "is_local": false
   },
   "map_player_disable_soul_gain_prevention": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_player_energy_shield_+%_final_from_sanctum_curse": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -52486,6 +55627,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "map_player_life_+%_final_from_sanctum_curse": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "map_player_life_and_es_recovery_speed_+%_final": {
     "alias": {},
     "is_aliased": false,
@@ -52497,6 +55643,11 @@
     "is_local": false
   },
   "map_player_life_regeneration_rate_per_minute_%_per_25_rampage_stacks": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_player_light_radius_+%": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -52537,6 +55688,11 @@
     "is_local": false
   },
   "map_player_projectile_damage_+%_final": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_player_sanctum_damage_cooldown_ms": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -52662,6 +55818,11 @@
     "is_local": false
   },
   "map_players_cannot_gain_power_charges": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_players_cannot_leech": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -52946,6 +56107,16 @@
     "is_aliased": false,
     "is_local": false
   },
+  "map_rare_monsters_possessed_with_touched_minions_chance_%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_rare_monsters_possessed_with_touched_minions_num": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "map_rare_monsters_spawn_X_beyond_portals": {
     "alias": {},
     "is_aliased": false,
@@ -53026,12 +56197,47 @@
     "is_aliased": false,
     "is_local": false
   },
+  "map_ritual_defer_reward_tribute_cost_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_ritual_deferred_rewards_are_offered_again_+%_sooner": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_ritual_encounter_chance_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "map_ritual_encounter_count_is_four": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
   },
+  "map_ritual_maximum_monsters_alive_at_once_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_ritual_monster_spawning_speed_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "map_ritual_number_of_free_rerolls": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_ritual_offered_rewards_from_rerolls_have_permyriad_chance_to_cost_no_tribute": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_ritual_offered_ritual_splinter_reward_stack_size_+%": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -53052,6 +56258,11 @@
     "is_local": false
   },
   "map_rogue_exile_attack_cast_and_movement_speed_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_rogue_exile_chance_%": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -53136,7 +56347,97 @@
     "is_aliased": false,
     "is_local": false
   },
+  "map_sanctum_airlock_variation": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_sanctum_boss_damage_taken_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_sanctum_boss_sanctum_damage_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_sanctum_chests_explode": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_sanctum_currency_found_+%_final_from_sanctum_boon": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_sanctum_currency_found_+%_final_from_sanctum_curse": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_sanctum_guard_damage_taken_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_sanctum_guard_sanctum_damage_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_sanctum_guards_are_twinned": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_sanctum_guards_have_pets": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_sanctum_guards_volatile_on_death": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_sanctum_league": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_sanctum_monster_damage_taken_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_sanctum_monster_damage_taken_+%_final": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_sanctum_monster_sanctum_damage_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_sanctum_monster_slain_experience_+%_final": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "map_scion_mission_monster_pack": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_searing_exarch_altar_downside_effect_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_searing_exarch_alter_extra_upside": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -53171,6 +56472,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "map_shaper_influence_pack_size_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "map_shaper_influence_spawn_boss_pack": {
     "alias": {},
     "is_aliased": false,
@@ -53187,6 +56493,11 @@
     "is_local": false
   },
   "map_shaper_rare_chance_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_shrine_chance_%": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -53277,6 +56588,11 @@
     "is_local": false
   },
   "map_smugglers_cache_blueprint_drop_chance_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_smugglers_cache_contract_drop_chance_+%": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -53501,6 +56817,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "map_strongbox_chance_%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "map_strongbox_close_after_opening_chance_%": {
     "alias": {},
     "is_aliased": false,
@@ -53561,6 +56882,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "map_strongboxes_+%_chance_to_be_gemcutters": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "map_strongboxes_additional_pack_chance_%": {
     "alias": {},
     "is_aliased": false,
@@ -53612,6 +56938,11 @@
     "is_local": false
   },
   "map_strongboxes_drop_x_additional_rare_items": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_strongboxes_gems_are_duplicated": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -54116,6 +57447,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "map_tangle_influence_monster_dropped_item_quantity_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "map_tangle_influence_pack_size_+%": {
     "alias": {},
     "is_aliased": false,
@@ -54267,6 +57603,11 @@
     "is_local": true
   },
   "map_tier_bonus_permillage": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "map_tormented_spirit_chance_%": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -54691,12 +58032,12 @@
     "is_aliased": false,
     "is_local": false
   },
-  "map_wild_rogue_exiles_have_special_reward_chance_%": {
+  "map_wild_rogue_exile_dropped_item_rarity_+%": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
   },
-  "map_x_rare_monsters_possessed_with_touched_minions": {
+  "map_wild_rogue_exiles_have_special_reward_chance_%": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -54812,6 +58153,11 @@
     "is_local": false
   },
   "maven_invitation_monster_level_+": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "maven_map_boss_buffed": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -55318,6 +58664,11 @@
     "is_local": false
   },
   "maximum_critical_strike_chance": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "maximum_critical_strike_chance_is_50%": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -56843,6 +60194,11 @@
     "is_local": false
   },
   "metamorphosis_boss_item_reward_slot_5_index": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "metamorphosis_boss_item_reward_slot_6_index": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -59518,6 +62874,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "monster_dropped_equipment_drops_as_sell_price_with_multiplier": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "monster_dropped_item_quantity_+%": {
     "alias": {},
     "is_aliased": false,
@@ -59558,7 +62919,22 @@
     "is_aliased": false,
     "is_local": false
   },
+  "monster_dropped_items_ignore_party_rarity_+%_bonus": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "monster_dropped_items_ignore_player_rarity_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "monster_dropped_non_unique_equipment_drops_as_sell_price": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "monster_drops_map_boss_rewards": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -59938,6 +63314,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "monster_mortar_bounce_minimum_angle": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "monster_mortar_number_of_forks": {
     "alias": {},
     "is_aliased": false,
@@ -59999,6 +63380,11 @@
     "is_local": false
   },
   "monster_penalty_against_minions_damage_+%_final_vs_player_minions": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "monster_play_experience_effect_on_killer_from_experience_gain": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -60093,7 +63479,17 @@
     "is_aliased": false,
     "is_local": false
   },
+  "monster_slain_experience_+%_final_to_map_owner_only": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "monster_slain_flask_charges_granted_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "monster_slain_gem_experience_gain_+%": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -60828,6 +64224,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "mtx_amputee_arms_flash_on_skill_use": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "mtx_ashes_of_the_stars_on_kill_effect": {
     "alias": {},
     "is_aliased": false,
@@ -60838,12 +64239,37 @@
     "is_aliased": false,
     "is_local": false
   },
+  "mtx_balefire_wings_speed_buff_active": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "mtx_balefire_wings_speed_buff_tracker": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "mtx_belt_blood_drones_during_flask_effect": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
   },
   "mtx_belt_identify_item_effect": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "mtx_blood_lord_boil_on_hit": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "mtx_bloodthirsty_armour_track_vaal_skill_ready": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "mtx_bloodthirsty_armour_track_vaal_souls": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -60863,7 +64289,22 @@
     "is_aliased": false,
     "is_local": false
   },
+  "mtx_cannonade_volley_effect_at_firing_points": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "mtx_celestial_lightning_on_item_pickup": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "mtx_clockwork_heart_effects": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "mtx_clockwork_heart_track_killstreaks": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -60874,6 +64315,11 @@
     "is_local": false
   },
   "mtx_corpsebloom_grow_flowers_on_nearby_corpses": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "mtx_cosmic_armour_flying_player": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -60898,6 +64344,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "mtx_dark_assembly_summon_minion_effect": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "mtx_darkness_enthroned_create_eyeballs_nearby": {
     "alias": {},
     "is_aliased": false,
@@ -60918,7 +64369,17 @@
     "is_aliased": false,
     "is_local": false
   },
+  "mtx_endurance_charges_grow_on_tree": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "mtx_fire_helm_track_fire_skills_used_in_past_16_seconds": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "mtx_fist_bump_on_trade_accepted": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -60933,6 +64394,56 @@
     "is_aliased": false,
     "is_local": false
   },
+  "mtx_forgemaster_armour_anvil_on_item_used_on_item": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "mtx_fusing_announcement": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "mtx_gemcutter_armour_crafting_device_on_gem": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "mtx_gemling_artificer_gem_level_up_visuals": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "mtx_gemling_artificer_on_hit_visuals": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "mtx_gemling_artificer_track_body_gems": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "mtx_gemling_artificer_track_boots_gems": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "mtx_gemling_artificer_track_gloves_gems": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "mtx_gemling_artificer_track_helmet_gems": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "mtx_gull_harpy_vulture_lesser_shrine_art_variation": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "mtx_hands_high_templar_corruption_implicit_count": {
     "alias": {},
     "is_aliased": false,
@@ -60943,12 +64454,37 @@
     "is_aliased": false,
     "is_local": false
   },
+  "mtx_hateforge_atziri_apparition": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "mtx_headhunter_visual_effect_on_rare_kill_%_chance": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
   },
+  "mtx_hellfire_currency_value_absorbed_in_past_60_seconds": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "mtx_hellfire_replace_currency_with_fire_spirits": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "mtx_hyrris_ire_alternate_arrow_visuals": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "mtx_illusionist_cobra_lash_poison": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "mtx_jellyfish_swarm_effects": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -60993,6 +64529,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "mtx_local_flask_trigger_stampede_quicksilver_rhoa": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": true
+  },
   "mtx_madcap_arcane_surge_ring": {
     "alias": {},
     "is_aliased": false,
@@ -61003,12 +64544,22 @@
     "is_aliased": false,
     "is_local": false
   },
+  "mtx_main_hand_bee_swarm_on_hit": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "mtx_max_hitstreak_stacks": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
   },
   "mtx_max_killstreak_stacks": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "mtx_melding_of_the_flesh": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -61028,12 +64579,57 @@
     "is_aliased": false,
     "is_local": false
   },
+  "mtx_mist_spirit_absorbed": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "mtx_mist_spirits_spawn_nearby": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "mtx_mist_visual_effect_on_rare_unique_kill_%_chance": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "mtx_mist_visual_effect_tier_3_on_rare_unique_kill_%_chance": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "mtx_mjolner_visual_effect_on_kill_%_chance": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
   },
+  "mtx_morph_art_variation_index_from_polymorph": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "mtx_morph_art_variation_index_from_primary_pet": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "mtx_morph_art_variation_index_from_secondary_pet": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "mtx_myrmidon_fortify_ring": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "mtx_nebulis_track_number_of_times_cold_or_lightning_damage_dealt_recently": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "mtx_off_hand_bee_swarm_on_hit": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -61078,6 +64674,16 @@
     "is_aliased": false,
     "is_local": false
   },
+  "mtx_sand_chronomancer_buff_tracker": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "mtx_sand_chronomancer_cooldown_effects": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "mtx_serpent_item_pickup_animation": {
     "alias": {},
     "is_aliased": false,
@@ -61089,6 +64695,31 @@
     "is_local": false
   },
   "mtx_shield_tracks_number_of_hits_blocked_in_past_30_seconds": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "mtx_starforge_alternate_shock_ailment": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "mtx_summoning_ring_divine": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "mtx_summoning_ring_necrotic": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "mtx_summoning_ring_ritual": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "mtx_summoning_ring_stygian": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -61133,12 +64764,27 @@
     "is_aliased": false,
     "is_local": false
   },
+  "mtx_tormented_armour_set_effect_on_flask_used": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "mtx_undertaker_amulet": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
   },
   "mtx_undying_gravebind_apparition_on_killed_monsters_with_deathgrip": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "mtx_ventors_gamble_dice_roll": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "mtx_virtual_morph_art_variation_index": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -61153,7 +64799,27 @@
     "is_aliased": false,
     "is_local": false
   },
+  "mtx_voidforge_alternate_shock_ailment": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "mtx_voidforge_element_chosen": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "mtx_voidforge_element_flaring": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "mtx_weapon_effect_soul_mortar_on_spell_crit": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "mtx_wormhole_back_attachment": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -61479,6 +65145,16 @@
     "is_local": false
   },
   "no_spirit_strikes": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "non_adjacent_relic_effect_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "non_aura_hexes_gain_20%_effect_per_second": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -61834,6 +65510,11 @@
     "is_local": false
   },
   "num_of_additional_chains_at_max_frenzy_charges": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "num_of_shrines_on_player": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -62828,6 +66509,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "number_of_sanctum_league_challenges_completed": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "number_of_shield_masteries": {
     "alias": {},
     "is_aliased": false,
@@ -62903,7 +66589,17 @@
     "is_aliased": false,
     "is_local": false
   },
+  "number_of_times_cold_damage_dealt_recently": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "number_of_times_have_been_hit_recently": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "number_of_times_lightning_damage_dealt_recently": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -62964,6 +66660,11 @@
     "is_local": false
   },
   "number_of_vaal_side_area_bosses_to_summon": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "number_of_vaal_souls_gained_in_past_10_seconds": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -63203,6 +66904,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "off_hand_base_crit_chance_from_weapon": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "off_hand_base_maximum_attack_distance": {
     "alias": {},
     "is_aliased": false,
@@ -63344,6 +67050,11 @@
     "is_local": false
   },
   "off_hand_fire_penetration_%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "off_hand_hit_and_kill_effect_holy_against_undead": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -64534,6 +68245,11 @@
     "is_local": false
   },
   "orb_of_storms_base_bolt_frequency_ms": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "orb_of_storms_base_channelling_bolt_frequency_ms": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -65950,7 +69666,22 @@
     "is_aliased": false,
     "is_local": false
   },
+  "player_damage_+%_final_from_sanctum_boon": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "player_damage_+%_final_from_sanctum_curse": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "player_dex_mission_enable_pointer": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "player_energy_shield_+%_final_from_sanctum_curse": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -65991,6 +69722,16 @@
     "is_local": false
   },
   "player_is_harbinger_spawn_pack_on_kill_chance": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "player_kill_sanctum_guards_on_hit": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "player_life_+%_final_from_sanctum_curse": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -66240,6 +69981,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "power_charge_flame_charged_helmet": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "power_charge_on_block_%_chance": {
     "alias": {},
     "is_aliased": false,
@@ -66435,11 +70181,6 @@
     "is_aliased": false,
     "is_local": false
   },
-  "primary_pet_variety_hash_you_morph_into_in_town_or_hideout": {
-    "alias": {},
-    "is_aliased": false,
-    "is_local": false
-  },
   "primary_projectile_base_targets_to_pierce_+": {
     "alias": {},
     "is_aliased": false,
@@ -66501,6 +70242,16 @@
     "is_local": false
   },
   "prismatic_rain_cold_explosion_hit_and_ailment_damage_+%_final": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "profane_ground_on_crit_chance_%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "profane_ground_on_crit_chance_%_if_highest_attribute_is_intelligence": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -66581,6 +70332,16 @@
     "is_local": false
   },
   "projectile_attacks_chance_to_poison_on_hit_%_if_you_have_beast_minion": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "projectile_ballistic_angle_from_reference_event": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "projectile_ballistic_angle_from_target_distance": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -66880,6 +70641,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "projectiles_are_not_fired": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "projectiles_barrage": {
     "alias": {},
     "is_aliased": false,
@@ -66916,6 +70682,11 @@
     "is_local": false
   },
   "projectiles_can_split_from_terrain": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "projectiles_cannot_be_avoided": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -67091,6 +70862,11 @@
     "is_local": false
   },
   "punishment_duration_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "punishment_ignores_hexproof": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -67705,6 +71481,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "random_curse_when_hit_%_ignoring_curse_limit": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "random_curses_include_silence": {
     "alias": {},
     "is_aliased": false,
@@ -67756,6 +71537,11 @@
     "is_local": false
   },
   "rare_monster_chance_to_drop_rare_weapon_%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "rare_monster_mod_spell_damage_taken_+%_final": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -67925,6 +71711,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "recover_%_maximum_energy_shield_on_killing_cursed_enemy": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "recover_%_maximum_life_on_cull": {
     "alias": {},
     "is_aliased": false,
@@ -67990,12 +71781,22 @@
     "is_aliased": false,
     "is_local": false
   },
+  "recover_%_maximum_life_when_cursing_non_cursed_enemy": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "recover_%_maximum_mana_on_kill": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
   },
   "recover_%_maximum_mana_on_killing_cursed_enemy": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "recover_%_maximum_mana_when_cursing_non_cursed_enemy": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -68066,6 +71867,11 @@
     "is_local": false
   },
   "recover_mana_when_buff_reaches_duration": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "recover_permyriad_life_on_skill_use": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -68235,6 +72041,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "refresh_duration_of_shock_chill_ignite_on_enemy_when_cursing_enemy": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "regenerate_%_armour_as_life_over_1_second_on_block": {
     "alias": {},
     "is_aliased": false,
@@ -68301,6 +72112,11 @@
     "is_local": false
   },
   "rejuvenation_totem_aura_effect_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "relic_effect_+%": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -68381,6 +72197,11 @@
     "is_local": false
   },
   "remove_elemental_ailments_from_you_when_you_inflict_them": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "remove_elemental_ailments_on_curse_cast_%": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -68705,6 +72526,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "ring_of_ice_placement_distance": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "riposte_cooldown_speed_+%": {
     "alias": {},
     "is_aliased": false,
@@ -68865,6 +72691,441 @@
     "is_aliased": false,
     "is_local": false
   },
+  "sanctum_avoid_affliction_chance_%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_boss_slain_experience_+%_final_to_map_owner_only": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_cannot_gain_gold": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_cannot_have_inspiration": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_cannot_lose_resolve": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_cannot_recover_health": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_chest_double_gold_%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_damage": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_damage_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_damage_+%_final_from_boon": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_damage_+%_final_from_map": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_damage_cooldown_ms": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_damage_taken_+%_final_for_party_members": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_damage_taken_+%_final_from_vulnerability": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_damage_taken_+%_final_in_boss_encounters": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_damage_taken_+%_final_in_non_boss_encounters": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_damage_taken_+%_final_while_have_sanctum_shield": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_damage_taken_+%_final_while_on_low_resolve": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_damage_taken_per_minute": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_damage_to_deal_per_minute": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_damage_variance_%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_defy_death_once_%_max_resolve": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_defy_death_remove_boon_max_resolve_loss_%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_double_gold": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_double_gold_this_floor": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_gain_max_resolve_on_boss_kill": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_gain_max_resolve_on_fountain_use": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_gain_random_minor_affliction_on_fountain_use": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_gain_random_minor_affliction_on_gaining_affliction": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_gain_random_minor_boon_on_fountain_use": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_gold_%_interest_on_room_completion": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_gold_found_+%_while_on_low_resolve": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_has_volatiles": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_hazards_added_damage": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_hazards_are_faster": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_hazards_are_slower": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_hazards_reduced_damage": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_heal_%_resolve_on_entering_boss_room": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_heal_for_%_of_gold_gained": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_heal_on_%_health_%_to_heal": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_heal_on_%_health_threshold": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_heal_on_boss_kill": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_heal_on_fountain_use": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_heal_on_room_completion": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_health_recovery_%_is_lost_from_max_health": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_health_recovery_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_health_recovery_is_doubled": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_hide_minimap": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_hide_room_all": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_hide_room_curse": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_hide_room_encounter": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_hide_room_reward": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_kill_sanctum_guards_on_hit": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_lose_all_gold_on_floor_completion": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_lose_resolve_%_on_room_completion": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_lose_resolve_on_flask_use": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_losing_resolve_is_fatal": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_map_reveal_extra_room_each_floor": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_map_view_additional_rooms_ahead": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_maximum_resolve_is_1": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_merchant_additional_options": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_merchant_enable_reroll": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_merchant_gold_cost_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_merchant_only_one_option": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_merchant_options_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_monster_double_gold_%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_next_affliction_converted_to_minor_boon": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_next_boon_converted_to_minor_affliction": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_next_merchant_purchase_is_free": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_next_minor_boon_converted_to_major_boon": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_no_damage_from_first_x_hits": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_no_gold_from_chests": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_no_gold_from_monsters": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_non_unique_relic_effect_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_prevent_boons": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_prevent_minor_afflictions": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_recovery_+%_while_on_low_resolve": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_relics_disabled": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_reveal_full_floor": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_shield_resets_every_room": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_starting_gold": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_starting_max_resolve_+": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_starting_max_resolve_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_starting_shield": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_traps_are_disabled": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_traps_are_lethal": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "sanctum_wrong_room_%_chance": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "sap_ailment_threshold_+%_final": {
     "alias": {},
     "is_aliased": false,
@@ -68986,6 +73247,16 @@
     "is_local": false
   },
   "scouting_report_drops_as_otherworldly_scouting_report_%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "scouting_report_drops_as_singular_scouting_report_%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "scouting_report_drops_as_vaal_scouting_report_%": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -69166,11 +73437,6 @@
     "is_local": false
   },
   "secondary_minion_duration": {
-    "alias": {},
-    "is_aliased": false,
-    "is_local": false
-  },
-  "secondary_pet_variety_hash_you_morph_into_in_town_or_hideout": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -70290,6 +74556,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "shock_effect_against_cursed_enemies_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "shock_maximum_magnitude_+": {
     "alias": {},
     "is_aliased": false,
@@ -70471,6 +74742,11 @@
     "is_local": false
   },
   "should_have_fragile_regrowth_aura": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "should_have_onslaught_from_stat": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -70681,6 +74957,11 @@
     "is_local": false
   },
   "silence_cannot_use_spells_or_warcries": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "silver_flask_display_onslaught": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -71060,6 +75341,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "skill_creates_minions": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "skill_damage_+%_final_from_skill_specific_stat": {
     "alias": {},
     "is_aliased": false,
@@ -71076,6 +75362,11 @@
     "is_local": false
   },
   "skill_disabled_by_stat": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "skill_disabled_unless_cloned": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -71675,6 +75966,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "skill_tracks_have_used_a_warcry_recently": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "skill_travel_distance_+%": {
     "alias": {},
     "is_aliased": false,
@@ -72166,6 +76462,11 @@
     "is_local": false
   },
   "spark_projectiles_nova": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "spark_random_duration_%": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -72801,6 +77102,11 @@
     "is_local": false
   },
   "spell_hits_against_you_inflict_poison_%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "spell_impale_on_crit_%_chance": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -74900,6 +79206,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "support_bane_curse_effect_+%_final": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "support_barrage_attack_time_+%_per_projectile_fired": {
     "alias": {},
     "is_aliased": false,
@@ -74931,6 +79242,11 @@
     "is_local": false
   },
   "support_better_ailments_hit_damage_+%_final": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "support_blasphemy_curse_effect_+%_final": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -75256,6 +79572,11 @@
     "is_local": false
   },
   "support_greater_volley_projectile_damage_+%_final": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "support_hextouch_curse_effect_+%_final": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -76405,6 +80726,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "take_no_extra_damage_from_critical_strikes_if_cast_enfeeble_in_past_10_seconds": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "talisman_implicit_projectiles_pierce_1_additional_target_per_10": {
     "alias": {},
     "is_aliased": false,
@@ -76571,6 +80897,11 @@
     "is_local": false
   },
   "temporal_chains_effeciveness_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "temporal_chains_ignores_hexproof": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -78230,6 +82561,16 @@
     "is_aliased": false,
     "is_local": false
   },
+  "track_number_of_times_cold_damage_dealt_recently": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "track_number_of_times_lightning_damage_dealt_recently": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "track_number_of_traps_triggered_recently": {
     "alias": {},
     "is_aliased": false,
@@ -78251,6 +82592,11 @@
     "is_local": false
   },
   "track_skill_used_index": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "track_vaal_souls_gained_in_past_10_seconds": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -79081,6 +83427,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "unaffected_by_bleed_if_cast_vulnerability_in_past_10_seconds": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "unaffected_by_bleeding_while_affected_by_malevolence": {
     "alias": {},
     "is_aliased": false,
@@ -79166,6 +83517,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "unaffected_by_freeze_if_cast_frostbite_in_past_10_seconds": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "unaffected_by_frostbite_while_affected_by_purity_of_ice": {
     "alias": {},
     "is_aliased": false,
@@ -79181,6 +83537,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "unaffected_by_ignite_if_cast_flammability_in_past_10_seconds": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "unaffected_by_life_modifiers": {
     "alias": {},
     "is_aliased": false,
@@ -79192,6 +83553,11 @@
     "is_local": false
   },
   "unaffected_by_shock": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "unaffected_by_shock_if_cast_conductivity_in_past_10_seconds": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -79922,6 +84288,36 @@
     "is_aliased": false,
     "is_local": false
   },
+  "vaal_caustic_arrow_ground_art_variation": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "vaal_charged_attack_damage_taken_+%_final": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "vaal_charged_attack_radius_+_per_stage": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "vaal_cleave_executioner_area_of_effect_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "vaal_cleave_executioner_damage_against_enemies_on_low_life_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "vaal_cleave_steal_mods_on_kill": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "vaal_cold_snap_gain_frenzy_charge_every_second_if_enemy_in_aura": {
     "alias": {},
     "is_aliased": false,
@@ -80043,6 +84439,21 @@
     "is_local": false
   },
   "vaal_sweep_additional_base_radius_for_push": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "vaal_venom_gyre_capture_x_projectiles_per_second": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "vaal_venom_gyre_instantly_capture_maximum_projectiles": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "vaal_volcanic_fissure_crack_repeat_count": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -80193,6 +84604,46 @@
     "is_local": false
   },
   "virtual_aegis_unique_shield_max_value": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "virtual_all_damage_can_brittle": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "virtual_all_damage_can_chill": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "virtual_all_damage_can_freeze": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "virtual_all_damage_can_ignite": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "virtual_all_damage_can_poison": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "virtual_all_damage_can_sap": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "virtual_all_damage_can_scorch": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "virtual_all_damage_can_shock": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -80377,6 +84828,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "virtual_brittle_art_variation": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "virtual_brittle_proliferation_radius": {
     "alias": {},
     "is_aliased": false,
@@ -80388,6 +84844,16 @@
     "is_local": false
   },
   "virtual_cannot_be_poisoned": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "virtual_cannot_be_sapped": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "virtual_cannot_be_scorched": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -80673,6 +85139,11 @@
     "is_local": false
   },
   "virtual_consecrated_ground_enemy_damage_taken_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "virtual_consecrated_ground_while_stationary_radius": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -81247,17 +85718,22 @@
     "is_aliased": false,
     "is_local": false
   },
-  "virtual_has_onslaught": {
-    "alias": {},
-    "is_aliased": false,
-    "is_local": false
-  },
   "virtual_has_shocking_conflux": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
   },
   "virtual_herald_of_thunder_bolt_base_frequency": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "virtual_hex_zone_skill_duration_ms": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "virtual_hexes_infinite_duration": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -81602,6 +86078,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "virtual_main_hand_damage_hit_effect_index": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "virtual_main_hand_hit_and_ailment_damage_+%_from_weapon_type": {
     "alias": {},
     "is_aliased": false,
@@ -81683,6 +86164,11 @@
     "is_local": false
   },
   "virtual_maximum_brutal_charges": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "virtual_maximum_critical_strike_chance": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -81887,6 +86373,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "virtual_mtx_balefire_wings_speed_buff_active": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "virtual_never_chill": {
     "alias": {},
     "is_aliased": false,
@@ -82078,6 +86569,11 @@
     "is_local": false
   },
   "virtual_off_hand_chance_to_crush_on_hit_%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "virtual_off_hand_damage_hit_effect_index": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -82362,6 +86858,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "virtual_sap_art_variation": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "virtual_sap_duration_+%": {
     "alias": {},
     "is_aliased": false,
@@ -82378,6 +86879,11 @@
     "is_local": false
   },
   "virtual_sap_proliferation_radius": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "virtual_scorch_art_variation": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -82408,6 +86914,11 @@
     "is_local": false
   },
   "virtual_self_curse_duration_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "virtual_self_elemental_ailment_duration_+%_final": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -82488,6 +86999,11 @@
     "is_local": false
   },
   "virtual_skill_gains_intensity": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "virtual_skill_surge_type_override": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -82902,11 +87418,6 @@
     "is_aliased": false,
     "is_local": false
   },
-  "virtual_you_are_specific_pet_variety_hash_in_town_or_hideout": {
-    "alias": {},
-    "is_aliased": false,
-    "is_local": false
-  },
   "virtual_zombie_damage_leeched_as_life_to_you_permyriad": {
     "alias": {},
     "is_aliased": false,
@@ -82952,7 +87463,22 @@
     "is_aliased": false,
     "is_local": false
   },
+  "visual_hit_effect_amethyst_flask_shield_when_hit": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "visual_hit_effect_battle_pass_four_shavronnes_wrappings_when_hit": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "visual_hit_effect_chaos_is_green": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "visual_hit_effect_clockwork_when_hit": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -82972,7 +87498,27 @@
     "is_aliased": false,
     "is_local": false
   },
+  "visual_hit_effect_mist_when_hit": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "visual_hit_effect_ooze_when_hit": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "visual_hit_effect_ruby_flask_shield_when_hit": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "visual_hit_effect_sapphire_flask_shield_when_hit": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "visual_hit_effect_topaz_flask_shield_when_hit": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -83052,6 +87598,26 @@
     "is_aliased": false,
     "is_local": false
   },
+  "volcanic_fissure_damage_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "volcanic_fissure_number_of_additional_projectiles": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "volcanic_fissure_speed_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "volcanic_slam_projectile_damage_+%_final": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "voll_slam_damage_+%_final_at_centre": {
     "alias": {},
     "is_aliased": false,
@@ -83108,6 +87674,11 @@
     "is_local": false
   },
   "vulnerability_duration_+%": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "vulnerability_ignores_hexproof": {
     "alias": {},
     "is_aliased": false,
     "is_local": false
@@ -83627,6 +88198,11 @@
     "is_aliased": false,
     "is_local": false
   },
+  "wings_mtx_color_variation": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
   "winter_brand_chill_effect_+%": {
     "alias": {},
     "is_aliased": false,
@@ -84038,6 +88614,11 @@
     "is_local": false
   },
   "your_non_instant_skills_are_disabled": {
+    "alias": {},
+    "is_aliased": false,
+    "is_local": false
+  },
+  "your_profane_ground_effect_lingers_for_ms_after_leaving_the_area": {
     "alias": {},
     "is_aliased": false,
     "is_local": false

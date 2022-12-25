@@ -108,5 +108,9 @@
   "Link",
   "Blessing",
   "ZeroReservation",
-  "DynamicCooldown"
+  "DynamicCooldown",
+  "Microtransaction",
+  "OwnerCannotUse",
+  "ProjectilesNotFired",
+  "TotemsAreBallistae"
 ]

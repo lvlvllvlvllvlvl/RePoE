@@ -610,7 +610,7 @@
     "item_level_restriction": null,
     "level": 8,
     "mods": {
-      "Amulet": "MaximumDoomAmuletEssence1",
+      "Amulet": "SpellBlockAmuletEssence1",
       "Belt": "ChaosResistanceWhileUsingFlaskEssence1",
       "Body Armour": "ChaosDamageOverTimeTakenEssence1",
       "Boots": "CannotBePoisonedEssence1",

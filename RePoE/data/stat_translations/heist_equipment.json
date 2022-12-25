@@ -4954,7 +4954,7 @@
         "index_handlers": [
           []
         ],
-        "string": "{0}% increased Damage per 10 Rampage Stacks"
+        "string": "{0}% increased Damage per 20 Rampage Stacks"
       }
     ],
     "hidden": true,

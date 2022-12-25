@@ -182,11 +182,17 @@
   "Quiver": {
     "name": "Quivers"
   },
+  "Relic": {
+    "name": "Relic"
+  },
   "Ring": {
     "name": "Rings"
   },
   "Rune Dagger": {
     "name": "Rune Daggers"
+  },
+  "SanctumSpecialRelic": {
+    "name": "Sanctified Relic"
   },
   "Sceptre": {
     "name": "Sceptres"

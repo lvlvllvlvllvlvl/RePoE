@@ -1535,6 +1535,7 @@
     },
     "tags": [
       "dex_armour",
+      "top_tier_base_item_type",
       "body_armour",
       "armour",
       "default"
@@ -1568,6 +1569,7 @@
     },
     "tags": [
       "dex_armour",
+      "top_tier_base_item_type",
       "body_armour",
       "armour",
       "default"
@@ -1602,6 +1604,7 @@
     },
     "tags": [
       "dex_armour",
+      "top_tier_base_item_type",
       "body_armour",
       "armour",
       "default"
@@ -2125,6 +2128,7 @@
     },
     "tags": [
       "dex_int_armour",
+      "top_tier_base_item_type",
       "body_armour",
       "armour",
       "default"
@@ -2162,6 +2166,7 @@
     },
     "tags": [
       "dex_int_armour",
+      "top_tier_base_item_type",
       "body_armour",
       "armour",
       "default"
@@ -2201,6 +2206,7 @@
     },
     "tags": [
       "dex_int_armour",
+      "top_tier_base_item_type",
       "body_armour",
       "armour",
       "default"
@@ -2730,6 +2736,7 @@
     },
     "tags": [
       "int_armour",
+      "top_tier_base_item_type",
       "body_armour",
       "armour",
       "default"
@@ -2763,6 +2770,7 @@
     },
     "tags": [
       "int_armour",
+      "top_tier_base_item_type",
       "body_armour",
       "armour",
       "default"
@@ -2796,6 +2804,7 @@
     },
     "tags": [
       "int_armour",
+      "top_tier_base_item_type",
       "body_armour",
       "armour",
       "default"
@@ -3293,6 +3302,7 @@
     },
     "tags": [
       "str_armour",
+      "top_tier_base_item_type",
       "body_armour",
       "armour",
       "default"
@@ -3326,6 +3336,7 @@
     },
     "tags": [
       "str_armour",
+      "top_tier_base_item_type",
       "body_armour",
       "armour",
       "default"
@@ -3358,6 +3369,7 @@
     },
     "tags": [
       "str_armour",
+      "top_tier_base_item_type",
       "body_armour",
       "armour",
       "default"
@@ -3881,6 +3893,7 @@
     },
     "tags": [
       "str_dex_armour",
+      "top_tier_base_item_type",
       "body_armour",
       "armour",
       "default"
@@ -3918,6 +3931,7 @@
     },
     "tags": [
       "str_dex_armour",
+      "top_tier_base_item_type",
       "body_armour",
       "armour",
       "default"
@@ -3955,6 +3969,7 @@
     },
     "tags": [
       "str_dex_armour",
+      "top_tier_base_item_type",
       "body_armour",
       "armour",
       "default"
@@ -4596,6 +4611,7 @@
     },
     "tags": [
       "str_int_armour",
+      "top_tier_base_item_type",
       "body_armour",
       "armour",
       "default"
@@ -4633,6 +4649,7 @@
     },
     "tags": [
       "str_int_armour",
+      "top_tier_base_item_type",
       "body_armour",
       "armour",
       "default"
@@ -4670,6 +4687,7 @@
     },
     "tags": [
       "str_int_armour",
+      "top_tier_base_item_type",
       "body_armour",
       "armour",
       "default"
@@ -5478,6 +5496,7 @@
     },
     "tags": [
       "dex_armour",
+      "top_tier_base_item_type",
       "boots",
       "armour",
       "default"
@@ -5510,6 +5529,7 @@
     },
     "tags": [
       "dex_armour",
+      "top_tier_base_item_type",
       "boots",
       "armour",
       "default"
@@ -5798,6 +5818,7 @@
     },
     "tags": [
       "dex_int_armour",
+      "top_tier_base_item_type",
       "boots",
       "armour",
       "default"
@@ -5834,6 +5855,7 @@
     },
     "tags": [
       "dex_int_armour",
+      "top_tier_base_item_type",
       "boots",
       "armour",
       "default"
@@ -6279,6 +6301,7 @@
     },
     "tags": [
       "int_armour",
+      "top_tier_base_item_type",
       "boots",
       "armour",
       "default"
@@ -6311,6 +6334,7 @@
     },
     "tags": [
       "int_armour",
+      "top_tier_base_item_type",
       "boots",
       "armour",
       "default"
@@ -6672,6 +6696,7 @@
     },
     "tags": [
       "str_armour",
+      "top_tier_base_item_type",
       "boots",
       "armour",
       "default"
@@ -6704,6 +6729,7 @@
     },
     "tags": [
       "str_armour",
+      "top_tier_base_item_type",
       "boots",
       "armour",
       "default"
@@ -6956,6 +6982,7 @@
     },
     "tags": [
       "str_dex_armour",
+      "top_tier_base_item_type",
       "boots",
       "armour",
       "default"
@@ -6992,6 +7019,7 @@
     },
     "tags": [
       "str_dex_armour",
+      "top_tier_base_item_type",
       "boots",
       "armour",
       "default"
@@ -7244,6 +7272,7 @@
     },
     "tags": [
       "str_int_armour",
+      "top_tier_base_item_type",
       "boots",
       "armour",
       "default"
@@ -7280,6 +7309,7 @@
     },
     "tags": [
       "str_int_armour",
+      "top_tier_base_item_type",
       "boots",
       "armour",
       "default"
@@ -7856,6 +7886,7 @@
     },
     "tags": [
       "dex_armour",
+      "top_tier_base_item_type",
       "gloves",
       "armour",
       "default"
@@ -7888,6 +7919,7 @@
     },
     "tags": [
       "dex_armour",
+      "top_tier_base_item_type",
       "gloves",
       "armour",
       "default"
@@ -8140,6 +8172,7 @@
     },
     "tags": [
       "dex_int_armour",
+      "top_tier_base_item_type",
       "gloves",
       "armour",
       "default"
@@ -8176,6 +8209,7 @@
     },
     "tags": [
       "dex_int_armour",
+      "top_tier_base_item_type",
       "gloves",
       "armour",
       "default"
@@ -8621,6 +8655,7 @@
     },
     "tags": [
       "int_armour",
+      "top_tier_base_item_type",
       "gloves",
       "armour",
       "default"
@@ -8653,6 +8688,7 @@
     },
     "tags": [
       "int_armour",
+      "top_tier_base_item_type",
       "gloves",
       "armour",
       "default"
@@ -9014,6 +9050,7 @@
     },
     "tags": [
       "str_armour",
+      "top_tier_base_item_type",
       "gloves",
       "armour",
       "default"
@@ -9046,6 +9083,7 @@
     },
     "tags": [
       "str_armour",
+      "top_tier_base_item_type",
       "gloves",
       "armour",
       "default"
@@ -9298,6 +9336,7 @@
     },
     "tags": [
       "str_dex_armour",
+      "top_tier_base_item_type",
       "gloves",
       "armour",
       "default"
@@ -9334,6 +9373,7 @@
     },
     "tags": [
       "str_dex_armour",
+      "top_tier_base_item_type",
       "gloves",
       "armour",
       "default"
@@ -9586,6 +9626,7 @@
     },
     "tags": [
       "str_int_armour",
+      "top_tier_base_item_type",
       "gloves",
       "armour",
       "default"
@@ -9622,6 +9663,7 @@
     },
     "tags": [
       "str_int_armour",
+      "top_tier_base_item_type",
       "gloves",
       "armour",
       "default"
@@ -9862,6 +9904,7 @@
     },
     "tags": [
       "dex_armour",
+      "top_tier_base_item_type",
       "helmet",
       "armour",
       "default"
@@ -10118,6 +10161,7 @@
     },
     "tags": [
       "dex_armour",
+      "top_tier_base_item_type",
       "helmet",
       "armour",
       "default"
@@ -10190,6 +10234,7 @@
     },
     "tags": [
       "dex_int_armour",
+      "top_tier_base_item_type",
       "helmet",
       "armour",
       "default"
@@ -10226,6 +10271,7 @@
     },
     "tags": [
       "dex_int_armour",
+      "top_tier_base_item_type",
       "helmet",
       "armour",
       "default"
@@ -10779,6 +10825,7 @@
     },
     "tags": [
       "int_armour",
+      "top_tier_base_item_type",
       "helmet",
       "armour",
       "default"
@@ -10811,6 +10858,7 @@
     },
     "tags": [
       "int_armour",
+      "top_tier_base_item_type",
       "helmet",
       "armour",
       "default"
@@ -11131,6 +11179,7 @@
     },
     "tags": [
       "str_armour",
+      "top_tier_base_item_type",
       "helmet",
       "armour",
       "default"
@@ -11163,6 +11212,7 @@
     },
     "tags": [
       "str_armour",
+      "top_tier_base_item_type",
       "helmet",
       "armour",
       "default"
@@ -11491,6 +11541,7 @@
     },
     "tags": [
       "str_dex_armour",
+      "top_tier_base_item_type",
       "helmet",
       "armour",
       "default"
@@ -11779,6 +11830,7 @@
     },
     "tags": [
       "str_dex_armour",
+      "top_tier_base_item_type",
       "helmet",
       "armour",
       "default"
@@ -11968,6 +12020,7 @@
     },
     "tags": [
       "str_int_armour",
+      "top_tier_base_item_type",
       "helmet",
       "armour",
       "default"
@@ -12256,6 +12309,7 @@
     },
     "tags": [
       "str_int_armour",
+      "top_tier_base_item_type",
       "helmet",
       "armour",
       "default"
@@ -12658,6 +12712,7 @@
     "tags": [
       "dex_armour",
       "dex_shield",
+      "top_tier_base_item_type",
       "shield",
       "armour",
       "default"
@@ -12695,6 +12750,7 @@
     "tags": [
       "dex_armour",
       "dex_shield",
+      "top_tier_base_item_type",
       "shield",
       "armour",
       "default"
@@ -12732,6 +12788,7 @@
     "tags": [
       "dex_armour",
       "dex_shield",
+      "top_tier_base_item_type",
       "shield",
       "armour",
       "default"
@@ -13265,6 +13322,7 @@
     "tags": [
       "dex_int_armour",
       "dex_int_shield",
+      "top_tier_base_item_type",
       "shield",
       "armour",
       "default"
@@ -13306,6 +13364,7 @@
     "tags": [
       "dex_int_armour",
       "dex_int_shield",
+      "top_tier_base_item_type",
       "shield",
       "armour",
       "default"
@@ -13347,6 +13406,7 @@
     "tags": [
       "dex_int_armour",
       "dex_int_shield",
+      "top_tier_base_item_type",
       "shield",
       "armour",
       "default"
@@ -13859,6 +13919,7 @@
       "int_armour",
       "focus",
       "focus_can_roll_minion_modifiers",
+      "top_tier_base_item_type",
       "shield",
       "armour",
       "default"
@@ -13896,6 +13957,7 @@
     "tags": [
       "int_armour",
       "focus",
+      "top_tier_base_item_type",
       "shield",
       "armour",
       "default"
@@ -13933,6 +13995,7 @@
     "tags": [
       "int_armour",
       "focus",
+      "top_tier_base_item_type",
       "shield",
       "armour",
       "default"
@@ -13968,6 +14031,7 @@
     "tags": [
       "int_armour",
       "focus",
+      "top_tier_base_item_type",
       "shield",
       "armour",
       "default"
@@ -14635,6 +14699,7 @@
     "tags": [
       "str_armour",
       "str_shield",
+      "top_tier_base_item_type",
       "shield",
       "armour",
       "default"
@@ -14672,6 +14737,7 @@
     "tags": [
       "str_armour",
       "str_shield",
+      "top_tier_base_item_type",
       "shield",
       "armour",
       "default"
@@ -14709,6 +14775,7 @@
     "tags": [
       "str_armour",
       "str_shield",
+      "top_tier_base_item_type",
       "shield",
       "armour",
       "default"
@@ -15128,6 +15195,7 @@
     "tags": [
       "str_dex_armour",
       "str_dex_shield",
+      "top_tier_base_item_type",
       "shield",
       "armour",
       "default"
@@ -15167,6 +15235,7 @@
     "tags": [
       "str_dex_armour",
       "str_dex_shield",
+      "top_tier_base_item_type",
       "shield",
       "armour",
       "default"
@@ -15208,6 +15277,7 @@
     "tags": [
       "str_dex_armour",
       "str_dex_shield",
+      "top_tier_base_item_type",
       "shield",
       "armour",
       "default"
@@ -15767,6 +15837,7 @@
     "tags": [
       "str_int_armour",
       "str_int_shield",
+      "top_tier_base_item_type",
       "shield",
       "armour",
       "default"
@@ -15808,6 +15879,7 @@
     "tags": [
       "str_int_armour",
       "str_int_shield",
+      "top_tier_base_item_type",
       "shield",
       "armour",
       "default"
@@ -15849,6 +15921,7 @@
     "tags": [
       "str_int_armour",
       "str_int_shield",
+      "top_tier_base_item_type",
       "shield",
       "armour",
       "default"
@@ -18689,6 +18762,32 @@
       "id": "CurrencyAfflictionOrbHarbinger"
     }
   },
+  "Metadata/Items/Currency/CurrencyAfflictionOrbHardMode": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Delirium Orb",
+    "properties": {
+      "description": "Modifies a Map item adding layers of Delirium",
+      "directions": "Right click this item then left click a Map item to apply it. Can apply up to 5 to a single Map item.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "affliction_orb",
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Delirium/DeliriumOrbGeneric.dds",
+      "id": "CurrencyAfflictionOrbGeneric"
+    }
+  },
   "Metadata/Items/Currency/CurrencyAfflictionOrbIncubators": {
     "domain": "undefined",
     "drop_level": 1,
@@ -20097,7 +20196,7 @@
   },
   "Metadata/Items/Currency/CurrencyEldritchAddModToRare": {
     "domain": "undefined",
-    "drop_level": 81,
+    "drop_level": 78,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -20339,7 +20438,7 @@
   },
   "Metadata/Items/Currency/CurrencyEldritchRemoveMod": {
     "domain": "undefined",
-    "drop_level": 81,
+    "drop_level": 78,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -20365,7 +20464,7 @@
   },
   "Metadata/Items/Currency/CurrencyEldritchRerollRare": {
     "domain": "undefined",
-    "drop_level": 81,
+    "drop_level": 78,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -23167,6 +23266,58 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Currency/CurrencyFlaskQuality.dds",
       "id": "CurrencyFlaskQuality"
+    }
+  },
+  "Metadata/Items/Currency/CurrencyFractureRare": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Fracturing Orb",
+    "properties": {
+      "description": "Fracture a random modifier on a rare item with at least 4 modifiers, locking it in place.",
+      "directions": "Right click this item then left click a rare item to apply it. Cannot be used on Influenced, Synthesised or Fractured items.",
+      "stack_size": 20,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/FracturingOrbCombined.dds",
+      "id": "CurrencyFractureRare"
+    }
+  },
+  "Metadata/Items/Currency/CurrencyFractureRareShard": {
+    "domain": "undefined",
+    "drop_level": 35,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Fracturing Shard",
+    "properties": {
+      "description": "",
+      "directions": "A stack of 20 shards becomes a Fracturing Orb.",
+      "full_stack_turns_into": "Metadata/Items/Currency/CurrencyFractureRare",
+      "stack_size": 20,
+      "stack_size_currency_tab": 0
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency_shard",
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/FracturingOrbShard.dds",
+      "id": "CurrencyFractureRareShard"
     }
   },
   "Metadata/Items/Currency/CurrencyGemQuality": {
@@ -25984,7 +26135,7 @@
     "item_class": "StackableCurrency",
     "name": "Ancient Orb",
     "properties": {
-      "description": "Reforges a unique item as another of the same item class",
+      "description": "Reforges a unique equipment as another of the same item class",
       "directions": "Right click this item then left click a unique item to apply it.",
       "stack_size": 20,
       "stack_size_currency_tab": 5000
@@ -26226,6 +26377,31 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Currency/SilverObol.dds",
       "id": "CurrencyProphecySilverCoin"
+    }
+  },
+  "Metadata/Items/Currency/CurrencySkillGemToken": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Uncarved Gemstone",
+    "properties": {
+      "description": "",
+      "directions": "Trade this in to Siosa inside the Library for a Skill Gem",
+      "stack_size": 1,
+      "stack_size_currency_tab": 0
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Jewels/RedCorrupt4.dds",
+      "id": "CurrencySkillGemToken"
     }
   },
   "Metadata/Items/Currency/CurrencyStrongboxQuality": {
@@ -37632,6 +37808,1031 @@
       "id": "CurrencyDelveCraftingRandom"
     }
   },
+  "Metadata/Items/Currency/SanctumCurrencyAcrobatics": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Lycia's Invocation of Acrobatics",
+    "properties": {
+      "description": "Adds Acrobatics to a Sanctified Relic",
+      "directions": "Right click this item then left click a non-Corrupted Sanctified Relic to apply it.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Sanctum/LyciaCorruptCurrency.dds",
+      "id": "SanctumKeystoneCurrency"
+    }
+  },
+  "Metadata/Items/Currency/SanctumCurrencyAncestralBond": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Lycia's Invocation of Ancestral Bond",
+    "properties": {
+      "description": "Adds Ancestral Bond to a Sanctified Relic",
+      "directions": "Right click this item then left click a non-Corrupted Sanctified Relic to apply it.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Sanctum/LyciaCorruptCurrency.dds",
+      "id": "SanctumKeystoneCurrency"
+    }
+  },
+  "Metadata/Items/Currency/SanctumCurrencyArrowDancing": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Lycia's Invocation of Arrow Dancing",
+    "properties": {
+      "description": "Adds Arrow Dancing to a Sanctified Relic",
+      "directions": "Right click this item then left click a non-Corrupted Sanctified Relic to apply it.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Sanctum/LyciaCorruptCurrency.dds",
+      "id": "SanctumKeystoneCurrency"
+    }
+  },
+  "Metadata/Items/Currency/SanctumCurrencyAvatarOfFire": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Lycia's Invocation of Avatar of Fire",
+    "properties": {
+      "description": "Adds Avatar of Fire to a Sanctified Relic",
+      "directions": "Right click this item then left click a non-Corrupted Sanctified Relic to apply it.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Sanctum/LyciaCorruptCurrency.dds",
+      "id": "SanctumKeystoneCurrency"
+    }
+  },
+  "Metadata/Items/Currency/SanctumCurrencyBloodMagic": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Lycia's Invocation of Blood Magic",
+    "properties": {
+      "description": "Adds Blood Magic to a Sanctified Relic",
+      "directions": "Right click this item then left click a non-Corrupted Sanctified Relic to apply it.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Sanctum/LyciaCorruptCurrency.dds",
+      "id": "SanctumKeystoneCurrency"
+    }
+  },
+  "Metadata/Items/Currency/SanctumCurrencyCallToArms": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Lycia's Invocation of Call to Arms",
+    "properties": {
+      "description": "Adds Call To Arms to a Sanctified Relic",
+      "directions": "Right click this item then left click a non-Corrupted Sanctified Relic to apply it.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Sanctum/LyciaCorruptCurrency.dds",
+      "id": "SanctumKeystoneCurrency"
+    }
+  },
+  "Metadata/Items/Currency/SanctumCurrencyConduit": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Lycia's Invocation of Conduit",
+    "properties": {
+      "description": "Adds Conduit to a Sanctified Relic",
+      "directions": "Right click this item then left click a non-Corrupted Sanctified Relic to apply it.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Sanctum/LyciaCorruptCurrency.dds",
+      "id": "SanctumKeystoneCurrency"
+    }
+  },
+  "Metadata/Items/Currency/SanctumCurrencyCrimsonDance": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Lycia's Invocation of Crimson Dance",
+    "properties": {
+      "description": "Adds Crimson Dance to a Sanctified Relic",
+      "directions": "Right click this item then left click a non-Corrupted Sanctified Relic to apply it.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Sanctum/LyciaCorruptCurrency.dds",
+      "id": "SanctumKeystoneCurrency"
+    }
+  },
+  "Metadata/Items/Currency/SanctumCurrencyDivineShield": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Lycia's Invocation of Divine Shield",
+    "properties": {
+      "description": "Adds Divine Shield to a Sanctified Relic",
+      "directions": "Right click this item then left click a non-Corrupted Sanctified Relic to apply it.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Sanctum/LyciaCorruptCurrency.dds",
+      "id": "SanctumKeystoneCurrency"
+    }
+  },
+  "Metadata/Items/Currency/SanctumCurrencyDoomsday": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Lycia's Invocation of Hex Master",
+    "properties": {
+      "description": "Adds Hex Master to a Sanctified Relic",
+      "directions": "Right click this item then left click a non-Corrupted Sanctified Relic to apply it.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Sanctum/LyciaCorruptCurrency.dds",
+      "id": "SanctumKeystoneCurrency"
+    }
+  },
+  "Metadata/Items/Currency/SanctumCurrencyEldritchBattery": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Lycia's Invocation of Eldritch Battery",
+    "properties": {
+      "description": "Adds Eldritch Battery to a Sanctified Relic",
+      "directions": "Right click this item then left click a non-Corrupted Sanctified Relic to apply it.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Sanctum/LyciaCorruptCurrency.dds",
+      "id": "SanctumKeystoneCurrency"
+    }
+  },
+  "Metadata/Items/Currency/SanctumCurrencyElementalEquilibrium": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Lycia's Invocation of Elemental Equilibrium",
+    "properties": {
+      "description": "Adds Elemental Equilibrium to a Sanctified Relic",
+      "directions": "Right click this item then left click a non-Corrupted Sanctified Relic to apply it.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Sanctum/LyciaCorruptCurrency.dds",
+      "id": "SanctumKeystoneCurrency"
+    }
+  },
+  "Metadata/Items/Currency/SanctumCurrencyElementalOverload": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Lycia's Invocation of Elemental Overload",
+    "properties": {
+      "description": "Adds Elemental Overload to a Sanctified Relic",
+      "directions": "Right click this item then left click a non-Corrupted Sanctified Relic to apply it.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Sanctum/LyciaCorruptCurrency.dds",
+      "id": "SanctumKeystoneCurrency"
+    }
+  },
+  "Metadata/Items/Currency/SanctumCurrencyEternalYouth": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Lycia's Invocation of Eternal Youth",
+    "properties": {
+      "description": "Adds Eternal Youth to a Sanctified Relic",
+      "directions": "Right click this item then left click a non-Corrupted Sanctified Relic to apply it.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Sanctum/LyciaCorruptCurrency.dds",
+      "id": "SanctumKeystoneCurrency"
+    }
+  },
+  "Metadata/Items/Currency/SanctumCurrencyGhostDance": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Lycia's Invocation of Ghost Dance",
+    "properties": {
+      "description": "Adds Ghost Dance to a Sanctified Relic",
+      "directions": "Right click this item then left click a non-Corrupted Sanctified Relic to apply it.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Sanctum/LyciaCorruptCurrency.dds",
+      "id": "SanctumKeystoneCurrency"
+    }
+  },
+  "Metadata/Items/Currency/SanctumCurrencyGhostReaver": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Lycia's Invocation of Ghost Reaver",
+    "properties": {
+      "description": "Adds Ghost Reaver to a Sanctified Relic",
+      "directions": "Right click this item then left click a non-Corrupted Sanctified Relic to apply it.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Sanctum/LyciaCorruptCurrency.dds",
+      "id": "SanctumKeystoneCurrency"
+    }
+  },
+  "Metadata/Items/Currency/SanctumCurrencyGlancingBlows": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Lycia's Invocation of Glancing Blows",
+    "properties": {
+      "description": "Adds Glancing Blows to a Sanctified Relic",
+      "directions": "Right click this item then left click a non-Corrupted Sanctified Relic to apply it.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Sanctum/LyciaCorruptCurrency.dds",
+      "id": "SanctumKeystoneCurrency"
+    }
+  },
+  "Metadata/Items/Currency/SanctumCurrencyImbalancedGuard": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Lycia's Invocation of Imbalanced Guard",
+    "properties": {
+      "description": "Adds Imbalanced Guard to a Sanctified Relic",
+      "directions": "Right click this item then left click a non-Corrupted Sanctified Relic to apply it.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Sanctum/LyciaCorruptCurrency.dds",
+      "id": "SanctumKeystoneCurrency"
+    }
+  },
+  "Metadata/Items/Currency/SanctumCurrencyIronGrip": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Lycia's Invocation of Iron Grip",
+    "properties": {
+      "description": "Adds Iron Grip to a Sanctified Relic",
+      "directions": "Right click this item then left click a non-Corrupted Sanctified Relic to apply it.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Sanctum/LyciaCorruptCurrency.dds",
+      "id": "SanctumKeystoneCurrency"
+    }
+  },
+  "Metadata/Items/Currency/SanctumCurrencyIronReflexes": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Lycia's Invocation of Iron Reflexes",
+    "properties": {
+      "description": "Adds Iron Reflexes to a Sanctified Relic",
+      "directions": "Right click this item then left click a non-Corrupted Sanctified Relic to apply it.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Sanctum/LyciaCorruptCurrency.dds",
+      "id": "SanctumKeystoneCurrency"
+    }
+  },
+  "Metadata/Items/Currency/SanctumCurrencyIronWill": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Lycia's Invocation of Iron Will",
+    "properties": {
+      "description": "Adds Iron Will to a Sanctified Relic",
+      "directions": "Right click this item then left click a non-Corrupted Sanctified Relic to apply it.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Sanctum/LyciaCorruptCurrency.dds",
+      "id": "SanctumKeystoneCurrency"
+    }
+  },
+  "Metadata/Items/Currency/SanctumCurrencyLetheShade": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Lycia's Invocation of Lethe Shade",
+    "properties": {
+      "description": "Adds Lethe Shade to a Sanctified Relic",
+      "directions": "Right click this item then left click a non-Corrupted Sanctified Relic to apply it.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Sanctum/LyciaCorruptCurrency.dds",
+      "id": "SanctumKeystoneCurrency"
+    }
+  },
+  "Metadata/Items/Currency/SanctumCurrencyMagebane": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Lycia's Invocation of Magebane",
+    "properties": {
+      "description": "Adds Magebane to a Sanctified Relic",
+      "directions": "Right click this item then left click a non-Corrupted Sanctified Relic to apply it.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Sanctum/LyciaCorruptCurrency.dds",
+      "id": "SanctumKeystoneCurrency"
+    }
+  },
+  "Metadata/Items/Currency/SanctumCurrencyMindoverMatter": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Lycia's Invocation of Mind over Matter",
+    "properties": {
+      "description": "Adds Mind over Matter to a Sanctified Relic",
+      "directions": "Right click this item then left click a non-Corrupted Sanctified Relic to apply it.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Sanctum/LyciaCorruptCurrency.dds",
+      "id": "SanctumKeystoneCurrency"
+    }
+  },
+  "Metadata/Items/Currency/SanctumCurrencyMinionInstability": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Lycia's Invocation of Minion Instability",
+    "properties": {
+      "description": "Adds Minion Instability to a Sanctified Relic",
+      "directions": "Right click this item then left click a non-Corrupted Sanctified Relic to apply it.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Sanctum/LyciaCorruptCurrency.dds",
+      "id": "SanctumKeystoneCurrency"
+    }
+  },
+  "Metadata/Items/Currency/SanctumCurrencyPainAttunement": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Lycia's Invocation of Pain Attunement",
+    "properties": {
+      "description": "Adds Pain Attunement to a Sanctified Relic",
+      "directions": "Right click this item then left click a non-Corrupted Sanctified Relic to apply it.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Sanctum/LyciaCorruptCurrency.dds",
+      "id": "SanctumKeystoneCurrency"
+    }
+  },
+  "Metadata/Items/Currency/SanctumCurrencyPerfectAgony": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Lycia's Invocation of Perfect Agony",
+    "properties": {
+      "description": "Adds Perfect Agony to a Sanctified Relic",
+      "directions": "Right click this item then left click a non-Corrupted Sanctified Relic to apply it.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Sanctum/LyciaCorruptCurrency.dds",
+      "id": "SanctumKeystoneCurrency"
+    }
+  },
+  "Metadata/Items/Currency/SanctumCurrencyPointBlank": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Lycia's Invocation of Point Blank",
+    "properties": {
+      "description": "Adds Point Blank to a Sanctified Relic",
+      "directions": "Right click this item then left click a non-Corrupted Sanctified Relic to apply it.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Sanctum/LyciaCorruptCurrency.dds",
+      "id": "SanctumKeystoneCurrency"
+    }
+  },
+  "Metadata/Items/Currency/SanctumCurrencyPreciseTechnique": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Lycia's Invocation of Precise Technique",
+    "properties": {
+      "description": "Adds Precise Technique to a Sanctified Relic",
+      "directions": "Right click this item then left click a non-Corrupted Sanctified Relic to apply it.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Sanctum/LyciaCorruptCurrency.dds",
+      "id": "SanctumKeystoneCurrency"
+    }
+  },
+  "Metadata/Items/Currency/SanctumCurrencyResoluteTechnique": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Lycia's Invocation of Resolute Technique",
+    "properties": {
+      "description": "Adds Resolute Technique to a Sanctified Relic",
+      "directions": "Right click this item then left click a non-Corrupted Sanctified Relic to apply it.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Sanctum/LyciaCorruptCurrency.dds",
+      "id": "SanctumKeystoneCurrency"
+    }
+  },
+  "Metadata/Items/Currency/SanctumCurrencyRunebinder": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Lycia's Invocation of Runebinder",
+    "properties": {
+      "description": "Adds Runebinder to a Sanctified Relic",
+      "directions": "Right click this item then left click a non-Corrupted Sanctified Relic to apply it.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Sanctum/LyciaCorruptCurrency.dds",
+      "id": "SanctumKeystoneCurrency"
+    }
+  },
+  "Metadata/Items/Currency/SanctumCurrencySolipsism": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Lycia's Invocation of Solipsism",
+    "properties": {
+      "description": "Adds Solipsism to a Sanctified Relic",
+      "directions": "Right click this item then left click a non-Corrupted Sanctified Relic to apply it.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Sanctum/LyciaCorruptCurrency.dds",
+      "id": "SanctumKeystoneCurrency"
+    }
+  },
+  "Metadata/Items/Currency/SanctumCurrencySupremeEgo": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Lycia's Invocation of Supreme Ego",
+    "properties": {
+      "description": "Adds Supreme Ego to a Sanctified Relic",
+      "directions": "Right click this item then left click a non-Corrupted Sanctified Relic to apply it.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Sanctum/LyciaCorruptCurrency.dds",
+      "id": "SanctumKeystoneCurrency"
+    }
+  },
+  "Metadata/Items/Currency/SanctumCurrencyTheAgnostic": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Lycia's Invocation of the Agnostic",
+    "properties": {
+      "description": "Adds the Agnostic to a Sanctified Relic",
+      "directions": "Right click this item then left click a non-Corrupted Sanctified Relic to apply it.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Sanctum/LyciaCorruptCurrency.dds",
+      "id": "SanctumKeystoneCurrency"
+    }
+  },
+  "Metadata/Items/Currency/SanctumCurrencyTheImpaler": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Lycia's Invocation of the Impaler",
+    "properties": {
+      "description": "Adds The Impaler to a Sanctified Relic",
+      "directions": "Right click this item then left click a non-Corrupted Sanctified Relic to apply it.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Sanctum/LyciaCorruptCurrency.dds",
+      "id": "SanctumKeystoneCurrency"
+    }
+  },
+  "Metadata/Items/Currency/SanctumCurrencyUnwaveringStance": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Lycia's Invocation of Unwavering Stance",
+    "properties": {
+      "description": "Adds Unwavering Stance to a Sanctified Relic",
+      "directions": "Right click this item then left click a non-Corrupted Sanctified Relic to apply it.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Sanctum/LyciaCorruptCurrency.dds",
+      "id": "SanctumKeystoneCurrency"
+    }
+  },
+  "Metadata/Items/Currency/SanctumCurrencyVaalPact": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Lycia's Invocation of Vaal Pact",
+    "properties": {
+      "description": "Adds Vaal Pact to a Sanctified Relic",
+      "directions": "Right click this item then left click a non-Corrupted Sanctified Relic to apply it.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Sanctum/LyciaCorruptCurrency.dds",
+      "id": "SanctumKeystoneCurrency"
+    }
+  },
+  "Metadata/Items/Currency/SanctumCurrencyVersatileCombatant": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Lycia's Invocation of Versatile Combatant",
+    "properties": {
+      "description": "Adds Versatile Combatant to a Sanctified Relic",
+      "directions": "Right click this item then left click a non-Corrupted Sanctified Relic to apply it.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Sanctum/LyciaCorruptCurrency.dds",
+      "id": "SanctumKeystoneCurrency"
+    }
+  },
+  "Metadata/Items/Currency/SanctumCurrencyWickedWard": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Lycia's Invocation of Wicked Ward",
+    "properties": {
+      "description": "Adds Wicked Ward to a Sanctified Relic",
+      "directions": "Right click this item then left click a non-Corrupted Sanctified Relic to apply it.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Sanctum/LyciaCorruptCurrency.dds",
+      "id": "SanctumKeystoneCurrency"
+    }
+  },
+  "Metadata/Items/Currency/SanctumCurrencyWindDancer": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Lycia's Invocation of Wind Dancer",
+    "properties": {
+      "description": "Adds Wind Dancer to a Sanctified Relic",
+      "directions": "Right click this item then left click a non-Corrupted Sanctified Relic to apply it.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Sanctum/LyciaCorruptCurrency.dds",
+      "id": "SanctumKeystoneCurrency"
+    }
+  },
+  "Metadata/Items/Currency/SanctumCurrencyZealotsOath": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "StackableCurrency",
+    "name": "Lycia's Invocation of Zealot's Oath",
+    "properties": {
+      "description": "Adds Zealot's Oath to a Sanctified Relic",
+      "directions": "Right click this item then left click a non-Corrupted Sanctified Relic to apply it.",
+      "stack_size": 10,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Currency/Sanctum/LyciaCorruptCurrency.dds",
+      "id": "SanctumKeystoneCurrency"
+    }
+  },
   "Metadata/Items/Currency/ScoutingReports/AtlasScoutingReportBlighted": {
     "domain": "undefined",
     "drop_level": 69,
@@ -37686,7 +38887,7 @@
   },
   "Metadata/Items/Currency/ScoutingReports/AtlasScoutingReportCorrupted": {
     "domain": "undefined",
-    "drop_level": 75,
+    "drop_level": 69,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -38447,12 +39648,39 @@
     "requirements": null,
     "tags": [
       "weapon_divination",
+      "unique_divination",
+      "unique_weapon_divination",
       "divination_card",
       "default"
     ],
     "visual_identity": {
       "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
       "id": "DivinationCardADabOfInk"
+    }
+  },
+  "Metadata/Items/DivinationCards/DivinationCardADustyMemory": {
+    "domain": "undefined",
+    "drop_level": 68,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "A Dusty Memory",
+    "properties": {
+      "description": "<rareitem>{Item}\r\n<default>{Item Level:} <normal>{100}\r\n<fractured>{Fractured}",
+      "directions": "",
+      "stack_size": 5,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardADustyMemory"
     }
   },
   "Metadata/Items/DivinationCards/DivinationCardAFamiliarCall": {
@@ -38499,6 +39727,11 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "unique_divination",
+      "corrupted_divination",
+      "unique_corrupted_divination",
+      "maps_divination",
+      "maps_unique_divination",
       "divination_card",
       "default"
     ],
@@ -38525,6 +39758,10 @@
     "requirements": null,
     "tags": [
       "jewellery_divination",
+      "unique_divination",
+      "corrupted_divination",
+      "unique_corrupted_divination",
+      "unique_jewellery_divination",
       "divination_card",
       "default"
     ],
@@ -38542,7 +39779,7 @@
     "item_class": "DivinationCard",
     "name": "A Mother's Parting Gift",
     "properties": {
-      "description": "<uniqueitem>{Fertile Mind}",
+      "description": "<uniqueitem>{Fertile Mind}\r\n<corrupted>{Corrupted}",
       "directions": "",
       "stack_size": 6,
       "stack_size_currency_tab": 5000
@@ -38551,6 +39788,8 @@
     "requirements": null,
     "tags": [
       "jewellery_divination",
+      "unique_divination",
+      "unique_jewellery_divination",
       "divination_card",
       "default"
     ],
@@ -38561,14 +39800,14 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardANoteInTheWind": {
     "domain": "undefined",
-    "drop_level": 44,
+    "drop_level": 23,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
     "item_class": "DivinationCard",
     "name": "A Note in the Wind",
     "properties": {
-      "description": "Disabled",
+      "description": "<uniqueitem>{Asenath's Mark}",
       "directions": "",
       "stack_size": 4,
       "stack_size_currency_tab": 5000
@@ -38576,6 +39815,9 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "armour_divination",
+      "unique_divination",
+      "unique_armour_divination",
       "divination_card",
       "default"
     ],
@@ -38601,6 +39843,8 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "currency_divination",
+      "currency_basic_divination",
       "divination_card",
       "default"
     ],
@@ -38627,6 +39871,10 @@
     "requirements": null,
     "tags": [
       "jewellery_divination",
+      "unique_divination",
+      "corrupted_divination",
+      "unique_corrupted_divination",
+      "unique_jewellery_divination",
       "divination_card",
       "default"
     ],
@@ -38652,6 +39900,8 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "currency_divination",
+      "currency_basic_divination",
       "divination_card",
       "default"
     ],
@@ -38677,6 +39927,8 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "currency_divination",
+      "currency_basic_divination",
       "divination_card",
       "default"
     ],
@@ -38687,14 +39939,14 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardAkilsProphecy": {
     "domain": "undefined",
-    "drop_level": 23,
+    "drop_level": 70,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
     "item_class": "DivinationCard",
     "name": "Akil's Prophecy",
     "properties": {
-      "description": "Disabled",
+      "description": "<uniqueitem>{Elegant Round Shield}\r\n<corrupted>{Two-Implicit}\r\n<corrupted>{Corrupted}",
       "directions": "",
       "stack_size": 3,
       "stack_size_currency_tab": 5000
@@ -38702,12 +39954,45 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "armour_divination",
+      "unique_divination",
+      "corrupted_divination",
+      "unique_corrupted_divination",
+      "unique_armour_divination",
       "divination_card",
       "default"
     ],
     "visual_identity": {
       "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
       "id": "DivinationCardAkilsProphecy"
+    }
+  },
+  "Metadata/Items/DivinationCards/DivinationCardAliviasGrace": {
+    "domain": "undefined",
+    "drop_level": 48,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "Alivia's Grace",
+    "properties": {
+      "description": "<uniqueitem>{Queen of the Forest}",
+      "directions": "",
+      "stack_size": 6,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "armour_divination",
+      "unique_divination",
+      "unique_armour_divination",
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardAliviasGrace"
     }
   },
   "Metadata/Items/DivinationCards/DivinationCardAlluringBounty": {
@@ -38727,6 +40012,8 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "currency_divination",
+      "currency_basic_divination",
       "divination_card",
       "default"
     ],
@@ -38752,6 +40039,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "unique_divination",
       "divination_card",
       "default"
     ],
@@ -38777,6 +40065,8 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "currency_divination",
+      "currency_league_divination",
       "divination_card",
       "default"
     ],
@@ -38802,6 +40092,8 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "currency_divination",
+      "currency_league_divination",
       "divination_card",
       "default"
     ],
@@ -38828,6 +40120,10 @@
     "requirements": null,
     "tags": [
       "weapon_divination",
+      "unique_divination",
+      "unique_weapon_divination",
+      "unique_corrupted_divination",
+      "corrupted_divination",
       "divination_card",
       "default"
     ],
@@ -38853,6 +40149,9 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "unique_divination",
+      "corrupted_divination",
+      "unique_corrupted_divination",
       "divination_card",
       "default"
     ],
@@ -38879,6 +40178,8 @@
     "requirements": null,
     "tags": [
       "weapon_divination",
+      "unique_divination",
+      "unique_weapon_divination",
       "divination_card",
       "default"
     ],
@@ -38932,6 +40233,10 @@
     "requirements": null,
     "tags": [
       "weapon_divination",
+      "unique_divination",
+      "unique_weapon_divination",
+      "unique_corrupted_divination",
+      "corrupted_divination",
       "divination_card",
       "default"
     ],
@@ -38958,12 +40263,41 @@
     "requirements": null,
     "tags": [
       "armour_divination",
+      "unique_divination",
+      "unique_armour_divination",
+      "unique_corrupted_divination",
+      "corrupted_divination",
       "divination_card",
       "default"
     ],
     "visual_identity": {
       "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
       "id": "Audacity"
+    }
+  },
+  "Metadata/Items/DivinationCards/DivinationCardAuspiciousAmbitions": {
+    "domain": "undefined",
+    "drop_level": 73,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "Auspicious Ambitions",
+    "properties": {
+      "description": "<whiteitem>{Experimented Item}\r\n<default>{Item Level:} <normal>{100}\r\n<default>{Double-Influenced Item}",
+      "directions": "",
+      "stack_size": 4,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardAuspiciousAmbitions_____"
     }
   },
   "Metadata/Items/DivinationCards/DivinationCardAzureRage": {
@@ -38983,6 +40317,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "maps_divination",
       "divination_card",
       "default"
     ],
@@ -39009,6 +40344,10 @@
     "requirements": null,
     "tags": [
       "jewellery_divination",
+      "unique_divination",
+      "corrupted_divination",
+      "unique_corrupted_divination",
+      "unique_jewellery_divination",
       "divination_card",
       "default"
     ],
@@ -39034,6 +40373,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "unique_divination",
       "divination_card",
       "default"
     ],
@@ -39059,6 +40399,8 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "unique_divination",
+      "unique_armour_divination",
       "divination_card",
       "default"
     ],
@@ -39163,6 +40505,10 @@
     "requirements": null,
     "tags": [
       "jewellery_divination",
+      "unique_divination",
+      "unique_jewellery_divination",
+      "unique_corrupted_divination",
+      "corrupted_divination",
       "divination_card",
       "default"
     ],
@@ -39213,6 +40559,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "unique_divination",
       "divination_card",
       "default"
     ],
@@ -39238,6 +40585,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "maps_divination",
       "divination_card",
       "default"
     ],
@@ -39316,6 +40664,8 @@
     "requirements": null,
     "tags": [
       "weapon_divination",
+      "unique_divination",
+      "unique_weapon_divination",
       "divination_card",
       "default"
     ],
@@ -39342,6 +40692,10 @@
     "requirements": null,
     "tags": [
       "jewellery_divination",
+      "unique_divination",
+      "corrupted_divination",
+      "unique_corrupted_divination",
+      "unique_jewellery_divination",
       "divination_card",
       "default"
     ],
@@ -39367,6 +40721,8 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "currency_divination",
+      "currency_basic_divination",
       "divination_card",
       "default"
     ],
@@ -39392,6 +40748,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "gives_other_cards_divination",
       "divination_card",
       "default"
     ],
@@ -39443,6 +40800,10 @@
     "requirements": null,
     "tags": [
       "jewellery_divination",
+      "unique_divination",
+      "corrupted_divination",
+      "unique_corrupted_divination",
+      "unique_jewellery_divination",
       "divination_card",
       "default"
     ],
@@ -39468,6 +40829,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "corrupted_divination",
       "divination_card",
       "default"
     ],
@@ -39518,6 +40880,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "maps_divination",
       "divination_card",
       "default"
     ],
@@ -39543,6 +40906,8 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "currency_divination",
+      "currency_basic_divination",
       "divination_card",
       "default"
     ],
@@ -39568,6 +40933,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "unique_divination",
       "divination_card",
       "default"
     ],
@@ -39593,6 +40959,8 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "currency_divination",
+      "currency_league_divination",
       "divination_card",
       "default"
     ],
@@ -39619,6 +40987,8 @@
     "requirements": null,
     "tags": [
       "jewellery_divination",
+      "unique_divination",
+      "unique_jewellery_divination",
       "divination_card",
       "default"
     ],
@@ -39644,6 +41014,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "unique_divination",
       "divination_card",
       "default"
     ],
@@ -39669,6 +41040,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "unique_divination",
       "divination_card",
       "default"
     ],
@@ -39694,6 +41066,8 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "currency_divination",
+      "currency_basic_divination",
       "divination_card",
       "default"
     ],
@@ -39720,6 +41094,8 @@
     "requirements": null,
     "tags": [
       "armour_divination",
+      "unique_divination",
+      "unique_armour_divination",
       "divination_card",
       "default"
     ],
@@ -39773,6 +41149,8 @@
     "requirements": null,
     "tags": [
       "weapon_divination",
+      "unique_divination",
+      "unique_weapon_divination",
       "divination_card",
       "default"
     ],
@@ -39798,6 +41176,8 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "currency_divination",
+      "currency_exotic_divination",
       "divination_card",
       "default"
     ],
@@ -39824,6 +41204,10 @@
     "requirements": null,
     "tags": [
       "jewellery_divination",
+      "unique_divination",
+      "corrupted_divination",
+      "unique_corrupted_divination",
+      "unique_jewellery_divination",
       "divination_card",
       "default"
     ],
@@ -39850,6 +41234,8 @@
     "requirements": null,
     "tags": [
       "weapon_divination",
+      "unique_divination",
+      "unique_weapon_divination",
       "divination_card",
       "default"
     ],
@@ -39875,6 +41261,10 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "corrupted_divination",
+      "gems_divination",
+      "gems_quality_divination",
+      "gems_levelled_divination",
       "divination_card",
       "default"
     ],
@@ -39925,6 +41315,8 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "currency_divination",
+      "currency_league_divination",
       "divination_card",
       "default"
     ],
@@ -39950,6 +41342,8 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "currency_divination",
+      "currency_basic_divination",
       "divination_card",
       "default"
     ],
@@ -39975,6 +41369,10 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "corrupted_divination",
+      "gems_divination",
+      "gems_quality_divination",
+      "gems_levelled_divination",
       "divination_card",
       "default"
     ],
@@ -40001,6 +41399,8 @@
     "requirements": null,
     "tags": [
       "armour_divination",
+      "unique_divination",
+      "unique_armour_divination",
       "divination_card",
       "default"
     ],
@@ -40052,6 +41452,9 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "gems_divination",
+      "gems_quality_divination",
+      "corrupted_divination",
       "divination_card",
       "default"
     ],
@@ -40077,12 +41480,41 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "currency_divination",
+      "currency_league_divination",
       "divination_card",
       "default"
     ],
     "visual_identity": {
       "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
       "id": "DivinationCardDisdain"
+    }
+  },
+  "Metadata/Items/DivinationCards/DivinationCardDivineBeauty": {
+    "domain": "undefined",
+    "drop_level": 68,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "Divine Beauty",
+    "properties": {
+      "description": "<currencyitem>{7x Divine Orb}",
+      "directions": "",
+      "stack_size": 12,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency_divination",
+      "currency_basic_divination",
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardDivineBeauty_"
     }
   },
   "Metadata/Items/DivinationCards/DivinationCardDivineJustice": {
@@ -40103,6 +41535,8 @@
     "requirements": null,
     "tags": [
       "armour_divination",
+      "unique_divination",
+      "unique_armour_divination",
       "divination_card",
       "default"
     ],
@@ -40128,6 +41562,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "unique_divination",
       "divination_card",
       "default"
     ],
@@ -40153,6 +41588,8 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "currency_divination",
+      "currency_league_divination",
       "divination_card",
       "default"
     ],
@@ -40230,6 +41667,8 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "gems_divination",
+      "gems_quality_divination",
       "divination_card",
       "default"
     ],
@@ -40283,6 +41722,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "unique_divination",
       "divination_card",
       "default"
     ],
@@ -40309,6 +41749,10 @@
     "requirements": null,
     "tags": [
       "weapon_divination",
+      "unique_divination",
+      "corrupted_divination",
+      "unique_corrupted_divination",
+      "unique_weapon_divination",
       "divination_card",
       "default"
     ],
@@ -40360,6 +41804,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "currency_divination",
       "divination_card",
       "default"
     ],
@@ -40385,6 +41830,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "unique_divination",
       "divination_card",
       "default"
     ],
@@ -40410,6 +41856,9 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "unique_divination",
+      "corrupted_divination",
+      "unique_corrupted_divination",
       "divination_card",
       "default"
     ],
@@ -40435,12 +41884,44 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "maps_divination",
+      "unique_divination",
+      "maps_unique_divination",
+      "unique_corrupted_divination",
+      "corrupted_divination",
       "divination_card",
       "default"
     ],
     "visual_identity": {
       "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
       "id": "DivinationCardEternalBonds"
+    }
+  },
+  "Metadata/Items/DivinationCards/DivinationCardEverChanging": {
+    "domain": "undefined",
+    "drop_level": 68,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "Ever-Changing",
+    "properties": {
+      "description": "<currencyitem>{10x Orb of Unmaking}",
+      "directions": "",
+      "stack_size": 3,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency_divination",
+      "currency_basic_divination",
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardEverChanging"
     }
   },
   "Metadata/Items/DivinationCards/DivinationCardFatefulMeeting": {
@@ -40460,6 +41941,9 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "unique_divination",
+      "corrupted_divination",
+      "unique_corrupted_divination",
       "divination_card",
       "default"
     ],
@@ -40486,6 +41970,10 @@
     "requirements": null,
     "tags": [
       "weapon_divination",
+      "unique_divination",
+      "unique_weapon_divination",
+      "unique_corrupted_divination",
+      "corrupted_divination",
       "divination_card",
       "default"
     ],
@@ -40537,6 +42025,10 @@
     "requirements": null,
     "tags": [
       "weapon_divination",
+      "unique_divination",
+      "corrupted_divination",
+      "unique_corrupted_divination",
+      "unique_weapon_divination",
       "divination_card",
       "default"
     ],
@@ -40588,6 +42080,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "gems_divination",
       "divination_card",
       "default"
     ],
@@ -40613,6 +42106,8 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "gems_divination",
+      "gems_quality_divination",
       "divination_card",
       "default"
     ],
@@ -40639,6 +42134,10 @@
     "requirements": null,
     "tags": [
       "armour_divination",
+      "unique_divination",
+      "corrupted_divination",
+      "unique_corrupted_divination",
+      "unique_armour_divination",
       "divination_card",
       "default"
     ],
@@ -40664,6 +42163,8 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "gems_divination",
+      "gems_levelled_divination",
       "divination_card",
       "default"
     ],
@@ -40690,6 +42191,8 @@
     "requirements": null,
     "tags": [
       "jewellery_divination",
+      "unique_divination",
+      "unique_jewellery_divination",
       "divination_card",
       "default"
     ],
@@ -40715,6 +42218,8 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "gems_divination",
+      "gems_quality_divination",
       "divination_card",
       "default"
     ],
@@ -40741,6 +42246,7 @@
     "requirements": null,
     "tags": [
       "shaper_divination",
+      "maps_divination",
       "divination_card",
       "default"
     ],
@@ -40766,6 +42272,8 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "currency_divination",
+      "currency_league_divination",
       "divination_card",
       "default"
     ],
@@ -40791,6 +42299,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "unique_divination",
       "divination_card",
       "default"
     ],
@@ -40842,6 +42351,8 @@
     "requirements": null,
     "tags": [
       "jewellery_divination",
+      "unique_divination",
+      "unique_jewellery_divination",
       "divination_card",
       "default"
     ],
@@ -40867,6 +42378,8 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "gems_divination",
+      "gems_quality_divination",
       "divination_card",
       "default"
     ],
@@ -40893,6 +42406,10 @@
     "requirements": null,
     "tags": [
       "jewellery_divination",
+      "unique_divination",
+      "unique_jewellery_divination",
+      "unique_corrupted_divination",
+      "corrupted_divination",
       "divination_card",
       "default"
     ],
@@ -40918,6 +42435,8 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "currency_divination",
+      "currency_basic_divination",
       "divination_card",
       "default"
     ],
@@ -40944,6 +42463,8 @@
     "requirements": null,
     "tags": [
       "jewellery_divination",
+      "unique_divination",
+      "unique_jewellery_divination",
       "divination_card",
       "default"
     ],
@@ -40970,6 +42491,8 @@
     "requirements": null,
     "tags": [
       "armour_divination",
+      "unique_divination",
+      "unique_armour_divination",
       "divination_card",
       "default"
     ],
@@ -40996,6 +42519,8 @@
     "requirements": null,
     "tags": [
       "weapon_divination",
+      "unique_divination",
+      "unique_weapon_divination",
       "divination_card",
       "default"
     ],
@@ -41022,6 +42547,8 @@
     "requirements": null,
     "tags": [
       "jewellery_divination",
+      "unique_divination",
+      "unique_jewellery_divination",
       "divination_card",
       "default"
     ],
@@ -41125,6 +42652,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "unique_divination",
       "divination_card",
       "default"
     ],
@@ -41151,6 +42679,8 @@
     "requirements": null,
     "tags": [
       "armour_divination",
+      "unique_divination",
+      "unique_armour_divination",
       "divination_card",
       "default"
     ],
@@ -41176,6 +42706,9 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "maps_divination",
+      "unique_divination",
+      "maps_unique_divination",
       "divination_card",
       "default"
     ],
@@ -41229,6 +42762,7 @@
     "requirements": null,
     "tags": [
       "jewellery_divination",
+      "corrupted_divination",
       "divination_card",
       "default"
     ],
@@ -41305,6 +42839,8 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "maps_divination",
+      "corrupted_divination",
       "divination_card",
       "default"
     ],
@@ -41331,6 +42867,8 @@
     "requirements": null,
     "tags": [
       "weapon_divination",
+      "unique_divination",
+      "unique_weapon_divination",
       "divination_card",
       "default"
     ],
@@ -41357,6 +42895,8 @@
     "requirements": null,
     "tags": [
       "weapon_divination",
+      "unique_divination",
+      "unique_weapon_divination",
       "divination_card",
       "default"
     ],
@@ -41382,6 +42922,8 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "maps_divination",
+      "corrupted_divination",
       "divination_card",
       "default"
     ],
@@ -41407,6 +42949,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "maps_divination",
       "divination_card",
       "default"
     ],
@@ -41433,6 +42976,10 @@
     "requirements": null,
     "tags": [
       "jewellery_divination",
+      "unique_divination",
+      "corrupted_divination",
+      "unique_corrupted_divination",
+      "unique_jewellery_divination",
       "divination_card",
       "default"
     ],
@@ -41458,6 +43005,8 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "currency_divination",
+      "currency_basic_divination",
       "divination_card",
       "default"
     ],
@@ -41508,6 +43057,8 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "currency_divination",
+      "currency_basic_divination",
       "divination_card",
       "default"
     ],
@@ -41533,6 +43084,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "gives_other_cards_divination",
       "divination_card",
       "default"
     ],
@@ -41559,6 +43111,10 @@
     "requirements": null,
     "tags": [
       "jewellery_divination",
+      "unique_divination",
+      "corrupted_divination",
+      "unique_corrupted_divination",
+      "unique_jewellery_divination",
       "divination_card",
       "default"
     ],
@@ -41585,6 +43141,10 @@
     "requirements": null,
     "tags": [
       "jewellery_divination",
+      "unique_divination",
+      "unique_jewellery_divination",
+      "unique_corrupted_divination",
+      "corrupted_divination",
       "divination_card",
       "default"
     ],
@@ -41618,6 +43178,31 @@
       "id": "DivinationCardMagnumOpus"
     }
   },
+  "Metadata/Items/DivinationCards/DivinationCardManWithBear": {
+    "domain": "undefined",
+    "drop_level": 68,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "Man With Bear",
+    "properties": {
+      "description": "<whiteitem>{Bestiary Scarab}",
+      "directions": "",
+      "stack_size": 3,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardManWithBear"
+    }
+  },
   "Metadata/Items/DivinationCards/DivinationCardMawrBlaidd": {
     "domain": "undefined",
     "drop_level": 68,
@@ -41636,6 +43221,10 @@
     "requirements": null,
     "tags": [
       "jewellery_divination",
+      "unique_divination",
+      "unique_jewellery_divination",
+      "unique_corrupted_divination",
+      "corrupted_divination",
       "divination_card",
       "default"
     ],
@@ -41688,6 +43277,8 @@
     "requirements": null,
     "tags": [
       "weapon_divination",
+      "unique_divination",
+      "unique_weapon_divination",
       "divination_card",
       "default"
     ],
@@ -41714,6 +43305,8 @@
     "requirements": null,
     "tags": [
       "armour_divination",
+      "unique_divination",
+      "unique_armour_divination",
       "divination_card",
       "default"
     ],
@@ -41740,6 +43333,8 @@
     "requirements": null,
     "tags": [
       "armour_divination",
+      "unique_divination",
+      "unique_armour_divination",
       "divination_card",
       "default"
     ],
@@ -41765,6 +43360,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "currency_divination",
       "divination_card",
       "default"
     ],
@@ -41815,6 +43411,8 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "currency_divination",
+      "currency_basic_divination",
       "divination_card",
       "default"
     ],
@@ -41867,6 +43465,8 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "currency_divination",
+      "currency_league_divination",
       "divination_card",
       "default"
     ],
@@ -41893,6 +43493,8 @@
     "requirements": null,
     "tags": [
       "jewellery_divination",
+      "unique_divination",
+      "unique_jewellery_divination",
       "divination_card",
       "default"
     ],
@@ -41945,6 +43547,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "unique_divination",
       "divination_card",
       "default"
     ],
@@ -41971,6 +43574,10 @@
     "requirements": null,
     "tags": [
       "armour_divination",
+      "unique_divination",
+      "unique_armour_divination",
+      "unique_corrupted_divination",
+      "corrupted_divination",
       "divination_card",
       "default"
     ],
@@ -41997,6 +43604,8 @@
     "requirements": null,
     "tags": [
       "armour_divination",
+      "unique_divination",
+      "unique_armour_divination",
       "divination_card",
       "default"
     ],
@@ -42074,6 +43683,8 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "currency_divination",
+      "currency_basic_divination",
       "divination_card",
       "default"
     ],
@@ -42099,6 +43710,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "maps_divination",
       "divination_card",
       "default"
     ],
@@ -42125,6 +43737,8 @@
     "requirements": null,
     "tags": [
       "armour_divination",
+      "unique_divination",
+      "unique_armour_divination",
       "divination_card",
       "default"
     ],
@@ -42151,6 +43765,8 @@
     "requirements": null,
     "tags": [
       "weapon_divination",
+      "unique_divination",
+      "unique_weapon_divination",
       "divination_card",
       "default"
     ],
@@ -42202,6 +43818,8 @@
     "requirements": null,
     "tags": [
       "armour_divination",
+      "unique_divination",
+      "unique_armour_divination",
       "divination_card",
       "default"
     ],
@@ -42228,6 +43846,10 @@
     "requirements": null,
     "tags": [
       "jewellery_divination",
+      "unique_divination",
+      "corrupted_divination",
+      "unique_corrupted_divination",
+      "unique_jewellery_divination",
       "divination_card",
       "default"
     ],
@@ -42279,6 +43901,8 @@
     "requirements": null,
     "tags": [
       "armour_divination",
+      "unique_divination",
+      "unique_armour_divination",
       "divination_card",
       "default"
     ],
@@ -42304,6 +43928,9 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "unique_divination",
+      "maps_divination",
+      "maps_unique_divination",
       "divination_card",
       "default"
     ],
@@ -42329,6 +43956,8 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "currency_divination",
+      "currency_basic_divination",
       "divination_card",
       "default"
     ],
@@ -42381,6 +44010,8 @@
     "requirements": null,
     "tags": [
       "jewellery_divination",
+      "unique_divination",
+      "unique_jewellery_divination",
       "divination_card",
       "default"
     ],
@@ -42406,6 +44037,8 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "currency_divination",
+      "currency_basic_divination",
       "divination_card",
       "default"
     ],
@@ -42456,6 +44089,11 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "unique_divination",
+      "corrupted_divination",
+      "unique_corrupted_divination",
+      "maps_divination",
+      "maps_unique_divination",
       "divination_card",
       "default"
     ],
@@ -42507,6 +44145,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "unique_divination",
       "divination_card",
       "default"
     ],
@@ -42532,6 +44171,10 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "corrupted_divination",
+      "gems_divination",
+      "gems_quality_divination",
+      "gems_levelled_divination",
       "divination_card",
       "default"
     ],
@@ -42558,6 +44201,8 @@
     "requirements": null,
     "tags": [
       "jewellery_divination",
+      "unique_divination",
+      "unique_jewellery_divination",
       "divination_card",
       "default"
     ],
@@ -42583,6 +44228,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "unique_divination",
       "divination_card",
       "default"
     ],
@@ -42609,6 +44255,8 @@
     "requirements": null,
     "tags": [
       "armour_divination",
+      "unique_divination",
+      "unique_armour_divination",
       "divination_card",
       "default"
     ],
@@ -42634,6 +44282,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "unique_divination",
       "divination_card",
       "default"
     ],
@@ -42660,6 +44309,8 @@
     "requirements": null,
     "tags": [
       "jewellery_divination",
+      "unique_divination",
+      "unique_jewellery_divination",
       "divination_card",
       "default"
     ],
@@ -42711,6 +44362,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "maps_divination",
       "divination_card",
       "default"
     ],
@@ -42737,6 +44389,8 @@
     "requirements": null,
     "tags": [
       "armour_divination",
+      "unique_divination",
+      "unique_armour_divination",
       "divination_card",
       "default"
     ],
@@ -42762,6 +44416,9 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "gems_divination",
+      "gems_levelled_divination",
+      "unique_corrupted_divination",
       "divination_card",
       "default"
     ],
@@ -42816,6 +44473,10 @@
       "armour_divination",
       "shaper_divination",
       "elder_divination",
+      "unique_divination",
+      "corrupted_divination",
+      "unique_corrupted_divination",
+      "unique_armour_divination",
       "divination_card",
       "default"
     ],
@@ -42842,6 +44503,10 @@
     "requirements": null,
     "tags": [
       "weapon_divination",
+      "unique_divination",
+      "unique_weapon_divination",
+      "unique_corrupted_divination",
+      "corrupted_divination",
       "divination_card",
       "default"
     ],
@@ -42893,6 +44558,8 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "currency_divination",
+      "currency_league_divination",
       "divination_card",
       "default"
     ],
@@ -42919,6 +44586,8 @@
     "requirements": null,
     "tags": [
       "weapon_divination",
+      "unique_divination",
+      "unique_weapon_divination",
       "divination_card",
       "default"
     ],
@@ -42971,6 +44640,8 @@
     "requirements": null,
     "tags": [
       "armour_divination",
+      "unique_divination",
+      "unique_armour_divination",
       "divination_card",
       "default"
     ],
@@ -42997,6 +44668,8 @@
     "requirements": null,
     "tags": [
       "armour_divination",
+      "unique_divination",
+      "unique_armour_divination",
       "divination_card",
       "default"
     ],
@@ -43022,6 +44695,10 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "corrupted_divination",
+      "gems_divination",
+      "gems_quality_divination",
+      "gems_levelled_divination",
       "divination_card",
       "default"
     ],
@@ -43048,6 +44725,8 @@
     "requirements": null,
     "tags": [
       "weapon_divination",
+      "unique_divination",
+      "unique_weapon_divination",
       "divination_card",
       "default"
     ],
@@ -43074,6 +44753,7 @@
     "requirements": null,
     "tags": [
       "armour_divination",
+      "unique_divination",
       "divination_card",
       "default"
     ],
@@ -43100,6 +44780,8 @@
     "requirements": null,
     "tags": [
       "armour_divination",
+      "unique_divination",
+      "unique_armour_divination",
       "divination_card",
       "default"
     ],
@@ -43125,6 +44807,9 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "corrupted_divination",
+      "gems_divination",
+      "gems_levelled_divination",
       "divination_card",
       "default"
     ],
@@ -43176,6 +44861,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "unique_divination",
       "divination_card",
       "default"
     ],
@@ -43202,6 +44888,10 @@
     "requirements": null,
     "tags": [
       "jewellery_divination",
+      "unique_divination",
+      "unique_jewellery_divination",
+      "unique_corrupted_divination",
+      "corrupted_divination",
       "divination_card",
       "default"
     ],
@@ -43228,6 +44918,8 @@
     "requirements": null,
     "tags": [
       "jewellery_divination",
+      "unique_divination",
+      "unique_jewellery_divination",
       "divination_card",
       "default"
     ],
@@ -43253,6 +44945,8 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "currency_divination",
+      "currency_basic_divination",
       "divination_card",
       "default"
     ],
@@ -43278,6 +44972,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "unique_divination",
       "divination_card",
       "default"
     ],
@@ -43354,6 +45049,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "maps_divination",
       "divination_card",
       "default"
     ],
@@ -43379,6 +45075,8 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "gems_divination",
+      "gems_levelled_divination",
       "divination_card",
       "default"
     ],
@@ -43404,6 +45102,8 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "currency_divination",
+      "currency_basic_divination",
       "divination_card",
       "default"
     ],
@@ -43534,6 +45234,10 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "corrupted_divination",
+      "gems_divination",
+      "gems_quality_divination",
+      "gems_levelled_divination",
       "divination_card",
       "default"
     ],
@@ -43560,6 +45264,10 @@
     "requirements": null,
     "tags": [
       "armour_divination",
+      "unique_divination",
+      "corrupted_divination",
+      "unique_corrupted_divination",
+      "unique_armour_divination",
       "divination_card",
       "default"
     ],
@@ -43586,6 +45294,8 @@
     "requirements": null,
     "tags": [
       "armour_divination",
+      "unique_divination",
+      "unique_armour_divination",
       "divination_card",
       "default"
     ],
@@ -43612,6 +45322,8 @@
     "requirements": null,
     "tags": [
       "armour_divination",
+      "unique_divination",
+      "unique_armour_divination",
       "divination_card",
       "default"
     ],
@@ -43637,6 +45349,8 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "unique_divination",
+      "unique_jewellery_divination",
       "divination_card",
       "default"
     ],
@@ -43663,6 +45377,10 @@
     "requirements": null,
     "tags": [
       "jewellery_divination",
+      "unique_divination",
+      "unique_jewellery_divination",
+      "unique_corrupted_divination",
+      "corrupted_divination",
       "divination_card",
       "default"
     ],
@@ -43688,6 +45406,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "unique_divination",
       "divination_card",
       "default"
     ],
@@ -43766,6 +45485,10 @@
     "requirements": null,
     "tags": [
       "weapon_divination",
+      "unique_divination",
+      "unique_weapon_divination",
+      "unique_corrupted_divination",
+      "corrupted_divination",
       "divination_card",
       "default"
     ],
@@ -43817,6 +45540,10 @@
     "requirements": null,
     "tags": [
       "jewellery_divination",
+      "unique_divination",
+      "unique_jewellery_divination",
+      "unique_corrupted_divination",
+      "corrupted_divination",
       "divination_card",
       "default"
     ],
@@ -43843,6 +45570,8 @@
     "requirements": null,
     "tags": [
       "weapon_divination",
+      "unique_divination",
+      "unique_weapon_divination",
       "divination_card",
       "default"
     ],
@@ -43869,6 +45598,10 @@
     "requirements": null,
     "tags": [
       "jewellery_divination",
+      "unique_divination",
+      "corrupted_divination",
+      "unique_corrupted_divination",
+      "unique_jewellery_divination",
       "divination_card",
       "default"
     ],
@@ -43895,6 +45628,8 @@
     "requirements": null,
     "tags": [
       "weapon_divination",
+      "unique_divination",
+      "unique_weapon_divination",
       "divination_card",
       "default"
     ],
@@ -43920,6 +45655,10 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "unique_divination",
+      "corrupted_divination",
+      "unique_corrupted_divination",
+      "unique_jewellery_divination",
       "divination_card",
       "default"
     ],
@@ -43972,6 +45711,8 @@
     "requirements": null,
     "tags": [
       "jewellery_divination",
+      "unique_divination",
+      "unique_jewellery_divination",
       "divination_card",
       "default"
     ],
@@ -43997,6 +45738,8 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "gems_divination",
+      "gems_quality_divination",
       "divination_card",
       "default"
     ],
@@ -44022,6 +45765,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "unique_divination",
       "divination_card",
       "default"
     ],
@@ -44047,6 +45791,9 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "gems_divination",
+      "gems_levelled_divination",
+      "corrupted_divination",
       "divination_card",
       "default"
     ],
@@ -44072,6 +45819,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "unique_divination",
       "divination_card",
       "default"
     ],
@@ -44097,6 +45845,9 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "unique_divination",
+      "maps_divination",
+      "maps_unique_divination",
       "divination_card",
       "default"
     ],
@@ -44122,6 +45873,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "unique_divination",
       "divination_card",
       "default"
     ],
@@ -44148,6 +45900,8 @@
     "requirements": null,
     "tags": [
       "jewellery_divination",
+      "unique_divination",
+      "unique_jewellery_divination",
       "divination_card",
       "default"
     ],
@@ -44173,6 +45927,8 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "maps_divination",
+      "corrupted_divination",
       "divination_card",
       "default"
     ],
@@ -44225,6 +45981,9 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "corrupted_divination",
+      "gems_divination",
+      "gems_quality_divination",
       "divination_card",
       "default"
     ],
@@ -44250,6 +46009,10 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "unique_divination",
+      "unique_corrupted_divination",
+      "maps_unique_divination",
+      "corrupted_divination",
       "divination_card",
       "default"
     ],
@@ -44278,6 +46041,8 @@
       "weapon_divination",
       "elder_divination",
       "shaper_divination",
+      "unique_divination",
+      "unique_weapon_divination",
       "divination_card",
       "default"
     ],
@@ -44355,6 +46120,8 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "gems_divination",
+      "gems_levelled_divination",
       "divination_card",
       "default"
     ],
@@ -44381,6 +46148,10 @@
     "requirements": null,
     "tags": [
       "armour_divination",
+      "unique_divination",
+      "corrupted_divination",
+      "unique_corrupted_divination",
+      "unique_armour_divination",
       "divination_card",
       "default"
     ],
@@ -44407,6 +46178,8 @@
     "requirements": null,
     "tags": [
       "armour_divination",
+      "unique_divination",
+      "unique_armour_divination",
       "divination_card",
       "default"
     ],
@@ -44433,6 +46206,10 @@
     "requirements": null,
     "tags": [
       "jewellery_divination",
+      "unique_divination",
+      "corrupted_divination",
+      "unique_corrupted_divination",
+      "unique_jewellery_divination",
       "divination_card",
       "default"
     ],
@@ -44484,6 +46261,8 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "maps_divination",
+      "corrupted_divination",
       "divination_card",
       "default"
     ],
@@ -44509,6 +46288,8 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "currency_divination",
+      "currency_league_divination",
       "divination_card",
       "default"
     ],
@@ -44535,6 +46316,10 @@
     "requirements": null,
     "tags": [
       "jewellery_divination",
+      "unique_divination",
+      "unique_jewellery_divination",
+      "unique_corrupted_divination",
+      "corrupted_divination",
       "divination_card",
       "default"
     ],
@@ -44561,6 +46346,8 @@
     "requirements": null,
     "tags": [
       "armour_divination",
+      "unique_divination",
+      "unique_armour_divination",
       "divination_card",
       "default"
     ],
@@ -44586,7 +46373,10 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
-      "jewellery_divination",
+      "unique_divination",
+      "unique_jewellery_divination",
+      "unique_corrupted_divination",
+      "corrupted_divination",
       "divination_card",
       "default"
     ],
@@ -44613,12 +46403,43 @@
     "requirements": null,
     "tags": [
       "jewellery_divination",
+      "unique_divination",
+      "unique_jewellery_divination",
+      "unique_corrupted_divination",
+      "corrupted_divination",
       "divination_card",
       "default"
     ],
     "visual_identity": {
       "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
       "id": "TheFiend"
+    }
+  },
+  "Metadata/Items/DivinationCards/DivinationCardTheFinishingTouch": {
+    "domain": "undefined",
+    "drop_level": 60,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "The Finishing Touch",
+    "properties": {
+      "description": "<currencyitem>{1x Fertile Catalyst}",
+      "directions": "",
+      "stack_size": 2,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "currency_divination",
+      "currency_league_divination",
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardTheFinishingTouch"
     }
   },
   "Metadata/Items/DivinationCards/DivinationCardTheFishmonger": {
@@ -44638,6 +46459,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "currency_divination",
       "divination_card",
       "default"
     ],
@@ -44663,6 +46485,10 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "unique_divination",
+      "unique_weapon_divination",
+      "unique_corrupted_divination",
+      "corrupted_divination",
       "divination_card",
       "default"
     ],
@@ -44714,6 +46540,8 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "currency_divination",
+      "currency_basic_divination",
       "divination_card",
       "default"
     ],
@@ -44740,6 +46568,8 @@
     "requirements": null,
     "tags": [
       "jewellery_divination",
+      "unique_divination",
+      "unique_jewellery_divination",
       "divination_card",
       "default"
     ],
@@ -44766,6 +46596,8 @@
     "requirements": null,
     "tags": [
       "weapon_divination",
+      "unique_divination",
+      "unique_weapon_divination",
       "divination_card",
       "default"
     ],
@@ -44792,6 +46624,8 @@
     "requirements": null,
     "tags": [
       "jewellery_divination",
+      "unique_divination",
+      "unique_jewellery_divination",
       "divination_card",
       "default"
     ],
@@ -44817,6 +46651,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "unique_divination",
       "divination_card",
       "default"
     ],
@@ -44842,6 +46677,8 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "gems_divination",
+      "gems_levelled_divination",
       "divination_card",
       "default"
     ],
@@ -44868,6 +46705,10 @@
     "requirements": null,
     "tags": [
       "armour_divination",
+      "unique_divination",
+      "corrupted_divination",
+      "unique_corrupted_divination",
+      "unique_armour_divination",
       "divination_card",
       "default"
     ],
@@ -44893,6 +46734,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "gives_other_cards_divination",
       "divination_card",
       "default"
     ],
@@ -44919,6 +46761,8 @@
     "requirements": null,
     "tags": [
       "jewellery_divination",
+      "unique_divination",
+      "unique_jewellery_divination",
       "divination_card",
       "default"
     ],
@@ -44944,6 +46788,8 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "currency_divination",
+      "currency_basic_divination",
       "divination_card",
       "default"
     ],
@@ -44970,6 +46816,10 @@
     "requirements": null,
     "tags": [
       "weapon_divination",
+      "unique_divination",
+      "unique_weapon_divination",
+      "unique_corrupted_divination",
+      "corrupted_divination",
       "divination_card",
       "default"
     ],
@@ -44996,6 +46846,8 @@
     "requirements": null,
     "tags": [
       "armour_divination",
+      "unique_divination",
+      "unique_armour_divination",
       "divination_card",
       "default"
     ],
@@ -45048,6 +46900,10 @@
     "requirements": null,
     "tags": [
       "weapon_divination",
+      "unique_divination",
+      "corrupted_divination",
+      "unique_corrupted_divination",
+      "unique_weapon_divination",
       "divination_card",
       "default"
     ],
@@ -45074,6 +46930,10 @@
     "requirements": null,
     "tags": [
       "jewellery_divination",
+      "unique_divination",
+      "corrupted_divination",
+      "unique_corrupted_divination",
+      "unique_jewellery_divination",
       "divination_card",
       "default"
     ],
@@ -45126,6 +46986,8 @@
     "requirements": null,
     "tags": [
       "weapon_divination",
+      "unique_divination",
+      "unique_weapon_divination",
       "divination_card",
       "default"
     ],
@@ -45152,6 +47014,8 @@
     "requirements": null,
     "tags": [
       "weapon_divination",
+      "unique_divination",
+      "unique_weapon_divination",
       "divination_card",
       "default"
     ],
@@ -45177,6 +47041,8 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "currency_divination",
+      "currency_basic_divination",
       "divination_card",
       "default"
     ],
@@ -45203,6 +47069,10 @@
     "requirements": null,
     "tags": [
       "armour_divination",
+      "unique_divination",
+      "corrupted_divination",
+      "unique_corrupted_divination",
+      "unique_armour_divination",
       "divination_card",
       "default"
     ],
@@ -45228,6 +47098,8 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "currency_divination",
+      "currency_basic_divination",
       "divination_card",
       "default"
     ],
@@ -45253,6 +47125,10 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "corrupted_divination",
+      "gems_divination",
+      "gems_quality_divination",
+      "gems_levelled_divination",
       "divination_card",
       "default"
     ],
@@ -45278,6 +47154,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "unique_divination",
       "divination_card",
       "default"
     ],
@@ -45303,6 +47180,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "gives_other_cards_divination",
       "divination_card",
       "default"
     ],
@@ -45329,6 +47207,8 @@
     "requirements": null,
     "tags": [
       "weapon_divination",
+      "unique_divination",
+      "unique_weapon_divination",
       "divination_card",
       "default"
     ],
@@ -45354,6 +47234,8 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "currency_divination",
+      "currency_basic_divination",
       "divination_card",
       "default"
     ],
@@ -45388,6 +47270,36 @@
       "id": "TheInoculated"
     }
   },
+  "Metadata/Items/DivinationCards/DivinationCardTheInsaneCat": {
+    "domain": "undefined",
+    "drop_level": 68,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "The Insane Cat",
+    "properties": {
+      "description": "<uniqueitem>{Mageblood}\r\n<default>{Item Level:} <normal>{84}\r\n<corrupted>{Corrupted}",
+      "directions": "",
+      "stack_size": 9,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "jewellery_divination",
+      "unique_divination",
+      "corrupted_divination",
+      "unique_corrupted_divination",
+      "unique_jewellery_divination",
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardTheInsaneCat__"
+    }
+  },
   "Metadata/Items/DivinationCards/DivinationCardTheInsatiable": {
     "domain": "undefined",
     "drop_level": 28,
@@ -45406,6 +47318,10 @@
     "requirements": null,
     "tags": [
       "weapon_divination",
+      "unique_divination",
+      "unique_weapon_divination",
+      "unique_corrupted_divination",
+      "corrupted_divination",
       "divination_card",
       "default"
     ],
@@ -45431,6 +47347,8 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "currency_divination",
+      "currency_basic_divination",
       "divination_card",
       "default"
     ],
@@ -45559,6 +47477,8 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "currency_divination",
+      "currency_league_divination",
       "divination_card",
       "default"
     ],
@@ -45611,6 +47531,8 @@
     "requirements": null,
     "tags": [
       "armour_divination",
+      "unique_divination",
+      "unique_armour_divination",
       "divination_card",
       "default"
     ],
@@ -45636,6 +47558,11 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "unique_divination",
+      "corrupted_divination",
+      "unique_corrupted_divination",
+      "maps_divination",
+      "maps_unique_divination",
       "divination_card",
       "default"
     ],
@@ -45662,6 +47589,8 @@
     "requirements": null,
     "tags": [
       "weapon_divination",
+      "unique_divination",
+      "unique_weapon_divination",
       "divination_card",
       "default"
     ],
@@ -45688,6 +47617,8 @@
     "requirements": null,
     "tags": [
       "weapon_divination",
+      "unique_divination",
+      "unique_weapon_divination",
       "divination_card",
       "default"
     ],
@@ -45713,6 +47644,9 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "unique_divination",
+      "corrupted_divination",
+      "unique_corrupted_divination",
       "divination_card",
       "default"
     ],
@@ -45739,6 +47673,10 @@
     "requirements": null,
     "tags": [
       "weapon_divination",
+      "unique_divination",
+      "unique_weapon_divination",
+      "unique_corrupted_divination",
+      "corrupted_divination",
       "divination_card",
       "default"
     ],
@@ -45764,6 +47702,8 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "unique_divination",
+      "unique_jewellery_divination",
       "divination_card",
       "default"
     ],
@@ -45789,6 +47729,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "unique_divination",
       "divination_card",
       "default"
     ],
@@ -45814,6 +47755,8 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "currency_divination",
+      "currency_exotic_divination",
       "divination_card",
       "default"
     ],
@@ -45831,7 +47774,7 @@
     "item_class": "DivinationCard",
     "name": "The Long Watch",
     "properties": {
-      "description": "<uniqueitem>{The Vigil}",
+      "description": "Disabled",
       "directions": "",
       "stack_size": 3,
       "stack_size_currency_tab": 5000
@@ -45840,6 +47783,8 @@
     "requirements": null,
     "tags": [
       "jewellery_divination",
+      "unique_divination",
+      "unique_jewellery_divination",
       "divination_card",
       "default"
     ],
@@ -45945,6 +47890,8 @@
     "requirements": null,
     "tags": [
       "weapon_divination",
+      "unique_divination",
+      "unique_weapon_divination",
       "divination_card",
       "default"
     ],
@@ -45955,14 +47902,14 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheMadKing": {
     "domain": "undefined",
-    "drop_level": 27,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
     "item_class": "DivinationCard",
     "name": "The Mad King",
     "properties": {
-      "description": "Disabled",
+      "description": "<uniqueitem>{Ultimatum Aspect}",
       "directions": "",
       "stack_size": 7,
       "stack_size_currency_tab": 5000
@@ -45970,6 +47917,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "unique_divination",
       "divination_card",
       "default"
     ],
@@ -45995,6 +47943,9 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "corrupted_divination",
+      "gems_divination",
+      "gems_levelled_divination",
       "divination_card",
       "default"
     ],
@@ -46021,6 +47972,8 @@
     "requirements": null,
     "tags": [
       "jewellery_divination",
+      "unique_divination",
+      "unique_jewellery_divination",
       "divination_card",
       "default"
     ],
@@ -46046,6 +47999,8 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "currency_divination",
+      "currency_basic_divination",
       "divination_card",
       "default"
     ],
@@ -46097,6 +48052,10 @@
     "requirements": null,
     "tags": [
       "armour_divination",
+      "unique_divination",
+      "unique_armour_divination",
+      "unique_corrupted_divination",
+      "corrupted_divination",
       "divination_card",
       "default"
     ],
@@ -46122,6 +48081,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "unique_divination",
       "divination_card",
       "default"
     ],
@@ -46174,6 +48134,8 @@
     "requirements": null,
     "tags": [
       "jewellery_divination",
+      "unique_divination",
+      "unique_jewellery_divination",
       "divination_card",
       "default"
     ],
@@ -46225,6 +48187,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "gives_other_cards_divination",
       "divination_card",
       "default"
     ],
@@ -46251,6 +48214,8 @@
     "requirements": null,
     "tags": [
       "armour_divination",
+      "unique_divination",
+      "unique_armour_divination",
       "divination_card",
       "default"
     ],
@@ -46276,6 +48241,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "currency_league_divination",
       "divination_card",
       "default"
     ],
@@ -46302,6 +48268,8 @@
     "requirements": null,
     "tags": [
       "armour_divination",
+      "unique_divination",
+      "unique_armour_divination",
       "divination_card",
       "default"
     ],
@@ -46328,6 +48296,8 @@
     "requirements": null,
     "tags": [
       "jewellery_divination",
+      "unique_divination",
+      "unique_jewellery_divination",
       "divination_card",
       "default"
     ],
@@ -46354,6 +48324,7 @@
     "requirements": null,
     "tags": [
       "weapon_divination",
+      "corrupted_divination",
       "divination_card",
       "default"
     ],
@@ -46380,6 +48351,8 @@
     "requirements": null,
     "tags": [
       "jewellery_divination",
+      "unique_divination",
+      "unique_jewellery_divination",
       "divination_card",
       "default"
     ],
@@ -46406,6 +48379,10 @@
     "requirements": null,
     "tags": [
       "jewellery_divination",
+      "unique_divination",
+      "unique_jewellery_divination",
+      "unique_corrupted_divination",
+      "corrupted_divination",
       "divination_card",
       "default"
     ],
@@ -46458,6 +48435,8 @@
     "requirements": null,
     "tags": [
       "armour_divination",
+      "unique_divination",
+      "unique_armour_divination",
       "divination_card",
       "default"
     ],
@@ -46484,6 +48463,8 @@
     "requirements": null,
     "tags": [
       "weapon_divination",
+      "unique_divination",
+      "unique_weapon_divination",
       "divination_card",
       "default"
     ],
@@ -46509,6 +48490,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "gives_other_cards_divination",
       "divination_card",
       "default"
     ],
@@ -46535,6 +48517,8 @@
     "requirements": null,
     "tags": [
       "jewellery_divination",
+      "unique_divination",
+      "unique_jewellery_divination",
       "divination_card",
       "default"
     ],
@@ -46561,6 +48545,10 @@
     "requirements": null,
     "tags": [
       "jewellery_divination",
+      "unique_divination",
+      "unique_jewellery_divination",
+      "unique_corrupted_divination",
+      "corrupted_divination",
       "divination_card",
       "default"
     ],
@@ -46587,6 +48575,8 @@
     "requirements": null,
     "tags": [
       "jewellery_divination",
+      "unique_divination",
+      "unique_jewellery_divination",
       "divination_card",
       "default"
     ],
@@ -46639,6 +48629,10 @@
     "requirements": null,
     "tags": [
       "jewellery_divination",
+      "unique_divination",
+      "corrupted_divination",
+      "unique_corrupted_divination",
+      "unique_jewellery_divination",
       "divination_card",
       "default"
     ],
@@ -46665,6 +48659,10 @@
     "requirements": null,
     "tags": [
       "armour_divination",
+      "unique_divination",
+      "corrupted_divination",
+      "unique_corrupted_divination",
+      "unique_armour_divination",
       "divination_card",
       "default"
     ],
@@ -46690,6 +48688,8 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "maps_divination",
+      "corrupted_divination",
       "divination_card",
       "default"
     ],
@@ -46716,6 +48716,8 @@
     "requirements": null,
     "tags": [
       "elder_divination",
+      "maps_divination",
+      "corrupted_divination",
       "divination_card",
       "default"
     ],
@@ -46742,6 +48744,8 @@
     "requirements": null,
     "tags": [
       "jewellery_divination",
+      "unique_divination",
+      "unique_jewellery_divination",
       "divination_card",
       "default"
     ],
@@ -46768,6 +48772,8 @@
     "requirements": null,
     "tags": [
       "jewellery_divination",
+      "unique_divination",
+      "unique_jewellery_divination",
       "divination_card",
       "default"
     ],
@@ -46793,6 +48799,9 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "unique_divination",
+      "maps_divination",
+      "maps_unique_divination",
       "divination_card",
       "default"
     ],
@@ -46819,6 +48828,7 @@
     "requirements": null,
     "tags": [
       "shaper_divination",
+      "unique_divination",
       "divination_card",
       "default"
     ],
@@ -46844,6 +48854,8 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "currency_divination",
+      "currency_league_divination",
       "divination_card",
       "default"
     ],
@@ -46870,6 +48882,8 @@
     "requirements": null,
     "tags": [
       "armour_divination",
+      "unique_divination",
+      "unique_armour_divination",
       "divination_card",
       "default"
     ],
@@ -46895,6 +48909,8 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "currency_divination",
+      "currency_league_divination",
       "divination_card",
       "default"
     ],
@@ -46946,12 +48962,42 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "gems_divination",
+      "gems_quality_divination",
       "divination_card",
       "default"
     ],
     "visual_identity": {
       "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
       "id": "TheRealm"
+    }
+  },
+  "Metadata/Items/DivinationCards/DivinationCardTheReturnOfTheRat": {
+    "domain": "undefined",
+    "drop_level": 50,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "The Return of the Rat",
+    "properties": {
+      "description": "<uniqueitem>{Tavukai}",
+      "directions": "",
+      "stack_size": 3,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "jewellery_divination",
+      "unique_divination",
+      "unique_jewellery_divination",
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardTheReturnOfTheRat"
     }
   },
   "Metadata/Items/DivinationCards/DivinationCardTheRisk": {
@@ -46972,6 +49018,8 @@
     "requirements": null,
     "tags": [
       "jewellery_divination",
+      "unique_divination",
+      "unique_jewellery_divination",
       "divination_card",
       "default"
     ],
@@ -46997,6 +49045,9 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "gems_divination",
+      "gems_levelled_divination",
+      "corrupted_divination",
       "divination_card",
       "default"
     ],
@@ -47049,6 +49100,10 @@
     "requirements": null,
     "tags": [
       "jewellery_divination",
+      "unique_divination",
+      "unique_jewellery_divination",
+      "unique_corrupted_divination",
+      "corrupted_divination",
       "divination_card",
       "default"
     ],
@@ -47100,6 +49155,8 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "currency_divination",
+      "currency_basic_divination",
       "divination_card",
       "default"
     ],
@@ -47127,6 +49184,8 @@
     "tags": [
       "jewellery_divination",
       "elder_divination",
+      "unique_divination",
+      "unique_jewellery_divination",
       "divination_card",
       "default"
     ],
@@ -47153,6 +49212,8 @@
     "requirements": null,
     "tags": [
       "armour_divination",
+      "unique_divination",
+      "unique_armour_divination",
       "divination_card",
       "default"
     ],
@@ -47179,6 +49240,8 @@
     "requirements": null,
     "tags": [
       "armour_divination",
+      "unique_divination",
+      "unique_armour_divination",
       "divination_card",
       "default"
     ],
@@ -47204,6 +49267,8 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "currency_divination",
+      "currency_basic_divination",
       "divination_card",
       "default"
     ],
@@ -47229,6 +49294,8 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "currency_divination",
+      "currency_basic_divination",
       "divination_card",
       "default"
     ],
@@ -47254,6 +49321,8 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "currency_divination",
+      "currency_basic_divination",
       "divination_card",
       "default"
     ],
@@ -47279,6 +49348,8 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "currency_divination",
+      "currency_basic_divination",
       "divination_card",
       "default"
     ],
@@ -47305,6 +49376,10 @@
     "requirements": null,
     "tags": [
       "armour_divination",
+      "unique_divination",
+      "unique_armour_divination",
+      "unique_corrupted_divination",
+      "corrupted_divination",
       "divination_card",
       "default"
     ],
@@ -47331,6 +49406,8 @@
     "requirements": null,
     "tags": [
       "armour_divination",
+      "unique_divination",
+      "unique_armour_divination",
       "divination_card",
       "default"
     ],
@@ -47381,6 +49458,8 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "currency_divination",
+      "currency_basic_divination",
       "divination_card",
       "default"
     ],
@@ -47433,6 +49512,10 @@
     "requirements": null,
     "tags": [
       "weapon_divination",
+      "unique_divination",
+      "unique_weapon_divination",
+      "unique_corrupted_divination",
+      "corrupted_divination",
       "divination_card",
       "default"
     ],
@@ -47458,6 +49541,9 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "corrupted_divination",
+      "gems_divination",
+      "gems_quality_divination",
       "divination_card",
       "default"
     ],
@@ -47468,7 +49554,7 @@
   },
   "Metadata/Items/DivinationCards/DivinationCardTheSoul": {
     "domain": "undefined",
-    "drop_level": 49,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -47484,6 +49570,8 @@
     "requirements": null,
     "tags": [
       "weapon_divination",
+      "unique_divination",
+      "unique_weapon_divination",
       "divination_card",
       "default"
     ],
@@ -47510,6 +49598,8 @@
     "requirements": null,
     "tags": [
       "jewellery_divination",
+      "unique_divination",
+      "unique_jewellery_divination",
       "divination_card",
       "default"
     ],
@@ -47562,6 +49652,8 @@
     "requirements": null,
     "tags": [
       "jewellery_divination",
+      "unique_divination",
+      "unique_jewellery_divination",
       "divination_card",
       "default"
     ],
@@ -47588,6 +49680,8 @@
     "requirements": null,
     "tags": [
       "weapon_divination",
+      "unique_divination",
+      "unique_weapon_divination",
       "divination_card",
       "default"
     ],
@@ -47614,6 +49708,10 @@
     "requirements": null,
     "tags": [
       "jewellery_divination",
+      "unique_divination",
+      "corrupted_divination",
+      "unique_corrupted_divination",
+      "unique_jewellery_divination",
       "divination_card",
       "default"
     ],
@@ -47639,6 +49737,8 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "gems_divination",
+      "gems_quality_divination",
       "divination_card",
       "default"
     ],
@@ -47665,6 +49765,8 @@
     "requirements": null,
     "tags": [
       "armour_divination",
+      "unique_divination",
+      "unique_armour_divination",
       "divination_card",
       "default"
     ],
@@ -47715,6 +49817,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "maps_divination",
       "divination_card",
       "default"
     ],
@@ -47740,6 +49843,8 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "currency_divination",
+      "currency_basic_divination",
       "divination_card",
       "default"
     ],
@@ -47757,7 +49862,7 @@
     "item_class": "DivinationCard",
     "name": "The Sustenance",
     "properties": {
-      "description": "<uniqueitem>{Energy From Within}\r\n<corrupted>{Two-Implicit}\r\n<corrupted>{Corrupted}",
+      "description": "Disabled",
       "directions": "",
       "stack_size": 3,
       "stack_size_currency_tab": 5000
@@ -47766,6 +49871,10 @@
     "requirements": null,
     "tags": [
       "jewellery_divination",
+      "unique_divination",
+      "corrupted_divination",
+      "unique_corrupted_divination",
+      "unique_jewellery_divination",
       "divination_card",
       "default"
     ],
@@ -47792,6 +49901,8 @@
     "requirements": null,
     "tags": [
       "jewellery_divination",
+      "unique_divination",
+      "unique_jewellery_divination",
       "divination_card",
       "default"
     ],
@@ -47818,6 +49929,10 @@
     "requirements": null,
     "tags": [
       "jewellery_divination",
+      "unique_divination",
+      "unique_jewellery_divination",
+      "unique_corrupted_divination",
+      "corrupted_divination",
       "divination_card",
       "default"
     ],
@@ -47844,6 +49959,10 @@
     "requirements": null,
     "tags": [
       "armour_divination",
+      "unique_divination",
+      "unique_armour_divination",
+      "unique_corrupted_divination",
+      "corrupted_divination",
       "divination_card",
       "default"
     ],
@@ -47869,6 +49988,8 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "currency_divination",
+      "currency_league_divination",
       "divination_card",
       "default"
     ],
@@ -47894,6 +50015,8 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "currency_divination",
+      "currency_league_divination",
       "divination_card",
       "default"
     ],
@@ -47920,6 +50043,8 @@
     "requirements": null,
     "tags": [
       "weapon_divination",
+      "unique_divination",
+      "unique_weapon_divination",
       "divination_card",
       "default"
     ],
@@ -47946,6 +50071,10 @@
     "requirements": null,
     "tags": [
       "weapon_divination",
+      "unique_divination",
+      "unique_weapon_divination",
+      "unique_corrupted_divination",
+      "corrupted_divination",
       "divination_card",
       "default"
     ],
@@ -47963,7 +50092,7 @@
     "item_class": "DivinationCard",
     "name": "The Transformation",
     "properties": {
-      "description": "Disabled",
+      "description": "<currencyitem>{Tainted Mythic Orb}",
       "directions": "",
       "stack_size": 5,
       "stack_size_currency_tab": 5000
@@ -47971,6 +50100,8 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "currency_divination",
+      "currency_exotic_divination",
       "divination_card",
       "default"
     ],
@@ -47996,6 +50127,8 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "maps_divination",
+      "unique_corrupted_divination",
       "divination_card",
       "default"
     ],
@@ -48047,6 +50180,9 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "unique_divination",
+      "maps_divination",
+      "maps_unique_divination",
       "divination_card",
       "default"
     ],
@@ -48124,6 +50260,9 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "unique_divination",
+      "unique_corrupted_divination",
+      "corrupted_divination",
       "divination_card",
       "default"
     ],
@@ -48168,7 +50307,7 @@
     "item_class": "DivinationCard",
     "name": "The Unexpected Prize",
     "properties": {
-      "description": "<size:29>{<uniqueitem>{Attribute Transforming Jewel}}",
+      "description": "<size:29>{<uniqueitem>{Attribute Transforming Jewel}}\r\n<size:29>{<corrupted>{Corrupted}}",
       "directions": "",
       "stack_size": 2,
       "stack_size_currency_tab": 5000
@@ -48177,6 +50316,8 @@
     "requirements": null,
     "tags": [
       "jewellery_divination",
+      "unique_divination",
+      "unique_jewellery_divination",
       "divination_card",
       "default"
     ],
@@ -48202,6 +50343,8 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "currency_divination",
+      "currency_basic_divination",
       "divination_card",
       "default"
     ],
@@ -48227,6 +50370,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "unique_divination",
       "divination_card",
       "default"
     ],
@@ -48278,6 +50422,8 @@
     "requirements": null,
     "tags": [
       "weapon_divination",
+      "unique_divination",
+      "unique_weapon_divination",
       "divination_card",
       "default"
     ],
@@ -48304,6 +50450,8 @@
     "requirements": null,
     "tags": [
       "armour_divination",
+      "unique_divination",
+      "unique_armour_divination",
       "divination_card",
       "default"
     ],
@@ -48355,6 +50503,7 @@
     "requirements": null,
     "tags": [
       "jewellery_divination",
+      "corrupted_divination",
       "divination_card",
       "default"
     ],
@@ -48407,6 +50556,8 @@
     "requirements": null,
     "tags": [
       "armour_divination",
+      "unique_divination",
+      "unique_armour_divination",
       "divination_card",
       "default"
     ],
@@ -48439,6 +50590,34 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
       "id": "TheWeb"
+    }
+  },
+  "Metadata/Items/DivinationCards/DivinationCardTheWeddingGift": {
+    "domain": "undefined",
+    "drop_level": 53,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "DivinationCard",
+    "name": "The Wedding Gift",
+    "properties": {
+      "description": "<uniqueitem>{Arakaali's Fang}",
+      "directions": "",
+      "stack_size": 2,
+      "stack_size_currency_tab": 5000
+    },
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "weapon_divination",
+      "unique_divination",
+      "unique_weapon_divination",
+      "divination_card",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Divination/InventoryIcon.dds",
+      "id": "DivinationCardTheWeddingGift"
     }
   },
   "Metadata/Items/DivinationCards/DivinationCardTheWhiteKnight": {
@@ -48485,6 +50664,8 @@
     "requirements": null,
     "tags": [
       "weapon_divination",
+      "unique_divination",
+      "unique_weapon_divination",
       "divination_card",
       "default"
     ],
@@ -48510,6 +50691,9 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "gems_divination",
+      "gems_levelled_divination",
+      "corrupted_divination",
       "divination_card",
       "default"
     ],
@@ -48536,6 +50720,8 @@
     "requirements": null,
     "tags": [
       "weapon_divination",
+      "unique_divination",
+      "unique_weapon_divination",
       "divination_card",
       "default"
     ],
@@ -48561,6 +50747,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "unique_divination",
       "divination_card",
       "default"
     ],
@@ -48586,6 +50773,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "unique_divination",
       "divination_card",
       "default"
     ],
@@ -48611,6 +50799,9 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "maps_divination",
+      "unique_divination",
+      "maps_unique_divination",
       "divination_card",
       "default"
     ],
@@ -48637,6 +50828,8 @@
     "requirements": null,
     "tags": [
       "weapon_divination",
+      "unique_divination",
+      "unique_weapon_divination",
       "divination_card",
       "default"
     ],
@@ -48662,6 +50855,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "unique_divination",
       "divination_card",
       "default"
     ],
@@ -48688,6 +50882,10 @@
     "requirements": null,
     "tags": [
       "weapon_divination",
+      "unique_divination",
+      "unique_weapon_divination",
+      "unique_corrupted_divination",
+      "corrupted_divination",
       "divination_card",
       "default"
     ],
@@ -48715,6 +50913,8 @@
     "tags": [
       "weapon_divination",
       "shaper_divination",
+      "unique_divination",
+      "unique_weapon_divination",
       "divination_card",
       "default"
     ],
@@ -48740,6 +50940,8 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "currency_divination",
+      "currency_basic_divination",
       "divination_card",
       "default"
     ],
@@ -48766,6 +50968,8 @@
     "requirements": null,
     "tags": [
       "jewellery_divination",
+      "unique_divination",
+      "unique_jewellery_divination",
       "divination_card",
       "default"
     ],
@@ -48792,6 +50996,8 @@
     "requirements": null,
     "tags": [
       "jewellery_divination",
+      "unique_divination",
+      "unique_jewellery_divination",
       "divination_card",
       "default"
     ],
@@ -48817,6 +51023,8 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "currency_divination",
+      "currency_basic_divination",
       "divination_card",
       "default"
     ],
@@ -48842,6 +51050,8 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "currency_divination",
+      "currency_league_divination",
       "divination_card",
       "default"
     ],
@@ -48868,6 +51078,8 @@
     "requirements": null,
     "tags": [
       "weapon_divination",
+      "unique_divination",
+      "unique_weapon_divination",
       "divination_card",
       "default"
     ],
@@ -48893,6 +51105,7 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "unique_divination",
       "divination_card",
       "default"
     ],
@@ -48919,6 +51132,8 @@
     "requirements": null,
     "tags": [
       "weapon_divination",
+      "unique_divination",
+      "unique_weapon_divination",
       "divination_card",
       "default"
     ],
@@ -48944,6 +51159,11 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "unique_divination",
+      "unique_corrupted_divination",
+      "maps_divination",
+      "maps_unique_divination",
+      "corrupted_divination",
       "divination_card",
       "default"
     ],
@@ -48969,6 +51189,10 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "unique_divination",
+      "corrupted_divination",
+      "unique_corrupted_divination",
+      "unique_jewellery_divination",
       "divination_card",
       "default"
     ],
@@ -48994,6 +51218,8 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "maps_divination",
+      "corrupted_divination",
       "divination_card",
       "default"
     ],
@@ -49020,6 +51246,10 @@
     "requirements": null,
     "tags": [
       "jewellery_divination",
+      "unique_divination",
+      "unique_jewellery_divination",
+      "unique_corrupted_divination",
+      "corrupted_divination",
       "divination_card",
       "default"
     ],
@@ -49046,6 +51276,10 @@
     "requirements": null,
     "tags": [
       "armour_divination",
+      "unique_divination",
+      "corrupted_divination",
+      "unique_corrupted_divination",
+      "unique_armour_divination",
       "divination_card",
       "default"
     ],
@@ -49071,6 +51305,8 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "currency_divination",
+      "currency_basic_divination",
       "divination_card",
       "default"
     ],
@@ -49096,6 +51332,8 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "currency_divination",
+      "currency_basic_divination",
       "divination_card",
       "default"
     ],
@@ -49122,6 +51360,10 @@
     "requirements": null,
     "tags": [
       "armour_divination",
+      "unique_divination",
+      "corrupted_divination",
+      "unique_corrupted_divination",
+      "unique_armour_divination",
       "divination_card",
       "default"
     ],
@@ -49139,7 +51381,7 @@
     "item_class": "DivinationCard",
     "name": "Vile Power",
     "properties": {
-      "description": "Disabled",
+      "description": "<uniqueitem>{Doomfletch}",
       "directions": "",
       "stack_size": 5,
       "stack_size_currency_tab": 5000
@@ -49172,6 +51414,8 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "currency_divination",
+      "currency_basic_divination",
       "divination_card",
       "default"
     ],
@@ -49224,6 +51468,9 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "gems_divination",
+      "gems_quality_divination",
+      "corrupted_divination",
       "divination_card",
       "default"
     ],
@@ -49249,6 +51496,9 @@
     "release_state": "released",
     "requirements": null,
     "tags": [
+      "gems_divination",
+      "gems_levelled_divination",
+      "corrupted_divination",
       "divination_card",
       "default"
     ],
@@ -49275,6 +51525,8 @@
     "requirements": null,
     "tags": [
       "jewellery_divination",
+      "unique_divination",
+      "unique_jewellery_divination",
       "divination_card",
       "default"
     ],
@@ -50786,9 +53038,7 @@
     "drop_level": 40,
     "grants_buff": {
       "id": "flask_utility_haste",
-      "stats": {
-        "has_onslaught": 1
-      }
+      "stats": {}
     },
     "implicits": [],
     "inventory_height": 2,
@@ -50804,7 +53054,6 @@
     "requirements": null,
     "tags": [
       "not_for_sale",
-      "no_effect_flask_mod",
       "utility_flask",
       "flask",
       "default"
@@ -55018,6 +57267,26 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Gems/FrostblinkSkillGem.dds",
       "id": "SkillGemFrostblink"
+    }
+  },
+  "Metadata/Items/Gems/SkillGemFrozenLegion": {
+    "domain": "undefined",
+    "drop_level": 34,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "Frozen Legion",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/FrozenLegionSkillGem.dds",
+      "id": "SkillGemFrozenLegion"
     }
   },
   "Metadata/Items/Gems/SkillGemGalvanicField": {
@@ -59470,6 +61739,50 @@
       "id": "SkillGemVaalBurningArrow"
     }
   },
+  "Metadata/Items/Gems/SkillGemVaalCausticArrow": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "Vaal Caustic Arrow",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "up_to_level_2_gem",
+      "up_to_level_8_gem",
+      "vaal_gem",
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/VaalGems/VaalPoisonArrow.dds",
+      "id": "SkillGemVaalCausticArrow"
+    }
+  },
+  "Metadata/Items/Gems/SkillGemVaalChargedAttack": {
+    "domain": "undefined",
+    "drop_level": 28,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "Vaal Blade Flurry",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "vaal_gem",
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/VaalGems/VaalBladeFlurry.dds",
+      "id": "SkillGemVaalChargedAttack"
+    }
+  },
   "Metadata/Items/Gems/SkillGemVaalClarity": {
     "domain": "undefined",
     "drop_level": 10,
@@ -59489,6 +61802,29 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Gems/VaalGems/VaalClarity.dds",
       "id": "SkillGemVaalClarity"
+    }
+  },
+  "Metadata/Items/Gems/SkillGemVaalCleave": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "Vaal Cleave",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "up_to_level_2_gem",
+      "up_to_level_8_gem",
+      "vaal_gem",
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/VaalGems/VaalCleave.dds",
+      "id": "SkillGemVaalCleave_"
     }
   },
   "Metadata/Items/Gems/SkillGemVaalColdResistAura": {
@@ -59744,6 +62080,27 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Gems/FleshOffering.dds",
       "id": "SkillGemFleshOffering"
+    }
+  },
+  "Metadata/Items/Gems/SkillGemVaalFlickerStrike": {
+    "domain": "undefined",
+    "drop_level": 10,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "Vaal Flicker Strike",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "vaal_gem",
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/VaalGems/VaalFlickerStrike.dds",
+      "id": "SkillGemVaalFlickerStrike"
     }
   },
   "Metadata/Items/Gems/SkillGemVaalGlacialHammer": {
@@ -60002,6 +62359,28 @@
       "id": "SkillGemVaalMoltenShell"
     }
   },
+  "Metadata/Items/Gems/SkillGemVaalMoltenStrike": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "Vaal Molten Strike",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "up_to_level_8_gem",
+      "vaal_gem",
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/VaalGems/VaalMoltenStrike.dds",
+      "id": "SkillGemVaalMoltenStrike"
+    }
+  },
   "Metadata/Items/Gems/SkillGemVaalPortal": {
     "domain": "undefined",
     "drop_level": 10,
@@ -60106,6 +62485,29 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Gems/VaalGems/VaalRighteousFire.dds",
       "id": "SkillGemVaalRighteousFire"
+    }
+  },
+  "Metadata/Items/Gems/SkillGemVaalSmite": {
+    "domain": "undefined",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "Vaal Smite",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "up_to_level_2_gem",
+      "up_to_level_8_gem",
+      "vaal_gem",
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/VaalGems/VaalSmite.dds",
+      "id": "SkillGemVaalSmite"
     }
   },
   "Metadata/Items/Gems/SkillGemVaalSpark": {
@@ -60213,6 +62615,48 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Gems/VaalGems/VaalGhostlyThrow.dds",
       "id": "SkillGemVaalSpectralThrow"
+    }
+  },
+  "Metadata/Items/Gems/SkillGemVaalVenomGyre": {
+    "domain": "undefined",
+    "drop_level": 12,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "Vaal Venom Gyre",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "vaal_gem",
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/VaalGems/VaalSnappingAdder.dds",
+      "id": "SkillGemVaalSnappingAdder"
+    }
+  },
+  "Metadata/Items/Gems/SkillGemVaalVolcanicFissure": {
+    "domain": "undefined",
+    "drop_level": 12,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "Vaal Volcanic Fissure",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "vaal_gem",
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/VaalGems/VaalVolcanicFissureSkillGem.dds",
+      "id": "SkillGemVaalVolcanicFissure"
     }
   },
   "Metadata/Items/Gems/SkillGemVampiricLink": {
@@ -60456,6 +62900,26 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Gems/VolatileDead.dds",
       "id": "SkillGemVolatileDead"
+    }
+  },
+  "Metadata/Items/Gems/SkillGemVolcanicFissure": {
+    "domain": "undefined",
+    "drop_level": 12,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Active Skill Gem",
+    "name": "Volcanic Fissure",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/VolcanicFissureSkillGem.dds",
+      "id": "SkillGemVolcanicFissure"
     }
   },
   "Metadata/Items/Gems/SkillGemVoltaxicBurst": {
@@ -62219,6 +64683,27 @@
       "id": "SupportGemCurseOnHitPlus"
     }
   },
+  "Metadata/Items/Gems/SupportGemCursedGround": {
+    "domain": "undefined",
+    "drop_level": 31,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Support Skill Gem",
+    "name": "Cursed Ground Support",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "support_gem",
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/Support/HexZoneSupport.dds",
+      "id": "SupportGemCursedGround"
+    }
+  },
   "Metadata/Items/Gems/SupportGemDamageAgainstChilled": {
     "domain": "undefined",
     "drop_level": 31,
@@ -63170,6 +65655,27 @@
     "visual_identity": {
       "dds_file": "Art/2DItems/Gems/Support/SpellFocusSupport.dds",
       "id": "SupportGemSpellFocus"
+    }
+  },
+  "Metadata/Items/Gems/SupportGemHexBloom": {
+    "domain": "undefined",
+    "drop_level": 38,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 1,
+    "item_class": "Support Skill Gem",
+    "name": "Hex Bloom Support",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "support_gem",
+      "gem",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Gems/HexSpreadingSupport.dds",
+      "id": "SupportGemHexBloom"
     }
   },
   "Metadata/Items/Gems/SupportGemHighImpactMineSupport": {
@@ -70896,7 +73402,7 @@
   },
   "Metadata/Items/MapFragments/CurrencyVaalFragment2_1": {
     "domain": "undefined",
-    "drop_level": 70,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -70921,7 +73427,7 @@
   },
   "Metadata/Items/MapFragments/CurrencyVaalFragment2_2": {
     "domain": "undefined",
-    "drop_level": 70,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -70946,7 +73452,7 @@
   },
   "Metadata/Items/MapFragments/CurrencyVaalFragment2_3": {
     "domain": "undefined",
-    "drop_level": 70,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -70971,7 +73477,7 @@
   },
   "Metadata/Items/MapFragments/CurrencyVaalFragment2_4": {
     "domain": "undefined",
-    "drop_level": 70,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -72096,7 +74602,7 @@
   },
   "Metadata/Items/MapFragments/VaalFragment2_1": {
     "domain": "map_device",
-    "drop_level": 70,
+    "drop_level": 68,
     "implicits": [
       "VaalFragmentImplicit2"
     ],
@@ -72118,7 +74624,7 @@
   },
   "Metadata/Items/MapFragments/VaalFragment2_2": {
     "domain": "map_device",
-    "drop_level": 70,
+    "drop_level": 68,
     "implicits": [
       "VaalFragmentImplicit2"
     ],
@@ -72140,7 +74646,7 @@
   },
   "Metadata/Items/MapFragments/VaalFragment2_3": {
     "domain": "map_device",
-    "drop_level": 70,
+    "drop_level": 68,
     "implicits": [
       "VaalFragmentImplicit2"
     ],
@@ -72162,7 +74668,7 @@
   },
   "Metadata/Items/MapFragments/VaalFragment2_4": {
     "domain": "map_device",
-    "drop_level": 70,
+    "drop_level": 68,
     "implicits": [
       "VaalFragmentImplicit2"
     ],
@@ -83753,7 +86259,7 @@
     }
   },
   "Metadata/Items/MemoryLines/MemoryLineAlva": {
-    "domain": "memory",
+    "domain": "memory_lines",
     "drop_level": 81,
     "implicits": [],
     "inventory_height": 1,
@@ -83774,7 +86280,7 @@
     }
   },
   "Metadata/Items/MemoryLines/MemoryLineEinhar": {
-    "domain": "memory",
+    "domain": "memory_lines",
     "drop_level": 81,
     "implicits": [],
     "inventory_height": 1,
@@ -83795,7 +86301,7 @@
     }
   },
   "Metadata/Items/MemoryLines/MemoryLineKirac": {
-    "domain": "memory",
+    "domain": "memory_lines",
     "drop_level": 81,
     "implicits": [],
     "inventory_height": 1,
@@ -83816,7 +86322,7 @@
     }
   },
   "Metadata/Items/MemoryLines/MemoryLineNiko": {
-    "domain": "memory",
+    "domain": "memory_lines",
     "drop_level": 81,
     "implicits": [],
     "inventory_height": 1,
@@ -87394,6 +89900,206 @@
       "id": "QuiverNew9"
     }
   },
+  "Metadata/Items/Relics/Relic1x2": {
+    "domain": "unknown2",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 2,
+    "inventory_width": 1,
+    "item_class": "Relic",
+    "name": "Censer Relic",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "small_sanctum_relic",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Relics/RelicBase1x2.dds",
+      "id": "SanctumRelic1x2"
+    }
+  },
+  "Metadata/Items/Relics/Relic1x3": {
+    "domain": "unknown2",
+    "drop_level": 60,
+    "implicits": [],
+    "inventory_height": 3,
+    "inventory_width": 1,
+    "item_class": "Relic",
+    "name": "Processional Relic",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "medium_sanctum_relic",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Relics/RelicBase1x3.dds",
+      "id": "SanctumRelic1x3"
+    }
+  },
+  "Metadata/Items/Relics/Relic1x4": {
+    "domain": "unknown2",
+    "drop_level": 75,
+    "implicits": [],
+    "inventory_height": 4,
+    "inventory_width": 1,
+    "item_class": "Relic",
+    "name": "Candlestick Relic",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "large_sanctum_relic",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Relics/RelicBase1x4.dds",
+      "id": "SanctumRelic1x4"
+    }
+  },
+  "Metadata/Items/Relics/Relic2x1": {
+    "domain": "unknown2",
+    "drop_level": 1,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 2,
+    "item_class": "Relic",
+    "name": "Urn Relic",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "small_sanctum_relic",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Relics/RelicBase2x1.dds",
+      "id": "SanctumRelic2x1"
+    }
+  },
+  "Metadata/Items/Relics/Relic2x2": {
+    "domain": "unknown2",
+    "drop_level": 45,
+    "implicits": [],
+    "inventory_height": 2,
+    "inventory_width": 2,
+    "item_class": "Relic",
+    "name": "Coffer Relic",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "large_sanctum_relic",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Relics/RelicBase2x2.dds",
+      "id": "SanctumRelic2x2"
+    }
+  },
+  "Metadata/Items/Relics/Relic3x1": {
+    "domain": "unknown2",
+    "drop_level": 60,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 3,
+    "item_class": "Relic",
+    "name": "Tome Relic",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "medium_sanctum_relic",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Relics/RelicBase3x1.dds",
+      "id": "SanctumRelic3x1"
+    }
+  },
+  "Metadata/Items/Relics/Relic4x1": {
+    "domain": "unknown2",
+    "drop_level": 75,
+    "implicits": [],
+    "inventory_height": 1,
+    "inventory_width": 4,
+    "item_class": "Relic",
+    "name": "Papyrus Relic",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "large_sanctum_relic",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Relics/RelicBase4x1.dds",
+      "id": "SanctumRelic4x1"
+    }
+  },
+  "Metadata/Items/Relics/SanctumSpecialRelic1": {
+    "domain": "sanctum_relic",
+    "drop_level": 75,
+    "implicits": [],
+    "inventory_height": 2,
+    "inventory_width": 1,
+    "item_class": "SanctumSpecialRelic",
+    "name": "Sanctified Relic",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "str_special_relic",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Relics/1PlayerRelic.dds",
+      "id": "SanctumSpecialRelic"
+    }
+  },
+  "Metadata/Items/Relics/SanctumSpecialRelic2": {
+    "domain": "sanctum_relic",
+    "drop_level": 75,
+    "implicits": [],
+    "inventory_height": 2,
+    "inventory_width": 1,
+    "item_class": "SanctumSpecialRelic",
+    "name": "Sanctified Relic",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "dex_special_relic",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Relics/2PlayerRelic.dds",
+      "id": "SanctumSpecialRelic2"
+    }
+  },
+  "Metadata/Items/Relics/SanctumSpecialRelic3": {
+    "domain": "sanctum_relic",
+    "drop_level": 75,
+    "implicits": [],
+    "inventory_height": 2,
+    "inventory_width": 1,
+    "item_class": "SanctumSpecialRelic",
+    "name": "Sanctified Relic",
+    "properties": {},
+    "release_state": "released",
+    "requirements": null,
+    "tags": [
+      "int_special_relic",
+      "default"
+    ],
+    "visual_identity": {
+      "dds_file": "Art/2DItems/Relics/3PlayerRelic.dds",
+      "id": "SanctumSpecialRelic3___"
+    }
+  },
   "Metadata/Items/Rings/BreachRing": {
     "domain": "item",
     "drop_level": 1,
@@ -88270,7 +90976,7 @@
   },
   "Metadata/Items/Scarabs/ScarabAbyss1": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -88295,7 +91001,7 @@
   },
   "Metadata/Items/Scarabs/ScarabAbyss2": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -88320,7 +91026,7 @@
   },
   "Metadata/Items/Scarabs/ScarabAbyss3": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -88345,7 +91051,7 @@
   },
   "Metadata/Items/Scarabs/ScarabAbyss4": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -88370,7 +91076,7 @@
   },
   "Metadata/Items/Scarabs/ScarabBeasts1": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -88395,7 +91101,7 @@
   },
   "Metadata/Items/Scarabs/ScarabBeasts2": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -88420,7 +91126,7 @@
   },
   "Metadata/Items/Scarabs/ScarabBeasts3": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -88445,7 +91151,7 @@
   },
   "Metadata/Items/Scarabs/ScarabBeasts4": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -88566,7 +91272,7 @@
   },
   "Metadata/Items/Scarabs/ScarabBlight1": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -88591,7 +91297,7 @@
   },
   "Metadata/Items/Scarabs/ScarabBlight2": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -88616,7 +91322,7 @@
   },
   "Metadata/Items/Scarabs/ScarabBlight3": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -88641,7 +91347,7 @@
   },
   "Metadata/Items/Scarabs/ScarabBlight4": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -88666,7 +91372,7 @@
   },
   "Metadata/Items/Scarabs/ScarabBreach1": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -88691,7 +91397,7 @@
   },
   "Metadata/Items/Scarabs/ScarabBreach2": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -88716,7 +91422,7 @@
   },
   "Metadata/Items/Scarabs/ScarabBreach3": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -88741,7 +91447,7 @@
   },
   "Metadata/Items/Scarabs/ScarabBreach4": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -88766,7 +91472,7 @@
   },
   "Metadata/Items/Scarabs/ScarabDivinationCards1": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -88791,7 +91497,7 @@
   },
   "Metadata/Items/Scarabs/ScarabDivinationCards2": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -88816,7 +91522,7 @@
   },
   "Metadata/Items/Scarabs/ScarabDivinationCards3": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -88841,7 +91547,7 @@
   },
   "Metadata/Items/Scarabs/ScarabDivinationCards4": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -88866,7 +91572,7 @@
   },
   "Metadata/Items/Scarabs/ScarabElderRares1": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -88891,7 +91597,7 @@
   },
   "Metadata/Items/Scarabs/ScarabElderRares2": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -88916,7 +91622,7 @@
   },
   "Metadata/Items/Scarabs/ScarabElderRares3": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -88941,7 +91647,7 @@
   },
   "Metadata/Items/Scarabs/ScarabElderRares4": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -88966,7 +91672,7 @@
   },
   "Metadata/Items/Scarabs/ScarabHarbinger1": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -88991,7 +91697,7 @@
   },
   "Metadata/Items/Scarabs/ScarabHarbinger2": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -89016,7 +91722,7 @@
   },
   "Metadata/Items/Scarabs/ScarabHarbinger3": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -89041,7 +91747,7 @@
   },
   "Metadata/Items/Scarabs/ScarabHarbinger4": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -89066,7 +91772,7 @@
   },
   "Metadata/Items/Scarabs/ScarabLegion1": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -89091,7 +91797,7 @@
   },
   "Metadata/Items/Scarabs/ScarabLegion2": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -89116,7 +91822,7 @@
   },
   "Metadata/Items/Scarabs/ScarabLegion3": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -89141,7 +91847,7 @@
   },
   "Metadata/Items/Scarabs/ScarabLegion4": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -89166,14 +91872,14 @@
   },
   "Metadata/Items/Scarabs/ScarabMaps1": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
     "item_class": "MapFragment",
     "name": "Rusted Cartography Scarab",
     "properties": {
-      "description": "20% more Maps found in Area",
+      "description": "20% increased Maps found in Area",
       "directions": "Can be used in a personal Map Device to add modifiers to a Map.",
       "stack_size": 10,
       "stack_size_currency_tab": 5000
@@ -89191,14 +91897,14 @@
   },
   "Metadata/Items/Scarabs/ScarabMaps2": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
     "item_class": "MapFragment",
     "name": "Polished Cartography Scarab",
     "properties": {
-      "description": "35% more Maps found in Area",
+      "description": "35% increased Maps found in Area",
       "directions": "Can be used in a personal Map Device to add modifiers to a Map.",
       "stack_size": 10,
       "stack_size_currency_tab": 5000
@@ -89216,14 +91922,14 @@
   },
   "Metadata/Items/Scarabs/ScarabMaps3": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
     "item_class": "MapFragment",
     "name": "Gilded Cartography Scarab",
     "properties": {
-      "description": "50% more Maps found in Area",
+      "description": "50% increased Maps found in Area",
       "directions": "Can be used in a personal Map Device to add modifiers to a Map.",
       "stack_size": 10,
       "stack_size_currency_tab": 5000
@@ -89241,14 +91947,14 @@
   },
   "Metadata/Items/Scarabs/ScarabMaps4": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
     "item_class": "MapFragment",
     "name": "Winged Cartography Scarab",
     "properties": {
-      "description": "85% more Maps found in Area",
+      "description": "85% increased Maps found in Area",
       "directions": "Can be used in a personal Map Device to add modifiers to a Map.",
       "stack_size": 10,
       "stack_size_currency_tab": 5000
@@ -89266,7 +91972,7 @@
   },
   "Metadata/Items/Scarabs/ScarabMetamorph1": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -89291,7 +91997,7 @@
   },
   "Metadata/Items/Scarabs/ScarabMetamorph2": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -89316,7 +92022,7 @@
   },
   "Metadata/Items/Scarabs/ScarabMetamorph3": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -89341,7 +92047,7 @@
   },
   "Metadata/Items/Scarabs/ScarabMetamorph4": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -89366,7 +92072,7 @@
   },
   "Metadata/Items/Scarabs/ScarabPerandus1": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -89391,7 +92097,7 @@
   },
   "Metadata/Items/Scarabs/ScarabPerandus2": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -89416,7 +92122,7 @@
   },
   "Metadata/Items/Scarabs/ScarabPerandus3": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -89441,7 +92147,7 @@
   },
   "Metadata/Items/Scarabs/ScarabPerandus4": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -89466,7 +92172,7 @@
   },
   "Metadata/Items/Scarabs/ScarabShaperRares1": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -89491,7 +92197,7 @@
   },
   "Metadata/Items/Scarabs/ScarabShaperRares2": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -89516,7 +92222,7 @@
   },
   "Metadata/Items/Scarabs/ScarabShaperRares3": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -89541,7 +92247,7 @@
   },
   "Metadata/Items/Scarabs/ScarabShaperRares4": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -89566,7 +92272,7 @@
   },
   "Metadata/Items/Scarabs/ScarabStrongbox1": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -89591,7 +92297,7 @@
   },
   "Metadata/Items/Scarabs/ScarabStrongbox2": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -89616,7 +92322,7 @@
   },
   "Metadata/Items/Scarabs/ScarabStrongbox3": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -89641,7 +92347,7 @@
   },
   "Metadata/Items/Scarabs/ScarabStrongbox4": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -89666,7 +92372,7 @@
   },
   "Metadata/Items/Scarabs/ScarabSulphite1": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -89691,7 +92397,7 @@
   },
   "Metadata/Items/Scarabs/ScarabSulphite2": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -89716,7 +92422,7 @@
   },
   "Metadata/Items/Scarabs/ScarabSulphite3": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -89741,7 +92447,7 @@
   },
   "Metadata/Items/Scarabs/ScarabSulphite4": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -89766,7 +92472,7 @@
   },
   "Metadata/Items/Scarabs/ScarabTorment1": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -89791,7 +92497,7 @@
   },
   "Metadata/Items/Scarabs/ScarabTorment2": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -89816,7 +92522,7 @@
   },
   "Metadata/Items/Scarabs/ScarabTorment3": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -89841,7 +92547,7 @@
   },
   "Metadata/Items/Scarabs/ScarabTorment4": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -89866,7 +92572,7 @@
   },
   "Metadata/Items/Scarabs/ScarabUniques1": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -89891,7 +92597,7 @@
   },
   "Metadata/Items/Scarabs/ScarabUniques2": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -89916,7 +92622,7 @@
   },
   "Metadata/Items/Scarabs/ScarabUniques3": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -89941,7 +92647,7 @@
   },
   "Metadata/Items/Scarabs/ScarabUniques4": {
     "domain": "undefined",
-    "drop_level": 1,
+    "drop_level": 68,
     "implicits": [],
     "inventory_height": 1,
     "inventory_width": 1,
@@ -90965,6 +93671,7 @@
       "strength": 0
     },
     "tags": [
+      "top_tier_base_item_type",
       "claw",
       "one_hand_weapon",
       "onehand",
@@ -91037,6 +93744,7 @@
       "strength": 0
     },
     "tags": [
+      "top_tier_base_item_type",
       "claw",
       "one_hand_weapon",
       "onehand",
@@ -91073,6 +93781,7 @@
       "strength": 0
     },
     "tags": [
+      "top_tier_base_item_type",
       "claw",
       "one_hand_weapon",
       "onehand",
@@ -91109,6 +93818,7 @@
       "strength": 0
     },
     "tags": [
+      "top_tier_base_item_type",
       "claw",
       "one_hand_weapon",
       "onehand",
@@ -91986,6 +94696,7 @@
       "strength": 0
     },
     "tags": [
+      "top_tier_base_item_type",
       "dagger",
       "one_hand_weapon",
       "onehand",
@@ -92059,6 +94770,7 @@
       "strength": 0
     },
     "tags": [
+      "top_tier_base_item_type",
       "dagger",
       "one_hand_weapon",
       "onehand",
@@ -92095,6 +94807,7 @@
       "strength": 0
     },
     "tags": [
+      "top_tier_base_item_type",
       "dagger",
       "one_hand_weapon",
       "onehand",
@@ -92131,6 +94844,7 @@
       "strength": 0
     },
     "tags": [
+      "top_tier_base_item_type",
       "dagger",
       "one_hand_weapon",
       "onehand",
@@ -93137,6 +95851,7 @@
       "strength": 149
     },
     "tags": [
+      "top_tier_base_item_type",
       "axe",
       "one_hand_weapon",
       "onehand",
@@ -93205,6 +95920,7 @@
       "strength": 140
     },
     "tags": [
+      "top_tier_base_item_type",
       "axe",
       "one_hand_weapon",
       "onehand",
@@ -93239,6 +95955,7 @@
       "strength": 167
     },
     "tags": [
+      "top_tier_base_item_type",
       "axe",
       "one_hand_weapon",
       "onehand",
@@ -93273,6 +95990,7 @@
       "strength": 158
     },
     "tags": [
+      "top_tier_base_item_type",
       "axe",
       "one_hand_weapon",
       "onehand",
@@ -94132,6 +96850,7 @@
       "strength": 212
     },
     "tags": [
+      "top_tier_base_item_type",
       "mace",
       "one_hand_weapon",
       "onehand",
@@ -94204,6 +96923,7 @@
       "strength": 212
     },
     "tags": [
+      "top_tier_base_item_type",
       "mace",
       "one_hand_weapon",
       "onehand",
@@ -94240,6 +96960,7 @@
       "strength": 212
     },
     "tags": [
+      "top_tier_base_item_type",
       "mace",
       "one_hand_weapon",
       "onehand",
@@ -94276,6 +96997,7 @@
       "strength": 212
     },
     "tags": [
+      "top_tier_base_item_type",
       "mace",
       "one_hand_weapon",
       "onehand",
@@ -95160,6 +97882,7 @@
     },
     "tags": [
       "sceptre",
+      "top_tier_base_item_type",
       "sceptre",
       "one_hand_weapon",
       "onehand",
@@ -95234,6 +97957,7 @@
     },
     "tags": [
       "sceptre",
+      "top_tier_base_item_type",
       "sceptre",
       "one_hand_weapon",
       "onehand",
@@ -95271,6 +97995,7 @@
     },
     "tags": [
       "sceptre",
+      "top_tier_base_item_type",
       "sceptre",
       "one_hand_weapon",
       "onehand",
@@ -95308,6 +98033,7 @@
     },
     "tags": [
       "sceptre",
+      "top_tier_base_item_type",
       "sceptre",
       "one_hand_weapon",
       "onehand",
@@ -96191,6 +98917,7 @@
       "strength": 122
     },
     "tags": [
+      "top_tier_base_item_type",
       "sword",
       "one_hand_weapon",
       "onehand",
@@ -96263,6 +98990,7 @@
       "strength": 113
     },
     "tags": [
+      "top_tier_base_item_type",
       "sword",
       "one_hand_weapon",
       "onehand",
@@ -96299,6 +99027,7 @@
       "strength": 104
     },
     "tags": [
+      "top_tier_base_item_type",
       "sword",
       "one_hand_weapon",
       "onehand",
@@ -96335,6 +99064,7 @@
       "strength": 113
     },
     "tags": [
+      "top_tier_base_item_type",
       "sword",
       "one_hand_weapon",
       "onehand",
@@ -97256,6 +99986,7 @@
     },
     "tags": [
       "rapier",
+      "top_tier_base_item_type",
       "sword",
       "one_hand_weapon",
       "onehand",
@@ -97330,6 +100061,7 @@
     },
     "tags": [
       "rapier",
+      "top_tier_base_item_type",
       "sword",
       "one_hand_weapon",
       "onehand",
@@ -97367,6 +100099,7 @@
     },
     "tags": [
       "rapier",
+      "top_tier_base_item_type",
       "sword",
       "one_hand_weapon",
       "onehand",
@@ -97404,6 +100137,7 @@
     },
     "tags": [
       "rapier",
+      "top_tier_base_item_type",
       "sword",
       "one_hand_weapon",
       "onehand",
@@ -98001,6 +100735,7 @@
       "strength": 0
     },
     "tags": [
+      "top_tier_base_item_type",
       "wand",
       "ranged",
       "one_hand_weapon",
@@ -98038,6 +100773,7 @@
       "strength": 0
     },
     "tags": [
+      "top_tier_base_item_type",
       "wand",
       "ranged",
       "one_hand_weapon",
@@ -98075,6 +100811,7 @@
       "strength": 0
     },
     "tags": [
+      "top_tier_base_item_type",
       "wand",
       "ranged",
       "one_hand_weapon",
@@ -98448,6 +101185,7 @@
       "atlas_base_type",
       "wandatlas1",
       "weapon_can_roll_minion_modifiers",
+      "top_tier_base_item_type",
       "wand",
       "ranged",
       "one_hand_weapon",
@@ -99182,6 +101920,7 @@
       "strength": 0
     },
     "tags": [
+      "top_tier_base_item_type",
       "bow",
       "ranged",
       "two_hand_weapon",
@@ -99287,6 +102026,7 @@
       "strength": 0
     },
     "tags": [
+      "top_tier_base_item_type",
       "bow",
       "ranged",
       "two_hand_weapon",
@@ -99324,6 +102064,7 @@
       "strength": 0
     },
     "tags": [
+      "top_tier_base_item_type",
       "bow",
       "ranged",
       "two_hand_weapon",
@@ -99361,6 +102102,7 @@
       "strength": 0
     },
     "tags": [
+      "top_tier_base_item_type",
       "bow",
       "ranged",
       "two_hand_weapon",
@@ -100103,6 +102845,7 @@
       "strength": 113
     },
     "tags": [
+      "top_tier_base_item_type",
       "staff",
       "two_hand_weapon",
       "twohand",
@@ -100140,6 +102883,7 @@
     },
     "tags": [
       "warstaff",
+      "top_tier_base_item_type",
       "staff",
       "attack_staff",
       "two_hand_weapon",
@@ -100178,6 +102922,7 @@
     },
     "tags": [
       "warstaff",
+      "top_tier_base_item_type",
       "staff",
       "attack_staff",
       "two_hand_weapon",
@@ -100215,6 +102960,7 @@
       "strength": 113
     },
     "tags": [
+      "top_tier_base_item_type",
       "staff",
       "two_hand_weapon",
       "twohand",
@@ -100252,6 +102998,7 @@
     },
     "tags": [
       "warstaff",
+      "top_tier_base_item_type",
       "staff",
       "attack_staff",
       "two_hand_weapon",
@@ -101160,6 +103907,7 @@
       "strength": 140
     },
     "tags": [
+      "top_tier_base_item_type",
       "axe",
       "two_hand_weapon",
       "twohand",
@@ -101196,6 +103944,7 @@
       "strength": 158
     },
     "tags": [
+      "top_tier_base_item_type",
       "axe",
       "two_hand_weapon",
       "twohand",
@@ -101230,6 +103979,7 @@
       "strength": 140
     },
     "tags": [
+      "top_tier_base_item_type",
       "axe",
       "two_hand_weapon",
       "twohand",
@@ -101264,6 +104014,7 @@
       "strength": 149
     },
     "tags": [
+      "top_tier_base_item_type",
       "axe",
       "two_hand_weapon",
       "twohand",
@@ -102049,6 +104800,7 @@
       "strength": 212
     },
     "tags": [
+      "top_tier_base_item_type",
       "mace",
       "two_hand_weapon",
       "twohand",
@@ -102085,6 +104837,7 @@
       "strength": 212
     },
     "tags": [
+      "top_tier_base_item_type",
       "mace",
       "two_hand_weapon",
       "twohand",
@@ -102121,6 +104874,7 @@
       "strength": 212
     },
     "tags": [
+      "top_tier_base_item_type",
       "mace",
       "two_hand_weapon",
       "twohand",
@@ -102157,6 +104911,7 @@
       "strength": 212
     },
     "tags": [
+      "top_tier_base_item_type",
       "mace",
       "two_hand_weapon",
       "twohand",
@@ -102995,6 +105750,7 @@
       "strength": 113
     },
     "tags": [
+      "top_tier_base_item_type",
       "sword",
       "two_hand_weapon",
       "twohand",
@@ -103031,6 +105787,7 @@
       "strength": 122
     },
     "tags": [
+      "top_tier_base_item_type",
       "sword",
       "two_hand_weapon",
       "twohand",
@@ -103067,6 +105824,7 @@
       "strength": 104
     },
     "tags": [
+      "top_tier_base_item_type",
       "sword",
       "two_hand_weapon",
       "twohand",
@@ -103103,6 +105861,7 @@
       "strength": 113
     },
     "tags": [
+      "top_tier_base_item_type",
       "sword",
       "two_hand_weapon",
       "twohand",

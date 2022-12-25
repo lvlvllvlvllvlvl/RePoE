@@ -245,7 +245,7 @@
         "id": "affliction_curse_effect",
         "name": "Curse Effect",
         "stats": {
-          "curse_effect_+%": 3
+          "curse_effect_+%": 2
         },
         "tag": "old_do_not_use_affliction_curse_effect"
       },
@@ -510,7 +510,7 @@
         "id": "affliction_curse_effect_small",
         "name": "Curse Effect",
         "stats": {
-          "curse_effect_+%": 3
+          "curse_effect_+%": 2
         },
         "tag": "affliction_curse_effect_small"
       }
