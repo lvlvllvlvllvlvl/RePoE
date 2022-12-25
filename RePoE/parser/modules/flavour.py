@@ -6,7 +6,7 @@ class flavour(Parser_Module):
     @staticmethod
     def write(file_system, data_path, relational_reader, translation_file_cache, ot_file_cache):
         root = {}
-        for flavour in relational_reader["FlavourText.dat"]:
+        for flavour in relational_reader["FlavourText.dat64"]:
             if flavour["Id"] in root:
                 print("Duplicate flavour id:", flavour["Id"])
             else:

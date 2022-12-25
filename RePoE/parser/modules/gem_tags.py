@@ -6,7 +6,7 @@ class gem_tags(Parser_Module):
     @staticmethod
     def write(file_system, data_path, relational_reader, translation_file_cache, ot_file_cache):
         root = {}
-        for tag in relational_reader["GemTags.dat"]:
+        for tag in relational_reader["GemTags.dat64"]:
             name = tag["Tag"]
             root[tag["Id"]] = name if name != "" else None
         write_json(root, data_path, "gem_tags")

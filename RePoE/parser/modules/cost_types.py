@@ -6,7 +6,7 @@ class cost_types(Parser_Module):
     @staticmethod
     def write(file_system, data_path, relational_reader, translation_file_cache, ot_file_cache):
         root = {}
-        for row in relational_reader["CostTypes.dat"]:
+        for row in relational_reader["CostTypes.dat64"]:
             root[row["Id"]] = {
                 "stat": row["StatsKey"]["Id"] if row["StatsKey"] else None,
                 "format_text": row["FormatText"],

@@ -6,7 +6,7 @@ class default_monster_stats(Parser_Module):
     @staticmethod
     def write(file_system, data_path, relational_reader, translation_file_cache, ot_file_cache):
         root = {}
-        for row in relational_reader["DefaultMonsterStats.dat"]:
+        for row in relational_reader["DefaultMonsterStats.dat64"]:
             root[row["DisplayLevel"]] = {
                 "physical_damage": row["Damage"],
                 "evasion": row["Evasion"],

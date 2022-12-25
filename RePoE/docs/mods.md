@@ -21,7 +21,7 @@ as value. That description object has the following fields:
   `stats.json` and converted to text with `stat_translations.json`.
 - `grants_effects`: Active gem and support gem like effects this mod gives.
   The two fields (`granted_effect_id` and `level`) identify a single row in
-  `GrantedEffectsPerLevel.dat`. These can be resolved with `gems.json`:
+  `GrantedEffectsPerLevel.dat64`. These can be resolved with `gems.json`:
   `granted_effect_id` is a key in the root dictionary and `level` is a key in the 
   `per_level` object of the object for `granted_effect_id`.
 

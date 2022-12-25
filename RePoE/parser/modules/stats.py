@@ -16,7 +16,7 @@ class stats(Parser_Module):
     def write(file_system, data_path, relational_reader, translation_file_cache, ot_file_cache):
         root = {}
         previous = set()
-        for stat in relational_reader["Stats.dat"]:
+        for stat in relational_reader["Stats.dat64"]:
             if stat["Id"] in previous:
                 print("Duplicate stat id %s" % stat["Id"])
                 continue

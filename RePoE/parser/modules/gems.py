@@ -1,6 +1,6 @@
 import re
 
-from PyPoE.poe.constants import CooldownBypassTypes
+from PyPoE.poe.constants import COOLDOWN_BYPASS_TYPES
 from PyPoE.poe.file.stat_filters import StatFilterFile
 from PyPoE.poe.sim.formula import GemTypes, gem_stat_requirement
 from RePoE.parser.util import (
@@ -110,33 +110,33 @@ class GemConverter:
         self.relational_reader = relational_reader
 
         self.gepls = {}
-        for gepl in self.relational_reader["GrantedEffectsPerLevel.dat"]:
+        for gepl in self.relational_reader["GrantedEffectsPerLevel.dat64"]:
             ge_id = gepl["GrantedEffect"]["Id"]
             if ge_id not in self.gepls:
                 self.gepls[ge_id] = []
             self.gepls[ge_id].append(gepl)
 
         self.gesspls = {}
-        for gesspl in self.relational_reader["GrantedEffectStatSetsPerLevel.dat"]:
+        for gesspl in self.relational_reader["GrantedEffectStatSetsPerLevel.dat64"]:
             gess_id = gesspl["StatSet"]["Id"]
             if gess_id not in self.gesspls:
                 self.gesspls[gess_id] = []
             self.gesspls[gess_id].append(gesspl)
 
         self.granted_effect_quality_stats = {}
-        for geq in self.relational_reader["GrantedEffectQualityStats.dat"]:
+        for geq in self.relational_reader["GrantedEffectQualityStats.dat64"]:
             ge_id = geq["GrantedEffectsKey"]["Id"]
             if ge_id not in self.granted_effect_quality_stats:
                 self.granted_effect_quality_stats[ge_id] = []
             self.granted_effect_quality_stats[ge_id].append(geq)
 
         self.tags = {}
-        for tag in self.relational_reader["GemTags.dat"]:
+        for tag in self.relational_reader["GemTags.dat64"]:
             name = tag["Tag"]
             self.tags[tag["Id"]] = name if name != "" else None
 
         self.max_levels = {}
-        for row in self.relational_reader["ItemExperiencePerLevel.dat"]:
+        for row in self.relational_reader["ItemExperiencePerLevel.dat64"]:
             base_item = row["BaseItemTypesKey"]["Id"]
             level = row["ItemCurrentLevel"]
             if base_item not in self.max_levels:
@@ -145,7 +145,7 @@ class GemConverter:
                 self.max_levels[base_item] = level
 
         self._skill_totem_life_multipliers = {}
-        for row in self.relational_reader["SkillTotemVariations.dat"]:
+        for row in self.relational_reader["SkillTotemVariations.dat64"]:
             self._skill_totem_life_multipliers[row["SkillTotemsKey"]] = (
                 row["MonsterVarietiesKey"]["LifeMultiplier"] / 100
             )
@@ -157,7 +157,8 @@ class GemConverter:
         stat_conversions = {}
         for in_stat, out_stat in zip(active_skill["Input_StatKeys"], active_skill["Output_StatKeys"]):
             stat_conversions[in_stat["Id"]] = out_stat["Id"]
-        is_skill_totem = active_skill["SkillTotemId"] is not None
+        skill_totem_id = active_skill["SkillTotemId"]
+        is_skill_totem = skill_totem_id is not None and skill_totem_id in self._skill_totem_life_multipliers
         r = {
             "id": active_skill["Id"],
             "display_name": active_skill["DisplayedName"],
@@ -169,7 +170,7 @@ class GemConverter:
             "stat_conversions": stat_conversions,
         }
         if is_skill_totem:
-            r["skill_totem_life_multiplier"] = self._skill_totem_life_multipliers[active_skill["SkillTotemId"]]
+            r["skill_totem_life_multiplier"] = self._skill_totem_life_multipliers[skill_totem_id]
         if active_skill["MinionActiveSkillTypes"]:
             r["minion_types"] = self._select_active_skill_types(active_skill["MinionActiveSkillTypes"])
         return r
@@ -194,7 +195,7 @@ class GemConverter:
         }
         if gepl["Cooldown"] > 0:
             r["cooldown"] = gepl["Cooldown"]
-            if gepl["CooldownBypassType"] is not CooldownBypassTypes.NONE:
+            if gepl["CooldownBypassType"] is not COOLDOWN_BYPASS_TYPES.NONE:
                 r["cooldown_bypass_type"] = gepl["CooldownBypassType"].name.lower()
         if gepl["StoredUses"] > 0:
             r["stored_uses"] = gepl["StoredUses"]
@@ -383,7 +384,7 @@ class gems(Parser_Module):
         converter = GemConverter(file_system, relational_reader)
 
         # Skills from gems
-        for gem in relational_reader["SkillGems.dat"]:
+        for gem in relational_reader["SkillGems.dat64"]:
             granted_effect = gem["GrantedEffectsKey"]
             ge_id = granted_effect["Id"]
             if ge_id in gems:
@@ -394,7 +395,7 @@ class gems(Parser_Module):
             )
 
         # Secondary skills from gems. This adds the support skill implicitly provided by Bane
-        for gem in relational_reader["SkillGems.dat"]:
+        for gem in relational_reader["SkillGems.dat64"]:
             granted_effect = gem["GrantedEffectsKey2"]
             if not granted_effect:
                 continue
@@ -404,7 +405,7 @@ class gems(Parser_Module):
             gems[ge_id] = converter.convert(None, granted_effect, None, None, None)
 
         # Skills from mods
-        for mod in relational_reader["Mods.dat"]:
+        for mod in relational_reader["Mods.dat64"]:
             if mod["GrantedEffectsPerLevelKeys"] is None:
                 continue
             for granted_effect_per_level in mod["GrantedEffectsPerLevelKeys"]:
@@ -416,7 +417,7 @@ class gems(Parser_Module):
                 gems[ge_id] = converter.convert(None, granted_effect, None, None, None)
 
         # Default Attack/PlayerMelee is neither gem nor mod effect
-        for granted_effect in relational_reader["GrantedEffects.dat"]:
+        for granted_effect in relational_reader["GrantedEffects.dat64"]:
             ge_id = granted_effect["Id"]
             if ge_id != "PlayerMelee":
                 continue

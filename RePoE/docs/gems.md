@@ -81,7 +81,7 @@ described below.
   * `display_name`: Name of the skill as shown on in-game tooltips for the
     item.
   * `id`: Internal identifier of the item. Can be used to obtain more information
-    from `BaseItemTypes.dat`.
+    from `BaseItemTypes.dat64`.
   * `release_state`: In what state that item is currently in-game. See
     [`RePoE.parser.constants.ReleaseState`](https://github.com/brather1ng/RePoE/blob/master/RePoE/constants.py#L173)
     for possible values and their meaning. 
@@ -95,7 +95,7 @@ Base item information not specific to gems, e.g. the visual identity, can be fou
 
 The `active_skill` field is only set for active skills. It has the following fields.
 
-- `id`: Id of the active skill in `ActiveSkills.dat`. 
+- `id`: Id of the active skill in `ActiveSkills.dat64`. 
 - `display_name`: Name of the skill as shown on in-game tooltips for the item and
   skill. Also used as tab name on the in-game character panel.
 - `description`: Description of the skill as shown on the tooltip of its item.
@@ -115,7 +115,7 @@ The `active_skill` field is only set for active skills. It has the following fie
   If not specified, this skill does not summon minions. These are also used for determining
   whether a support gem can support this skill.
 - `weapon_restrictions`: If the array is not empty, this attack skill is restricted
-   to the weapon classes in the array. The values are ids in `ItemClasses.dat`.
+   to the weapon classes in the array. The values are ids in `ItemClasses.dat64`.
 
 #### Information for support gems
 

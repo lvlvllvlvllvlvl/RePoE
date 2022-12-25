@@ -7,7 +7,7 @@ class mod_types(Parser_Module):
     def write(file_system, data_path, relational_reader, translation_file_cache, ot_file_cache):
         mod_types = {
             row["Name"]: {"sell_price_types": [key["Id"] for key in row["ModSellPriceTypesKeys"]],}
-            for row in relational_reader["ModType.dat"]
+            for row in relational_reader["ModType.dat64"]
         }
 
         write_json(mod_types, data_path, "mod_types")

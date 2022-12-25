@@ -6,7 +6,7 @@ class cluster_jewel_notables(Parser_Module):
     @staticmethod
     def write(file_system, data_path, relational_reader, translation_file_cache, ot_file_cache):
         data = []
-        for row in relational_reader["PassiveTreeExpansionSpecialSkills.dat"]:
+        for row in relational_reader["PassiveTreeExpansionSpecialSkills.dat64"]:
             data.append(
                 {
                     "id": row["PassiveSkillsKey"]["Id"],

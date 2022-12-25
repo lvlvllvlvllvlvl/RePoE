@@ -6,7 +6,7 @@ class characters(Parser_Module):
     @staticmethod
     def write(file_system, data_path, relational_reader, translation_file_cache, ot_file_cache):
         root = []
-        for row in relational_reader["Characters.dat"]:
+        for row in relational_reader["Characters.dat64"]:
             root.append(
                 {
                     "metadata_id": row["Id"],

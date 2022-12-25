@@ -27,7 +27,7 @@ the base item as a value. The description object has the following fields:
   of this base and allows for classification beyond just `item_class`.
   See `tags.json` for the possible tags, though not all of those appear on item bases.
 - `visual_identity`: An object describing how items of this base are normally displayed in-game.
-  * `id`: The id of the referenced visual identity in `ItemVisualIdentity.dat`.
+  * `id`: The id of the referenced visual identity in `ItemVisualIdentity.dat64`.
   * `dds_file`: The path to the item's 2D-Art file.
 - `requirements`: An object containing the requirements to be able to equip the base items.
   The object is either `null` (the base has no requirements from itself) or contains
@@ -58,7 +58,7 @@ the base item as a value. The description object has the following fields:
   * `full_stack_turns_into`: The base item this currency turns into when its `stack_size` is
     reached.
 - `grants_buff`: An object describing the buff provided by this flask.
-  - `id`: The provided buff's id (resolved in `BuffDefinitions.dat`).
+  - `id`: The provided buff's id (resolved in `BuffDefinitions.dat64`).
   - `stats`: An object with the stats (their ids) provided by the buff as keys and the
      stat values as values.
 - `domain`: The domain of this item. Only mods with the same domain can regularly spawn

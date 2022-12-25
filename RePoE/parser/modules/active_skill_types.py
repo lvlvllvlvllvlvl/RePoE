@@ -5,7 +5,7 @@ from RePoE.parser import Parser_Module
 class active_skill_types(Parser_Module):
     @staticmethod
     def write(file_system, data_path, relational_reader, translation_file_cache, ot_file_cache):
-        types = [row["Id"] for row in relational_reader["ActiveSkillType.dat"]]
+        types = [row["Id"] for row in relational_reader["ActiveSkillType.dat64"]]
         write_json(types, data_path, "active_skill_types")
 
 

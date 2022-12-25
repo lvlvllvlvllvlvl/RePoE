@@ -6,7 +6,7 @@ class fossils(Parser_Module):
     @staticmethod
     def write(file_system, data_path, relational_reader, translation_file_cache, ot_file_cache):
         root = {}
-        for row in relational_reader["DelveCraftingModifiers.dat"]:
+        for row in relational_reader["DelveCraftingModifiers.dat64"]:
 
             base_item_key = row["BaseItemTypesKey"]["Id"]
             name_from_base_item = row["BaseItemTypesKey"]["Name"]

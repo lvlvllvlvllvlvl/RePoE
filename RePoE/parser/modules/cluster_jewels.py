@@ -6,7 +6,7 @@ class cluster_jewels(Parser_Module):
     @staticmethod
     def write(file_system, data_path, relational_reader, translation_file_cache, ot_file_cache):
         skills = {}
-        for row in relational_reader["PassiveTreeExpansionSkills.dat"]:
+        for row in relational_reader["PassiveTreeExpansionSkills.dat64"]:
             size = row["PassiveTreeExpansionJewelSizesKey"]["Name"]
             if size not in skills:
                 skills[size] = []
@@ -14,13 +14,13 @@ class cluster_jewels(Parser_Module):
                 {
                     "id": row["PassiveSkillsKey"]["Id"],
                     "name": row["PassiveSkillsKey"]["Name"],
-                    "stats": {stat["Id"]: value for stat, value in row["PassiveSkillsKey"]["StatsZip"]},
+                    "stats": {stat["Id"]: value for stat, value in row["PassiveSkillsKey"]["Stats"]},
                     "tag": row["TagsKey"]["Id"],
                 }
             )
 
         data = {}
-        for row in relational_reader["PassiveTreeExpansionJewels.dat"]:
+        for row in relational_reader["PassiveTreeExpansionJewels.dat64"]:
             size = row["PassiveTreeExpansionJewelSizesKey"]["Name"]
             data[row["BaseItemTypesKey"]["Id"]] = {
                 "name": row["BaseItemTypesKey"]["Name"],

@@ -40,7 +40,7 @@ def _convert_buff(buff_definition, buff_value):
 def _convert_granted_effects(granted_effects_per_level):
     if granted_effects_per_level is None:
         return {}
-    # These two identify a row in GrantedEffectsPerLevel.dat
+    # These two identify a row in GrantedEffectsPerLevel.dat64
     return [
         {"granted_effect_id": gepl["GrantedEffect"]["Id"], "level": gepl["Level"]} for gepl in granted_effects_per_level
     ]
@@ -57,7 +57,7 @@ class mods(Parser_Module):
     @staticmethod
     def write(file_system, data_path, relational_reader, translation_file_cache, ot_file_cache):
         root = {}
-        for mod in relational_reader["Mods.dat"]:
+        for mod in relational_reader["Mods.dat64"]:
             domain = MOD_DOMAIN_FIX.get(mod["Id"], mod["Domain"])
             obj = {
                 "required_level": mod["Level"],

@@ -1,5 +1,6 @@
 from collections import defaultdict
 
+from PyPoE.poe.constants import MOD_DOMAIN
 from RePoE.parser import Parser_Module
 from RePoE.parser.util import write_json, call_with_default_args, get_release_state
 
@@ -153,6 +154,8 @@ ITEM_CLASS_WHITELIST = {
     "HeistEquipmentUtility",
     "HeistEquipmentReward",
     "MemoryLine",
+    "Relic",
+    "SanctumSpecialRelic",
 }
 
 ITEM_CLASS_BLACKLIST = {
@@ -181,18 +184,18 @@ ITEM_CLASS_BLACKLIST = {
 class base_items(Parser_Module):
     @staticmethod
     def write(file_system, data_path, relational_reader, translation_file_cache, ot_file_cache):
-        attribute_requirements = _create_default_dict(relational_reader["ComponentAttributeRequirements.dat"])
-        armour_types = _create_default_dict(relational_reader["ArmourTypes.dat"])
-        shield_types = _create_default_dict(relational_reader["ShieldTypes.dat"])
-        flask_types = _create_default_dict(relational_reader["Flasks.dat"])
-        flask_charges = _create_default_dict(relational_reader["ComponentCharges.dat"])
-        weapon_types = _create_default_dict(relational_reader["WeaponTypes.dat"])
-        currency_type = _create_default_dict(relational_reader["CurrencyItems.dat"])
-        # Not covered here: SkillGems.dat (see gems.py), Essences.dat (see essences.py)
+        attribute_requirements = _create_default_dict(relational_reader["ComponentAttributeRequirements.dat64"])
+        armour_types = _create_default_dict(relational_reader["ArmourTypes.dat64"])
+        shield_types = _create_default_dict(relational_reader["ShieldTypes.dat64"])
+        flask_types = _create_default_dict(relational_reader["Flasks.dat64"])
+        flask_charges = _create_default_dict(relational_reader["ComponentCharges.dat64"])
+        weapon_types = _create_default_dict(relational_reader["WeaponTypes.dat64"])
+        currency_type = _create_default_dict(relational_reader["CurrencyItems.dat64"])
+        # Not covered here: SkillGems.dat64 (see gems.py), Essences.dat64 (see essences.py)
 
         root = {}
         skipped_item_classes = set()
-        for item in relational_reader["BaseItemTypes.dat"]:
+        for item in relational_reader["BaseItemTypes.dat64"]:
 
             if item["ItemClassesKey"]["Id"] in ITEM_CLASS_BLACKLIST:
                 skipped_item_classes.add(item["ItemClassesKey"]["Id"])
@@ -202,7 +205,9 @@ class base_items(Parser_Module):
             else:
                 raise ValueError(f"Unknown item class, not in whitelist or blacklist: {item['ItemClassesKey']['Id']}")
 
-            inherited_tags = list(ot_file_cache[item["InheritsFrom"] + ".ot"]["Base"]["tag"])
+            ot_path = item["InheritsFrom"] + ".it"
+            inherited_tags = list(ot_file_cache[ot_path]["Base"]["tag"])
+            mod_domain = item["ModDomainsKey"]
             item_id = item["Id"]
             properties = {}
             _convert_armour_properties(armour_types[item_id], properties)
@@ -220,13 +225,13 @@ class base_items(Parser_Module):
                 "implicits": [mod["Id"] for mod in item["Implicit_ModsKeys"]],
                 "tags": [tag["Id"] for tag in item["TagsKeys"]] + inherited_tags,
                 "visual_identity": {
-                    "id": item["ItemVisualIdentity"]["Id"],
-                    "dds_file": item["ItemVisualIdentity"]["DDSFile"],
+                    "id": item["ItemVisualIdentityKey"]["Id"],
+                    "dds_file": item["ItemVisualIdentityKey"]["DDSFile"],
                 },
                 "requirements": _convert_requirements(attribute_requirements[item_id], item["DropLevel"]),
                 "properties": properties,
                 "release_state": get_release_state(item_id).name,
-                "domain": item["ModDomain"].name.lower(),
+                "domain": mod_domain.name.lower() if mod_domain is not MOD_DOMAIN.MODS_DISALLOWED else "undefined",
             }
             _convert_flask_buff(flask_types[item_id], root[item_id])
 

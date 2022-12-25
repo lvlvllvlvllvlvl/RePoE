@@ -46,7 +46,7 @@ class essences(Parser_Module):
                 },
                 "mods": _convert_mods(row),
             }
-            for row in relational_reader["Essences.dat"]
+            for row in relational_reader["Essences.dat64"]
         }
         write_json(essences, data_path, "essences")
 

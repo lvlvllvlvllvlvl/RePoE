@@ -37,8 +37,9 @@ def create_relational_reader(file_system):
     opt = {
         "use_dat_value": False,
         "auto_build_index": True,
+        "x64": True,
     }
-    return RelationalReader(path_or_file_system=file_system, files=["Stats.dat"], read_options=opt)
+    return RelationalReader(path_or_file_system=file_system, files=["Stats.dat64"], read_options=opt)
 
 
 def create_translation_file_cache(file_system):
