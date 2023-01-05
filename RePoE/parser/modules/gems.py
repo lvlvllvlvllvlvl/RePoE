@@ -10,6 +10,16 @@ from RePoE.parser.util import (
     get_stat_translation_file_name,
 )
 from RePoE.parser import Parser_Module
+from PyPoE.poe.file.dat import DatRecord
+from typing import Any
+from typing import Dict
+from typing import List
+from typing import Union
+from PyPoE.poe.file.dat import RelationalReader
+from PyPoE.poe.file.file_system import FileSystem
+from PyPoE.poe.file.translations import TranslationFileCache
+from typing import Optional
+from typing import Tuple
 
 
 def _handle_dict(representative, per_level):
@@ -51,7 +61,9 @@ def _handle_dict(representative, per_level):
     return static, cleared
 
 
-def _handle_list(representative, per_level):
+def _handle_list(
+    representative: List[Dict[str, Any]], per_level: List[List[Dict[str, Any]]]
+) -> Tuple[Union[List[Dict[str, Any]], List[Dict[str, str]]], bool]:
     # edge cases (all None, any None, mismatching lengths, all empty)
     all_none = True
     any_none = False
@@ -96,7 +108,9 @@ def _handle_list(representative, per_level):
     return static, cleared
 
 
-def _handle_primitives(representative, per_level):
+def _handle_primitives(
+    representative: Union[int, str], per_level: Union[List[int], List[str]]
+) -> Tuple[Union[None, int, str], bool]:
     for pl in per_level:
         if pl != representative:
             return None, False
@@ -106,7 +120,7 @@ def _handle_primitives(representative, per_level):
 class GemConverter:
     regex_number = re.compile(r"-?\d+(\.\d+)?")
 
-    def __init__(self, file_system, relational_reader):
+    def __init__(self, file_system: FileSystem, relational_reader: RelationalReader) -> None:
         self.relational_reader = relational_reader
 
         self.gepls = {}
@@ -153,7 +167,7 @@ class GemConverter:
         self.skill_stat_filter = StatFilterFile()
         self.skill_stat_filter.read(file_system.get_file("Metadata/StatDescriptions/skillpopup_stat_filters.txt"))
 
-    def _convert_active_skill(self, active_skill):
+    def _convert_active_skill(self, active_skill: DatRecord) -> Dict[str, Any]:
         stat_conversions = {}
         for in_stat, out_stat in zip(active_skill["Input_StatKeys"], active_skill["Output_StatKeys"]):
             stat_conversions[in_stat["Id"]] = out_stat["Id"]
@@ -176,7 +190,7 @@ class GemConverter:
         return r
 
     @classmethod
-    def _convert_support_gem_specific(cls, granted_effect):
+    def _convert_support_gem_specific(cls, granted_effect: DatRecord) -> Dict[str, Any]:
         return {
             "letter": granted_effect["SupportGemLetter"],
             "supports_gems_only": granted_effect["SupportsGemsOnly"],
@@ -186,10 +200,12 @@ class GemConverter:
         }
 
     @staticmethod
-    def _select_active_skill_types(type_rows):
+    def _select_active_skill_types(type_rows: List[DatRecord]) -> List[str]:
         return [row["Id"] for row in type_rows]
 
-    def _convert_gepl(self, gepl, gess, gesspl, multipliers, is_support):
+    def _convert_gepl(
+        self, gepl: DatRecord, gess: DatRecord, gesspl: DatRecord, multipliers: Dict[str, int], is_support: bool
+    ) -> Dict[str, Any]:
         r = {
             "required_level": gepl["PlayerLevelReq"],
         }
@@ -260,7 +276,7 @@ class GemConverter:
         return r
 
     @staticmethod
-    def _convert_reservations(gepl):
+    def _convert_reservations(gepl: DatRecord) -> Union[Dict[str, float], Dict[str, int]]:
         r = {}
         if gepl["ManaReservationFlat"] > 0:
             r["mana_flat"] = gepl["ManaReservationFlat"]
@@ -272,7 +288,7 @@ class GemConverter:
             r["life_percent"] = gepl["LifeReservationPercent"] / 100
         return r
 
-    def _convert_base_item_specific(self, base_item_type, obj):
+    def _convert_base_item_specific(self, base_item_type: Optional[DatRecord], obj: Dict[str, Any]) -> None:
         if base_item_type is None:
             obj["base_item"] = None
             return
@@ -285,7 +301,14 @@ class GemConverter:
         if base_item_type["Id"] in self.max_levels:
             obj["base_item"]["max_level"] = self.max_levels[base_item_type["Id"]]
 
-    def convert(self, base_item_type, granted_effect, secondary_granted_effect, gem_tags, multipliers):
+    def convert(
+        self,
+        base_item_type: Optional[DatRecord],
+        granted_effect: DatRecord,
+        secondary_granted_effect: Optional[DatRecord],
+        gem_tags: Optional[List[DatRecord]],
+        multipliers: Optional[Dict[str, int]],
+    ) -> Dict[str, Any]:
         is_support = granted_effect["IsSupport"]
         obj = {"is_support": is_support}
         if gem_tags is None:
@@ -367,7 +390,7 @@ class GemConverter:
 
             i += 1
 
-    def _get_translation_file_name(self, active_skill):
+    def _get_translation_file_name(self, active_skill: Optional[Dict[str, Any]]) -> str:
         if active_skill is None:
             return "gem_stat_descriptions.txt"
         stat_filter_group = self.skill_stat_filter.skills.get(active_skill["id"])
@@ -379,7 +402,13 @@ class GemConverter:
 
 class gems(Parser_Module):
     @staticmethod
-    def write(file_system, data_path, relational_reader, translation_file_cache, **kwargs):
+    def write(
+        file_system: FileSystem,
+        data_path: str,
+        relational_reader: RelationalReader,
+        translation_file_cache: TranslationFileCache,
+        **kwargs: Any
+    ) -> None:
         gems = {}
         converter = GemConverter(file_system, relational_reader)
 

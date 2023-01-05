@@ -1,9 +1,22 @@
 from PyPoE.poe.file.translations import get_custom_translation_file
 from RePoE.parser.util import write_json, call_with_default_args, get_stat_translation_file_name
 from RePoE.parser import Parser_Module
+from PyPoE.poe.file.dat import RelationalReader
+from PyPoE.poe.file.file_system import FileSystem
+from PyPoE.poe.file.ot import OTFileCache
+from PyPoE.poe.file.translations import TranslationFileCache
+from typing import List
+from PyPoE.poe.file.translations import TranslationRange
+from typing import Dict
+from typing import Union
+from PyPoE.poe.file.translations import Translation
+from typing import Any
+from typing import Set
+from typing import Iterator
+from typing import Tuple
 
 
-def _convert_tags(n_ids, tags, tags_types):
+def _convert_tags(n_ids: int, tags: List[int], tags_types: List[str]) -> List[str]:
     f = ["ignore" for _ in range(n_ids)]
     for tag, tag_type in zip(tags, tags_types):
         if tag_type == "+d":
@@ -17,7 +30,7 @@ def _convert_tags(n_ids, tags, tags_types):
     return f
 
 
-def _convert_range(translation_range):
+def _convert_range(translation_range: List[TranslationRange]) -> Union[List[Dict[str, int]], List[Dict]]:
     rs = []
     for r in translation_range:
         r_dict = {}
@@ -31,7 +44,7 @@ def _convert_range(translation_range):
     return rs
 
 
-def _convert_handlers(n_ids, index_handlers):
+def _convert_handlers(n_ids: int, index_handlers: Dict) -> Union[List[List[str]], List[List]]:
     hs = [[] for _ in range(n_ids)]
     for handler_name, ids in index_handlers.items():
         for i in ids:
@@ -40,7 +53,7 @@ def _convert_handlers(n_ids, index_handlers):
     return hs
 
 
-def _convert(tr, tag_set):
+def _convert(tr: Translation, tag_set: Set[str]) -> Dict[str, Any]:
     ids = tr.ids
     n_ids = len(ids)
     english = []
@@ -58,7 +71,9 @@ def _convert(tr, tag_set):
     return {"ids": ids, "English": english}
 
 
-def _get_stat_translations(tag_set, translations, custom_translations):
+def _get_stat_translations(
+    tag_set: Set[str], translations: List[Translation], custom_translations: List[Translation]
+) -> List[Dict[str, Any]]:
     previous = set()
     root = []
     for tr in translations:
@@ -79,7 +94,7 @@ def _get_stat_translations(tag_set, translations, custom_translations):
     return root
 
 
-def _build_stat_translation_file_map(file_system):
+def _build_stat_translation_file_map(file_system: FileSystem) -> Iterator[Tuple[str, str]]:
     node = file_system.build_directory()
     for game_file in node["Metadata"]["StatDescriptions"].children.keys():
         out_file = get_stat_translation_file_name(game_file)
@@ -89,7 +104,13 @@ def _build_stat_translation_file_map(file_system):
 
 class stat_translations(Parser_Module):
     @staticmethod
-    def write(file_system, data_path, relational_reader, translation_file_cache, ot_file_cache):
+    def write(
+        file_system: FileSystem,
+        data_path: str,
+        relational_reader: RelationalReader,
+        translation_file_cache: TranslationFileCache,
+        ot_file_cache: OTFileCache,
+    ) -> None:
         tag_set = set()
         for in_file, out_file in _build_stat_translation_file_map(file_system):
             translations = translation_file_cache[in_file].translations

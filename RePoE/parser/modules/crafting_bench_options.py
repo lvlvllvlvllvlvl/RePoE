@@ -3,11 +3,18 @@ import itertools
 from PyPoE.poe.constants import CRAFTING_BENCH_CUSTOM_ACTIONS
 from RePoE.parser import Parser_Module
 from RePoE.parser.util import write_json, call_with_default_args
+from PyPoE.poe.file.dat import DatRecord
+from typing import Dict
+from typing import Union
+from PyPoE.poe.file.dat import RelationalReader
+from PyPoE.poe.file.file_system import FileSystem
+from PyPoE.poe.file.ot import OTFileCache
+from PyPoE.poe.file.translations import TranslationFileCache
 
 
 class crafting_bench_options(Parser_Module):
     @staticmethod
-    def _get_actions(row):
+    def _get_actions(row: DatRecord) -> Union[Dict[str, int], Dict[str, str]]:
         actions = {}
         if row["AddMod"]:
             actions["add_explicit_mod"] = row["AddMod"]["Id"]
@@ -28,7 +35,13 @@ class crafting_bench_options(Parser_Module):
         return actions
 
     @staticmethod
-    def write(file_system, data_path, relational_reader, translation_file_cache, ot_file_cache):
+    def write(
+        file_system: FileSystem,
+        data_path: str,
+        relational_reader: RelationalReader,
+        translation_file_cache: TranslationFileCache,
+        ot_file_cache: OTFileCache,
+    ) -> None:
         root = []
         for row in relational_reader["CraftingBenchOptions.dat64"]:
             if row["RequiredLevel"] > 100 or row["IsDisabled"]:

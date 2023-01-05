@@ -3,24 +3,33 @@ from collections import defaultdict
 from PyPoE.poe.constants import MOD_DOMAIN
 from RePoE.parser import Parser_Module
 from RePoE.parser.util import write_json, call_with_default_args, get_release_state
+from PyPoE.poe.file.dat import RelationalReader
+from PyPoE.poe.file.file_system import FileSystem
+from PyPoE.poe.file.ot import OTFileCache
+from PyPoE.poe.file.translations import TranslationFileCache
+from PyPoE.poe.file.dat import DatReader
+from typing import Dict
+from PyPoE.poe.file.dat import DatRecord
+from typing import Optional
+from typing import Any
 
 
-def _create_default_dict(relation):
+def _create_default_dict(relation: DatReader) -> Dict:
     d = {row["BaseItemTypesKey"]["Id"]: row for row in relation if row["BaseItemTypesKey"] is not None}
     return defaultdict(lambda: None, d)
 
 
-def _add_if_greater_zero(value, key, obj):
+def _add_if_greater_zero(value: int, key: str, obj: Dict[str, int]) -> None:
     if value > 0:
         obj[key] = value
 
 
-def _add_if_not_zero(value, key, obj):
+def _add_if_not_zero(value: int, key: str, obj: Dict[str, Dict[str, int]]) -> None:
     if value != 0:
         obj[key] = value
 
 
-def _convert_requirements(attribute_requirements, drop_level):
+def _convert_requirements(attribute_requirements: Optional[DatRecord], drop_level: int) -> Optional[Dict[str, int]]:
     if attribute_requirements is None:
         return None
     return {
@@ -31,7 +40,7 @@ def _convert_requirements(attribute_requirements, drop_level):
     }
 
 
-def _convert_armour_properties(armour_row, properties):
+def _convert_armour_properties(armour_row: Optional[DatRecord], properties: Dict) -> None:
     if armour_row is None:
         return
     _add_min_max(armour_row, "Armour", "armour", properties)
@@ -40,18 +49,18 @@ def _convert_armour_properties(armour_row, properties):
     _add_if_not_zero(armour_row["IncreasedMovementSpeed"], "movement_speed", properties)
 
 
-def _add_min_max(row, row_key_prefix, key, obj):
+def _add_min_max(row: DatRecord, row_key_prefix: str, key: str, obj: Dict[str, Dict[str, int]]) -> None:
     if row[row_key_prefix + "Min"] > 0:
         obj[key] = {"min": row[row_key_prefix + "Min"], "max": row[row_key_prefix + "Max"]}
 
 
-def _convert_shield_properties(shield_row, properties):
+def _convert_shield_properties(shield_row: Optional[DatRecord], properties: Dict[str, Any]) -> None:
     if shield_row is None:
         return
     properties["block"] = shield_row["Block"]
 
 
-def _convert_flask_properties(flask_row, properties):
+def _convert_flask_properties(flask_row: Optional[DatRecord], properties: Dict[str, Any]) -> None:
     if flask_row is None:
         return
     _add_if_greater_zero(flask_row["LifePerUse"], "life_per_use", properties)
@@ -59,7 +68,7 @@ def _convert_flask_properties(flask_row, properties):
     _add_if_greater_zero(flask_row["RecoveryTime"], "duration", properties)
 
 
-def _convert_flask_buff(flask_row, item_object):
+def _convert_flask_buff(flask_row: Optional[DatRecord], item_object: Dict[str, Any]) -> Optional[Any]:
     if flask_row is None or flask_row["BuffDefinitionsKey"] is None:
         return None
     stats_values = zip(flask_row["BuffDefinitionsKey"]["StatsKeys"], flask_row["BuffStatValues"])
@@ -71,14 +80,14 @@ def _convert_flask_buff(flask_row, item_object):
         item_object["grants_buff"]["stats"][stat["Id"]] = value
 
 
-def _convert_flask_charge_properties(flask_row, properties):
+def _convert_flask_charge_properties(flask_row: Optional[DatRecord], properties: Dict[str, Any]) -> None:
     if flask_row is None:
         return
     properties["charges_max"] = flask_row["MaxCharges"]
     properties["charges_per_use"] = flask_row["PerCharge"]
 
 
-def _convert_weapon_properties(weapon_row, properties):
+def _convert_weapon_properties(weapon_row: Optional[DatRecord], properties: Dict[str, Any]) -> None:
     if weapon_row is None:
         return
     properties["critical_strike_chance"] = weapon_row["Critical"]
@@ -88,7 +97,7 @@ def _convert_weapon_properties(weapon_row, properties):
     properties["range"] = weapon_row["RangeMax"]
 
 
-def _convert_currency_properties(currency_row, properties):
+def _convert_currency_properties(currency_row: Optional[DatRecord], properties: Dict[str, Any]) -> None:
     if currency_row is None:
         return
     properties["stack_size"] = currency_row["Stacks"]
@@ -183,7 +192,13 @@ ITEM_CLASS_BLACKLIST = {
 
 class base_items(Parser_Module):
     @staticmethod
-    def write(file_system, data_path, relational_reader, translation_file_cache, ot_file_cache):
+    def write(
+        file_system: FileSystem,
+        data_path: str,
+        relational_reader: RelationalReader,
+        translation_file_cache: TranslationFileCache,
+        ot_file_cache: OTFileCache,
+    ) -> None:
         attribute_requirements = _create_default_dict(relational_reader["ComponentAttributeRequirements.dat64"])
         armour_types = _create_default_dict(relational_reader["ArmourTypes.dat64"])
         shield_types = _create_default_dict(relational_reader["ShieldTypes.dat64"])

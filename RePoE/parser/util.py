@@ -14,13 +14,21 @@ from RePoE.parser.constants import (
     UNIQUE_ONLY_ITEMS,
     STAT_DESCRIPTION_NAMING_EXCEPTIONS,
 )
+from typing import Any
+from typing import Dict
+from typing import List
+from typing import Union
 
 
 def get_id_or_none(relational_file_cell):
     return None if relational_file_cell is None else relational_file_cell["Id"]
 
 
-def write_json(root_obj, data_path, file_name):
+def write_json(
+    root_obj: Union[Dict[str, Dict[str, Any]], Dict[str, Dict[str, List[str]]], List[Dict[str, Any]]],
+    data_path: str,
+    file_name: str,
+) -> None:
     print("Writing '" + str(file_name) + ".json' ...", end="", flush=True)
     json.dump(root_obj, io.open(data_path + file_name + ".json", mode="w"), indent=2, sort_keys=True)
     print(" Done!")
@@ -29,11 +37,11 @@ def write_json(root_obj, data_path, file_name):
     print(" Done!")
 
 
-def load_file_system(ggpk_path):
+def load_file_system(ggpk_path: str) -> FileSystem:
     return FileSystem(ggpk_path)
 
 
-def create_relational_reader(file_system):
+def create_relational_reader(file_system: FileSystem) -> RelationalReader:
     opt = {
         "use_dat_value": False,
         "auto_build_index": True,
@@ -42,11 +50,11 @@ def create_relational_reader(file_system):
     return RelationalReader(path_or_file_system=file_system, files=["Stats.dat64"], read_options=opt)
 
 
-def create_translation_file_cache(file_system):
+def create_translation_file_cache(file_system: FileSystem) -> TranslationFileCache:
     return TranslationFileCache(path_or_file_system=file_system)
 
 
-def create_ot_file_cache(file_system):
+def create_ot_file_cache(file_system: FileSystem) -> OTFileCache:
     return OTFileCache(path_or_file_system=file_system)
 
 
@@ -64,7 +72,7 @@ def call_with_default_args(write_func):
     )
 
 
-def get_release_state(item_id):
+def get_release_state(item_id: str) -> ReleaseState:
     if item_id in UNRELEASED_ITEMS:
         return ReleaseState.unreleased
     if item_id in LEGACY_ITEMS:
@@ -74,7 +82,7 @@ def get_release_state(item_id):
     return ReleaseState.released
 
 
-def get_stat_translation_file_name(game_file):
+def get_stat_translation_file_name(game_file: str) -> str:
     if game_file in STAT_DESCRIPTION_NAMING_EXCEPTIONS:
         return f"stat_translations{STAT_DESCRIPTION_NAMING_EXCEPTIONS[game_file]}"
     elif game_file.endswith("_stat_descriptions.txt"):
