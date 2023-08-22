@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+ <meta name="Author" content="Made by 'tree'">
+ <meta name="GENERATOR" content="$Version: $ tree v2.0.2 (c) 1996 - 2022 by Steve Baker, Thomas Moore, Francesc Rocher, Florian Sesser, Kyosuke Tokoro $">
+ <title>Directory Tree</title>
+ <style type="text/css">
+  BODY { font-family : monospace, sans-serif;  color: black;}
+  P { font-family : monospace, sans-serif; color: black; margin:0px; padding: 0px;}
+  A:visited { text-decoration : none; margin : 0px; padding : 0px;}
+  A:link    { text-decoration : none; margin : 0px; padding : 0px;}
+  A:hover   { text-decoration: underline; background-color : yellow; margin : 0px; padding : 0px;}
+  A:active  { margin : 0px; padding : 0px;}
+  .VERSION { font-size: small; font-family : arial, sans-serif; }
+  .NORM  { color: black;  }
+  .FIFO  { color: purple; }
+  .CHAR  { color: yellow; }
+  .DIR   { color: blue;   }
+  .BLOCK { color: yellow; }
+  .LINK  { color: aqua;   }
+  .SOCK  { color: fuchsia;}
+  .EXEC  { color: green;  }
+ </style>
+</head>
+<body>
+	<h1>Directory Tree</h1><p>
+	<a href=".">.</a><br>
+	├── <a href="./A%20dirty%20deal%20made%20deep%20in%20the%20dirt.%20That's%20what%20the%20gold%20piles%20down%20there%20%5B...%5D.ogg">A dirty deal made deep in the dirt. That's what the gold piles down there [...].ogg</a><br>
+	├── <a href="./A%20dirty%20deal%20made%20deep%20in%20the%20dirt.%20That's%20what%20the%20gold%20piles%20down%20there%20%5B...%5D.txt">A dirty deal made deep in the dirt. That's what the gold piles down there [...].txt</a><br>
+	├── <a href="./Ah,%20this%20is%20the%20stuff.%20Good%20nose,%20exile.%20You%20find%20more%20and%20I'll%20come%20right%20%5B...%5D.ogg">Ah, this is the stuff. Good nose, exile. You find more and I'll come right [...].ogg</a><br>
+	├── <a href="./Ah,%20this%20is%20the%20stuff.%20Good%20nose,%20exile.%20You%20find%20more%20and%20I'll%20come%20right%20%5B...%5D.txt">Ah, this is the stuff. Good nose, exile. You find more and I'll come right [...].txt</a><br>
+	├── <a href="./Another%20good%20find..ogg">Another good find..ogg</a><br>
+	├── <a href="./Another%20good%20find..txt">Another good find..txt</a><br>
+	├── <a href="./Another%20nice%20vein%20eh%3F%20Heheh..ogg">Another nice vein eh? Heheh..ogg</a><br>
+	├── <a href="./Another%20nice%20vein%20eh%3F%20Heheh..txt">Another nice vein eh? Heheh..txt</a><br>
+	├── <a href="./At%20the%20behest%20of%20Kirac%20and%20his%20brigade,%20I%20found%20myself%20deep%20within%20the%20%5B...%5D.ogg">At the behest of Kirac and his brigade, I found myself deep within the [...].ogg</a><br>
+	├── <a href="./At%20the%20behest%20of%20Kirac%20and%20his%20brigade,%20I%20found%20myself%20deep%20within%20the%20%5B...%5D.txt">At the behest of Kirac and his brigade, I found myself deep within the [...].txt</a><br>
+	├── <a href="./Beautiful%20find,%20Exile.%20Generator's%20full-up%20though.%20Might%20be%20a%20good%20time%20to%20%5B...%5D.ogg">Beautiful find, Exile. Generator's full-up though. Might be a good time to [...].ogg</a><br>
+	├── <a href="./Beautiful%20find,%20Exile.%20Generator's%20full-up%20though.%20Might%20be%20a%20good%20time%20to%20%5B...%5D.txt">Beautiful find, Exile. Generator's full-up though. Might be a good time to [...].txt</a><br>
+	├── <a href="./Beauty.%20Look%20at%20it%20sparkle.%20Glows%20like%20blue%20embers%20in%20the%20dark.%20My%20machine%20%5B...%5D.ogg">Beauty. Look at it sparkle. Glows like blue embers in the dark. My machine [...].ogg</a><br>
+	├── <a href="./Beauty.%20Look%20at%20it%20sparkle.%20Glows%20like%20blue%20embers%20in%20the%20dark.%20My%20machine%20%5B...%5D.txt">Beauty. Look at it sparkle. Glows like blue embers in the dark. My machine [...].txt</a><br>
+	├── <a href="./Been%20a%20long%20time%20since%20I%20was%20around%20this%20much%20sulphite.%20Forgot%20how%20it%20made%20%5B...%5D.ogg">Been a long time since I was around this much sulphite. Forgot how it made [...].ogg</a><br>
+	├── <a href="./Been%20a%20long%20time%20since%20I%20was%20around%20this%20much%20sulphite.%20Forgot%20how%20it%20made%20%5B...%5D.txt">Been a long time since I was around this much sulphite. Forgot how it made [...].txt</a><br>
+	├── <a href="./Been%20thinkin'%20that%20maybe%20I%20oughta%20keep%20an%20eye%20on%20that%20girl.%20She%20seems%20%5B...%5D.ogg">Been thinkin' that maybe I oughta keep an eye on that girl. She seems [...].ogg</a><br>
+	├── <a href="./Been%20thinkin'%20that%20maybe%20I%20oughta%20keep%20an%20eye%20on%20that%20girl.%20She%20seems%20%5B...%5D.txt">Been thinkin' that maybe I oughta keep an eye on that girl. She seems [...].txt</a><br>
+	├── <a href="./Been%20working%20on%20this%20machine%20on%20and%20off%20for%20years.%20Hard%20to%20really%20test%20it%20%5B...%5D.ogg">Been working on this machine on and off for years. Hard to really test it [...].ogg</a><br>
+	├── <a href="./Been%20working%20on%20this%20machine%20on%20and%20off%20for%20years.%20Hard%20to%20really%20test%20it%20%5B...%5D.txt">Been working on this machine on and off for years. Hard to really test it [...].txt</a><br>
+	├── <a href="./Before%20I%20can%20take%20you%20to%20my%20mining%20operation%20I%20need%20a%20little%20something%20%5B...%5D.ogg">Before I can take you to my mining operation I need a little something [...].ogg</a><br>
+	├── <a href="./Before%20I%20can%20take%20you%20to%20my%20mining%20operation%20I%20need%20a%20little%20something%20%5B...%5D.txt">Before I can take you to my mining operation I need a little something [...].txt</a><br>
+	├── <a href="./Blew%20up%20a%20wall,%20did%20you%3F%20And%20you're%20back%20in%20one%20piece!%20Impressive.%20Hope%20%5B...%5D.ogg">Blew up a wall, did you? And you're back in one piece! Impressive. Hope [...].ogg</a><br>
+	├── <a href="./Blew%20up%20a%20wall,%20did%20you%3F%20And%20you're%20back%20in%20one%20piece!%20Impressive.%20Hope%20%5B...%5D.txt">Blew up a wall, did you? And you're back in one piece! Impressive. Hope [...].txt</a><br>
+	├── <a href="./Blood%20everywhere%20around%20here...%20Startin'%20to%20remind%20me%20of%20my%20time%20in%20that%20%5B...%5D.ogg">Blood everywhere around here... Startin' to remind me of my time in that [...].ogg</a><br>
+	├── <a href="./Blood%20everywhere%20around%20here...%20Startin'%20to%20remind%20me%20of%20my%20time%20in%20that%20%5B...%5D.txt">Blood everywhere around here... Startin' to remind me of my time in that [...].txt</a><br>
+	├── <a href="./Can%20you%20hear%20'em%20walking%20around%20down%20there%3F%20The%20Vaal,%20holed%20up%20in%20their%20%5B...%5D.ogg">Can you hear 'em walking around down there? The Vaal, holed up in their [...].ogg</a><br>
+	├── <a href="./Can%20you%20hear%20'em%20walking%20around%20down%20there%3F%20The%20Vaal,%20holed%20up%20in%20their%20%5B...%5D.txt">Can you hear 'em walking around down there? The Vaal, holed up in their [...].txt</a><br>
+	├── <a href="./Can%20you%20hear%20them,%20exile%3F%20They're%20locked%20away%20down%20there.%20The%20darkness%20has%20%5B...%5D.ogg">Can you hear them, exile? They're locked away down there. The darkness has [...].ogg</a><br>
+	├── <a href="./Can%20you%20hear%20them,%20exile%3F%20They're%20locked%20away%20down%20there.%20The%20darkness%20has%20%5B...%5D.txt">Can you hear them, exile? They're locked away down there. The darkness has [...].txt</a><br>
+	├── <a href="./Clever%20and%20ambitious,%20that%20Zana.%20And%20with%20a%20kind%20heart!%20That's%20a%20%5B...%5D.ogg">Clever and ambitious, that Zana. And with a kind heart! That's a [...].ogg</a><br>
+	├── <a href="./Clever%20and%20ambitious,%20that%20Zana.%20And%20with%20a%20kind%20heart!%20That's%20a%20%5B...%5D.txt">Clever and ambitious, that Zana. And with a kind heart! That's a [...].txt</a><br>
+	├── <a href="./Come,%20come,%20pretty%20little%20rocks..ogg">Come, come, pretty little rocks..ogg</a><br>
+	├── <a href="./Come,%20come,%20pretty%20little%20rocks..txt">Come, come, pretty little rocks..txt</a><br>
+	├── <a href="./Cruel,%20exile.%20Very%20cruel..ogg">Cruel, exile. Very cruel..ogg</a><br>
+	├── <a href="./Cruel,%20exile.%20Very%20cruel..txt">Cruel, exile. Very cruel..txt</a><br>
+	├── <a href="./Deeper%20you%20go,%20the%20more%20claustrophobic%20it%20feels.%20Like%20the%20darkness%20is%20%5B...%5D.ogg">Deeper you go, the more claustrophobic it feels. Like the darkness is [...].ogg</a><br>
+	├── <a href="./Deeper%20you%20go,%20the%20more%20claustrophobic%20it%20feels.%20Like%20the%20darkness%20is%20%5B...%5D.txt">Deeper you go, the more claustrophobic it feels. Like the darkness is [...].txt</a><br>
+	├── <a href="./Don't%20be%20surprised%20if%20you%20find%20yourself%20surrounded%20by%20Vaal%20ruins%20when%20you%20%5B...%5D.ogg">Don't be surprised if you find yourself surrounded by Vaal ruins when you [...].ogg</a><br>
+	├── <a href="./Don't%20be%20surprised%20if%20you%20find%20yourself%20surrounded%20by%20Vaal%20ruins%20when%20you%20%5B...%5D.txt">Don't be surprised if you find yourself surrounded by Vaal ruins when you [...].txt</a><br>
+	├── <a href="./Dunno%20how%20I%20feel%20about%20Navali.%20Seems%20to%20me%20like%20the%20power%20to%20see%20the%20%5B...%5D.ogg">Dunno how I feel about Navali. Seems to me like the power to see the [...].ogg</a><br>
+	├── <a href="./Dunno%20how%20I%20feel%20about%20Navali.%20Seems%20to%20me%20like%20the%20power%20to%20see%20the%20%5B...%5D.txt">Dunno how I feel about Navali. Seems to me like the power to see the [...].txt</a><br>
+	├── <a href="./Eh%3F%20Oh.%20I'm%20busy%20right%20now..ogg">Eh? Oh. I'm busy right now..ogg</a><br>
+	├── <a href="./Eh%3F%20Oh.%20I'm%20busy%20right%20now..txt">Eh? Oh. I'm busy right now..txt</a><br>
+	├── <a href="./Einhar's%20a%20bloody%20lunatic.%20But%20you%20know%20what%3F%20He's%20growing%20on%20me.%20I%20don't%20%5B...%5D.ogg">Einhar's a bloody lunatic. But you know what? He's growing on me. I don't [...].ogg</a><br>
+	├── <a href="./Einhar's%20a%20bloody%20lunatic.%20But%20you%20know%20what%3F%20He's%20growing%20on%20me.%20I%20don't%20%5B...%5D.txt">Einhar's a bloody lunatic. But you know what? He's growing on me. I don't [...].txt</a><br>
+	├── <a href="./Einhar...%20Bloody%20Einhar%20won't%20leave%20me%20alone!%20%22We%20are%20best%20friends%20yes%3F%20We%20%5B...%5D.ogg">Einhar... Bloody Einhar won't leave me alone! &quot;We are best friends yes? We [...].ogg</a><br>
+	├── <a href="./Einhar...%20Bloody%20Einhar%20won't%20leave%20me%20alone!%20%22We%20are%20best%20friends%20yes%3F%20We%20%5B...%5D.txt">Einhar... Bloody Einhar won't leave me alone! &quot;We are best friends yes? We [...].txt</a><br>
+	├── <a href="./Eternal%20relics%20on%20Vaal%20ruins.%20Vaal%20ruins%20on%20a%20living%20graveyard.%20Down%20and%20%5B...%5D.ogg">Eternal relics on Vaal ruins. Vaal ruins on a living graveyard. Down and [...].ogg</a><br>
+	├── <a href="./Eternal%20relics%20on%20Vaal%20ruins.%20Vaal%20ruins%20on%20a%20living%20graveyard.%20Down%20and%20%5B...%5D.txt">Eternal relics on Vaal ruins. Vaal ruins on a living graveyard. Down and [...].txt</a><br>
+	├── <a href="./Felt%20the%20sting%20of%20the%20hungering%20gloom%20yet%3F%20All%20in%20due%20time.%20It's%20hungrier%20%5B...%5D.ogg">Felt the sting of the hungering gloom yet? All in due time. It's hungrier [...].ogg</a><br>
+	├── <a href="./Felt%20the%20sting%20of%20the%20hungering%20gloom%20yet%3F%20All%20in%20due%20time.%20It's%20hungrier%20%5B...%5D.txt">Felt the sting of the hungering gloom yet? All in due time. It's hungrier [...].txt</a><br>
+	├── <a href="./Food%20for%20the%20machine,%20heheh!.ogg">Food for the machine, heheh!.ogg</a><br>
+	├── <a href="./Food%20for%20the%20machine,%20heheh!.txt">Food for the machine, heheh!.txt</a><br>
+	├── <a href="./Good%20find,%20exile..ogg">Good find, exile..ogg</a><br>
+	├── <a href="./Good%20find,%20exile..txt">Good find, exile..txt</a><br>
+	├── <a href="./Good%20good%20good%20good..ogg">Good good good good..ogg</a><br>
+	├── <a href="./Good%20good%20good%20good..txt">Good good good good..txt</a><br>
+	├── <a href="./Got%20to%20keep%20digging,%20exile.%20Got%20to%20keep%20digging!%20Need%20to%20let%20them%20out.%20%5B...%5D.ogg">Got to keep digging, exile. Got to keep digging! Need to let them out. [...].ogg</a><br>
+	├── <a href="./Got%20to%20keep%20digging,%20exile.%20Got%20to%20keep%20digging!%20Need%20to%20let%20them%20out.%20%5B...%5D.txt">Got to keep digging, exile. Got to keep digging! Need to let them out. [...].txt</a><br>
+	├── <a href="./Gotta%20grab%20'em%20before%20someone%20else%20does,%20eh%3F.ogg">Gotta grab 'em before someone else does, eh?.ogg</a><br>
+	├── <a href="./Gotta%20grab%20'em%20before%20someone%20else%20does,%20eh%3F.txt">Gotta grab 'em before someone else does, eh?.txt</a><br>
+	├── <a href="./Grew%20up%20in%20Oriath.%20Used%20to%20love%20the%20city...%20Spent%20my%20youth%20combing%20the%20%5B...%5D.ogg">Grew up in Oriath. Used to love the city... Spent my youth combing the [...].ogg</a><br>
+	├── <a href="./Grew%20up%20in%20Oriath.%20Used%20to%20love%20the%20city...%20Spent%20my%20youth%20combing%20the%20%5B...%5D.txt">Grew up in Oriath. Used to love the city... Spent my youth combing the [...].txt</a><br>
+	├── <a href="./Have%20you%20ever%20noticed%20Kirac%20doesn't%20go%20into%20the%20Atlas%20himself%20anymore%3F%20%5B...%5D.ogg">Have you ever noticed Kirac doesn't go into the Atlas himself anymore? [...].ogg</a><br>
+	├── <a href="./Have%20you%20ever%20noticed%20Kirac%20doesn't%20go%20into%20the%20Atlas%20himself%20anymore%3F%20%5B...%5D.txt">Have you ever noticed Kirac doesn't go into the Atlas himself anymore? [...].txt</a><br>
+	├── <a href="./Heheheh,%20they%20thought%20they%20could%20put%20ol'%20Niko%20to%20rest.%20Thought%20I'd%20die%20out%20%5B...%5D.ogg">Heheheh, they thought they could put ol' Niko to rest. Thought I'd die out [...].ogg</a><br>
+	├── <a href="./Heheheh,%20they%20thought%20they%20could%20put%20ol'%20Niko%20to%20rest.%20Thought%20I'd%20die%20out%20%5B...%5D.txt">Heheheh, they thought they could put ol' Niko to rest. Thought I'd die out [...].txt</a><br>
+	├── <a href="./Heheheh...%20Good%20eye,%20exile....ogg">Heheheh... Good eye, exile....ogg</a><br>
+	├── <a href="./Heheheh...%20Good%20eye,%20exile....txt">Heheheh... Good eye, exile....txt</a><br>
+	├── <a href="./Heheheheheheheheh....ogg">Heheheheheheheheh....ogg</a><br>
+	├── <a href="./Heheheheheheheheh....txt">Heheheheheheheheh....txt</a><br>
+	├── <a href="./Helena's%20a%20good%20egg.%20Her%20moral%20compass%20was%20a%20little%20bent,%20but%20Oriath'll%20do%20%5B...%5D.ogg">Helena's a good egg. Her moral compass was a little bent, but Oriath'll do [...].ogg</a><br>
+	├── <a href="./Helena's%20a%20good%20egg.%20Her%20moral%20compass%20was%20a%20little%20bent,%20but%20Oriath'll%20do%20%5B...%5D.txt">Helena's a good egg. Her moral compass was a little bent, but Oriath'll do [...].txt</a><br>
+	├── <a href="./Helena...%20Clever,%20kind,%20polite...%20seems%20too%20good%20to%20be%20true,%20if%20you%20ask%20%5B...%5D.ogg">Helena... Clever, kind, polite... seems too good to be true, if you ask [...].ogg</a><br>
+	├── <a href="./Helena...%20Clever,%20kind,%20polite...%20seems%20too%20good%20to%20be%20true,%20if%20you%20ask%20%5B...%5D.txt">Helena... Clever, kind, polite... seems too good to be true, if you ask [...].txt</a><br>
+	├── <a href="./Hey,%20mate,%20what's%20going%20on%3F%20Came%20all%20the%20way%20here%20to%20see%20what's%20what%20in%20%5B...%5D.ogg">Hey, mate, what's going on? Came all the way here to see what's what in [...].ogg</a><br>
+	├── <a href="./Hey,%20mate,%20what's%20going%20on%3F%20Came%20all%20the%20way%20here%20to%20see%20what's%20what%20in%20%5B...%5D.txt">Hey, mate, what's going on? Came all the way here to see what's what in [...].txt</a><br>
+	├── <a href="./Hot%20little%20pair%20of%20sticks%20you%20got.%20Mind%20you%20don't%20get%20'em%20mixed%20up.%20Don't%20%5B...%5D.ogg">Hot little pair of sticks you got. Mind you don't get 'em mixed up. Don't [...].ogg</a><br>
+	├── <a href="./Hot%20little%20pair%20of%20sticks%20you%20got.%20Mind%20you%20don't%20get%20'em%20mixed%20up.%20Don't%20%5B...%5D.txt">Hot little pair of sticks you got. Mind you don't get 'em mixed up. Don't [...].txt</a><br>
+	├── <a href="./How%20can%20Navali%20sit%20there,%20knowing%20what's%20going%20to%20happen%20to%20all%20of%20us,%20%5B...%5D.ogg">How can Navali sit there, knowing what's going to happen to all of us, [...].ogg</a><br>
+	├── <a href="./How%20can%20Navali%20sit%20there,%20knowing%20what's%20going%20to%20happen%20to%20all%20of%20us,%20%5B...%5D.txt">How can Navali sit there, knowing what's going to happen to all of us, [...].txt</a><br>
+	├── <a href="./How%20can%20there%20be%20this%20much%20blood,%20exile%3F%20Where's%20it%20coming%20from%3F%20Where's%20%5B...%5D.ogg">How can there be this much blood, exile? Where's it coming from? Where's [...].ogg</a><br>
+	├── <a href="./How%20can%20there%20be%20this%20much%20blood,%20exile%3F%20Where's%20it%20coming%20from%3F%20Where's%20%5B...%5D.txt">How can there be this much blood, exile? Where's it coming from? Where's [...].txt</a><br>
+	├── <a href="./Huh...%20Thought%20I%20heard%20you%20in%20there%20earlier.%20Went%20to%20check%20because%20I%20%5B...%5D.ogg">Huh... Thought I heard you in there earlier. Went to check because I [...].ogg</a><br>
+	├── <a href="./Huh...%20Thought%20I%20heard%20you%20in%20there%20earlier.%20Went%20to%20check%20because%20I%20%5B...%5D.txt">Huh... Thought I heard you in there earlier. Went to check because I [...].txt</a><br>
+	├── <a href="./I%20don't%20often%20go%20into%20the%20Atlas,%20but%20when%20I%20do,%20I'm%20there%20for%20one%20thing:%20%5B...%5D.ogg">I don't often go into the Atlas, but when I do, I'm there for one thing: [...].ogg</a><br>
+	├── <a href="./I%20don't%20often%20go%20into%20the%20Atlas,%20but%20when%20I%20do,%20I'm%20there%20for%20one%20thing:%20%5B...%5D.txt">I don't often go into the Atlas, but when I do, I'm there for one thing: [...].txt</a><br>
+	├── <a href="./I%20know%20'er,%20sure.%20Don't%20care%20much%20for%20her.%20She's%20the%20type%20of%20person%20that%20%5B...%5D.ogg">I know 'er, sure. Don't care much for her. She's the type of person that [...].ogg</a><br>
+	├── <a href="./I%20know%20'er,%20sure.%20Don't%20care%20much%20for%20her.%20She's%20the%20type%20of%20person%20that%20%5B...%5D.txt">I know 'er, sure. Don't care much for her. She's the type of person that [...].txt</a><br>
+	├── <a href="./I%20think%20they're%20back,%20exile.%20The%20voices.%20I%20can%20hear%20them%20talking%20to%20me%20%5B...%5D.ogg">I think they're back, exile. The voices. I can hear them talking to me [...].ogg</a><br>
+	├── <a href="./I%20think%20they're%20back,%20exile.%20The%20voices.%20I%20can%20hear%20them%20talking%20to%20me%20%5B...%5D.txt">I think they're back, exile. The voices. I can hear them talking to me [...].txt</a><br>
+	├── <a href="./I%20want%20to%20like%20Navali.%20I%20really%20do.%20But...%20did%20you%20know%20she's%20bloody%20%5B...%5D.ogg">I want to like Navali. I really do. But... did you know she's bloody [...].ogg</a><br>
+	├── <a href="./I%20want%20to%20like%20Navali.%20I%20really%20do.%20But...%20did%20you%20know%20she's%20bloody%20%5B...%5D.txt">I want to like Navali. I really do. But... did you know she's bloody [...].txt</a><br>
+	├── <a href="./I'm%20plenty%20familiar%20with%20her%20type.%20Sniffin'%20around%20for%20treasure%20but%20doing%20%5B...%5D.ogg">I'm plenty familiar with her type. Sniffin' around for treasure but doing [...].ogg</a><br>
+	├── <a href="./I'm%20plenty%20familiar%20with%20her%20type.%20Sniffin'%20around%20for%20treasure%20but%20doing%20%5B...%5D.txt">I'm plenty familiar with her type. Sniffin' around for treasure but doing [...].txt</a><br>
+	├── <a href="./If%20you%20knew%20how%20to%20handle%20Voltaxic%20Sulphite%20without%20blowing%20your%20arms%20off,%20%5B...%5D.ogg">If you knew how to handle Voltaxic Sulphite without blowing your arms off, [...].ogg</a><br>
+	├── <a href="./If%20you%20knew%20how%20to%20handle%20Voltaxic%20Sulphite%20without%20blowing%20your%20arms%20off,%20%5B...%5D.txt">If you knew how to handle Voltaxic Sulphite without blowing your arms off, [...].txt</a><br>
+	├── <a href="./Impressive%20ain't%20she%3F%20It's%20where%20Crawler%20gets%20its%20power,%20and%20what%20keeps%20%5B...%5D.ogg">Impressive ain't she? It's where Crawler gets its power, and what keeps [...].ogg</a><br>
+	├── <a href="./Impressive%20ain't%20she%3F%20It's%20where%20Crawler%20gets%20its%20power,%20and%20what%20keeps%20%5B...%5D.txt">Impressive ain't she? It's where Crawler gets its power, and what keeps [...].txt</a><br>
+	├── <a href="./It's%20angry%20now,%20exile.%20The%20darkness%20is%20angry.%20Angry%20that%20you%20are%20walking%20%5B...%5D.ogg">It's angry now, exile. The darkness is angry. Angry that you are walking [...].ogg</a><br>
+	├── <a href="./It's%20angry%20now,%20exile.%20The%20darkness%20is%20angry.%20Angry%20that%20you%20are%20walking%20%5B...%5D.txt">It's angry now, exile. The darkness is angry. Angry that you are walking [...].txt</a><br>
+	├── <a href="./It's%20out%20there,%20exile.%20Watching%20us.%20It's%20all%20around%20us.%20Can%20you%20feel%20it%3F%20%5B...%5D.ogg">It's out there, exile. Watching us. It's all around us. Can you feel it? [...].ogg</a><br>
+	├── <a href="./It's%20out%20there,%20exile.%20Watching%20us.%20It's%20all%20around%20us.%20Can%20you%20feel%20it%3F%20%5B...%5D.txt">It's out there, exile. Watching us. It's all around us. Can you feel it? [...].txt</a><br>
+	├── <a href="./Kirac's%20a%20good%20egg,%20don't%20get%20me%20wrong.%20I%20just%20think%20it's%20mighty%20%5B...%5D.ogg">Kirac's a good egg, don't get me wrong. I just think it's mighty [...].ogg</a><br>
+	├── <a href="./Kirac's%20a%20good%20egg,%20don't%20get%20me%20wrong.%20I%20just%20think%20it's%20mighty%20%5B...%5D.txt">Kirac's a good egg, don't get me wrong. I just think it's mighty [...].txt</a><br>
+	├── <a href="./Layers%20on%20layers%20on%20layers.%20That's%20how%20we%20build.%20Sarn%20built%20over%20the%20ruins%20%5B...%5D.ogg">Layers on layers on layers. That's how we build. Sarn built over the ruins [...].ogg</a><br>
+	├── <a href="./Layers%20on%20layers%20on%20layers.%20That's%20how%20we%20build.%20Sarn%20built%20over%20the%20ruins%20%5B...%5D.txt">Layers on layers on layers. That's how we build. Sarn built over the ruins [...].txt</a><br>
+	├── <a href="./Look%20at%20yourself.%20Think%20you're%20ready%20to%20face%20whatever%20lies%20deeper%20in%20those%20%5B...%5D.ogg">Look at yourself. Think you're ready to face whatever lies deeper in those [...].ogg</a><br>
+	├── <a href="./Look%20at%20yourself.%20Think%20you're%20ready%20to%20face%20whatever%20lies%20deeper%20in%20those%20%5B...%5D.txt">Look at yourself. Think you're ready to face whatever lies deeper in those [...].txt</a><br>
+	├── <a href="./Looks%20like%20shite,%20eh%3F%20Well,%20don't%20judge%20a%20mine%20by%20its%20entrance.%20Eternals%20%5B...%5D.ogg">Looks like shite, eh? Well, don't judge a mine by its entrance. Eternals [...].ogg</a><br>
+	├── <a href="./Looks%20like%20shite,%20eh%3F%20Well,%20don't%20judge%20a%20mine%20by%20its%20entrance.%20Eternals%20%5B...%5D.txt">Looks like shite, eh? Well, don't judge a mine by its entrance. Eternals [...].txt</a><br>
+	├── <a href="./Love%20the%20stuff,%20really.%20The%20weight,%20the%20roughness...%20The%20way%20it%20makes%20my%20%5B...%5D.ogg">Love the stuff, really. The weight, the roughness... The way it makes my [...].ogg</a><br>
+	├── <a href="./Love%20the%20stuff,%20really.%20The%20weight,%20the%20roughness...%20The%20way%20it%20makes%20my%20%5B...%5D.txt">Love the stuff, really. The weight, the roughness... The way it makes my [...].txt</a><br>
+	├── <a href="./Lovely%20sulphite,%20all%20for%20me.%20Brimming%20with%20sulphite%20already,%20the%20generator%20%5B...%5D.ogg">Lovely sulphite, all for me. Brimming with sulphite already, the generator [...].ogg</a><br>
+	├── <a href="./Lovely%20sulphite,%20all%20for%20me.%20Brimming%20with%20sulphite%20already,%20the%20generator%20%5B...%5D.txt">Lovely sulphite, all for me. Brimming with sulphite already, the generator [...].txt</a><br>
+	├── <a href="./Machine's%20worth%20more%20than%20my%20life.%20Or%20yours,%20should%20it%20come%20to%20that,%20%5B...%5D.ogg">Machine's worth more than my life. Or yours, should it come to that, [...].ogg</a><br>
+	├── <a href="./Machine's%20worth%20more%20than%20my%20life.%20Or%20yours,%20should%20it%20come%20to%20that,%20%5B...%5D.txt">Machine's worth more than my life. Or yours, should it come to that, [...].txt</a><br>
+	├── <a href="./Made%20myself%20very%20rich%20selling%20Voltaxic%20Sulphite%20to%20the%20Templar.%20Didn't%20%5B...%5D.ogg">Made myself very rich selling Voltaxic Sulphite to the Templar. Didn't [...].ogg</a><br>
+	├── <a href="./Made%20myself%20very%20rich%20selling%20Voltaxic%20Sulphite%20to%20the%20Templar.%20Didn't%20%5B...%5D.txt">Made myself very rich selling Voltaxic Sulphite to the Templar. Didn't [...].txt</a><br>
+	├── <a href="./More,%20exile.%20Go%20find%20more..ogg">More, exile. Go find more..ogg</a><br>
+	├── <a href="./More,%20exile.%20Go%20find%20more..txt">More, exile. Go find more..txt</a><br>
+	├── <a href="./My%20beasty%20mate.%20What%20a%20guy.%20Heck%20of%20a%20shot.%20Loves%20a%20laugh.%20Rips%20animals%20%5B...%5D.ogg">My beasty mate. What a guy. Heck of a shot. Loves a laugh. Rips animals [...].ogg</a><br>
+	├── <a href="./My%20beasty%20mate.%20What%20a%20guy.%20Heck%20of%20a%20shot.%20Loves%20a%20laugh.%20Rips%20animals%20%5B...%5D.txt">My beasty mate. What a guy. Heck of a shot. Loves a laugh. Rips animals [...].txt</a><br>
+	├── <a href="./My,%20my!%20Good%20nose,%20exile.%20Know%20what%20you've%20found%20here%3F%20This%20is%20Voltaxic%20%5B...%5D.ogg">My, my! Good nose, exile. Know what you've found here? This is Voltaxic [...].ogg</a><br>
+	├── <a href="./My,%20my!%20Good%20nose,%20exile.%20Know%20what%20you've%20found%20here%3F%20This%20is%20Voltaxic%20%5B...%5D.txt">My, my! Good nose, exile. Know what you've found here? This is Voltaxic [...].txt</a><br>
+	├── <a href="./Nice%20girl,%20she%20is.%20Very%20nice%20indeed.%20Too%20nice.%20Whatever%20it%20is%20she's%20hiding%20%5B...%5D.ogg">Nice girl, she is. Very nice indeed. Too nice. Whatever it is she's hiding [...].ogg</a><br>
+	├── <a href="./Nice%20girl,%20she%20is.%20Very%20nice%20indeed.%20Too%20nice.%20Whatever%20it%20is%20she's%20hiding%20%5B...%5D.txt">Nice girl, she is. Very nice indeed. Too nice. Whatever it is she's hiding [...].txt</a><br>
+	├── <a href="./No%20room%20for%20this%20right%20now%20with%20the%20generator%20as%20full%20as%20it%20is,%20but%20better%20%5B...%5D.ogg">No room for this right now with the generator as full as it is, but better [...].ogg</a><br>
+	├── <a href="./No%20room%20for%20this%20right%20now%20with%20the%20generator%20as%20full%20as%20it%20is,%20but%20better%20%5B...%5D.txt">No room for this right now with the generator as full as it is, but better [...].txt</a><br>
+	├── <a href="./Not%20the%20prettiest%20spot%20in%20Wraeclast,%20but%20relatively%20dry%20and%20safe%20as%20long%20%5B...%5D.ogg">Not the prettiest spot in Wraeclast, but relatively dry and safe as long [...].ogg</a><br>
+	├── <a href="./Not%20the%20prettiest%20spot%20in%20Wraeclast,%20but%20relatively%20dry%20and%20safe%20as%20long%20%5B...%5D.txt">Not the prettiest spot in Wraeclast, but relatively dry and safe as long [...].txt</a><br>
+	├── <a href="./Not%20too%20long%20ago,%20I%20came%20upon%20the%20telltale%20purple%20light%20that%20usually%20%5B...%5D.ogg">Not too long ago, I came upon the telltale purple light that usually [...].ogg</a><br>
+	├── <a href="./Not%20too%20long%20ago,%20I%20came%20upon%20the%20telltale%20purple%20light%20that%20usually%20%5B...%5D.txt">Not too long ago, I came upon the telltale purple light that usually [...].txt</a><br>
+	├── <a href="./Oh%20yes...%20The%20time%20traveller.%20Says%20she%20can%20go%20back%20in%20time.%20Must%20mean%20%5B...%5D.ogg">Oh yes... The time traveller. Says she can go back in time. Must mean [...].ogg</a><br>
+	├── <a href="./Oh%20yes...%20The%20time%20traveller.%20Says%20she%20can%20go%20back%20in%20time.%20Must%20mean%20%5B...%5D.txt">Oh yes... The time traveller. Says she can go back in time. Must mean [...].txt</a><br>
+	├── <a href="./Ooooh,%20she's%20up%20to%20something.%20Nobody%20with%20those%20darty%20little%20eyes%20and%20%5B...%5D.ogg">Ooooh, she's up to something. Nobody with those darty little eyes and [...].ogg</a><br>
+	├── <a href="./Ooooh,%20she's%20up%20to%20something.%20Nobody%20with%20those%20darty%20little%20eyes%20and%20%5B...%5D.txt">Ooooh, she's up to something. Nobody with those darty little eyes and [...].txt</a><br>
+	├── <a href="./Oooooooh!%20Look%20at%20that!.ogg">Oooooooh! Look at that!.ogg</a><br>
+	├── <a href="./Oooooooh!%20Look%20at%20that!.txt">Oooooooh! Look at that!.txt</a><br>
+	├── <a href="./Packed%20with%20energy,%20exile.%20Packed%20with%20energy..ogg">Packed with energy, exile. Packed with energy..ogg</a><br>
+	├── <a href="./Packed%20with%20energy,%20exile.%20Packed%20with%20energy..txt">Packed with energy, exile. Packed with energy..txt</a><br>
+	├── <a href="./Piles%20of%20gold,%20eh%3F%20Ain't%20a%20goldmine,%20so%20sounds%20like%20you%20stumbled%20across%20an%20%5B...%5D.ogg">Piles of gold, eh? Ain't a goldmine, so sounds like you stumbled across an [...].ogg</a><br>
+	├── <a href="./Piles%20of%20gold,%20eh%3F%20Ain't%20a%20goldmine,%20so%20sounds%20like%20you%20stumbled%20across%20an%20%5B...%5D.txt">Piles of gold, eh? Ain't a goldmine, so sounds like you stumbled across an [...].txt</a><br>
+	├── <a href="./Plenty%20of%20energy%20in%20this%20one,%20but%20the%20generator%20is%20at%20capacity.%20How%20about%20%5B...%5D.ogg">Plenty of energy in this one, but the generator is at capacity. How about [...].ogg</a><br>
+	├── <a href="./Plenty%20of%20energy%20in%20this%20one,%20but%20the%20generator%20is%20at%20capacity.%20How%20about%20%5B...%5D.txt">Plenty of energy in this one, but the generator is at capacity. How about [...].txt</a><br>
+	├── <a href="./Pretty%20little%20rocks,%20just%20for%20me....ogg">Pretty little rocks, just for me....ogg</a><br>
+	├── <a href="./Pretty%20little%20rocks,%20just%20for%20me....txt">Pretty little rocks, just for me....txt</a><br>
+	├── <a href="./Probably%20heard%20about%20all%20the%20weird%20experiments%20the%20Templar%20were%20doin'%20back%20%5B...%5D.ogg">Probably heard about all the weird experiments the Templar were doin' back [...].ogg</a><br>
+	├── <a href="./Probably%20heard%20about%20all%20the%20weird%20experiments%20the%20Templar%20were%20doin'%20back%20%5B...%5D.txt">Probably heard about all the weird experiments the Templar were doin' back [...].txt</a><br>
+	├── <a href="./Quickly,%20Niko,%20quickly...%20they're%20waiting!.ogg">Quickly, Niko, quickly... they're waiting!.ogg</a><br>
+	├── <a href="./Quickly,%20Niko,%20quickly...%20they're%20waiting!.txt">Quickly, Niko, quickly... they're waiting!.txt</a><br>
+	├── <a href="./Quite%20liked%20it%20here,%20you%20know,%20right%20up%20until%20the%20bloody%20mountainside%20%5B...%5D.ogg">Quite liked it here, you know, right up until the bloody mountainside [...].ogg</a><br>
+	├── <a href="./Quite%20liked%20it%20here,%20you%20know,%20right%20up%20until%20the%20bloody%20mountainside%20%5B...%5D.txt">Quite liked it here, you know, right up until the bloody mountainside [...].txt</a><br>
+	├── <a href="./See%20that%3F%20One%20moment,%20big%20blades,%20next%20moment,%20gone!%20Should%20be%20able%20to%20go%20%5B...%5D.ogg">See that? One moment, big blades, next moment, gone! Should be able to go [...].ogg</a><br>
+	├── <a href="./See%20that%3F%20One%20moment,%20big%20blades,%20next%20moment,%20gone!%20Should%20be%20able%20to%20go%20%5B...%5D.txt">See that? One moment, big blades, next moment, gone! Should be able to go [...].txt</a><br>
+	├── <a href="./See%20you%20later!.ogg">See you later!.ogg</a><br>
+	├── <a href="./See%20you%20later!.txt">See you later!.txt</a><br>
+	├── <a href="./Seems%20like%20the%20rain's%20brought%20out%20a%20few%20worms!%20Don't%20think%20I'm%20an%20easy%20%5B...%5D.ogg">Seems like the rain's brought out a few worms! Don't think I'm an easy [...].ogg</a><br>
+	├── <a href="./Seems%20like%20the%20rain's%20brought%20out%20a%20few%20worms!%20Don't%20think%20I'm%20an%20easy%20%5B...%5D.txt">Seems like the rain's brought out a few worms! Don't think I'm an easy [...].txt</a><br>
+	├── <a href="./Seen%20her%20sniffin'%20around%20my%20mine...%20Reckon%20she%20was%20looking%20for%20some%20%5B...%5D.ogg">Seen her sniffin' around my mine... Reckon she was looking for some [...].ogg</a><br>
+	├── <a href="./Seen%20her%20sniffin'%20around%20my%20mine...%20Reckon%20she%20was%20looking%20for%20some%20%5B...%5D.txt">Seen her sniffin' around my mine... Reckon she was looking for some [...].txt</a><br>
+	├── <a href="./She%20knows%20too%20much,%20exile.%20Too%20much!%20And%20there's%20nothing%20we%20can%20do%20about%20%5B...%5D.ogg">She knows too much, exile. Too much! And there's nothing we can do about [...].ogg</a><br>
+	├── <a href="./She%20knows%20too%20much,%20exile.%20Too%20much!%20And%20there's%20nothing%20we%20can%20do%20about%20%5B...%5D.txt">She knows too much, exile. Too much! And there's nothing we can do about [...].txt</a><br>
+	├── <a href="./She%20says%20she's%20still%20on%20the%20run%20from%20the%20blackguards,%20but...%20how%20do%20we%20%5B...%5D.ogg">She says she's still on the run from the blackguards, but... how do we [...].ogg</a><br>
+	├── <a href="./She%20says%20she's%20still%20on%20the%20run%20from%20the%20blackguards,%20but...%20how%20do%20we%20%5B...%5D.txt">She says she's still on the run from the blackguards, but... how do we [...].txt</a><br>
+	├── <a href="./She's%20hiding%20her%20face,%20but%20her%20eyes%20tell%20you%20everything%20you%20need%20to%20know,%20%5B...%5D.ogg">She's hiding her face, but her eyes tell you everything you need to know, [...].ogg</a><br>
+	├── <a href="./She's%20hiding%20her%20face,%20but%20her%20eyes%20tell%20you%20everything%20you%20need%20to%20know,%20%5B...%5D.txt">She's hiding her face, but her eyes tell you everything you need to know, [...].txt</a><br>
+	├── <a href="./She's%20smart%20enough%20to%20know%20that%20the%20blackguards%20are%20bad%20news...%20Though%20she%20%5B...%5D.ogg">She's smart enough to know that the blackguards are bad news... Though she [...].ogg</a><br>
+	├── <a href="./She's%20smart%20enough%20to%20know%20that%20the%20blackguards%20are%20bad%20news...%20Though%20she%20%5B...%5D.txt">She's smart enough to know that the blackguards are bad news... Though she [...].txt</a><br>
+	├── <a href="./Shh.%20Don't%20want%20her%20hearing.%20I%20think%20she's%20found%20something%20she%20doesn't%20%5B...%5D.ogg">Shh. Don't want her hearing. I think she's found something she doesn't [...].ogg</a><br>
+	├── <a href="./Shh.%20Don't%20want%20her%20hearing.%20I%20think%20she's%20found%20something%20she%20doesn't%20%5B...%5D.txt">Shh. Don't want her hearing. I think she's found something she doesn't [...].txt</a><br>
+	├── <a href="./Somethin'%20about%20masks%20just%20put%20me%20on%20the%20defensive.%20Probably%20has%20something%20%5B...%5D.ogg">Somethin' about masks just put me on the defensive. Probably has something [...].ogg</a><br>
+	├── <a href="./Somethin'%20about%20masks%20just%20put%20me%20on%20the%20defensive.%20Probably%20has%20something%20%5B...%5D.txt">Somethin' about masks just put me on the defensive. Probably has something [...].txt</a><br>
+	├── <a href="./Sometimes%20Navali%20looks%20over%20at%20me%20and%20just...%20frowns.%20Not%20an%20angry%20frown,%20%5B...%5D.ogg">Sometimes Navali looks over at me and just... frowns. Not an angry frown, [...].ogg</a><br>
+	├── <a href="./Sometimes%20Navali%20looks%20over%20at%20me%20and%20just...%20frowns.%20Not%20an%20angry%20frown,%20%5B...%5D.txt">Sometimes Navali looks over at me and just... frowns. Not an angry frown, [...].txt</a><br>
+	├── <a href="./Tell%20me,%20what%20do%20you%20think%20is%20worth%20more:%20this%20machine,%20or%20the%20power%20and%20%5B...%5D.ogg">Tell me, what do you think is worth more: this machine, or the power and [...].ogg</a><br>
+	├── <a href="./Tell%20me,%20what%20do%20you%20think%20is%20worth%20more:%20this%20machine,%20or%20the%20power%20and%20%5B...%5D.txt">Tell me, what do you think is worth more: this machine, or the power and [...].txt</a><br>
+	├── <a href="./That%20Einhar%20keeps%20lugging%20skins%20and%20organs%20over%20to%20me,%20like%20they're%20bloody%20%5B...%5D.ogg">That Einhar keeps lugging skins and organs over to me, like they're bloody [...].ogg</a><br>
+	├── <a href="./That%20Einhar%20keeps%20lugging%20skins%20and%20organs%20over%20to%20me,%20like%20they're%20bloody%20%5B...%5D.txt">That Einhar keeps lugging skins and organs over to me, like they're bloody [...].txt</a><br>
+	├── <a href="./That%20girl...%20She's%20been%20eyeing%20my%20machine.%20I%20know%20she's%20after%20it.%20Greedy%20%5B...%5D.ogg">That girl... She's been eyeing my machine. I know she's after it. Greedy [...].ogg</a><br>
+	├── <a href="./That%20girl...%20She's%20been%20eyeing%20my%20machine.%20I%20know%20she's%20after%20it.%20Greedy%20%5B...%5D.txt">That girl... She's been eyeing my machine. I know she's after it. Greedy [...].txt</a><br>
+	├── <a href="./The%20darkness%20is%20coming%20for%20you,%20exile.%20The%20deeper%20you%20go,%20the%20stronger%20it%20%5B...%5D.ogg">The darkness is coming for you, exile. The deeper you go, the stronger it [...].ogg</a><br>
+	├── <a href="./The%20darkness%20is%20coming%20for%20you,%20exile.%20The%20deeper%20you%20go,%20the%20stronger%20it%20%5B...%5D.txt">The darkness is coming for you, exile. The deeper you go, the stronger it [...].txt</a><br>
+	├── <a href="./The%20darkness%20within%20those%20walls%20is%20unnatural.%20It%20does%20not%20fade%20in%20the%20%5B...%5D.ogg">The darkness within those walls is unnatural. It does not fade in the [...].ogg</a><br>
+	├── <a href="./The%20darkness%20within%20those%20walls%20is%20unnatural.%20It%20does%20not%20fade%20in%20the%20%5B...%5D.txt">The darkness within those walls is unnatural. It does not fade in the [...].txt</a><br>
+	├── <a href="./The%20deeper%20we%20go,%20the%20more%20the%20darkness%20scares%20me.%20I've%20seen%20nothing%20like%20%5B...%5D.ogg">The deeper we go, the more the darkness scares me. I've seen nothing like [...].ogg</a><br>
+	├── <a href="./The%20deeper%20we%20go,%20the%20more%20the%20darkness%20scares%20me.%20I've%20seen%20nothing%20like%20%5B...%5D.txt">The deeper we go, the more the darkness scares me. I've seen nothing like [...].txt</a><br>
+	├── <a href="./The%20depths%20you're%20exploring%20are%20dangerous,%20exile.%20Not%20talking%20about%20the%20%5B...%5D.ogg">The depths you're exploring are dangerous, exile. Not talking about the [...].ogg</a><br>
+	├── <a href="./The%20depths%20you're%20exploring%20are%20dangerous,%20exile.%20Not%20talking%20about%20the%20%5B...%5D.txt">The depths you're exploring are dangerous, exile. Not talking about the [...].txt</a><br>
+	├── <a href="./The%20thing%20about%20her%20is...%20she's%20so...%20normal.%20It's%20like%20she's%20trying%20to%20%5B...%5D.ogg">The thing about her is... she's so... normal. It's like she's trying to [...].ogg</a><br>
+	├── <a href="./The%20thing%20about%20her%20is...%20she's%20so...%20normal.%20It's%20like%20she's%20trying%20to%20%5B...%5D.txt">The thing about her is... she's so... normal. It's like she's trying to [...].txt</a><br>
+	├── <a href="./There%20are%20many%20voices.%20Sometimes,%20they%20speak%20to%20the%20monsters...%20from%20%5B...%5D.ogg">There are many voices. Sometimes, they speak to the monsters... from [...].ogg</a><br>
+	├── <a href="./There%20are%20many%20voices.%20Sometimes,%20they%20speak%20to%20the%20monsters...%20from%20%5B...%5D.txt">There are many voices. Sometimes, they speak to the monsters... from [...].txt</a><br>
+	├── <a href="./There%20aren't%20many%20people%20worthy%20of%20praise%20left%20in%20this%20world,%20but%20Zana%20is%20%5B...%5D.ogg">There aren't many people worthy of praise left in this world, but Zana is [...].ogg</a><br>
+	├── <a href="./There%20aren't%20many%20people%20worthy%20of%20praise%20left%20in%20this%20world,%20but%20Zana%20is%20%5B...%5D.txt">There aren't many people worthy of praise left in this world, but Zana is [...].txt</a><br>
+	├── <a href="./There%20were%20vast%20chasms%20of%20ghastly%20light...%20monstrosities%20poured%20forth.%20%5B...%5D.ogg">There were vast chasms of ghastly light... monstrosities poured forth. [...].ogg</a><br>
+	├── <a href="./There%20were%20vast%20chasms%20of%20ghastly%20light...%20monstrosities%20poured%20forth.%20%5B...%5D.txt">There were vast chasms of ghastly light... monstrosities poured forth. [...].txt</a><br>
+	├── <a href="./They're%20calling%20us...%20They're%20calling%20us%20again,%20exile.%20And%20we%20have%20to%20%5B...%5D.ogg">They're calling us... They're calling us again, exile. And we have to [...].ogg</a><br>
+	├── <a href="./They're%20calling%20us...%20They're%20calling%20us%20again,%20exile.%20And%20we%20have%20to%20%5B...%5D.txt">They're calling us... They're calling us again, exile. And we have to [...].txt</a><br>
+	├── <a href="./They're%20definitely%20after%20it,%20exile.%20Want%20our%20pretty%20little%20rocks.%20Circling%20%5B...%5D.ogg">They're definitely after it, exile. Want our pretty little rocks. Circling [...].ogg</a><br>
+	├── <a href="./They're%20definitely%20after%20it,%20exile.%20Want%20our%20pretty%20little%20rocks.%20Circling%20%5B...%5D.txt">They're definitely after it, exile. Want our pretty little rocks. Circling [...].txt</a><br>
+	├── <a href="./They're%20forcing%20their%20way%20in,%20Exile.%20Demons%20pressing%20their%20faces%20against%20%5B...%5D.ogg">They're forcing their way in, Exile. Demons pressing their faces against [...].ogg</a><br>
+	├── <a href="./They're%20forcing%20their%20way%20in,%20Exile.%20Demons%20pressing%20their%20faces%20against%20%5B...%5D.txt">They're forcing their way in, Exile. Demons pressing their faces against [...].txt</a><br>
+	├── <a href="./They're%20getting%20through,%20Exile.%20The%20demons!%20I%20saw%20them...%20when%20one%20hole%20%5B...%5D.ogg">They're getting through, Exile. The demons! I saw them... when one hole [...].ogg</a><br>
+	├── <a href="./They're%20getting%20through,%20Exile.%20The%20demons!%20I%20saw%20them...%20when%20one%20hole%20%5B...%5D.txt">They're getting through, Exile. The demons! I saw them... when one hole [...].txt</a><br>
+	├── <a href="./This%20is%20Crawler.%20Capable%20of%20scouting%20out%20a%20few%20of%20the%20valuables%20hidden%20%5B...%5D.ogg">This is Crawler. Capable of scouting out a few of the valuables hidden [...].ogg</a><br>
+	├── <a href="./This%20is%20Crawler.%20Capable%20of%20scouting%20out%20a%20few%20of%20the%20valuables%20hidden%20%5B...%5D.txt">This is Crawler. Capable of scouting out a few of the valuables hidden [...].txt</a><br>
+	├── <a href="./This%20is%20a%20bad%20omen,%20exile.%20A%20real%20baaaad%20sign.%20What%20if%20all%20the%20water's%20%5B...%5D.ogg">This is a bad omen, exile. A real baaaad sign. What if all the water's [...].ogg</a><br>
+	├── <a href="./This%20is%20a%20bad%20omen,%20exile.%20A%20real%20baaaad%20sign.%20What%20if%20all%20the%20water's%20%5B...%5D.txt">This is a bad omen, exile. A real baaaad sign. What if all the water's [...].txt</a><br>
+	├── <a href="./This'll%20do%20nicely,%20exile..ogg">This'll do nicely, exile..ogg</a><br>
+	├── <a href="./This'll%20do%20nicely,%20exile..txt">This'll do nicely, exile..txt</a><br>
+	├── <a href="./This...%20This%20is%20good%20stuff..ogg">This... This is good stuff..ogg</a><br>
+	├── <a href="./This...%20This%20is%20good%20stuff..txt">This... This is good stuff..txt</a><br>
+	├── <a href="./Thought%20I%20was%20imagining%20things%20the%20first%20time%20I%20saw%20it.%20The%20darkness...%20%5B...%5D.ogg">Thought I was imagining things the first time I saw it. The darkness... [...].ogg</a><br>
+	├── <a href="./Thought%20I%20was%20imagining%20things%20the%20first%20time%20I%20saw%20it.%20The%20darkness...%20%5B...%5D.txt">Thought I was imagining things the first time I saw it. The darkness... [...].txt</a><br>
+	├── <a href="./Thought%20most%20of%20the%20old%20cults%20died%20with%20the%20Eternal%20Empire,%20but%20it%20sounds%20%5B...%5D.ogg">Thought most of the old cults died with the Eternal Empire, but it sounds [...].ogg</a><br>
+	├── <a href="./Thought%20most%20of%20the%20old%20cults%20died%20with%20the%20Eternal%20Empire,%20but%20it%20sounds%20%5B...%5D.txt">Thought most of the old cults died with the Eternal Empire, but it sounds [...].txt</a><br>
+	├── <a href="./Tried%20to%20make%20a%20trade%20with%20Prospero,%20they%20did.%20That's%20why%20you%20saw%20gold%20%5B...%5D.ogg">Tried to make a trade with Prospero, they did. That's why you saw gold [...].ogg</a><br>
+	├── <a href="./Tried%20to%20make%20a%20trade%20with%20Prospero,%20they%20did.%20That's%20why%20you%20saw%20gold%20%5B...%5D.txt">Tried to make a trade with Prospero, they did. That's why you saw gold [...].txt</a><br>
+	├── <a href="./Trying%20to%20overload%20the%20generator,%20are%20ya%3F%20Thing's%20full-up.%20Full%20to%20the%20%5B...%5D.ogg">Trying to overload the generator, are ya? Thing's full-up. Full to the [...].ogg</a><br>
+	├── <a href="./Trying%20to%20overload%20the%20generator,%20are%20ya%3F%20Thing's%20full-up.%20Full%20to%20the%20%5B...%5D.txt">Trying to overload the generator, are ya? Thing's full-up. Full to the [...].txt</a><br>
+	├── <a href="./Used%20to%20mine%20the%20stuff%20for%20the%20Templar.%20Dunno%20why%20they%20needed%20all%20that%20%5B...%5D.ogg">Used to mine the stuff for the Templar. Dunno why they needed all that [...].ogg</a><br>
+	├── <a href="./Used%20to%20mine%20the%20stuff%20for%20the%20Templar.%20Dunno%20why%20they%20needed%20all%20that%20%5B...%5D.txt">Used to mine the stuff for the Templar. Dunno why they needed all that [...].txt</a><br>
+	├── <a href="./Wasn't%20long%20ago%20I%20went%20too%20deep%20into%20the%20mine%20too%20quickly.%20Chasing%20%5B...%5D.ogg">Wasn't long ago I went too deep into the mine too quickly. Chasing [...].ogg</a><br>
+	├── <a href="./Wasn't%20long%20ago%20I%20went%20too%20deep%20into%20the%20mine%20too%20quickly.%20Chasing%20%5B...%5D.txt">Wasn't long ago I went too deep into the mine too quickly. Chasing [...].txt</a><br>
+	├── <a href="./We%20need%20more%20of%20this,%20exile.%20A%20lot%20more..ogg">We need more of this, exile. A lot more..ogg</a><br>
+	├── <a href="./We%20need%20more%20of%20this,%20exile.%20A%20lot%20more..txt">We need more of this, exile. A lot more..txt</a><br>
+	├── <a href="./Well,%20this%20nice%20little%20outpost%20here's%20been,%20shall%20we%20say,%20marred.%20Don't%20%5B...%5D.ogg">Well, this nice little outpost here's been, shall we say, marred. Don't [...].ogg</a><br>
+	├── <a href="./Well,%20this%20nice%20little%20outpost%20here's%20been,%20shall%20we%20say,%20marred.%20Don't%20%5B...%5D.txt">Well, this nice little outpost here's been, shall we say, marred. Don't [...].txt</a><br>
+	├── <a href="./What%20good%20is%20gold%20to%20the%20dead%3F%20Can't%20spend%20if%20you%20can't%20move%20or%20breath.%20%5B...%5D.ogg">What good is gold to the dead? Can't spend if you can't move or breath. [...].ogg</a><br>
+	├── <a href="./What%20good%20is%20gold%20to%20the%20dead%3F%20Can't%20spend%20if%20you%20can't%20move%20or%20breath.%20%5B...%5D.txt">What good is gold to the dead? Can't spend if you can't move or breath. [...].txt</a><br>
+	├── <a href="./Whew.%20Whiff%20that..ogg">Whew. Whiff that..ogg</a><br>
+	├── <a href="./Whew.%20Whiff%20that..txt">Whew. Whiff that..txt</a><br>
+	├── <a href="./While%20traversing%20the%20far%20reaches%20of%20the%20Atlas,%20I%20came%20upon%20vast%20chasms%20%5B...%5D.ogg">While traversing the far reaches of the Atlas, I came upon vast chasms [...].ogg</a><br>
+	├── <a href="./While%20traversing%20the%20far%20reaches%20of%20the%20Atlas,%20I%20came%20upon%20vast%20chasms%20%5B...%5D.txt">While traversing the far reaches of the Atlas, I came upon vast chasms [...].txt</a><br>
+	├── <a href="./Whole%20Eternal%20Empire%20was%20built%20on%20the%20ruins%20of%20the%20Vaal,%20so%20it%20ain't%20%5B...%5D.ogg">Whole Eternal Empire was built on the ruins of the Vaal, so it ain't [...].ogg</a><br>
+	├── <a href="./Whole%20Eternal%20Empire%20was%20built%20on%20the%20ruins%20of%20the%20Vaal,%20so%20it%20ain't%20%5B...%5D.txt">Whole Eternal Empire was built on the ruins of the Vaal, so it ain't [...].txt</a><br>
+	├── <a href="./With%20the%20right%20materials,%20you%20can%20make%20some%20very%20nice%20things%20with%20my%20%5B...%5D.ogg">With the right materials, you can make some very nice things with my [...].ogg</a><br>
+	├── <a href="./With%20the%20right%20materials,%20you%20can%20make%20some%20very%20nice%20things%20with%20my%20%5B...%5D.txt">With the right materials, you can make some very nice things with my [...].txt</a><br>
+	├── <a href="./You%20got%20space%20for%20me%3F%20Do%20you%3F.ogg">You got space for me? Do you?.ogg</a><br>
+	├── <a href="./You%20got%20space%20for%20me%3F%20Do%20you%3F.txt">You got space for me? Do you?.txt</a><br>
+	├── <a href="./You%20know,%20me%20and%20him%20have%20spent%20a%20little%20time%20together%20now,%20and%20I%20must%20%5B...%5D.ogg">You know, me and him have spent a little time together now, and I must [...].ogg</a><br>
+	├── <a href="./You%20know,%20me%20and%20him%20have%20spent%20a%20little%20time%20together%20now,%20and%20I%20must%20%5B...%5D.txt">You know, me and him have spent a little time together now, and I must [...].txt</a><br>
+	├── <a href="./You'll%20get%20used%20to%20the%20smell%20after%20a%20bit.%20Might%20even%20start%20to%20miss%20it.%20%5B...%5D.ogg">You'll get used to the smell after a bit. Might even start to miss it. [...].ogg</a><br>
+	├── <a href="./You'll%20get%20used%20to%20the%20smell%20after%20a%20bit.%20Might%20even%20start%20to%20miss%20it.%20%5B...%5D.txt">You'll get used to the smell after a bit. Might even start to miss it. [...].txt</a><br>
+	├── <a href="./You'll%20run%20across%20plenty%20of%20ruins%20down%20there.%20Eternal,%20Vaal,%20and...%20%5B...%5D.ogg">You'll run across plenty of ruins down there. Eternal, Vaal, and... [...].ogg</a><br>
+	├── <a href="./You'll%20run%20across%20plenty%20of%20ruins%20down%20there.%20Eternal,%20Vaal,%20and...%20%5B...%5D.txt">You'll run across plenty of ruins down there. Eternal, Vaal, and... [...].txt</a><br>
+	├── <a href="./You've%20done%20it%20now,%20exile.%20You've%20really%20done%20it%20now.%20Look%20how%20the%20%5B...%5D.ogg">You've done it now, exile. You've really done it now. Look how the [...].ogg</a><br>
+	├── <a href="./You've%20done%20it%20now,%20exile.%20You've%20really%20done%20it%20now.%20Look%20how%20the%20%5B...%5D.txt">You've done it now, exile. You've really done it now. Look how the [...].txt</a><br>
+	├── <a href="./You've%20seen%20it.%20I%20know%20you%20have.%20The%20darkness%20deep%20down%20there...%20it's%20%5B...%5D.ogg">You've seen it. I know you have. The darkness deep down there... it's [...].ogg</a><br>
+	├── <a href="./You've%20seen%20it.%20I%20know%20you%20have.%20The%20darkness%20deep%20down%20there...%20it's%20%5B...%5D.txt">You've seen it. I know you have. The darkness deep down there... it's [...].txt</a><br>
+	├── <a href="./You...%20didn't%20happen%20to%20see%20him%20did%20you%3F%20Masked%20man,%20reeking%20of%20blood%20and%20%5B...%5D.ogg">You... didn't happen to see him did you? Masked man, reeking of blood and [...].ogg</a><br>
+	├── <a href="./You...%20didn't%20happen%20to%20see%20him%20did%20you%3F%20Masked%20man,%20reeking%20of%20blood%20and%20%5B...%5D.txt">You... didn't happen to see him did you? Masked man, reeking of blood and [...].txt</a><br>
+	├── <a href="./Zana's%20bright.%20Brighter%20than%20anyone%20else%20I%20can%20think%20of,%20actually,%20and%20%5B...%5D.ogg">Zana's bright. Brighter than anyone else I can think of, actually, and [...].ogg</a><br>
+	├── <a href="./Zana's%20bright.%20Brighter%20than%20anyone%20else%20I%20can%20think%20of,%20actually,%20and%20%5B...%5D.txt">Zana's bright. Brighter than anyone else I can think of, actually, and [...].txt</a><br>
+	├── <a href="./Zana's%20hiding%20something.%20She's%20very%20clever,%20so%20it's%20not%20obvious,%20but%20I've%20%5B...%5D.ogg">Zana's hiding something. She's very clever, so it's not obvious, but I've [...].ogg</a><br>
+	├── <a href="./Zana's%20hiding%20something.%20She's%20very%20clever,%20so%20it's%20not%20obvious,%20but%20I've%20%5B...%5D.txt">Zana's hiding something. She's very clever, so it's not obvious, but I've [...].txt</a><br>
+	└── <a href="./index.html">index.html</a><br>
+	<hr>
+	<p class="VERSION">
+		 tree v2.0.2 © 1996 - 2022 by Steve Baker and Thomas Moore <br>
+		 HTML output hacked and copyleft © 1998 by Francesc Rocher <br>
+		 JSON output hacked and copyleft © 2014 by Florian Sesser <br>
+		 Charsets / OS/2 support © 2001 by Kyosuke Tokoro
+	</p>
+</body>
+</html>
