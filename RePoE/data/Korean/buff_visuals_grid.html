@@ -1,0 +1,3565 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+ <title>status effects (Korean)</title>
+ <style type="text/css">
+  BODY { font-family : monospace, sans-serif;  color: black;}
+  IMG { max-width: 64px; max-height: 64px; padding: 0 2px;}
+  DIV { float: left;}
+ </style>
+</head>
+<body>
+
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/buffonfire.dds">
+        <img src="../Art/2DArt/BuffIcons/buffonfire.png" alt="status icon" title="불 붙은 기름 / 불타는 타르">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/buffchilled.dds">
+        <img src="../Art/2DArt/BuffIcons/buffchilled.png" alt="status icon" title="겹겹이 쌓인 서리 / 냉각 오라 / 냉각된 / 냉기 광선 / 눈 장막 / 눈 태풍 / 두려움 / 말라카이 포자 / 얼음 지대">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/bufffrozen.dds">
+        <img src="../Art/2DArt/BuffIcons/bufffrozen.png" alt="status icon" title="냉기 가시 / 동결 / 동결 피해 증가 / 바알 한기의 방어구">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/buffshocked.dds">
+        <img src="../Art/2DArt/BuffIcons/buffshocked.png" alt="status icon" title="감전 / 감전 오라 / 감전 지대 / 소용돌이 지뢰 / 융통된 힘(Borrowed Power)">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ArcTrap.dds">
+        <img src="../Art/2DArt/BuffIcons/ArcTrap.png" alt="status icon" title="공허의 올가미 / 연쇄 번개 덫 / 충전된 그물">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/iconsprint.dds">
+        <img src="../Art/2DArt/SkillIcons/iconsprint.png" alt="status icon" title="Spiral Test Cheat / 빠른 달리기 / 속도 무작위 변경 / 이동 속도 증가">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/invulnerability.dds">
+        <img src="../Art/2DArt/BuffIcons/invulnerability.png" alt="status icon" title="고도 불멸의 외침 / 무적 / 물리 반사 / 물리 반사 오라 / 바알 불멸의 외침 / 불멸의 외침 / 불사의 오라 / 섭리 / 신성한 폭풍 / 원소 반사 / 원소 반사 오라 / 은총 상태 / 자나의 보호">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/iconbash.dds">
+        <img src="../Art/2DArt/SkillIcons/iconbash.png" alt="status icon" title="경험치 증가 / 광채의 징조 / 균형 / 속임수">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/iconpoisoned.dds">
+        <img src="../Art/2DArt/SkillIcons/iconpoisoned.png" alt="status icon" title="맹독 타격에 피격 / 중독 / 혼 강탈자">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/CausticCloud.dds">
+        <img src="../Art/2DArt/BuffIcons/CausticCloud.png" alt="status icon" title="맹독성 늪">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/buffrage.dds">
+        <img src="../Art/2DArt/BuffIcons/buffrage.png" alt="status icon" title="격앙 / 로아 보스 격앙 / 잔인한 공격 / 피의 격노">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/IonCannon.dds">
+        <img src="../Art/2DArt/BuffIcons/IonCannon.png" alt="status icon" title="충격의 섬광">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/GalvanicFrost.dds">
+        <img src="../Art/2DArt/BuffIcons/GalvanicFrost.png" alt="status icon" title="동결 지대 / 엄습하는 얼음">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/MalachaisWanderingDegen.dds">
+        <img src="../Art/2DArt/BuffIcons/MalachaisWanderingDegen.png" alt="status icon" title="엄습하는 고통 / 전소">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/DivineFlare.dds">
+        <img src="../Art/2DArt/BuffIcons/DivineFlare.png" alt="status icon" title="신성한 섬광">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/KitavaIgnite.dds">
+        <img src="../Art/2DArt/BuffIcons/KitavaIgnite.png" alt="status icon" title="이단의 섬광 / 키타바의 갈증 / 피의 숙청">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/buffspeed.dds">
+        <img src="../Art/2DArt/BuffIcons/buffspeed.png" alt="status icon" title="타르 지대">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/chargedex.dds">
+        <img src="../Art/2DArt/BuffIcons/chargedex.png" alt="status icon" title="격분 충전 / 상급 격분 충전">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/chargestr.dds">
+        <img src="../Art/2DArt/BuffIcons/chargestr.png" alt="status icon" title="인내 충전">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/chargeint.dds">
+        <img src="../Art/2DArt/BuffIcons/chargeint.png" alt="status icon" title="권능 충전">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/SpiritCharge.dds">
+        <img src="../Art/2DArt/BuffIcons/SpiritCharge.png" alt="status icon" title="[DNT] Not Currently Used / 혼백 충전">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ElderSipho.dds">
+        <img src="../Art/2DArt/BuffIcons/ElderSipho.png" alt="status icon" title="착취 충전">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/VoidShotSkill.dds">
+        <img src="../Art/2DArt/SkillIcons/VoidShotSkill.png" alt="status icon" title="공허 화살">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/DivineCharge.dds">
+        <img src="../Art/2DArt/BuffIcons/DivineCharge.png" alt="status icon" title="신성 충전">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/InspirationCharge.dds">
+        <img src="../Art/2DArt/BuffIcons/InspirationCharge.png" alt="status icon" title="영감 충전">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/cantcurse.dds">
+        <img src="../Art/2DArt/BuffIcons/cantcurse.png" alt="status icon" title="저주 면역">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Evasion.dds">
+        <img src="../Art/2DArt/BuffIcons/Evasion.png" alt="status icon" title="회피 증가">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/iconphaserun.dds">
+        <img src="../Art/2DArt/SkillIcons/iconphaserun.png" alt="status icon" title="위상 질주 / 위상 질주 피해">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/fusearrow.dds">
+        <img src="../Art/2DArt/SkillIcons/fusearrow.png" alt="status icon" title="번개 화살에 피격됨 / 폭발 화살에 피격">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/temporalchains.dds">
+        <img src="../Art/2DArt/SkillIcons/temporalchains.png" alt="status icon" title="시간의 사슬">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/elementalweakness.dds">
+        <img src="../Art/2DArt/SkillIcons/elementalweakness.png" alt="status icon" title="원소 약화">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/Flammability.dds">
+        <img src="../Art/2DArt/SkillIcons/Flammability.png" alt="status icon" title="인화성">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/Frostbite.dds">
+        <img src="../Art/2DArt/SkillIcons/Frostbite.png" alt="status icon" title="동상 / 아로호누이의 달빛">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/Conductivity.dds">
+        <img src="../Art/2DArt/SkillIcons/Conductivity.png" alt="status icon" title="전도성">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/WarLordsMark.dds">
+        <img src="../Art/2DArt/SkillIcons/WarLordsMark.png" alt="status icon" title="전쟁군주의 징표">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/punishment.dds">
+        <img src="../Art/2DArt/SkillIcons/punishment.png" alt="status icon" title="응징">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/enfeeble.dds">
+        <img src="../Art/2DArt/SkillIcons/enfeeble.png" alt="status icon" title="쇠약화">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/AssassinsMark.dds">
+        <img src="../Art/2DArt/SkillIcons/AssassinsMark.png" alt="status icon" title="암살자의 징표">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/projectileweakness.dds">
+        <img src="../Art/2DArt/SkillIcons/projectileweakness.png" alt="status icon" title="저격수의 징표">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/vulnerability.dds">
+        <img src="../Art/2DArt/SkillIcons/vulnerability.png" alt="status icon" title="취약성">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/PoachersMark.dds">
+        <img src="../Art/2DArt/SkillIcons/PoachersMark.png" alt="status icon" title="밀렵꾼의 징표">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/AlchemistsMark.dds">
+        <img src="../Art/2DArt/SkillIcons/AlchemistsMark.png" alt="status icon" title="연금술사의 징표">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/auradamage.dds">
+        <img src="../Art/2DArt/SkillIcons/auradamage.png" alt="status icon" title="대형 물리 피해 오라 / 원소 피해 오라 / 자부심 / 중형 물리 피해 오라">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/auraspeed.dds">
+        <img src="../Art/2DArt/SkillIcons/auraspeed.png" alt="status icon" title="가속의 오라 / 바알 가속의 오라 / 속도 오라">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/auraregen.dds">
+        <img src="../Art/2DArt/SkillIcons/auraregen.png" alt="status icon" title="바알 활력의 오라 / 생명력 재생 오라 / 이자로가 받는 피해 / 활력의 오라">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/auraresist.dds">
+        <img src="../Art/2DArt/SkillIcons/auraresist.png" alt="status icon" title="원소의 순수함 오라 / 저항 오라">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/auraenergy.dds">
+        <img src="../Art/2DArt/SkillIcons/auraenergy.png" alt="status icon" title="단련의 오라 / 마나 보호막 / 바알 단련의 오라 / 샤브론의 오라 / 에너지 보호막 오라 / 에너지 보호막 재생 / 이자로의 피해">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/auracrit.dds">
+        <img src="../Art/2DArt/SkillIcons/auracrit.png" alt="status icon" title="정밀함 오라 / 정확도 및 치명타 오라">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/degeneration.dds">
+        <img src="../Art/2DArt/BuffIcons/degeneration.png" alt="status icon" title="장거리 사격 / 죽음의 서약(Death&#x27;s Oath) / 퇴화 오라">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/stolenmod.dds">
+        <img src="../Art/2DArt/BuffIcons/stolenmod.png" alt="status icon" title="냉기 강화 / 눈 화살 / 물리 가시 / 물리 강화 / 물리 투사체 보복 / 반사 / 발도의 광채 / 번개 강화 / 사냥꾼의 교훈 / 살아있는 수정 / 원소 가시 / 주얼 속성 부여 도둑 / 지옥불 화살 / 카오스 강화 / 탁월한 학습(Inspired Learning) / 탐욕스러운 덩굴 / 팅크 / 파수꾼의 방패 / 헤드헌터 / 헤드헌터(Headhunter) 모조품 / 화염 강화 / 회춘 / 훔쳐온 힘 / 훔친 속성">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/buffbleed.dds">
+        <img src="../Art/2DArt/BuffIcons/buffbleed.png" alt="status icon" title="날아다니는 죽음의 룸바 / 미궁 덫 디버프 / 보물! / 죽음의 룸바 / 출혈 / 피 빨림 / 피의 속임수 / 회전 칼날">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/lightningshield.dds">
+        <img src="../Art/2DArt/SkillIcons/lightningshield.png" alt="status icon" title="폭풍의 방패">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/moltenshield.dds">
+        <img src="../Art/2DArt/SkillIcons/moltenshield.png" alt="status icon" title="용암 방패">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/DiamondFlaskBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/DiamondFlaskBuff.png" alt="status icon" title="다이아몬드 플라스크">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/RubyFlaskBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/RubyFlaskBuff.png" alt="status icon" title="루비 플라스크">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/UniqueSapphireFlaskBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/UniqueSapphireFlaskBuff.png" alt="status icon" title="사파이어 플라스크">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/TopazFlaskBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/TopazFlaskBuff.png" alt="status icon" title="토파즈 플라스크">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/GraniteFlaskBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/GraniteFlaskBuff.png" alt="status icon" title="화강암 플라스크">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/QuicksilverFlaskBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/QuicksilverFlaskBuff.png" alt="status icon" title="수은 플라스크">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/AmethystFlaskBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/AmethystFlaskBuff.png" alt="status icon" title="자수정 플라스크">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/QuartzFlaskBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/QuartzFlaskBuff.png" alt="status icon" title="석영 플라스크">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/JadeFlaskBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/JadeFlaskBuff.png" alt="status icon" title="비취 플라스크">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/flaskcharge.dds">
+        <img src="../Art/2DArt/BuffIcons/flaskcharge.png" alt="status icon" title="">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/AquamarineFlaskBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/AquamarineFlaskBuff.png" alt="status icon" title="아쿠아마린 플라스크">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/BismuthFlaskBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/BismuthFlaskBuff.png" alt="status icon" title="비스무트 플라스크">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/StibniteFlaskBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/StibniteFlaskBuff.png" alt="status icon" title="휘안석 플라스크">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/GoldFlaskBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/GoldFlaskBuff.png" alt="status icon" title="보물 더미 / 유황 플라스크">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/SilverFlaskBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/SilverFlaskBuff.png" alt="status icon" title="은 플라스크">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/StoneFlaskBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/StoneFlaskBuff.png" alt="status icon" title="롱고쿠라이의 은혜 / 현무암 플라스크">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/GoldRarityFlaskBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/GoldRarityFlaskBuff.png" alt="status icon" title="황금 플라스크">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/WardFlaskBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/WardFlaskBuff.png" alt="status icon" title="철 플라스크">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/AdaptationFlaskBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/AdaptationFlaskBuff.png" alt="status icon" title="강철 플라스크">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/AntiStunFlaskBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/AntiStunFlaskBuff.png" alt="status icon" title="강옥 플라스크">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/TotemSlow.dds">
+        <img src="../Art/2DArt/BuffIcons/TotemSlow.png" alt="status icon" title="감속 / 감속의 오라">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Fortify.dds">
+        <img src="../Art/2DArt/BuffIcons/Fortify.png" alt="status icon" title="방어 상승 / 피해 감소의 오라">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/shieldblock.dds">
+        <img src="../Art/2DArt/SkillIcons/passives/shieldblock.png" alt="status icon" title="막기 시험">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/auraarmour.dds">
+        <img src="../Art/2DArt/SkillIcons/auraarmour.png" alt="status icon" title="결의의 오라 / 바알 결의의 오라">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/auraevasion.dds">
+        <img src="../Art/2DArt/SkillIcons/auraevasion.png" alt="status icon" title="바알 은총의 오라 / 은총의 오라 / 이자로의 속도 / 회피의 오라">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/aurafireresist.dds">
+        <img src="../Art/2DArt/SkillIcons/aurafireresist.png" alt="status icon" title="불의 순수함 오라">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/auracoldresist.dds">
+        <img src="../Art/2DArt/SkillIcons/auracoldresist.png" alt="status icon" title="얼음의 순수함 오라">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/auralightningresist.dds">
+        <img src="../Art/2DArt/SkillIcons/auralightningresist.png" alt="status icon" title="번개의 순수함 오라">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/aurafire.dds">
+        <img src="../Art/2DArt/SkillIcons/aurafire.png" alt="status icon" title="분노의 오라 / 화염 피해의 오라">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/auracold.dds">
+        <img src="../Art/2DArt/SkillIcons/auracold.png" alt="status icon" title="냉기 피해의 오라 / 증오의 오라">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/auralightning.dds">
+        <img src="../Art/2DArt/SkillIcons/auralightning.png" alt="status icon" title="WIP / 번개 피해의 오라 / 진노의 오라">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/Envy.dds">
+        <img src="../Art/2DArt/SkillIcons/Envy.png" alt="status icon" title="선망의 오라">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/auramana.dds">
+        <img src="../Art/2DArt/SkillIcons/auramana.png" alt="status icon" title="마나 재생 / 명상의 오라 / 바알 명상의 오라">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/beartrap.dds">
+        <img src="../Art/2DArt/SkillIcons/beartrap.png" alt="status icon" title="곰 덫">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/conversiontrap.dds">
+        <img src="../Art/2DArt/SkillIcons/conversiontrap.png" alt="status icon" title="전환">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/groundfire.dds">
+        <img src="../Art/2DArt/SkillIcons/groundfire.png" alt="status icon" title="불타는 / 산산조각 난 지대 / 용암 지대 / 화상 / 화염 벽">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/liferegentotem.dds">
+        <img src="../Art/2DArt/SkillIcons/liferegentotem.png" alt="status icon" title="덫, 지뢰, 토템 피해 / 바알 회복 토템 오라 / 회복 토템의 오라">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/buffblinded.dds">
+        <img src="../Art/2DArt/BuffIcons/buffblinded.png" alt="status icon" title="실명">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/flaskcritstrike.dds">
+        <img src="../Art/2DArt/BuffIcons/flaskcritstrike.png" alt="status icon" title="치명타 상시 발생 오라">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/Iceshield.dds">
+        <img src="../Art/2DArt/SkillIcons/Iceshield.png" alt="status icon" title="한기의 방어구">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/resistlightning.dds">
+        <img src="../Art/2DArt/BuffIcons/resistlightning.png" alt="status icon" title="번개 가시 / 번개 노출">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/Ignite.dds">
+        <img src="../Art/2DArt/SkillIcons/Ignite.png" alt="status icon" title="">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/stun2h.dds">
+        <img src="../Art/2DArt/SkillIcons/passives/stun2h.png" alt="status icon" title="Test / 지뢰 및 덫 테스트">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/miniondex.dds">
+        <img src="../Art/2DArt/SkillIcons/passives/miniondex.png" alt="status icon" title="소환수 테스트">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/projectilespeed.dds">
+        <img src="../Art/2DArt/SkillIcons/passives/projectilespeed.png" alt="status icon" title="제압 사격 / 투사체 테스트">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/skillduration.dds">
+        <img src="../Art/2DArt/SkillIcons/passives/skillduration.png" alt="status icon" title="지속시간 테스트">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/totemlife.dds">
+        <img src="../Art/2DArt/SkillIcons/passives/totemlife.png" alt="status icon" title="추가 토템 / 토템 테스트 / 폭발">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/trapsmax.dds">
+        <img src="../Art/2DArt/SkillIcons/passives/trapsmax.png" alt="status icon" title="덫 테스트">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/desecrated.dds">
+        <img src="../Art/2DArt/BuffIcons/desecrated.png" alt="status icon" title="훼손된 지대">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/consecrated.dds">
+        <img src="../Art/2DArt/BuffIcons/consecrated.png" alt="status icon" title="신성화 지대">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ProfaneGroundBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/ProfaneGroundBuff.png" alt="status icon" title="부정 지대">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/DivinationDistillateFlaskBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/DivinationDistillateFlaskBuff.png" alt="status icon" title="예언의 정수(Divination Distillate)">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Onslaught.dds">
+        <img src="../Art/2DArt/BuffIcons/Onslaught.png" alt="status icon" title="끝없는 격노 / 맹공 / 찬란한 성전의 맹공">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/leercastbuff.dds">
+        <img src="../Art/2DArt/BuffIcons/leercastbuff.png" alt="status icon" title="마나 재생 오라 / 피해의 오라">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/Reave.dds">
+        <img src="../Art/2DArt/SkillIcons/Reave.png" alt="status icon" title="약탈">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/DemonMark.dds">
+        <img src="../Art/2DArt/BuffIcons/DemonMark.png" alt="status icon" title="도미누스의 징표">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ProxShield.dds">
+        <img src="../Art/2DArt/BuffIcons/ProxShield.png" alt="status icon" title="근접 보호막 / 전방 근접 보호막">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/flamethrower.dds">
+        <img src="../Art/2DArt/SkillIcons/flamethrower.png" alt="status icon" title="소각">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/SmokeBomb.dds">
+        <img src="../Art/2DArt/SkillIcons/SmokeBomb.png" alt="status icon" title="빠른 달리기">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/iconicetrap.dds">
+        <img src="../Art/2DArt/SkillIcons/iconicetrap.png" alt="status icon" title="동결 지뢰">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/chargeblood.dds">
+        <img src="../Art/2DArt/BuffIcons/chargeblood.png" alt="status icon" title="타락한 피">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/shrine_regen.dds">
+        <img src="../Art/2DArt/BuffIcons/shrine_regen.png" alt="status icon" title="회복의 성소">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/shrine_brutal.dds">
+        <img src="../Art/2DArt/BuffIcons/shrine_brutal.png" alt="status icon" title="난폭의 성소">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/shrine_critical.dds">
+        <img src="../Art/2DArt/BuffIcons/shrine_critical.png" alt="status icon" title="다이아몬드의 성소">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/shrine_speed.dds">
+        <img src="../Art/2DArt/BuffIcons/shrine_speed.png" alt="status icon" title="가속의 성소">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/shrine_defence.dds">
+        <img src="../Art/2DArt/BuffIcons/shrine_defence.png" alt="status icon" title="가시의 성소 / 중갑의 성소">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/shrine_fire.dds">
+        <img src="../Art/2DArt/BuffIcons/shrine_fire.png" alt="status icon" title="불타는 성소">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/shrine_lightning.dds">
+        <img src="../Art/2DArt/BuffIcons/shrine_lightning.png" alt="status icon" title="번개의 성소 / 정전기의 성소">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/shrine_cold.dds">
+        <img src="../Art/2DArt/BuffIcons/shrine_cold.png" alt="status icon" title="동결의 성소">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/shrine_smoke.dds">
+        <img src="../Art/2DArt/BuffIcons/shrine_smoke.png" alt="status icon" title="연막의 성소">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/shrine_massive.dds">
+        <img src="../Art/2DArt/BuffIcons/shrine_massive.png" alt="status icon" title="거대화의 성소">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/shrine_resistance.dds">
+        <img src="../Art/2DArt/BuffIcons/shrine_resistance.png" alt="status icon" title="저항의 성소">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/shrine_godmode.dds">
+        <img src="../Art/2DArt/BuffIcons/shrine_godmode.png" alt="status icon" title="신성한 성소">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/shrine_echoing.dds">
+        <img src="../Art/2DArt/BuffIcons/shrine_echoing.png" alt="status icon" title="메아리의 성소">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/shrine_curses.dds">
+        <img src="../Art/2DArt/BuffIcons/shrine_curses.png" alt="status icon" title="사술의 성소 / 순흑의 성소">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/shrine_skeleton.dds">
+        <img src="../Art/2DArt/BuffIcons/shrine_skeleton.png" alt="status icon" title="해골의 성소">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/WarlordShrineBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/WarlordShrineBuff.png" alt="status icon" title="전쟁군주의 성소">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/CrusaderShrineBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/CrusaderShrineBuff.png" alt="status icon" title="십자군의 성소">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/RedeemerShrineBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/RedeemerShrineBuff.png" alt="status icon" title="대속자의 성소">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/HunterShrineBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/HunterShrineBuff.png" alt="status icon" title="사냥꾼의 성소">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/AtziriShrineBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/AtziriShrineBuff.png" alt="status icon" title="바알 성소">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ShrineofEvolutionShrineBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/ShrineofEvolutionShrineBuff.png" alt="status icon" title="진화의 성소">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/BloodOfTheKaruiFlaskBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/BloodOfTheKaruiFlaskBuff.png" alt="status icon" title="카루이의 피(Blood of the Karui) / 타호아의 자연 요법">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/LaviangasSpiritFlaskBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/LaviangasSpiritFlaskBuff.png" alt="status icon" title="라비앙가의 잔(Lavianga&#x27;s Cup)">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Doomed.dds">
+        <img src="../Art/2DArt/BuffIcons/Doomed.png" alt="status icon" title="몰락">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/flagred.dds">
+        <img src="../Art/2DArt/BuffIcons/flagred.png" alt="status icon" title="빨간색 깃발을 획득했습니다">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/flagblue.dds">
+        <img src="../Art/2DArt/BuffIcons/flagblue.png" alt="status icon" title="초록색 깃발을 획득했습니다. / 파란색 깃발을 획득했습니다.">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/increaseddmgred.dds">
+        <img src="../Art/2DArt/BuffIcons/increaseddmgred.png" alt="status icon" title="">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/increaseddmgblue.dds">
+        <img src="../Art/2DArt/BuffIcons/increaseddmgblue.png" alt="status icon" title="">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/silence.dds">
+        <img src="../Art/2DArt/SkillIcons/silence.png" alt="status icon" title="침묵">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/SoulEaterBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/SoulEaterBuff.png" alt="status icon" title="영혼 포식자">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Regeneration.dds">
+        <img src="../Art/2DArt/BuffIcons/Regeneration.png" alt="status icon" title="생명력 재생 / 완화의 연고 / 요란한 행진 생명력 재생">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/chaosresist.dds">
+        <img src="../Art/2DArt/SkillIcons/passives/chaosresist.png" alt="status icon" title="">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/LightningSearingBond.dds">
+        <img src="../Art/2DArt/BuffIcons/LightningSearingBond.png" alt="status icon" title="번개 광선 / 번개의 유대 / 천둥 같은 포효 / 퇴화 오라 / 파이어티 광선 / 학자의 광선">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/ChargedBlast.dds">
+        <img src="../Art/2DArt/SkillIcons/ChargedBlast.png" alt="status icon" title="화염파">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/cannotbechilled.dds">
+        <img src="../Art/2DArt/BuffIcons/cannotbechilled.png" alt="status icon" title="냉각 면역 / 냉각 모면">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/cannotbefrozen.dds">
+        <img src="../Art/2DArt/BuffIcons/cannotbefrozen.png" alt="status icon" title="동결 면역 / 동결 모면 / 흰서리">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/cannotbeignited.dds">
+        <img src="../Art/2DArt/BuffIcons/cannotbeignited.png" alt="status icon" title="점화 면역 / 점화 모면">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/cannotbeshocked.dds">
+        <img src="../Art/2DArt/BuffIcons/cannotbeshocked.png" alt="status icon" title="감전 면역 / 감전 모면">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/cannotbepoisoned.dds">
+        <img src="../Art/2DArt/BuffIcons/cannotbepoisoned.png" alt="status icon" title="중독 면역">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/undyingbreath.dds">
+        <img src="../Art/2DArt/BuffIcons/undyingbreath.png" alt="status icon" title="검은 불 점화 / 불경한 피해 / 불사의 의식 / 유령불꽃 묘지 / 죽어가는 숨결(Dying Breath)">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/SeaWitchScreech.dds">
+        <img src="../Art/2DArt/BuffIcons/SeaWitchScreech.png" alt="status icon" title="비명 / 종합체의 마비">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/UnholyMight.dds">
+        <img src="../Art/2DArt/BuffIcons/UnholyMight.png" alt="status icon" title="불경한 힘 / 혼돈의 완력">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/FleshOffering.dds">
+        <img src="../Art/2DArt/SkillIcons/FleshOffering.png" alt="status icon" title="살점 공물">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/BoneOffering.dds">
+        <img src="../Art/2DArt/SkillIcons/BoneOffering.png" alt="status icon" title="뼈 공물">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/SpiritOffering.dds">
+        <img src="../Art/2DArt/SkillIcons/SpiritOffering.png" alt="status icon" title="영혼 공물">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/BloodOffering.dds">
+        <img src="../Art/2DArt/SkillIcons/BloodOffering.png" alt="status icon" title="피의 공물">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/buffonfirevaal2.dds">
+        <img src="../Art/2DArt/BuffIcons/buffonfirevaal2.png" alt="status icon" title="">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/bufffrozenvaal2.dds">
+        <img src="../Art/2DArt/BuffIcons/bufffrozenvaal2.png" alt="status icon" title="">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/buffshockedvaal2.dds">
+        <img src="../Art/2DArt/BuffIcons/buffshockedvaal2.png" alt="status icon" title="">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/stunstrvaal2.dds">
+        <img src="../Art/2DArt/BuffIcons/stunstrvaal2.png" alt="status icon" title="독사 추출물">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/AtzirisPromiseFlaskBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/AtzirisPromiseFlaskBuff.png" alt="status icon" title="앗지리의 약속(Atziri&#x27;s Promise)">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/rainofarrows.dds">
+        <img src="../Art/2DArt/SkillIcons/rainofarrows.png" alt="status icon" title="고정">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/BloodCloudDebuff.dds">
+        <img src="../Art/2DArt/BuffIcons/BloodCloudDebuff.png" alt="status icon" title="끓는 피">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/DivinationDistillate.dds">
+        <img src="../Art/2DArt/BuffIcons/DivinationDistillate.png" alt="status icon" title="하이리의 보상">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ForbiddenTasteFlaskBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/ForbiddenTasteFlaskBuff.png" alt="status icon" title="금단의 맛(Forbidden Taste)">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/RumisConcoctionFlaskBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/RumisConcoctionFlaskBuff.png" alt="status icon" title="루미의 혼합물(Rumi&#x27;s Concoction)">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/MasterQuest.dds">
+        <img src="../Art/2DArt/BuffIcons/MasterQuest.png" alt="status icon" title="카루이 혼백을 획득했습니다.">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/NullandVoidRampage.dds">
+        <img src="../Art/2DArt/BuffIcons/NullandVoidRampage.png" alt="status icon" title="물리 피해 면역">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Phasing.dds">
+        <img src="../Art/2DArt/BuffIcons/Phasing.png" alt="status icon" title="차원 능력 버프">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/HeraldofAsh.dds">
+        <img src="../Art/2DArt/BuffIcons/HeraldofAsh.png" alt="status icon" title="부족장의 진노 / 재의 전령">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/HeraldofIce.dds">
+        <img src="../Art/2DArt/BuffIcons/HeraldofIce.png" alt="status icon" title="얼음의 전령">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/HeraldofThunder.dds">
+        <img src="../Art/2DArt/BuffIcons/HeraldofThunder.png" alt="status icon" title="천둥의 전령">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Sandstorm.dds">
+        <img src="../Art/2DArt/BuffIcons/Sandstorm.png" alt="status icon" title="가루칸의 모래 폭풍 / 모래 폭풍 / 유사">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ChaosSandstorm.dds">
+        <img src="../Art/2DArt/BuffIcons/ChaosSandstorm.png" alt="status icon" title="카오스의 모래 폭풍">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/FrostVortex.dds">
+        <img src="../Art/2DArt/SkillIcons/FrostVortex.png" alt="status icon" title="WIP / 대속자의 태풍 / 소용돌이 / 흠뻑 젖음">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/WhakawairuaTuahu.dds">
+        <img src="../Art/2DArt/BuffIcons/WhakawairuaTuahu.png" alt="status icon" title="엄습하는 어둠">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/PrismWeave.dds">
+        <img src="../Art/2DArt/BuffIcons/PrismWeave.png" alt="status icon" title="">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/TormentedSpiritTouched.dds">
+        <img src="../Art/2DArt/BuffIcons/TormentedSpiritTouched.png" alt="status icon" title="Possession / 사로잡힘 / 페어그레이브즈의 삼각모">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/PhysicalDegenerationAura.dds">
+        <img src="../Art/2DArt/BuffIcons/PhysicalDegenerationAura.png" alt="status icon" title="퇴화 오라">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/TasteOfHasteFlaskBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/TasteOfHasteFlaskBuff.png" alt="status icon" title="증오의 맛(Taste of Hate)">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/CoruscatingElixirFlaskBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/CoruscatingElixirFlaskBuff.png" alt="status icon" title="빛나는 묘약(Coruscating Elixir)">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ReducedManaLifeShield.dds">
+        <img src="../Art/2DArt/BuffIcons/ReducedManaLifeShield.png" alt="status icon" title="질식 / 회복">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/StaticStrikeBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/StaticStrikeBuff.png" alt="status icon" title="정전기 타격">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/elementalequilibrium.dds">
+        <img src="../Art/2DArt/BuffIcons/elementalequilibrium.png" alt="status icon" title="">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/thorns.dds">
+        <img src="../Art/2DArt/BuffIcons/thorns.png" alt="status icon" title="황소의 뿔">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/holygroundfire.dds">
+        <img src="../Art/2DArt/SkillIcons/holygroundfire.png" alt="status icon" title="">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/InspiringCry.dds">
+        <img src="../Art/2DArt/SkillIcons/InspiringCry.png" alt="status icon" title="집결의 함성 / 힘이 깃든 고함">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/AbyssalCry.dds">
+        <img src="../Art/2DArt/SkillIcons/AbyssalCry.png" alt="status icon" title="심연의 함성">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/cannotbleed.dds">
+        <img src="../Art/2DArt/BuffIcons/cannotbleed.png" alt="status icon" title="출혈 면역">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/CorruptedBloodImmunityIcon.dds">
+        <img src="../Art/2DArt/BuffIcons/CorruptedBloodImmunityIcon.png" alt="status icon" title="타락한 피 면역">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/shapersseed.dds">
+        <img src="../Art/2DArt/BuffIcons/shapersseed.png" alt="status icon" title="쉐이퍼의 씨앗(Shaper&#x27;s Seed)">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/GluttonyOfElements.dds">
+        <img src="../Art/2DArt/SkillIcons/GluttonyOfElements.png" alt="status icon" title="원소의 폭식">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/IceElementalSummon.dds">
+        <img src="../Art/2DArt/SkillIcons/IceElementalSummon.png" alt="status icon" title="얼음 골렘">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/FireElementalSummon.dds">
+        <img src="../Art/2DArt/SkillIcons/FireElementalSummon.png" alt="status icon" title="화염 골렘">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/LightningGolem.dds">
+        <img src="../Art/2DArt/SkillIcons/LightningGolem.png" alt="status icon" title="번개 골렘">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/ChaosElementalSummon.dds">
+        <img src="../Art/2DArt/SkillIcons/ChaosElementalSummon.png" alt="status icon" title="카오스 골렘">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/PietyDebuff.dds">
+        <img src="../Art/2DArt/BuffIcons/PietyDebuff.png" alt="status icon" title="파이어티의 격노">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/WarCryEnduring.dds">
+        <img src="../Art/2DArt/SkillIcons/WarCryEnduring.png" alt="status icon" title="인내의 함성">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/punishmentbuff.dds">
+        <img src="../Art/2DArt/BuffIcons/punishmentbuff.png" alt="status icon" title="응징자">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/LionsRoarFlaskBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/LionsRoarFlaskBuff.png" alt="status icon" title="사자의 포효(Lion&#x27;s Roar)">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/TempestWhite.dds">
+        <img src="../Art/2DArt/BuffIcons/TempestWhite.png" alt="status icon" title="떨려오는 폭풍 / 저항 폭풍 / 찌르는 폭풍 / 통렬한 폭풍">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/TempestPink.dds">
+        <img src="../Art/2DArt/BuffIcons/TempestPink.png" alt="status icon" title="회복의 폭풍">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/TempestBlue.dds">
+        <img src="../Art/2DArt/BuffIcons/TempestBlue.png" alt="status icon" title="메아리 폭풍">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/TempestLightening.dds">
+        <img src="../Art/2DArt/BuffIcons/TempestLightening.png" alt="status icon" title="반짝이는 폭풍 / 발산하는 폭풍 / 찬연한 폭풍">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/TempestRed.dds">
+        <img src="../Art/2DArt/BuffIcons/TempestRed.png" alt="status icon" title="게걸스러운 폭풍 / 공개 폭풍 / 타락한 폭풍 / 확대 폭풍">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/TempestGreen.dds">
+        <img src="../Art/2DArt/BuffIcons/TempestGreen.png" alt="status icon" title="축소 폭풍">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/TempestFire.dds">
+        <img src="../Art/2DArt/BuffIcons/TempestFire.png" alt="status icon" title="끓어오르는 폭풍">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/TempestIce.dds">
+        <img src="../Art/2DArt/BuffIcons/TempestIce.png" alt="status icon" title="전도성 폭풍">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/TempestBasic.dds">
+        <img src="../Art/2DArt/BuffIcons/TempestBasic.png" alt="status icon" title="장막 폭풍 / 제련 폭풍 / 흐린 폭풍">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/TempestTeal.dds">
+        <img src="../Art/2DArt/BuffIcons/TempestTeal.png" alt="status icon" title="조각나는 폭풍 / 천상의 폭풍">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/TempestPurple.dds">
+        <img src="../Art/2DArt/BuffIcons/TempestPurple.png" alt="status icon" title="비전 폭풍 / 심연의 폭풍">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/TempestOrange.dds">
+        <img src="../Art/2DArt/BuffIcons/TempestOrange.png" alt="status icon" title="변형 폭풍 / 소모성 폭풍 / 잉걸불 태풍">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/TentacleGroundDebuff.dds">
+        <img src="../Art/2DArt/BuffIcons/TentacleGroundDebuff.png" alt="status icon" title="지면 포자">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/KingMaker2.dds">
+        <img src="../Art/2DArt/BuffIcons/KingMaker2.png" alt="status icon" title="실세의 존재">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/stormcall.dds">
+        <img src="../Art/2DArt/SkillIcons/stormcall.png" alt="status icon" title="정전기 올가미">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/FrostBomb.dds">
+        <img src="../Art/2DArt/SkillIcons/FrostBomb.png" alt="status icon" title="서리 폭발 / 서리 폭탄">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/LightningBomb.dds">
+        <img src="../Art/2DArt/BuffIcons/LightningBomb.png" alt="status icon" title="번개 폭탄">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Inspirational.dds">
+        <img src="../Art/2DArt/BuffIcons/Inspirational.png" alt="status icon" title="격려">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/Contagion.dds">
+        <img src="../Art/2DArt/SkillIcons/Contagion.png" alt="status icon" title="WIP / 역병 / 오염된 독소 / 전염">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/Siphon.dds">
+        <img src="../Art/2DArt/SkillIcons/Siphon.png" alt="status icon" title="정수 흡수 / 정수 흡수 재생 / 흡수되는 정수">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Fire.dds">
+        <img src="../Art/2DArt/BuffIcons/Fire.png" alt="status icon" title="심판의 공물">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/CrippleDebuff.dds">
+        <img src="../Art/2DArt/BuffIcons/CrippleDebuff.png" alt="status icon" title="이동 방해 / 중력 붕괴(Singularity)">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/Wither.dds">
+        <img src="../Art/2DArt/SkillIcons/Wither.png" alt="status icon" title="위축">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Chaos.dds">
+        <img src="../Art/2DArt/BuffIcons/Chaos.png" alt="status icon" title="심판의 공물">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/GoddessUnleasedBurningIcon.dds">
+        <img src="../Art/2DArt/BuffIcons/GoddessUnleasedBurningIcon.png" alt="status icon" title="여신의 축복 / 여신의 포옹(Her Embrace)">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/VesselOfVinktarFlaskBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/VesselOfVinktarFlaskBuff.png" alt="status icon" title="빙타의 그릇(Vessel of Vinktar)">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/GraspingOrnaments.dds">
+        <img src="../Art/2DArt/BuffIcons/GraspingOrnaments.png" alt="status icon" title="탐욕스러운 장신구">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ParasiticSquidDebuff.dds">
+        <img src="../Art/2DArt/BuffIcons/ParasiticSquidDebuff.png" alt="status icon" title="불안정 / 탐욕스러운 집게 / 탐욕스러운 촉수">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Ascendancy/PrayerOfGlory.dds">
+        <img src="../Art/2DArt/BuffIcons/Ascendancy/PrayerOfGlory.png" alt="status icon" title="찬란한 믿음">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/Inquistitor/ElementalDominationSmall.dds">
+        <img src="../Art/2DArt/SkillIcons/passives/Inquistitor/ElementalDominationSmall.png" alt="status icon" title="참회의 조짐">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/Gladiator/GLADViolentRetaliationSmall.dds">
+        <img src="../Art/2DArt/SkillIcons/passives/Gladiator/GLADViolentRetaliationSmall.png" alt="status icon" title="격렬한 보복 / 투기장의 대가의 존재">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/MaimBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/MaimBuff.png" alt="status icon" title="힘줄 절단">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Bonespire.dds">
+        <img src="../Art/2DArt/BuffIcons/Bonespire.png" alt="status icon" title="뼈 휘젓기">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/SpinningEtherealBlades.dds">
+        <img src="../Art/2DArt/SkillIcons/SpinningEtherealBlades.png" alt="status icon" title="칼날 소용돌이">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/LocustFire.dds">
+        <img src="../Art/2DArt/BuffIcons/LocustFire.png" alt="status icon" title="화염 무리">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/LocustIce.dds">
+        <img src="../Art/2DArt/BuffIcons/LocustIce.png" alt="status icon" title="냉기 무리">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/LocustLightning.dds">
+        <img src="../Art/2DArt/BuffIcons/LocustLightning.png" alt="status icon" title="번개 곤충 무리">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Petrified.dds">
+        <img src="../Art/2DArt/BuffIcons/Petrified.png" alt="status icon" title="돌의 응시">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Ascendancy/VoidBeacon.dds">
+        <img src="../Art/2DArt/BuffIcons/Ascendancy/VoidBeacon.png" alt="status icon" title="공허의 등불 / 카오스 저항 소멸">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/Blight.dds">
+        <img src="../Art/2DArt/SkillIcons/Blight.png" alt="status icon" title="다크텅의 입맞춤 / 황폐">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/RockGolemSummon.dds">
+        <img src="../Art/2DArt/SkillIcons/RockGolemSummon.png" alt="status icon" title="돌 골렘">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/Chieftain/ArohunguiMoonsPresenceSmallIcon.dds">
+        <img src="../Art/2DArt/SkillIcons/passives/Chieftain/ArohunguiMoonsPresenceSmallIcon.png" alt="status icon" title="달의 존재">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ShrinkDebuff.dds">
+        <img src="../Art/2DArt/BuffIcons/ShrinkDebuff.png" alt="status icon" title="축소">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Ascendancy/ShieldMastery.dds">
+        <img src="../Art/2DArt/BuffIcons/Ascendancy/ShieldMastery.png" alt="status icon" title="희망의 보루">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/RhysSword.dds">
+        <img src="../Art/2DArt/BuffIcons/RhysSword.png" alt="status icon" title="춤추는 수도승">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/SorrowOfTheDivineFlaskBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/SorrowOfTheDivineFlaskBuff.png" alt="status icon" title="맹신자의 서약 / 섬뜩한 충전기">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/liferegentoenergyshield.dds">
+        <img src="../Art/2DArt/BuffIcons/liferegentoenergyshield.png" alt="status icon" title="WIP">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/BuffElementalOverload.dds">
+        <img src="../Art/2DArt/BuffIcons/BuffElementalOverload.png" alt="status icon" title="원소 과부하">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Ascendancy/HarmonyOfPurpose.dds">
+        <img src="../Art/2DArt/BuffIcons/Ascendancy/HarmonyOfPurpose.png" alt="status icon" title="의지력의 조화">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Ascendancy/SoulCatalyst.dds">
+        <img src="../Art/2DArt/BuffIcons/Ascendancy/SoulCatalyst.png" alt="status icon" title="끔찍한 보루">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Ascendancy/SpiritualEmpowerment.dds">
+        <img src="../Art/2DArt/BuffIcons/Ascendancy/SpiritualEmpowerment.png" alt="status icon" title="믿음의 추구">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ElementalConflux.dds">
+        <img src="../Art/2DArt/BuffIcons/ElementalConflux.png" alt="status icon" title="원소 융합">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ColdConflux.dds">
+        <img src="../Art/2DArt/BuffIcons/ColdConflux.png" alt="status icon" title="냉각 융합">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/LightningConflux.dds">
+        <img src="../Art/2DArt/BuffIcons/LightningConflux.png" alt="status icon" title="감전 융합">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/FireConflux.dds">
+        <img src="../Art/2DArt/BuffIcons/FireConflux.png" alt="status icon" title="점화 융합">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/LightningGolemAura.dds">
+        <img src="../Art/2DArt/SkillIcons/LightningGolemAura.png" alt="status icon" title="번개 골렘의 진노">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/BaneOfTheLoyalBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/BaneOfTheLoyalBuff.png" alt="status icon" title="충신의 파멸">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/HeartOfTheGargoyleBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/HeartOfTheGargoyleBuff.png" alt="status icon" title="가고일의 심장">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/PowerDampenerBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/PowerDampenerBuff.png" alt="status icon" title="흡수의 정육면체">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/OrbOfElementalEssenceBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/OrbOfElementalEssenceBuff.png" alt="status icon" title="원소 에센스의 구체">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/RodOfDestructionBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/RodOfDestructionBuff.png" alt="status icon" title="폭발의 막대">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/SandsOfEternityBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/SandsOfEternityBuff.png" alt="status icon" title="영원의 모래">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/CogsOfDisruption.dds">
+        <img src="../Art/2DArt/BuffIcons/CogsOfDisruption.png" alt="status icon" title="방해의 톱니바퀴">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/PortalShredderBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/PortalShredderBuff.png" alt="status icon" title="포탈 파괴기">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/ChargedAttack.dds">
+        <img src="../Art/2DArt/SkillIcons/ChargedAttack.png" alt="status icon" title="바알 질풍의 칼날 / 질풍의 칼날">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/IncreasedDamageTaken.dds">
+        <img src="../Art/2DArt/BuffIcons/IncreasedDamageTaken.png" alt="status icon" title="끝없는 고통">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/DamageTakenOnMovementSkullUse.dds">
+        <img src="../Art/2DArt/BuffIcons/DamageTakenOnMovementSkullUse.png" alt="status icon" title="끝없는 위험 / 맹독성 비 포자 주머니 / 속박의 사슬 / 천상의 덩굴손 / 탐욕스러운 덩굴 / 탐욕스러운 사슬">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Taunt.dds">
+        <img src="../Art/2DArt/BuffIcons/Taunt.png" alt="status icon" title="도발">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/OverflowingChalice.dds">
+        <img src="../Art/2DArt/BuffIcons/OverflowingChalice.png" alt="status icon" title="넘치는 성배">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/KiarasDetermination.dds">
+        <img src="../Art/2DArt/BuffIcons/KiarasDetermination.png" alt="status icon" title="키아라의 결의(Kiara&#x27;s Determination)">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ReducedCold.dds">
+        <img src="../Art/2DArt/BuffIcons/ReducedCold.png" alt="status icon" title="증오의 에센스">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ReducedLightning.dds">
+        <img src="../Art/2DArt/BuffIcons/ReducedLightning.png" alt="status icon" title="진노의 에센스">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ReducedFire.dds">
+        <img src="../Art/2DArt/BuffIcons/ReducedFire.png" alt="status icon" title="분노의 에센스">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ChaosDebuff.dds">
+        <img src="../Art/2DArt/BuffIcons/ChaosDebuff.png" alt="status icon" title="비참의 에센스">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/PhoenixDebuff.dds">
+        <img src="../Art/2DArt/BuffIcons/PhoenixDebuff.png" alt="status icon" title="열기">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/PhoenixDebuff2.dds">
+        <img src="../Art/2DArt/BuffIcons/PhoenixDebuff2.png" alt="status icon" title="불사조 불폭탄">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ZerphisLastBreathFlaskBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/ZerphisLastBreathFlaskBuff.png" alt="status icon" title="제르피의 마지막 숨결(Zerphi&#x27;s Last Breath)">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/CorruptionDegenDebuff.dds">
+        <img src="../Art/2DArt/BuffIcons/CorruptionDegenDebuff.png" alt="status icon" title="각성자의 타락 / 타락의 유물">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Decay.dds">
+        <img src="../Art/2DArt/BuffIcons/Decay.png" alt="status icon" title="공간 부패">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/CoveredInSpiders.dds">
+        <img src="../Art/2DArt/BuffIcons/CoveredInSpiders.png" alt="status icon" title="거미에 뒤덮임 / 거미줄로 뒤덮임">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/WitchfireBrewFlaskBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/WitchfireBrewFlaskBuff.png" alt="status icon" title="불타는 마녀의 술(Witchfire Brew)">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/DyingSunFlaskBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/DyingSunFlaskBuff.png" alt="status icon" title="죽어가는 해(Dying Sun)">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/GroundHaste.dds">
+        <img src="../Art/2DArt/BuffIcons/GroundHaste.png" alt="status icon" title="격류의 교화(The Torrent&#x27;s Reclamation) / 얽매이지 않은 흐름(The Flow Untethered) / 영체의 재빠름 / 저압기류">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/FireBeam.dds">
+        <img src="../Art/2DArt/SkillIcons/FireBeam.png" alt="status icon" title="바일렌타의 광선 / 작열 광선">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/CoveredInAsh.dds">
+        <img src="../Art/2DArt/BuffIcons/CoveredInAsh.png" alt="status icon" title="재로 뒤덮임">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/MFbuff.dds">
+        <img src="../Art/2DArt/BuffIcons/MFbuff.png" alt="status icon" title="능력 잠금 버프 / 발렉의 선물 / 알바의 선물">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/MFbuffdisabled.dds">
+        <img src="../Art/2DArt/BuffIcons/MFbuffdisabled.png" alt="status icon" title="TAS 잠금 / 능력 잠금 비활성화">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/AbberathsHooves.dds">
+        <img src="../Art/2DArt/SkillIcons/AbberathsHooves.png" alt="status icon" title="아버라스의 광분">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/DivineBeam.dds">
+        <img src="../Art/2DArt/BuffIcons/DivineBeam.png" alt="status icon" title="도리아니의 대화재 / 신성한 광선">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/NetThrow.dds">
+        <img src="../Art/2DArt/BuffIcons/NetThrow.png" alt="status icon" title="그물 투척">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/buffspeedaura.dds">
+        <img src="../Art/2DArt/BuffIcons/buffspeedaura.png" alt="status icon" title="빅타리오의 비상(Victario&#x27;s Flight)">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/DoedreRed.dds">
+        <img src="../Art/2DArt/BuffIcons/DoedreRed.png" alt="status icon" title="도이드리의 고뇌 / 적색 버프 / 적색 오수">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/DoedreGreen.dds">
+        <img src="../Art/2DArt/BuffIcons/DoedreGreen.png" alt="status icon" title="녹색 버프 / 녹색 오수 / 도이드리의 쇠잔">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/DoedrePurple.dds">
+        <img src="../Art/2DArt/BuffIcons/DoedrePurple.png" alt="status icon" title="도이드리의 고통 / 자색 버프 / 자색 오수">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Infested.dds">
+        <img src="../Art/2DArt/BuffIcons/Infested.png" alt="status icon" title="창궐">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Despair.dds">
+        <img src="../Art/2DArt/BuffIcons/Despair.png" alt="status icon" title="그루스컬의 절망">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/TidalWave.dds">
+        <img src="../Art/2DArt/BuffIcons/TidalWave.png" alt="status icon" title="바다의 비호 / 해일">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/LunarisAndSolaris.dds">
+        <img src="../Art/2DArt/BuffIcons/LunarisAndSolaris.png" alt="status icon" title="검은 소용돌이">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ArcaneSurge.dds">
+        <img src="../Art/2DArt/BuffIcons/ArcaneSurge.png" alt="status icon" title="비전 쇄도">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/lightningint.dds">
+        <img src="../Art/2DArt/SkillIcons/passives/lightningint.png" alt="status icon" title="자극">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/SummonHarbinger.dds">
+        <img src="../Art/2DArt/SkillIcons/SummonHarbinger.png" alt="status icon" title="누그러진 필멸성(The Yielding Mortality) / 분쇄형 회전기(The Fracturing Spinner) / 불굴의 의지(The Unshattered Will) / 불멸의 의지(The Immortal Will) / 산산이 조각난 신성(The Shattered Divinity) / 쇄도하는 생각(The Surging Thoughts) / 증오의 신(The Enmity Divine)">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/VoidGaze.dds">
+        <img src="../Art/2DArt/SkillIcons/VoidGaze.png" alt="status icon" title="공허의 응시">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/EnduringThaumaturgy.dds">
+        <img src="../Art/2DArt/BuffIcons/EnduringThaumaturgy.png" alt="status icon" title="말라카이의 인내">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/FrenziedThaumaturgy.dds">
+        <img src="../Art/2DArt/BuffIcons/FrenziedThaumaturgy.png" alt="status icon" title="말라카이의 격분">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/PowerfulThaumaturgy.dds">
+        <img src="../Art/2DArt/BuffIcons/PowerfulThaumaturgy.png" alt="status icon" title="말라카이의 권능">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/CoralitosSignatureFlaskBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/CoralitosSignatureFlaskBuff.png" alt="status icon" title="샤카리의 모래(Sands of Shakari) / 코랄리토의 서명(Coralito&#x27;s Signature)">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/FireAegis.dds">
+        <img src="../Art/2DArt/BuffIcons/FireAegis.png" alt="status icon" title="절멸의 빛 / 화염의 비호">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ColdAegis.dds">
+        <img src="../Art/2DArt/BuffIcons/ColdAegis.png" alt="status icon" title="냉기의 비호 / 짓누르는 어둠">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/LightningAegis.dds">
+        <img src="../Art/2DArt/BuffIcons/LightningAegis.png" alt="status icon" title="번개의 비호">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Elemental.dds">
+        <img src="../Art/2DArt/BuffIcons/Elemental.png" alt="status icon" title="원소의 비호">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/PhysicalAegis.dds">
+        <img src="../Art/2DArt/BuffIcons/PhysicalAegis.png" alt="status icon" title="물리 비호">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/FireAegisGrey.dds">
+        <img src="../Art/2DArt/BuffIcons/FireAegisGrey.png" alt="status icon" title="화염의 비호">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ColdAegisGrey.dds">
+        <img src="../Art/2DArt/BuffIcons/ColdAegisGrey.png" alt="status icon" title="냉기의 비호">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/LightningAegisGrey.dds">
+        <img src="../Art/2DArt/BuffIcons/LightningAegisGrey.png" alt="status icon" title="번개의 비호">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ElementalGrey.dds">
+        <img src="../Art/2DArt/BuffIcons/ElementalGrey.png" alt="status icon" title="원소의 비호">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/PhysicalAegisGrey.dds">
+        <img src="../Art/2DArt/BuffIcons/PhysicalAegisGrey.png" alt="status icon" title="물리 비호">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/Vaal Skill Icons/Vaalaurafireresist.dds">
+        <img src="../Art/2DArt/SkillIcons/Vaal Skill Icons/Vaalaurafireresist.png" alt="status icon" title="바알 불의 부정함 / 불의 부정함">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/Vaal Skill Icons/Vaalauracoldresist.dds">
+        <img src="../Art/2DArt/SkillIcons/Vaal Skill Icons/Vaalauracoldresist.png" alt="status icon" title="바알 얼음의 부정함 / 얼음의 부정함">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/Vaal Skill Icons/Vaalauralightningresist.dds">
+        <img src="../Art/2DArt/SkillIcons/Vaal Skill Icons/Vaalauralightningresist.png" alt="status icon" title="바알 번개의 부정함 / 번개의 부정함">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ShakariCausticStrike.dds">
+        <img src="../Art/2DArt/BuffIcons/ShakariCausticStrike.png" alt="status icon" title="부식성 일격">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/KalisasGrace.dds">
+        <img src="../Art/2DArt/SkillIcons/passives/KalisasGrace.png" alt="status icon" title="칼리사의 은총(Kalisa&#x27;s Grace) / 칼리사의 은총(Kalisa&#x27;s Grace) 모조품">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/StormBarrier.dds">
+        <img src="../Art/2DArt/BuffIcons/StormBarrier.png" alt="status icon" title="">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/DebilitatingPresence.dds">
+        <img src="../Art/2DArt/BuffIcons/DebilitatingPresence.png" alt="status icon" title="불길한 광기">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ElderSiphon.dds">
+        <img src="../Art/2DArt/BuffIcons/ElderSiphon.png" alt="status icon" title="기생 / 솟아나는 광기">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ElderSuperSiphon.dds">
+        <img src="../Art/2DArt/BuffIcons/ElderSuperSiphon.png" alt="status icon" title="두려움의 결정체 / 이동 불가">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/DeathWalk.dds">
+        <img src="../Art/2DArt/SkillIcons/DeathWalk.png" alt="status icon" title="죽음의 발걸음">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/Despair.dds">
+        <img src="../Art/2DArt/SkillIcons/Despair.png" alt="status icon" title="절망">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ElderAvatarOfFire.dds">
+        <img src="../Art/2DArt/BuffIcons/ElderAvatarOfFire.png" alt="status icon" title="불의 화신(Avatar of Fire)">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ElderIronReflexes.dds">
+        <img src="../Art/2DArt/BuffIcons/ElderIronReflexes.png" alt="status icon" title="철의 반사신경(Iron Reflexes)">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ElderElementalOverload.dds">
+        <img src="../Art/2DArt/BuffIcons/ElderElementalOverload.png" alt="status icon" title="원소 과부하(Elemental Overload)">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/AbyssShadowForm.dds">
+        <img src="../Art/2DArt/BuffIcons/AbyssShadowForm.png" alt="status icon" title="그림자 형상 / 어둠">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/PhysicalThorns.dds">
+        <img src="../Art/2DArt/BuffIcons/PhysicalThorns.png" alt="status icon" title="물리 가시">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ElementalThorns.dds">
+        <img src="../Art/2DArt/BuffIcons/ElementalThorns.png" alt="status icon" title="원소 가시">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ElderGroundEffects.dds">
+        <img src="../Art/2DArt/BuffIcons/ElderGroundEffects.png" alt="status icon" title="섬뜩한 부패">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/TimeAnomaly.dds">
+        <img src="../Art/2DArt/SkillIcons/TimeAnomaly.png" alt="status icon" title="시간의 이상">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/KiracsMasterBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/KiracsMasterBuff.png" alt="status icon" title="전투 준비 완료 / 키락의 은혜">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/AvianBuff1.dds">
+        <img src="../Art/2DArt/BuffIcons/AvianBuff1.png" alt="status icon" title="새의 비행">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/AvianBuff2.dds">
+        <img src="../Art/2DArt/BuffIcons/AvianBuff2.png" alt="status icon" title="새의 힘">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/CatBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/CatBuff.png" alt="status icon" title="고양이의 은신 / 다형화">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/CatBuff2.dds">
+        <img src="../Art/2DArt/BuffIcons/CatBuff2.png" alt="status icon" title="고양이의 날렵함">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/CrabBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/CrabBuff.png" alt="status icon" title="게의 위상">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/SpiderDebuff.dds">
+        <img src="../Art/2DArt/BuffIcons/SpiderDebuff.png" alt="status icon" title="거미줄 / 거미줄에 덮임 / 고치에 갇힘 / 환각">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/CrabDebuff.dds">
+        <img src="../Art/2DArt/BuffIcons/CrabDebuff.png" alt="status icon" title="크라칸의 고통">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/Champion/FirstStrikeLastFall.dds">
+        <img src="../Art/2DArt/SkillIcons/passives/Champion/FirstStrikeLastFall.png" alt="status icon" title="아드레날린">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/WarCryIntimidating.dds">
+        <img src="../Art/2DArt/SkillIcons/WarCryIntimidating.png" alt="status icon" title="위협의 함성">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/CurseNova.dds">
+        <img src="../Art/2DArt/SkillIcons/CurseNova.png" alt="status icon" title="원소의 수호">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/Guardian/ShieldMastery.dds">
+        <img src="../Art/2DArt/SkillIcons/passives/Guardian/ShieldMastery.png" alt="status icon" title="희망의 보루">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/DeadEye/GatherWinds.dds">
+        <img src="../Art/2DArt/SkillIcons/passives/DeadEye/GatherWinds.png" alt="status icon" title="순풍">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Bestiary.dds">
+        <img src="../Art/2DArt/BuffIcons/Bestiary.png" alt="status icon" title="[DNT] Call of the Wild / 사카왈의 존재 / 심해의 존재 / 크라칸의 존재 / 페누무스의 존재 / 페룰의 존재 / 풍요로운 존재">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/PoisonWebDebuff.dds">
+        <img src="../Art/2DArt/BuffIcons/PoisonWebDebuff.png" alt="status icon" title="독성 거미줄">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/Berserker/CombatFrenzy.dds">
+        <img src="../Art/2DArt/SkillIcons/passives/Berserker/CombatFrenzy.png" alt="status icon" title="격노">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/newtitanicmight.dds">
+        <img src="../Art/2DArt/SkillIcons/passives/newtitanicmight.png" alt="status icon" title="">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/ChargedDash.dds">
+        <img src="../Art/2DArt/SkillIcons/ChargedDash.png" alt="status icon" title="충전 질주">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/IceSiphon.dds">
+        <img src="../Art/2DArt/SkillIcons/IceSiphon.png" alt="status icon" title="차디찬 광선 / 착취 덫">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/BreachPortal.dds">
+        <img src="../Art/2DArt/SkillIcons/BreachPortal.png" alt="status icon" title="균열의 공허">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/iconinnerfire.dds">
+        <img src="../Art/2DArt/SkillIcons/iconinnerfire.png" alt="status icon" title="지옥불 맹타">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/QuakeSlam.dds">
+        <img src="../Art/2DArt/SkillIcons/QuakeSlam.png" alt="status icon" title="바알 지진">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/iconarc.dds">
+        <img src="../Art/2DArt/SkillIcons/iconarc.png" alt="status icon" title="행운의 연쇄 번개">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/iconcoldsnap.dds">
+        <img src="../Art/2DArt/SkillIcons/iconcoldsnap.png" alt="status icon" title="바알 한파 / 한파">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/Smite.dds">
+        <img src="../Art/2DArt/SkillIcons/Smite.png" alt="status icon" title="바알 징벌의 오라">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/PerquilsToe.dds">
+        <img src="../Art/2DArt/BuffIcons/PerquilsToe.png" alt="status icon" title="퍼퀼의 발가락(Perquil&#x27;s Toe)">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/StaticStrikeSkillIcon.dds">
+        <img src="../Art/2DArt/SkillIcons/StaticStrikeSkillIcon.png" alt="status icon" title="정전기 타격">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/HolyRelicSkillIcon.dds">
+        <img src="../Art/2DArt/SkillIcons/HolyRelicSkillIcon.png" alt="status icon" title="신성한 유물의 은혜">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/HeraldOfAgony.dds">
+        <img src="../Art/2DArt/SkillIcons/HeraldOfAgony.png" alt="status icon" title="고통의 전령 / 병독성">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/HeraldOfLight.dds">
+        <img src="../Art/2DArt/SkillIcons/HeraldOfLight.png" alt="status icon" title="순수의 전령">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/VirulentArrowSkillIcon.dds">
+        <img src="../Art/2DArt/SkillIcons/VirulentArrowSkillIcon.png" alt="status icon" title="재앙의 화살">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/AzuriteDebuff.dds">
+        <img src="../Art/2DArt/BuffIcons/AzuriteDebuff.png" alt="status icon" title="남동석 도금">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/DelveResist.dds">
+        <img src="../Art/2DArt/BuffIcons/DelveResist.png" alt="status icon" title="냉기 저항 상실 / 받는 물리 피해 증가 / 받는 원소 피해 증가 / 번개 저항 상실 / 카오스 저항 상실 / 화염 저항 상실">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/DelveResist2.dds">
+        <img src="../Art/2DArt/BuffIcons/DelveResist2.png" alt="status icon" title="아울의 반란(Aul&#x27;s Uprising) / 폭군의 왕관(Crown of the Tyrant)">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ImpaleDebuff.dds">
+        <img src="../Art/2DArt/BuffIcons/ImpaleDebuff.png" alt="status icon" title="꿰뚫림">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/EinharLifeAura.dds">
+        <img src="../Art/2DArt/BuffIcons/EinharLifeAura.png" alt="status icon" title="최초의 존재들의 은혜">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/DjinnFocus.dds">
+        <img src="../Art/2DArt/SkillIcons/DjinnFocus.png" alt="status icon" title="[UNUSED] Brand Detonate Buff / 집중">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/FrostFury.dds">
+        <img src="../Art/2DArt/SkillIcons/FrostFury.png" alt="status icon" title="겨울 보주">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/WarBanner.dds">
+        <img src="../Art/2DArt/SkillIcons/WarBanner.png" alt="status icon" title="전쟁 깃발">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/WarbannerDebuff.dds">
+        <img src="../Art/2DArt/BuffIcons/WarbannerDebuff.png" alt="status icon" title="">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/DreadBanner.dds">
+        <img src="../Art/2DArt/SkillIcons/DreadBanner.png" alt="status icon" title="공포의 깃발">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/DreadBannerDebuff.dds">
+        <img src="../Art/2DArt/BuffIcons/DreadBannerDebuff.png" alt="status icon" title="">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/ArmourandEvasionBanner.dds">
+        <img src="../Art/2DArt/SkillIcons/ArmourandEvasionBanner.png" alt="status icon" title="저항의 깃발">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ArmourandEvasionBannerBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/ArmourandEvasionBannerBuff.png" alt="status icon" title="">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/DefaultBanner.dds">
+        <img src="../Art/2DArt/SkillIcons/DefaultBanner.png" alt="status icon" title="기백">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/ConduitSigil.dds">
+        <img src="../Art/2DArt/SkillIcons/ConduitSigil.png" alt="status icon" title="폭풍의 낙인">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ShapersPresence.dds">
+        <img src="../Art/2DArt/BuffIcons/ShapersPresence.png" alt="status icon" title="쉐이퍼의 존재">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/ArakaalisFang.dds">
+        <img src="../Art/2DArt/SkillIcons/ArakaalisFang.png" alt="status icon" title="소환한 거미">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/ArmageddonBrand.dds">
+        <img src="../Art/2DArt/SkillIcons/ArmageddonBrand.png" alt="status icon" title="종말의 낙인">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/Champion/ImpalePassiveNotable.dds">
+        <img src="../Art/2DArt/SkillIcons/passives/Champion/ImpalePassiveNotable.png" alt="status icon" title="금속의 대가">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/OverpoweredDebuff.dds">
+        <img src="../Art/2DArt/BuffIcons/OverpoweredDebuff.png" alt="status icon" title="압도">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/arcticbreath.dds">
+        <img src="../Art/2DArt/SkillIcons/arcticbreath.png" alt="status icon" title="엄습하는 서리">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ScorchedBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/ScorchedBuff.png" alt="status icon" title="그을린 / 그을린 지대 / 그을림 / 따뜻한 모닥불">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/BrittleBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/BrittleBuff.png" alt="status icon" title="허약 / 허약의 지대">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/SappedBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/SappedBuff.png" alt="status icon" title="아우카나의 사냥 / 활력 감소 / 활력 감소의 지대">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/UniqueLifeRegenAura.dds">
+        <img src="../Art/2DArt/BuffIcons/UniqueLifeRegenAura.png" alt="status icon" title="생명력 재생의 오라(Life Regeneration Aura)">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/Soulrend.dds">
+        <img src="../Art/2DArt/SkillIcons/Soulrend.png" alt="status icon" title="영혼 분리">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/SynthesisVoidSand.dds">
+        <img src="../Art/2DArt/BuffIcons/SynthesisVoidSand.png" alt="status icon" title="공허 구덩이 / 중력 우물">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/DarkRitual.dds">
+        <img src="../Art/2DArt/SkillIcons/DarkRitual.png" alt="status icon" title="파멸">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/InfusionBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/InfusionBuff.png" alt="status icon" title="">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/SpellDamageAura.dds">
+        <img src="../Art/2DArt/SkillIcons/SpellDamageAura.png" alt="status icon" title="열광 오라">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/DivineTempest.dds">
+        <img src="../Art/2DArt/SkillIcons/DivineTempest.png" alt="status icon" title="신성한 진노">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/DeliriumAura.dds">
+        <img src="../Art/2DArt/SkillIcons/DeliriumAura.png" alt="status icon" title="악의의 오라">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ColdSoulrend.dds">
+        <img src="../Art/2DArt/BuffIcons/ColdSoulrend.png" alt="status icon" title="영혼 냉각">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/resistfire.dds">
+        <img src="../Art/2DArt/BuffIcons/resistfire.png" alt="status icon" title="화염 노출 / 화염숨결 꿀술">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/resistcold.dds">
+        <img src="../Art/2DArt/BuffIcons/resistcold.png" alt="status icon" title="냉기 노출">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/Trickster/AcrobaticWillpower.dds">
+        <img src="../Art/2DArt/SkillIcons/passives/Trickster/AcrobaticWillpower.png" alt="status icon" title="유령 연막">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/SynthesisDebuff.dds">
+        <img src="../Art/2DArt/BuffIcons/SynthesisDebuff.png" alt="status icon" title="공허의 올가미 / 쇠퇴하는 기억 / 심연 렌즈">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Divinity.dds">
+        <img src="../Art/2DArt/BuffIcons/Divinity.png" alt="status icon" title="덧없는 자의 의복(Garb of the Ephemeral) / 신성">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/SynthesisDroneDebuff.dds">
+        <img src="../Art/2DArt/BuffIcons/SynthesisDroneDebuff.png" alt="status icon" title="결합자의 징표">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/StormBurst.dds">
+        <img src="../Art/2DArt/SkillIcons/StormBurst.png" alt="status icon" title="폭풍 점사">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/QuickGuard.dds">
+        <img src="../Art/2DArt/BuffIcons/QuickGuard.png" alt="status icon" title="강철피부">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/QuickGuard2.dds">
+        <img src="../Art/2DArt/BuffIcons/QuickGuard2.png" alt="status icon" title="뼈 갑옷">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/nobuff.dds">
+        <img src="../Art/2DArt/BuffIcons/nobuff.png" alt="status icon" title="[DNT] Quick Block / 광란 / 메이븐의 은총 / 영원한 제국 오라">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/cyclone.dds">
+        <img src="../Art/2DArt/SkillIcons/cyclone.png" alt="status icon" title="회오리바람">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/SandBladeStorm.dds">
+        <img src="../Art/2DArt/SkillIcons/SandBladeStorm.png" alt="status icon" title="모래 칼날 폭풍">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/BloodBladeStorm.dds">
+        <img src="../Art/2DArt/SkillIcons/BloodBladeStorm.png" alt="status icon" title="핏빛 칼날 폭풍">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/SandStance.dds">
+        <img src="../Art/2DArt/BuffIcons/SandStance.png" alt="status icon" title="모래 태세">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/BloodStance.dds">
+        <img src="../Art/2DArt/BuffIcons/BloodStance.png" alt="status icon" title="핏빛 태세">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/DoubleSlash.dds">
+        <img src="../Art/2DArt/SkillIcons/DoubleSlash.png" alt="status icon" title="">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ResonatingShrine.dds">
+        <img src="../Art/2DArt/BuffIcons/ResonatingShrine.png" alt="status icon" title="충전된 성소">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Beserk.dds">
+        <img src="../Art/2DArt/BuffIcons/Beserk.png" alt="status icon" title="격분 / 광폭">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/SandArmour.dds">
+        <img src="../Art/2DArt/SkillIcons/SandArmour.png" alt="status icon" title="돌">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/BloodArmour.dds">
+        <img src="../Art/2DArt/SkillIcons/BloodArmour.png" alt="status icon" title="살점">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/LioneyeArrowStuckInPlayerDebuff.dds">
+        <img src="../Art/2DArt/BuffIcons/LioneyeArrowStuckInPlayerDebuff.png" alt="status icon" title="라이온아이의 화살">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/Berserker/Blitz.dds">
+        <img src="../Art/2DArt/SkillIcons/passives/Berserker/Blitz.png" alt="status icon" title="공세 충전">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/Slayer/Overwhelm.dds">
+        <img src="../Art/2DArt/SkillIcons/passives/Slayer/Overwhelm.png" alt="status icon" title="압도">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/iconblinkstrike.dds">
+        <img src="../Art/2DArt/SkillIcons/iconblinkstrike.png" alt="status icon" title="점멸 타격">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/MarakethBossSkill1.dds">
+        <img src="../Art/2DArt/SkillIcons/MarakethBossSkill1.png" alt="status icon" title="아우카나의 올가미 밧줄">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/KoreaPCBang.dds">
+        <img src="../Art/2DArt/BuffIcons/KoreaPCBang.png" alt="status icon" title="PC방 혜택">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/Gladiator/GLADBloodAndSand.dds">
+        <img src="../Art/2DArt/SkillIcons/passives/Gladiator/GLADBloodAndSand.png" alt="status icon" title="도전자 충전">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/CloseCombatMovementBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/CloseCombatMovementBuff.png" alt="status icon" title="전투 돌격">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/WitheringStep.dds">
+        <img src="../Art/2DArt/SkillIcons/WitheringStep.png" alt="status icon" title="고사시키는 걸음">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/Guardian/Radient Crusade.dds">
+        <img src="../Art/2DArt/SkillIcons/passives/Guardian/Radient Crusade.png" alt="status icon" title="찬란한 성전">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/Guardian/Unwavering Crusade.dds">
+        <img src="../Art/2DArt/SkillIcons/passives/Guardian/Unwavering Crusade.png" alt="status icon" title="변함없는 성전">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/PlagueBearerStoring.dds">
+        <img src="../Art/2DArt/SkillIcons/PlagueBearerStoring.png" alt="status icon" title="독성 운반자">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ElusiveBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/ElusiveBuff.png" alt="status icon" title="도피">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/OffensiveMinion.dds">
+        <img src="../Art/2DArt/SkillIcons/OffensiveMinion.png" alt="status icon" title="격분 주입">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/Necromancer/EssenceGlutton.dds">
+        <img src="../Art/2DArt/SkillIcons/passives/Necromancer/EssenceGlutton.png" alt="status icon" title="에센스 포식">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/Necromancer/PlagueBringer.dds">
+        <img src="../Art/2DArt/SkillIcons/passives/Necromancer/PlagueBringer.png" alt="status icon" title="역병운반자">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/PlagueBearerMaxPoison.dds">
+        <img src="../Art/2DArt/SkillIcons/PlagueBearerMaxPoison.png" alt="status icon" title="">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/PlagueBearerUnleashing.dds">
+        <img src="../Art/2DArt/SkillIcons/PlagueBearerUnleashing.png" alt="status icon" title="독성 운반자">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/MinionFocusFire.dds">
+        <img src="../Art/2DArt/SkillIcons/MinionFocusFire.png" alt="status icon" title="사냥감으로 지정됨">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/LightningExplosionMine.dds">
+        <img src="../Art/2DArt/SkillIcons/LightningExplosionMine.png" alt="status icon" title="태풍 파열 지뢰">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/LightningFireSkitterbots.dds">
+        <img src="../Art/2DArt/SkillIcons/LightningFireSkitterbots.png" alt="status icon" title="원격 기폭 장치">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/DebuffRemoteMine.dds">
+        <img src="../Art/2DArt/BuffIcons/DebuffRemoteMine.png" alt="status icon" title="고충격 지뢰">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/ColdProjectileMine.dds">
+        <img src="../Art/2DArt/SkillIcons/ColdProjectileMine.png" alt="status icon" title="고드름 지뢰">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/FireMortarBarrageMine.dds">
+        <img src="../Art/2DArt/SkillIcons/FireMortarBarrageMine.png" alt="status icon" title="화산탄 지뢰">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/MambaStrike.dds">
+        <img src="../Art/2DArt/SkillIcons/MambaStrike.png" alt="status icon" title="전염성 일격">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/MambaStrikeDot.dds">
+        <img src="../Art/2DArt/SkillIcons/MambaStrikeDot.png" alt="status icon" title="전염성 일격 피해">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/BlightTowerBuffIcon.dds">
+        <img src="../Art/2DArt/BuffIcons/BlightTowerBuffIcon.png" alt="status icon" title="탑 고취">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/SnappingAdder.dds">
+        <img src="../Art/2DArt/SkillIcons/SnappingAdder.png" alt="status icon" title="독액 선회 칼날 / 바알 독액 선회">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/SummonCarrionGolem.dds">
+        <img src="../Art/2DArt/SkillIcons/SummonCarrionGolem.png" alt="status icon" title="부패 골렘">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/FungalGroundBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/FungalGroundBuff.png" alt="status icon" title="곰팡이 지대">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/Chieftain/NgamahuFlamesAdvance.dds">
+        <img src="../Art/2DArt/SkillIcons/passives/Chieftain/NgamahuFlamesAdvance.png" alt="status icon" title="마그마성 일격">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ManaRuneDebuff.dds">
+        <img src="../Art/2DArt/BuffIcons/ManaRuneDebuff.png" alt="status icon" title="마나 룬 문자 / 바란의 성직자의 오라">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/firearrow.dds">
+        <img src="../Art/2DArt/SkillIcons/firearrow.png" alt="status icon" title="불타는 화살">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/EnsnaringArrow.dds">
+        <img src="../Art/2DArt/SkillIcons/EnsnaringArrow.png" alt="status icon" title="올가미에 걸림">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/EyeOfMaliceDebuff.dds">
+        <img src="../Art/2DArt/BuffIcons/EyeOfMaliceDebuff.png" alt="status icon" title="적의의 눈">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/SummonedPhantasms.dds">
+        <img src="../Art/2DArt/SkillIcons/SummonedPhantasms.png" alt="status icon" title="환영의 완력">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/ArcaneCloak.dds">
+        <img src="../Art/2DArt/SkillIcons/ArcaneCloak.png" alt="status icon" title="비전의 망토">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Intimidate.dds">
+        <img src="../Art/2DArt/BuffIcons/Intimidate.png" alt="status icon" title="위협 / 타쇄당함">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Unnerve.dds">
+        <img src="../Art/2DArt/BuffIcons/Unnerve.png" alt="status icon" title="낙담">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/LeagueItemDebuff.dds">
+        <img src="../Art/2DArt/BuffIcons/LeagueItemDebuff.png" alt="status icon" title="찬란한 광기">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/AfflictionReducedRecoveryDebuff.dds">
+        <img src="../Art/2DArt/BuffIcons/AfflictionReducedRecoveryDebuff.png" alt="status icon" title="소모시키는 손길 / 영원의 스컬지">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/AfflictionSlowerActionSpeedDebuff.dds">
+        <img src="../Art/2DArt/BuffIcons/AfflictionSlowerActionSpeedDebuff.png" alt="status icon" title="마비시키는 손길">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/AfflictionIncreasedDamageTakenDebuff.dds">
+        <img src="../Art/2DArt/BuffIcons/AfflictionIncreasedDamageTakenDebuff.png" alt="status icon" title="침식하는 손길">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/AfflictionReducedFlaskEffectDebuff.dds">
+        <img src="../Art/2DArt/BuffIcons/AfflictionReducedFlaskEffectDebuff.png" alt="status icon" title="희석시키는 손길">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/VomitSlowDebuff.dds">
+        <img src="../Art/2DArt/BuffIcons/VomitSlowDebuff.png" alt="status icon" title="폭발성 구역질">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/Spellslinger.dds">
+        <img src="../Art/2DArt/SkillIcons/Spellslinger.png" alt="status icon" title="주문투척">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/SnipeSkillIcon.dds">
+        <img src="../Art/2DArt/SkillIcons/SnipeSkillIcon.png" alt="status icon" title="저격">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/DeathZoneInner.dds">
+        <img src="../Art/2DArt/BuffIcons/DeathZoneInner.png" alt="status icon" title="대전하의 시야 / 대전하의 응시">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/DeathZoneOuter.dds">
+        <img src="../Art/2DArt/BuffIcons/DeathZoneOuter.png" alt="status icon" title="으스스한 환영">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/SeismicCry.dds">
+        <img src="../Art/2DArt/SkillIcons/SeismicCry.png" alt="status icon" title="지진 함성">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/WarCryAncestral.dds">
+        <img src="../Art/2DArt/SkillIcons/WarCryAncestral.png" alt="status icon" title="선대의 함성">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/PhysicalLightningBrand.dds">
+        <img src="../Art/2DArt/SkillIcons/PhysicalLightningBrand.png" alt="status icon" title="속죄 / 속죄의 낙인">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/FragileRegrowth.dds">
+        <img src="../Art/2DArt/BuffIcons/FragileRegrowth.png" alt="status icon" title="불안정한 재성장">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/WarCryInfernal.dds">
+        <img src="../Art/2DArt/SkillIcons/WarCryInfernal.png" alt="status icon" title="지옥불 함성">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/HarvestDebuffCold.dds">
+        <img src="../Art/2DArt/BuffIcons/HarvestDebuffCold.png" alt="status icon" title="차디찬 포효">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/HarvestDebuffSlow.dds">
+        <img src="../Art/2DArt/BuffIcons/HarvestDebuffSlow.png" alt="status icon" title="야수의 포효 / 유독성 연기">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/ColdBrand.dds">
+        <img src="../Art/2DArt/SkillIcons/ColdBrand.png" alt="status icon" title="겨울 / 겨울의 끝 / 겨울의 낙인">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/RallyingCry.dds">
+        <img src="../Art/2DArt/SkillIcons/RallyingCry.png" alt="status icon" title="집결함">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/RavenBossScreech.dds">
+        <img src="../Art/2DArt/BuffIcons/RavenBossScreech.png" alt="status icon" title="날카로운 비명">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/cannotbeimpaled.dds">
+        <img src="../Art/2DArt/BuffIcons/cannotbeimpaled.png" alt="status icon" title="꿰뚫린 자">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/AlchemistsGenius.dds">
+        <img src="../Art/2DArt/BuffIcons/AlchemistsGenius.png" alt="status icon" title="연금술사의 천재성">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/ConduitSigilPurple.dds">
+        <img src="../Art/2DArt/SkillIcons/ConduitSigilPurple.png" alt="status icon" title="신비학자 낙인">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/debilitationdebuff.dds">
+        <img src="../Art/2DArt/BuffIcons/debilitationdebuff.png" alt="status icon" title="쇠잔">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/Occultist/FatefulEchoes.dds">
+        <img src="../Art/2DArt/SkillIcons/passives/Occultist/FatefulEchoes.png" alt="status icon" title="악담">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/Berserker/WarBringer.dds">
+        <img src="../Art/2DArt/SkillIcons/passives/Berserker/WarBringer.png" alt="status icon" title="전쟁 인도자">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/OshabiSacredAshes.dds">
+        <img src="../Art/2DArt/BuffIcons/OshabiSacredAshes.png" alt="status icon" title="신성한 고통 / 신성한 재">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/IllusionaryWolf.dds">
+        <img src="../Art/2DArt/SkillIcons/IllusionaryWolf.png" alt="status icon" title="영체 무리">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/OshabiColourPhasesBlue.dds">
+        <img src="../Art/2DArt/BuffIcons/OshabiColourPhasesBlue.png" alt="status icon" title="원시 질병">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/OshabiColourPhasesGreen.dds">
+        <img src="../Art/2DArt/BuffIcons/OshabiColourPhasesGreen.png" alt="status icon" title="혈기 질병">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/OshabiColourPhasesRed.dds">
+        <img src="../Art/2DArt/BuffIcons/OshabiColourPhasesRed.png" alt="status icon" title="야생 질병">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/FrostGlobe.dds">
+        <img src="../Art/2DArt/SkillIcons/FrostGlobe.png" alt="status icon" title="서리 방패">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ImpactingSteelBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/ImpactingSteelBuff.png" alt="status icon" title="강철 조각">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/CircleofPower.dds">
+        <img src="../Art/2DArt/SkillIcons/CircleofPower.png" alt="status icon" title="힘의 부적">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/DisturbtheDead.dds">
+        <img src="../Art/2DArt/SkillIcons/DisturbtheDead.png" alt="status icon" title="시체 보행">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/Deathwish.dds">
+        <img src="../Art/2DArt/SkillIcons/Deathwish.png" alt="status icon" title="죽음 동경">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/HeistCausticCloud.dds">
+        <img src="../Art/2DArt/BuffIcons/HeistCausticCloud.png" alt="status icon" title="">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/ShatteringSteel.dds">
+        <img src="../Art/2DArt/SkillIcons/ShatteringSteel.png" alt="status icon" title="강철 수호">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/EverglassBarrier.dds">
+        <img src="../Art/2DArt/SkillIcons/EverglassBarrier.png" alt="status icon" title="조각난 방패">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ScorchingConflux.dds">
+        <img src="../Art/2DArt/BuffIcons/ScorchingConflux.png" alt="status icon" title="작열하는 융합">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/SappingConflux.dds">
+        <img src="../Art/2DArt/BuffIcons/SappingConflux.png" alt="status icon" title="베이다트의 진노 / 활력 감소의 융합">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/BrittleConflux.dds">
+        <img src="../Art/2DArt/BuffIcons/BrittleConflux.png" alt="status icon" title="허약 융합">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/GhostfireBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/GhostfireBuff.png" alt="status icon" title="영혼불길 / 유령불꽃에 휩싸임">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/Elementalist/PendulumOfDestruction.dds">
+        <img src="../Art/2DArt/SkillIcons/passives/Elementalist/PendulumOfDestruction.png" alt="status icon" title="수렴">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/PrimalAegis.dds">
+        <img src="../Art/2DArt/BuffIcons/PrimalAegis.png" alt="status icon" title="원시 비호">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/FireElementalSummonInactive.dds">
+        <img src="../Art/2DArt/SkillIcons/FireElementalSummonInactive.png" alt="status icon" title="부활하는 화염">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/IceElementalSummonInactive.dds">
+        <img src="../Art/2DArt/SkillIcons/IceElementalSummonInactive.png" alt="status icon" title="부활하는 얼음">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/LightningGolemInactive.dds">
+        <img src="../Art/2DArt/SkillIcons/LightningGolemInactive.png" alt="status icon" title="부활하는 번개">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/RockGolemSummonInactive.dds">
+        <img src="../Art/2DArt/SkillIcons/RockGolemSummonInactive.png" alt="status icon" title="부활하는 돌">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/ChaosElementalSummonInactive.dds">
+        <img src="../Art/2DArt/SkillIcons/ChaosElementalSummonInactive.png" alt="status icon" title="부활하는 카오스">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/SummonCarrionGolemInactive.dds">
+        <img src="../Art/2DArt/SkillIcons/SummonCarrionGolemInactive.png" alt="status icon" title="부활하는 부패">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/GaleForceBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/GaleForceBuff.png" alt="status icon" title="강풍의 힘">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/GripofSacrificeBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/GripofSacrificeBuff.png" alt="status icon" title="희생의 열의">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/fanatacismcharge.dds">
+        <img src="../Art/2DArt/SkillIcons/passives/fanatacismcharge.png" alt="status icon" title="광신 충전">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/FanatascismBuffIcon.dds">
+        <img src="../Art/2DArt/BuffIcons/FanatascismBuffIcon.png" alt="status icon" title="광신주의">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/SpectralRagingSpirit.dds">
+        <img src="../Art/2DArt/SkillIcons/SpectralRagingSpirit.png" alt="status icon" title="파열">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/AtlasTrees/DelveNotable2.dds">
+        <img src="../Art/2DArt/SkillIcons/passives/AtlasTrees/DelveNotable2.png" alt="status icon" title="아황산염 중독">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ChillingBeam.dds">
+        <img src="../Art/2DArt/BuffIcons/ChillingBeam.png" alt="status icon" title="치명적인 냉각">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/CoinShowerBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/CoinShowerBuff.png" alt="status icon" title="도박사의 탐욕">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/JackTheAxe.dds">
+        <img src="../Art/2DArt/SkillIcons/JackTheAxe.png" alt="status icon" title="피의 갈증">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/DemigodAura.dds">
+        <img src="../Art/2DArt/BuffIcons/DemigodAura.png" alt="status icon" title="반신의 권위">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/brutalcharge.dds">
+        <img src="../Art/2DArt/BuffIcons/brutalcharge.png" alt="status icon" title="잔인 충전">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/afflictioncharge.dds">
+        <img src="../Art/2DArt/BuffIcons/afflictioncharge.png" alt="status icon" title="수난 충전">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/absorptioncharge.dds">
+        <img src="../Art/2DArt/BuffIcons/absorptioncharge.png" alt="status icon" title="흡수 충전">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/Hydrosphere.dds">
+        <img src="../Art/2DArt/SkillIcons/Hydrosphere.png" alt="status icon" title="흠뻑 젖음">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/BloodTotemEffigyBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/BloodTotemEffigyBuff.png" alt="status icon" title="시드는 육체">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/BloodQuicksand.dds">
+        <img src="../Art/2DArt/SkillIcons/BloodQuicksand.png" alt="status icon" title="질식 안개">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/SpeedDaemon.dds">
+        <img src="../Art/2DArt/SkillIcons/SpeedDaemon.png" alt="status icon" title="속도 강풍">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/ChaosVines.dds">
+        <img src="../Art/2DArt/SkillIcons/ChaosVines.png" alt="status icon" title="가시덩굴 / 맹독성 덩굴">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/UnhingeSkill.dds">
+        <img src="../Art/2DArt/SkillIcons/UnhingeSkill.png" alt="status icon" title="광기">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ForbiddenTaste.dds">
+        <img src="../Art/2DArt/BuffIcons/ForbiddenTaste.png" alt="status icon" title="섬뜩한 강화">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/RuinDebuff.dds">
+        <img src="../Art/2DArt/BuffIcons/RuinDebuff.png" alt="status icon" title="파탄">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/MavenBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/MavenBuff.png" alt="status icon" title="메이븐의 게임 / 메이븐의 응징">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/BloodTendrilsSkill.dds">
+        <img src="../Art/2DArt/SkillIcons/BloodTendrilsSkill.png" alt="status icon" title="방혈">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/CorruptedBloodStream.dds">
+        <img src="../Art/2DArt/SkillIcons/CorruptedBloodStream.png" alt="status icon" title="타락한 열병">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/EscalatingVulnerability.dds">
+        <img src="../Art/2DArt/BuffIcons/EscalatingVulnerability.png" alt="status icon" title="격화되는 취약성 / 투지 약화">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/CrueltySupport.dds">
+        <img src="../Art/2DArt/BuffIcons/CrueltySupport.png" alt="status icon" title="잔혹">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/LightningVortex.dds">
+        <img src="../Art/2DArt/SkillIcons/LightningVortex.png" alt="status icon" title="소용돌이">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/PetrifiedBlood.dds">
+        <img src="../Art/2DArt/SkillIcons/PetrifiedBlood.png" alt="status icon" title="피 석화">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/Bloodreap.dds">
+        <img src="../Art/2DArt/SkillIcons/Bloodreap.png" alt="status icon" title="낫질 / 바알 낫질 / 피 충전">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/GolemBeam.dds">
+        <img src="../Art/2DArt/BuffIcons/GolemBeam.png" alt="status icon" title="불타는 유대">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/GolemBeamCold.dds">
+        <img src="../Art/2DArt/BuffIcons/GolemBeamCold.png" alt="status icon" title="오싹한 유대">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/GolemBeamLightning.dds">
+        <img src="../Art/2DArt/BuffIcons/GolemBeamLightning.png" alt="status icon" title="짜릿한 유대">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/GolemBeamChaos.dds">
+        <img src="../Art/2DArt/BuffIcons/GolemBeamChaos.png" alt="status icon" title="혼돈스러운 유대">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/GolemBeamRuin.dds">
+        <img src="../Art/2DArt/BuffIcons/GolemBeamRuin.png" alt="status icon" title="파탄의 불타는 유대 / 파탄의 오싹한 유대 / 파탄의 짜릿한 유대 / 파탄의 혼돈스러운 유대">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/EverlastingSacrificeBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/EverlastingSacrificeBuff.png" alt="status icon" title="영원히 계속되는 희생">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/LifeTapBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/LifeTapBuff.png" alt="status icon" title="생명력 전환">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/PhysicalTotem.dds">
+        <img src="../Art/2DArt/BuffIcons/PhysicalTotem.png" alt="status icon" title="완력의 대가">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ElementalTotem.dds">
+        <img src="../Art/2DArt/BuffIcons/ElementalTotem.png" alt="status icon" title="잠재력의 대가">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/OccasionalImpotenceDebuff.dds">
+        <img src="../Art/2DArt/BuffIcons/OccasionalImpotenceDebuff.png" alt="status icon" title="무기력">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/Berserker/DefyPain.dds">
+        <img src="../Art/2DArt/SkillIcons/passives/Berserker/DefyPain.png" alt="status icon" title="저항">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/CreepingMiasma.dds">
+        <img src="../Art/2DArt/BuffIcons/CreepingMiasma.png" alt="status icon" title="내면의 숨막히는 독기 / 숨막히는 독기">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/TrialmasterTetherBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/TrialmasterTetherBuff.png" alt="status icon" title="시련의 대가의 올가미">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/DivineCry.dds">
+        <img src="../Art/2DArt/SkillIcons/DivineCry.png" alt="status icon" title="전투마법사의 함성">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/iconcleave.dds">
+        <img src="../Art/2DArt/SkillIcons/iconcleave.png" alt="status icon" title="사형 집행자 / 참수">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/VoidburstIcon.dds">
+        <img src="../Art/2DArt/SkillIcons/VoidburstIcon.png" alt="status icon" title="전도성 격발">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/TraumaBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/TraumaBuff.png" alt="status icon" title="외상">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/AmbushIcon.dds">
+        <img src="../Art/2DArt/SkillIcons/AmbushIcon.png" alt="status icon" title="매복">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ExpeditionColdResistance.dds">
+        <img src="../Art/2DArt/BuffIcons/ExpeditionColdResistance.png" alt="status icon" title="우주의 무심함">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ExpeditionReducedSpeed.dds">
+        <img src="../Art/2DArt/BuffIcons/ExpeditionReducedSpeed.png" alt="status icon" title="무한의 눈길 / 저해">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Corrosion.dds">
+        <img src="../Art/2DArt/BuffIcons/Corrosion.png" alt="status icon" title="부식 / 죽음의 맹약">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/VoranaStorm.dds">
+        <img src="../Art/2DArt/BuffIcons/VoranaStorm.png" alt="status icon" title="검은 낫질 / 이단자의 진노 / 전조의 증기">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Olrothdebuff3.dds">
+        <img src="../Art/2DArt/BuffIcons/Olrothdebuff3.png" alt="status icon" title="쉬지 못하는 흙 / 영멸의 화염 / 정의의 화염">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Olrothdebuff2.dds">
+        <img src="../Art/2DArt/BuffIcons/Olrothdebuff2.png" alt="status icon" title="피폐">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Olrothdebuff1.dds">
+        <img src="../Art/2DArt/BuffIcons/Olrothdebuff1.png" alt="status icon" title="잔혹한 꽂기">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/HellscapeLeagueDebuff.dds">
+        <img src="../Art/2DArt/BuffIcons/HellscapeLeagueDebuff.png" alt="status icon" title="치명상 / 타락 노출">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/Frostblink.dds">
+        <img src="../Art/2DArt/SkillIcons/Frostblink.png" alt="status icon" title="시간의 균열">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ThunderWeb.dds">
+        <img src="../Art/2DArt/BuffIcons/ThunderWeb.png" alt="status icon" title="자기 태풍 / 천둥 거미줄">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/StormBlade.dds">
+        <img src="../Art/2DArt/SkillIcons/StormBlade.png" alt="status icon" title="에너지 칼날">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/SoulLink.dds">
+        <img src="../Art/2DArt/SkillIcons/SoulLink.png" alt="status icon" title="영혼의 연결">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/FlameLink.dds">
+        <img src="../Art/2DArt/SkillIcons/FlameLink.png" alt="status icon" title="화염의 연결">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/LeechLink.dds">
+        <img src="../Art/2DArt/SkillIcons/LeechLink.png" alt="status icon" title="흡혈의 연결">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/BlockLink.dds">
+        <img src="../Art/2DArt/SkillIcons/BlockLink.png" alt="status icon" title="보호의 연결">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/TriggerLink.dds">
+        <img src="../Art/2DArt/SkillIcons/TriggerLink.png" alt="status icon" title="직관의 연결">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/CriticalLink.dds">
+        <img src="../Art/2DArt/SkillIcons/CriticalLink.png" alt="status icon" title="파괴의 연결">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/HellscapeDemonEliteScreech.dds">
+        <img src="../Art/2DArt/BuffIcons/HellscapeDemonEliteScreech.png" alt="status icon" title="사무치는 비명">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/HinderImmunity.dds">
+        <img src="../Art/2DArt/BuffIcons/HinderImmunity.png" alt="status icon" title="이동 방해 면역">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Maimimmunity.dds">
+        <img src="../Art/2DArt/BuffIcons/Maimimmunity.png" alt="status icon" title="힘줄 절단 면역">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/LifeRecoveryFlask.dds">
+        <img src="../Art/2DArt/BuffIcons/LifeRecoveryFlask.png" alt="status icon" title="추가 생명력 회복">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/HellscapeHookedDebuff.dds">
+        <img src="../Art/2DArt/BuffIcons/HellscapeHookedDebuff.png" alt="status icon" title="탐욕스러운 갈고리">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/Trickster/ImmuneToDoT.dds">
+        <img src="../Art/2DArt/SkillIcons/passives/Trickster/ImmuneToDoT.png" alt="status icon" title="심정지">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/CoveredinFrost.dds">
+        <img src="../Art/2DArt/BuffIcons/CoveredinFrost.png" alt="status icon" title="서리에 뒤덮임">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ExecutionerAura.dds">
+        <img src="../Art/2DArt/BuffIcons/ExecutionerAura.png" alt="status icon" title="집행자의 존재">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/FlaskDrainAura.dds">
+        <img src="../Art/2DArt/BuffIcons/FlaskDrainAura.png" alt="status icon" title="가뭄 / 플라스크 고갈">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/TimeBubbleAura.dds">
+        <img src="../Art/2DArt/BuffIcons/TimeBubbleAura.png" alt="status icon" title="시간의 거품">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ManaDonut.dds">
+        <img src="../Art/2DArt/BuffIcons/ManaDonut.png" alt="status icon" title="착취의 고리">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/OppressorAura.dds">
+        <img src="../Art/2DArt/BuffIcons/OppressorAura.png" alt="status icon" title="억압">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/VoodooDollMod.dds">
+        <img src="../Art/2DArt/BuffIcons/VoodooDollMod.png" alt="status icon" title="제웅">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/RejuvenatingSporesDebuff.dds">
+        <img src="../Art/2DArt/BuffIcons/RejuvenatingSporesDebuff.png" alt="status icon" title="신록의 포자">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/GlacialCage.dds">
+        <img src="../Art/2DArt/BuffIcons/GlacialCage.png" alt="status icon" title="갇힘">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/GreedShrinebuff.dds">
+        <img src="../Art/2DArt/BuffIcons/GreedShrinebuff.png" alt="status icon" title="갈망의 성소">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/InfiniteHungerDrowning.dds">
+        <img src="../Art/2DArt/BuffIcons/InfiniteHungerDrowning.png" alt="status icon" title="질식">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/TangleTentacleOrbDebuff.dds">
+        <img src="../Art/2DArt/BuffIcons/TangleTentacleOrbDebuff.png" alt="status icon" title="벗어날 수 없는 멸망 / 활선">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/EaterOfWorldsDrowning.dds">
+        <img src="../Art/2DArt/BuffIcons/EaterOfWorldsDrowning.png" alt="status icon" title="질식">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Extinguish.dds">
+        <img src="../Art/2DArt/BuffIcons/Extinguish.png" alt="status icon" title="소진">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/SearingDebuff.dds">
+        <img src="../Art/2DArt/BuffIcons/SearingDebuff.png" alt="status icon" title="소작된 살점 / 이글거리는 룬">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/TaintedFrenzyBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/TaintedFrenzyBuff.png" alt="status icon" title="더럽혀진 격분 충전">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/TaintedEnduranceBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/TaintedEnduranceBuff.png" alt="status icon" title="더럽혀진 인내 충전">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/TaintedPowerBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/TaintedPowerBuff.png" alt="status icon" title="더럽혀진 권능 충전">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/DoomBossDebuff.dds">
+        <img src="../Art/2DArt/BuffIcons/DoomBossDebuff.png" alt="status icon" title="부식성 굶주림">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/WrathOfTheCosmosKeystone.dds">
+        <img src="../Art/2DArt/SkillIcons/passives/WrathOfTheCosmosKeystone.png" alt="status icon" title="우주의 진노">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/GalvanicField.dds">
+        <img src="../Art/2DArt/SkillIcons/GalvanicField.png" alt="status icon" title="충격장">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/Trickster/ImmuneToDoT2.dds">
+        <img src="../Art/2DArt/SkillIcons/passives/Trickster/ImmuneToDoT2.png" alt="status icon" title="심정지">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/Trickster/OneStepAheadTrickster.dds">
+        <img src="../Art/2DArt/SkillIcons/passives/Trickster/OneStepAheadTrickster.png" alt="status icon" title="한발 앞서">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ShrineBrineKing.dds">
+        <img src="../Art/2DArt/BuffIcons/ShrineBrineKing.png" alt="status icon" title="소아고스 성소">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ShrineLunaris.dds">
+        <img src="../Art/2DArt/BuffIcons/ShrineLunaris.png" alt="status icon" title="루나리스 성소">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ShrineSolaris.dds">
+        <img src="../Art/2DArt/BuffIcons/ShrineSolaris.png" alt="status icon" title="솔라리스 성소">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ShrineArakali.dds">
+        <img src="../Art/2DArt/BuffIcons/ShrineArakali.png" alt="status icon" title="아라칼리 성소">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/AncestorTotemSkill.dds">
+        <img src="../Art/2DArt/SkillIcons/AncestorTotemSkill.png" alt="status icon" title="선대의 수호자">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/SlamAncestorTotem.dds">
+        <img src="../Art/2DArt/SkillIcons/SlamAncestorTotem.png" alt="status icon" title="선대의 대전사">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/SlashAncestorTotem.dds">
+        <img src="../Art/2DArt/SkillIcons/SlashAncestorTotem.png" alt="status icon" title="선대의 대지 분쇄자">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/BoonBuffAssassinsBlade.dds">
+        <img src="../Art/2DArt/BuffIcons/BoonBuffAssassinsBlade.png" alt="status icon" title="암살자의 칼날">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/BoonBuffSilverDescry.dds">
+        <img src="../Art/2DArt/BuffIcons/BoonBuffSilverDescry.png" alt="status icon" title="은 성표">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/VaalArcticArmourBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/VaalArcticArmourBuff.png" alt="status icon" title="바알 한기의 방어구 버프">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/MomentumMovementSpeed.dds">
+        <img src="../Art/2DArt/BuffIcons/MomentumMovementSpeed.png" alt="status icon" title="재빠름">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/MomentumAttackSpeed.dds">
+        <img src="../Art/2DArt/BuffIcons/MomentumAttackSpeed.png" alt="status icon" title="기세">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/Champion/Fortitude.dds">
+        <img src="../Art/2DArt/SkillIcons/passives/Champion/Fortitude.png" alt="status icon" title="무적의 영웅">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/NgamahuTribeSkill.dds">
+        <img src="../Art/2DArt/SkillIcons/NgamahuTribeSkill.png" alt="status icon" title="카옴의 통솔력">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/KitavaTribeSkill.dds">
+        <img src="../Art/2DArt/SkillIcons/KitavaTribeSkill.png" alt="status icon" title="우툴라의 통솔력 / 혼백의 갈증">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/TukohamaTribeSkill.dds">
+        <img src="../Art/2DArt/SkillIcons/TukohamaTribeSkill.png" alt="status icon" title="아코야의 통솔력">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/RongokuraiTribeSkill.dds">
+        <img src="../Art/2DArt/SkillIcons/RongokuraiTribeSkill.png" alt="status icon" title="카후투로아의 통솔력">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/TasalioTribeSkill.dds">
+        <img src="../Art/2DArt/SkillIcons/TasalioTribeSkill.png" alt="status icon" title="라키아타의 통솔력 / 타살리오의 축복">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/ArohonguiTribeSkill.dds">
+        <img src="../Art/2DArt/SkillIcons/ArohonguiTribeSkill.png" alt="status icon" title="아로호누이의 축복 / 이키아호의 통솔력">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/RamakoTribeSkill.dds">
+        <img src="../Art/2DArt/SkillIcons/RamakoTribeSkill.png" alt="status icon" title="냉각의 장벽 / 아후아나의 통솔력">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/HinekoraTribeSkill.dds">
+        <img src="../Art/2DArt/SkillIcons/HinekoraTribeSkill.png" alt="status icon" title="타하누쿠의 통솔력 / 혼백 오염 / 히네코라의 도움">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/TawhoaTribeSkill.dds">
+        <img src="../Art/2DArt/SkillIcons/TawhoaTribeSkill.png" alt="status icon" title="마아타의 통솔력 / 숲의 축복">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/ValakoTribeSkill.dds">
+        <img src="../Art/2DArt/SkillIcons/ValakoTribeSkill.png" alt="status icon" title="킬로아바의 통솔력">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/Guardian/HarmonyOfPurpose.dds">
+        <img src="../Art/2DArt/SkillIcons/passives/Guardian/HarmonyOfPurpose.png" alt="status icon" title="의지력의 조화">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ChannelInterruptionDebuff.dds">
+        <img src="../Art/2DArt/BuffIcons/ChannelInterruptionDebuff.png" alt="status icon" title="죽음의 무승부">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/Barkskin.dds">
+        <img src="../Art/2DArt/SkillIcons/Barkskin.png" alt="status icon" title="껍질">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/icondoubleswing.dds">
+        <img src="../Art/2DArt/SkillIcons/icondoubleswing.png" alt="status icon" title="이중 타격">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/AzmeriSwampGround.dds">
+        <img src="../Art/2DArt/BuffIcons/AzmeriSwampGround.png" alt="status icon" title="점성 있는 늪지">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/PenanceMark.dds">
+        <img src="../Art/2DArt/SkillIcons/PenanceMark.png" alt="status icon" title="속죄의 징표">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/EbonAffliction.dds">
+        <img src="../Art/2DArt/BuffIcons/EbonAffliction.png" alt="status icon" title="흑단의 고난">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/AzmeriScreecherDeathAura.dds">
+        <img src="../Art/2DArt/BuffIcons/AzmeriScreecherDeathAura.png" alt="status icon" title="신비한 독기 / 죽음의 오라">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/VoodooShaman.dds">
+        <img src="../Art/2DArt/SkillIcons/VoodooShaman.png" alt="status icon" title="진정 / 진정됨">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Eldritch.dds">
+        <img src="../Art/2DArt/BuffIcons/Eldritch.png" alt="status icon" title="굶주림 - 섬뜩한">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Demon.dds">
+        <img src="../Art/2DArt/BuffIcons/Demon.png" alt="status icon" title="굶주림 - 악마">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Construct.dds">
+        <img src="../Art/2DArt/BuffIcons/Construct.png" alt="status icon" title="굶주림 - 구조물">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Undead.dds">
+        <img src="../Art/2DArt/BuffIcons/Undead.png" alt="status icon" title="굶주림 - 언데드">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Beast.dds">
+        <img src="../Art/2DArt/BuffIcons/Beast.png" alt="status icon" title="굶주림 - 야수">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Humanoid.dds">
+        <img src="../Art/2DArt/BuffIcons/Humanoid.png" alt="status icon" title="굶주림 - 인간형">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/AzmeriEffigyBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/AzmeriEffigyBuff.png" alt="status icon" title="고대의 지혜 / 신성한 주입 / 어둠의 선물">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/VoodooKingDeathEffigyMultiply.dds">
+        <img src="../Art/2DArt/BuffIcons/VoodooKingDeathEffigyMultiply.png" alt="status icon" title="그림자 쇄도">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/MinionSacrifice.dds">
+        <img src="../Art/2DArt/SkillIcons/MinionSacrifice.png" alt="status icon" title="고난 재생">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/VoodooKingPunishmentStationary.dds">
+        <img src="../Art/2DArt/BuffIcons/VoodooKingPunishmentStationary.png" alt="status icon" title="명상의 의식">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/VoodooKingPunishmentMoving.dds">
+        <img src="../Art/2DArt/BuffIcons/VoodooKingPunishmentMoving.png" alt="status icon" title="춤의 의식">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/VoodooKingPlantSlow.dds">
+        <img src="../Art/2DArt/BuffIcons/VoodooKingPlantSlow.png" alt="status icon" title="감속의 오라">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/voodookingmaze.dds">
+        <img src="../Art/2DArt/BuffIcons/voodookingmaze.png" alt="status icon" title="파생하는 고난">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/AzmeriShepherd.dds">
+        <img src="../Art/2DArt/BuffIcons/AzmeriShepherd.png" alt="status icon" title="악마의 권능">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Kuduku.dds">
+        <img src="../Art/2DArt/BuffIcons/Kuduku.png" alt="status icon" title="혼백의 축복">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Sword.dds">
+        <img src="../Art/2DArt/BuffIcons/Sword.png" alt="status icon" title="공격 꿰뚫기 확률 / 꿰뚫기 효과 / 추가 꿰뚫기">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/CasterDemon.dds">
+        <img src="../Art/2DArt/BuffIcons/CasterDemon.png" alt="status icon" title="치명타 피해 배율">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/RobotArgus.dds">
+        <img src="../Art/2DArt/BuffIcons/RobotArgus.png" alt="status icon" title="충전 완료">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/AzmeriAltarBat.dds">
+        <img src="../Art/2DArt/BuffIcons/AzmeriAltarBat.png" alt="status icon" title="박쥐의 행렬">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/AzmeriAltarBear.dds">
+        <img src="../Art/2DArt/BuffIcons/AzmeriAltarBear.png" alt="status icon" title="곰의 행렬">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/AzmeriAltarCat.dds">
+        <img src="../Art/2DArt/BuffIcons/AzmeriAltarCat.png" alt="status icon" title="고양이의 행렬">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/AzmeriAltarCrow.dds">
+        <img src="../Art/2DArt/BuffIcons/AzmeriAltarCrow.png" alt="status icon" title="까마귀의 행렬">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/AzmeriAltarDeer.dds">
+        <img src="../Art/2DArt/BuffIcons/AzmeriAltarDeer.png" alt="status icon" title="사슴의 행렬">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/AzmeriAltarLemur.dds">
+        <img src="../Art/2DArt/BuffIcons/AzmeriAltarLemur.png" alt="status icon" title="여우원숭이의 행렬">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/AzmeriAltarRabbit.dds">
+        <img src="../Art/2DArt/BuffIcons/AzmeriAltarRabbit.png" alt="status icon" title="토끼의 행렬">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/AzmeriAltarRaccoon.dds">
+        <img src="../Art/2DArt/BuffIcons/AzmeriAltarRaccoon.png" alt="status icon" title="라쿤의 행렬">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/AzmeriAltarRat.dds">
+        <img src="../Art/2DArt/BuffIcons/AzmeriAltarRat.png" alt="status icon" title="쥐의 행렬">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/AzmeriAltarToad.dds">
+        <img src="../Art/2DArt/BuffIcons/AzmeriAltarToad.png" alt="status icon" title="개구리의 행렬">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/BeyondCrownBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/BeyondCrownBuff.png" alt="status icon" title="고르의 격 / 베이다트의 격 / 크타쉬의 격">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/BeastBestiaryBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/BeastBestiaryBuff.png" alt="status icon" title="사냥꾼의 잔꾀">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/MarkedForDeathDebuff.dds">
+        <img src="../Art/2DArt/BuffIcons/MarkedForDeathDebuff.png" alt="status icon" title="죽음의 징표">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/AutomationSkill.dds">
+        <img src="../Art/2DArt/SkillIcons/AutomationSkill.png" alt="status icon" title="자동화">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/CalltoArmsSkill.dds">
+        <img src="../Art/2DArt/SkillIcons/CalltoArmsSkill.png" alt="status icon" title="자동 전력">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DItems/Currency/Scarabs/SuperScarab6.dds">
+        <img src="../Art/2DItems/Currency/Scarabs/SuperScarab6.png" alt="status icon" title="번쩍임의 뿔 달린 갑충석">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/NecropolisBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/NecropolisBuff.png" alt="status icon" title="묘지기의 은혜">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/NoPauseDebuff.dds">
+        <img src="../Art/2DArt/BuffIcons/NoPauseDebuff.png" alt="status icon" title="[DNT] Temporal Interference">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/RageWarcrySkill.dds">
+        <img src="../Art/2DArt/SkillIcons/RageWarcrySkill.png" alt="status icon" title="복수의 함성">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/WardenAilmentBearer.dds">
+        <img src="../Art/2DArt/SkillIcons/WardenAilmentBearer.png" alt="status icon" title="족쇄 풀린 광분 / 족쇄 풀림">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/FirestormV2.dds">
+        <img src="../Art/2DArt/SkillIcons/FirestormV2.png" alt="status icon" title="크타쉬의 분노">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/RitualWispBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/RitualWispBuff.png" alt="status icon" title="도깨비불의 축복">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/TinctureManaBurnDebuff.dds">
+        <img src="../Art/2DArt/BuffIcons/TinctureManaBurnDebuff.png" alt="status icon" title="마나 연소">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/TinctureToxicityDebuff.dds">
+        <img src="../Art/2DArt/BuffIcons/TinctureToxicityDebuff.png" alt="status icon" title="진물 나는 상처">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/Warden/WardenFireAilments.dds">
+        <img src="../Art/2DArt/SkillIcons/passives/Warden/WardenFireAilments.png" alt="status icon" title="불을 뿜는 룬 쇄도">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/Warden/WardenColdAilments.dds">
+        <img src="../Art/2DArt/SkillIcons/passives/Warden/WardenColdAilments.png" alt="status icon" title="얼어붙은 룬 쇄도">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/Warden/WardenLightningAilments.dds">
+        <img src="../Art/2DArt/SkillIcons/passives/Warden/WardenLightningAilments.png" alt="status icon" title="치직대는 룬 쇄도">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/AtlasTrees/BlightInfectedMap.dds">
+        <img src="../Art/2DArt/SkillIcons/passives/AtlasTrees/BlightInfectedMap.png" alt="status icon" title="역병의 손아귀">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/PrismaticTintureBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/PrismaticTintureBuff.png" alt="status icon" title="분광 팅크">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/RosethornTintureBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/RosethornTintureBuff.png" alt="status icon" title="장미가시 팅크">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/IronwoodTintureBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/IronwoodTintureBuff.png" alt="status icon" title="철목 팅크">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/AshbarkTintureBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/AshbarkTintureBuff.png" alt="status icon" title="재껍질 팅크">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/BorealwoodTintureBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/BorealwoodTintureBuff.png" alt="status icon" title="북풍목 팅크">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/FulguriteTintureBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/FulguriteTintureBuff.png" alt="status icon" title="섬전암 팅크">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/PoisonberryTintureBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/PoisonberryTintureBuff.png" alt="status icon" title="독딸기 팅크">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/BloodSapTintureBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/BloodSapTintureBuff.png" alt="status icon" title="피 진액 팅크">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/OakbranchTintureBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/OakbranchTintureBuff.png" alt="status icon" title="참나무가지 팅크">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/SporebloomTintureBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/SporebloomTintureBuff.png" alt="status icon" title="포자꽃 팅크">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/IncreasedShockFreezeIgniteDurationTinctureBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/IncreasedShockFreezeIgniteDurationTinctureBuff.png" alt="status icon" title="팅크 가학증">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/IncreasedDamageOverTimeTinctureBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/IncreasedDamageOverTimeTinctureBuff.png" alt="status icon" title="팅크 극통">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ElementalResistancePenetrationTinctureBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/ElementalResistancePenetrationTinctureBuff.png" alt="status icon" title="팅크 원소의 재앙">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/CriticalStrikeDamageTinctureBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/CriticalStrikeDamageTinctureBuff.png" alt="status icon" title="팅크 파괴">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/AttackSpeedTinctureBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/AttackSpeedTinctureBuff.png" alt="status icon" title="팅크 재빠름">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/DamageAgainstEnemiesLowLifeTinctureBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/DamageAgainstEnemiesLowLifeTinctureBuff.png" alt="status icon" title="팅크 처형">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/LifeGainedOnHitTinctureBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/LifeGainedOnHitTinctureBuff.png" alt="status icon" title="팅크 생명력 갈취">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/LifeGainedOnKillTinctureBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/LifeGainedOnKillTinctureBuff.png" alt="status icon" title="팅크 생명력 갈증">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ManaGainedOnHitTinctureBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/ManaGainedOnHitTinctureBuff.png" alt="status icon" title="팅크 마나 갈취">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ManaGainedOnKillTinctureBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/ManaGainedOnKillTinctureBuff.png" alt="status icon" title="팅크 마나 갈증">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/IncreasedFlaskChargesGainedTinctureBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/IncreasedFlaskChargesGainedTinctureBuff.png" alt="status icon" title="팅크 타쇄 / 팅크 플라스크 갈취">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Unique1TintureBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/Unique1TintureBuff.png" alt="status icon" title="계절의 진액">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Unique2TintureBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/Unique2TintureBuff.png" alt="status icon" title="힘의 피 진노">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Unique3TintureBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/Unique3TintureBuff.png" alt="status icon" title="들불 체관">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Unique4TintureBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/Unique4TintureBuff.png" alt="status icon" title="내면의 싸움">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Unique5TintureBuff.dds">
+        <img src="../Art/2DArt/BuffIcons/Unique5TintureBuff.png" alt="status icon" title="탐욕스러운 까마중">
+    </a>
+  </div>
+</body>
+</html>

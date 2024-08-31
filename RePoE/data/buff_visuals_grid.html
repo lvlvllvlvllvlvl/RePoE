@@ -1,0 +1,3565 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+ <title>status effects (English)</title>
+ <style type="text/css">
+  BODY { font-family : monospace, sans-serif;  color: black;}
+  IMG { max-width: 64px; max-height: 64px; padding: 0 2px;}
+  DIV { float: left;}
+ </style>
+</head>
+<body>
+
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/buffonfire.dds">
+        <img src="Art/2DArt/BuffIcons/buffonfire.png" alt="status icon" title="Burning Oil / Burning Tar">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/buffchilled.dds">
+        <img src="Art/2DArt/BuffIcons/buffchilled.png" alt="status icon" title="Chilled / Chilled Ground / Chilling Aura / Cold Beam / Fearful / Layered Frost / Malachai Spores / Snow Cloak / Snowstorm">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/bufffrozen.dds">
+        <img src="Art/2DArt/BuffIcons/bufffrozen.png" alt="status icon" title="Cold Thorns / Frozen / Frozen Damage Increase / Vaal Arctic Armour">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/buffshocked.dds">
+        <img src="Art/2DArt/BuffIcons/buffshocked.png" alt="status icon" title="Borrowed Power / Shocked / Shocked Ground / Shocking Aura / Vortex Mine">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ArcTrap.dds">
+        <img src="Art/2DArt/BuffIcons/ArcTrap.png" alt="status icon" title="Arc Trap / Charged Net / Void Snare">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/iconsprint.dds">
+        <img src="Art/2DArt/SkillIcons/iconsprint.png" alt="status icon" title="Faster Run / Increased Movement Speed / Speed Randomisation / Spiral Test Cheat">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/invulnerability.dds">
+        <img src="Art/2DArt/BuffIcons/invulnerability.png" alt="status icon" title="Cannot Die Aura / Divine Tempest / Elemental Reflection / Elemental Reflection Aura / Grace Period / Immortal Call / Intervention / Invulnerability / Invulnerable / Physical Reflection / Physical Reflection Aura / Super Immortal Call / Vaal Immortal Call / Zana&#x27;s Protection">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/iconbash.dds">
+        <img src="Art/2DArt/SkillIcons/iconbash.png" alt="status icon" title="Balance / Cheat / Increased Experience / Omen of Brilliance">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/iconpoisoned.dds">
+        <img src="Art/2DArt/SkillIcons/iconpoisoned.png" alt="status icon" title="Ghost Reaver / Hit by Viper Strike / Poisoned">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/CausticCloud.dds">
+        <img src="Art/2DArt/BuffIcons/CausticCloud.png" alt="status icon" title="Toxic Swamp">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/buffrage.dds">
+        <img src="Art/2DArt/BuffIcons/buffrage.png" alt="status icon" title="Blood Rage / Brutal Attack / Enrage / Rhoa Boss Enrage">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/IonCannon.dds">
+        <img src="Art/2DArt/BuffIcons/IonCannon.png" alt="status icon" title="Galvanic Flare">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/GalvanicFrost.dds">
+        <img src="Art/2DArt/BuffIcons/GalvanicFrost.png" alt="status icon" title="Creeping Ice / Frozen Ground">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/MalachaisWanderingDegen.dds">
+        <img src="Art/2DArt/BuffIcons/MalachaisWanderingDegen.png" alt="status icon" title="Creeping Agony / [DNT] UNUSED">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/DivineFlare.dds">
+        <img src="Art/2DArt/BuffIcons/DivineFlare.png" alt="status icon" title="Divine Flare">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/KitavaIgnite.dds">
+        <img src="Art/2DArt/BuffIcons/KitavaIgnite.png" alt="status icon" title="Blood Purge / Heretical Flare / Kitava&#x27;s Thirst">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/buffspeed.dds">
+        <img src="Art/2DArt/BuffIcons/buffspeed.png" alt="status icon" title="Tarred Ground">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/chargedex.dds">
+        <img src="Art/2DArt/BuffIcons/chargedex.png" alt="status icon" title="Frenzy Charges / Super Frenzy Charges">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/chargestr.dds">
+        <img src="Art/2DArt/BuffIcons/chargestr.png" alt="status icon" title="Endurance Charges">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/chargeint.dds">
+        <img src="Art/2DArt/BuffIcons/chargeint.png" alt="status icon" title="Power Charges">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/SpiritCharge.dds">
+        <img src="Art/2DArt/BuffIcons/SpiritCharge.png" alt="status icon" title="Spirit Charges / [UNUSED] Not Currently Used">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ElderSipho.dds">
+        <img src="Art/2DArt/BuffIcons/ElderSipho.png" alt="status icon" title="Siphoning Charges">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/VoidShotSkill.dds">
+        <img src="Art/2DArt/SkillIcons/VoidShotSkill.png" alt="status icon" title="Void Arrows">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/DivineCharge.dds">
+        <img src="Art/2DArt/BuffIcons/DivineCharge.png" alt="status icon" title="Divine Charge">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/InspirationCharge.dds">
+        <img src="Art/2DArt/BuffIcons/InspirationCharge.png" alt="status icon" title="Inspiration Charge">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/cantcurse.dds">
+        <img src="Art/2DArt/BuffIcons/cantcurse.png" alt="status icon" title="Curse Immunity">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Evasion.dds">
+        <img src="Art/2DArt/BuffIcons/Evasion.png" alt="status icon" title="Increased Evasion">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/iconphaserun.dds">
+        <img src="Art/2DArt/SkillIcons/iconphaserun.png" alt="status icon" title="Phase Run / Phase Run Damage / Phase Running">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/fusearrow.dds">
+        <img src="Art/2DArt/SkillIcons/fusearrow.png" alt="status icon" title="Hit by Explosive Arrow / Hit by Lightning Arrow">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/temporalchains.dds">
+        <img src="Art/2DArt/SkillIcons/temporalchains.png" alt="status icon" title="Temporal Chains">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/elementalweakness.dds">
+        <img src="Art/2DArt/SkillIcons/elementalweakness.png" alt="status icon" title="Elemental Weakness">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/Flammability.dds">
+        <img src="Art/2DArt/SkillIcons/Flammability.png" alt="status icon" title="Flammability">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/Frostbite.dds">
+        <img src="Art/2DArt/SkillIcons/Frostbite.png" alt="status icon" title="Arohongui&#x27;s Moonlight / Frostbite">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/Conductivity.dds">
+        <img src="Art/2DArt/SkillIcons/Conductivity.png" alt="status icon" title="Conductivity">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/WarLordsMark.dds">
+        <img src="Art/2DArt/SkillIcons/WarLordsMark.png" alt="status icon" title="Warlord&#x27;s Mark">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/punishment.dds">
+        <img src="Art/2DArt/SkillIcons/punishment.png" alt="status icon" title="Punishment">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/enfeeble.dds">
+        <img src="Art/2DArt/SkillIcons/enfeeble.png" alt="status icon" title="Enfeeble">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/AssassinsMark.dds">
+        <img src="Art/2DArt/SkillIcons/AssassinsMark.png" alt="status icon" title="Assassin&#x27;s Mark">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/projectileweakness.dds">
+        <img src="Art/2DArt/SkillIcons/projectileweakness.png" alt="status icon" title="Sniper&#x27;s Mark">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/vulnerability.dds">
+        <img src="Art/2DArt/SkillIcons/vulnerability.png" alt="status icon" title="Vulnerability">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/PoachersMark.dds">
+        <img src="Art/2DArt/SkillIcons/PoachersMark.png" alt="status icon" title="Poacher&#x27;s Mark">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/AlchemistsMark.dds">
+        <img src="Art/2DArt/SkillIcons/AlchemistsMark.png" alt="status icon" title="Alchemist&#x27;s Mark">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/auradamage.dds">
+        <img src="Art/2DArt/SkillIcons/auradamage.png" alt="status icon" title="Elemental Damage Aura / Large Physical Damage Aura / Medium Physical Damage Aura / Pride">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/auraspeed.dds">
+        <img src="Art/2DArt/SkillIcons/auraspeed.png" alt="status icon" title="Haste Aura / Speed Aura / Vaal Haste Aura">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/auraregen.dds">
+        <img src="Art/2DArt/SkillIcons/auraregen.png" alt="status icon" title="Izaro Damage Taken / Life Regen Aura / Vaal Vitality Aura / Vitality Aura">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/auraresist.dds">
+        <img src="Art/2DArt/SkillIcons/auraresist.png" alt="status icon" title="Purity of Elements Aura / Resists Aura">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/auraenergy.dds">
+        <img src="Art/2DArt/SkillIcons/auraenergy.png" alt="status icon" title="Discipline Aura / Energy Shield Aura / Energy Shield Regeneration / Izaro Damage / Mana Shield / Shavronne&#x27;s Aura / Vaal Discipline Aura">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/auracrit.dds">
+        <img src="Art/2DArt/SkillIcons/auracrit.png" alt="status icon" title="Accuracy and Crits Aura / Precision Aura">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/degeneration.dds">
+        <img src="Art/2DArt/BuffIcons/degeneration.png" alt="status icon" title="Death&#x27;s Oath / Degeneration Aura / Far Shot">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/stolenmod.dds">
+        <img src="Art/2DArt/BuffIcons/stolenmod.png" alt="status icon" title="Chaos Empowerment / Cold Empowerment / Elemental Thorns / Fire Empowerment / Grasping Vines / Headhunter / Hunter&#x27;s Lesson / Inferno Bolt / Inspired Learning / Jewel Mod Thief / Lightning Empowerment / Living Crystals / Physical Empowerment / Physical Projectile Retaliation / Physical Thorns / Reflection / Rejuvenation / Replica Headhunter / Sentinel Shield / Snow Bolt / Stolen Power / Stolen modifiers / Tincture / Valdo&#x27;s Brilliance">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/buffbleed.dds">
+        <img src="Art/2DArt/BuffIcons/buffbleed.png" alt="status icon" title="Bleeding / Blood Cheat / Blood Drained / Death Rhoomba / Flying Death Rhoomba / LabyrinthTrapDebuff / Spinning Blades / Treasure!">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/lightningshield.dds">
+        <img src="Art/2DArt/SkillIcons/lightningshield.png" alt="status icon" title="Tempest Shield">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/moltenshield.dds">
+        <img src="Art/2DArt/SkillIcons/moltenshield.png" alt="status icon" title="Molten Shell">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/DiamondFlaskBuff.dds">
+        <img src="Art/2DArt/BuffIcons/DiamondFlaskBuff.png" alt="status icon" title="Diamond Flask">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/RubyFlaskBuff.dds">
+        <img src="Art/2DArt/BuffIcons/RubyFlaskBuff.png" alt="status icon" title="Ruby Flask">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/UniqueSapphireFlaskBuff.dds">
+        <img src="Art/2DArt/BuffIcons/UniqueSapphireFlaskBuff.png" alt="status icon" title="Sapphire Flask">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/TopazFlaskBuff.dds">
+        <img src="Art/2DArt/BuffIcons/TopazFlaskBuff.png" alt="status icon" title="Topaz Flask">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/GraniteFlaskBuff.dds">
+        <img src="Art/2DArt/BuffIcons/GraniteFlaskBuff.png" alt="status icon" title="Granite Flask">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/QuicksilverFlaskBuff.dds">
+        <img src="Art/2DArt/BuffIcons/QuicksilverFlaskBuff.png" alt="status icon" title="Quicksilver Flask">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/AmethystFlaskBuff.dds">
+        <img src="Art/2DArt/BuffIcons/AmethystFlaskBuff.png" alt="status icon" title="Amethyst Flask">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/QuartzFlaskBuff.dds">
+        <img src="Art/2DArt/BuffIcons/QuartzFlaskBuff.png" alt="status icon" title="Quartz Flask">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/JadeFlaskBuff.dds">
+        <img src="Art/2DArt/BuffIcons/JadeFlaskBuff.png" alt="status icon" title="Jade Flask">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/flaskcharge.dds">
+        <img src="Art/2DArt/BuffIcons/flaskcharge.png" alt="status icon" title="">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/AquamarineFlaskBuff.dds">
+        <img src="Art/2DArt/BuffIcons/AquamarineFlaskBuff.png" alt="status icon" title="Aquamarine Flask">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/BismuthFlaskBuff.dds">
+        <img src="Art/2DArt/BuffIcons/BismuthFlaskBuff.png" alt="status icon" title="Bismuth Flask">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/StibniteFlaskBuff.dds">
+        <img src="Art/2DArt/BuffIcons/StibniteFlaskBuff.png" alt="status icon" title="Stibnite Flask">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/GoldFlaskBuff.dds">
+        <img src="Art/2DArt/BuffIcons/GoldFlaskBuff.png" alt="status icon" title="Sulphur Flask / Treasure Pile">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/SilverFlaskBuff.dds">
+        <img src="Art/2DArt/BuffIcons/SilverFlaskBuff.png" alt="status icon" title="Silver Flask">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/StoneFlaskBuff.dds">
+        <img src="Art/2DArt/BuffIcons/StoneFlaskBuff.png" alt="status icon" title="Basalt Flask / Rongokurai&#x27;s Boon">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/GoldRarityFlaskBuff.dds">
+        <img src="Art/2DArt/BuffIcons/GoldRarityFlaskBuff.png" alt="status icon" title="Gold Flask">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/WardFlaskBuff.dds">
+        <img src="Art/2DArt/BuffIcons/WardFlaskBuff.png" alt="status icon" title="Iron Flask">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/AdaptationFlaskBuff.dds">
+        <img src="Art/2DArt/BuffIcons/AdaptationFlaskBuff.png" alt="status icon" title="Steel Flask">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/AntiStunFlaskBuff.dds">
+        <img src="Art/2DArt/BuffIcons/AntiStunFlaskBuff.png" alt="status icon" title="Corundum Flask">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/TotemSlow.dds">
+        <img src="Art/2DArt/BuffIcons/TotemSlow.png" alt="status icon" title="Slow / Slow Aura">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Fortify.dds">
+        <img src="Art/2DArt/BuffIcons/Fortify.png" alt="status icon" title="Damage Reduction Aura / Fortification / Fortify">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/shieldblock.dds">
+        <img src="Art/2DArt/SkillIcons/passives/shieldblock.png" alt="status icon" title="Block Test">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/auraarmour.dds">
+        <img src="Art/2DArt/SkillIcons/auraarmour.png" alt="status icon" title="Determination Aura / Vaal Determination Aura">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/auraevasion.dds">
+        <img src="Art/2DArt/SkillIcons/auraevasion.png" alt="status icon" title="Evasion Aura / Grace Aura / Izaro Speed / Vaal Grace Aura">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/aurafireresist.dds">
+        <img src="Art/2DArt/SkillIcons/aurafireresist.png" alt="status icon" title="Purity of Fire Aura">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/auracoldresist.dds">
+        <img src="Art/2DArt/SkillIcons/auracoldresist.png" alt="status icon" title="Purity of Ice Aura">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/auralightningresist.dds">
+        <img src="Art/2DArt/SkillIcons/auralightningresist.png" alt="status icon" title="Purity of Lightning Aura">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/aurafire.dds">
+        <img src="Art/2DArt/SkillIcons/aurafire.png" alt="status icon" title="Anger Aura / Fire Damage Aura">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/auracold.dds">
+        <img src="Art/2DArt/SkillIcons/auracold.png" alt="status icon" title="Cold Damage Aura / Hatred Aura">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/auralightning.dds">
+        <img src="Art/2DArt/SkillIcons/auralightning.png" alt="status icon" title="Lightning Damage Aura / WIP / Wrath Aura">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/Envy.dds">
+        <img src="Art/2DArt/SkillIcons/Envy.png" alt="status icon" title="Envy Aura">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/auramana.dds">
+        <img src="Art/2DArt/SkillIcons/auramana.png" alt="status icon" title="Clarity Aura / Mana Regeneration / Vaal Clarity Aura">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/beartrap.dds">
+        <img src="Art/2DArt/SkillIcons/beartrap.png" alt="status icon" title="Bear Trap">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/conversiontrap.dds">
+        <img src="Art/2DArt/SkillIcons/conversiontrap.png" alt="status icon" title="Converted">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/groundfire.dds">
+        <img src="Art/2DArt/SkillIcons/groundfire.png" alt="status icon" title="Burning / Burning Ground / Flame Wall / Sundered Ground">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/liferegentotem.dds">
+        <img src="Art/2DArt/SkillIcons/liferegentotem.png" alt="status icon" title="Rejuvenation Totem Aura / Trap, Mine, Totem Damage / Vaal Rejuvenation Totem Aura">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/buffblinded.dds">
+        <img src="Art/2DArt/BuffIcons/buffblinded.png" alt="status icon" title="Blinded">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/flaskcritstrike.dds">
+        <img src="Art/2DArt/BuffIcons/flaskcritstrike.png" alt="status icon" title="Always Crit Aura">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/Iceshield.dds">
+        <img src="Art/2DArt/SkillIcons/Iceshield.png" alt="status icon" title="Arctic Armour">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/resistlightning.dds">
+        <img src="Art/2DArt/BuffIcons/resistlightning.png" alt="status icon" title="Lightning Exposure / Lightning Thorns">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/Ignite.dds">
+        <img src="Art/2DArt/SkillIcons/Ignite.png" alt="status icon" title="">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/stun2h.dds">
+        <img src="Art/2DArt/SkillIcons/passives/stun2h.png" alt="status icon" title="Mine and Trap Test / Test">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/miniondex.dds">
+        <img src="Art/2DArt/SkillIcons/passives/miniondex.png" alt="status icon" title="Minion Test">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/projectilespeed.dds">
+        <img src="Art/2DArt/SkillIcons/passives/projectilespeed.png" alt="status icon" title="Projectile Test / Suppressing Fire">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/skillduration.dds">
+        <img src="Art/2DArt/SkillIcons/passives/skillduration.png" alt="status icon" title="Duration Test">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/totemlife.dds">
+        <img src="Art/2DArt/SkillIcons/passives/totemlife.png" alt="status icon" title="Additional Totems / Nova / Totem Test">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/trapsmax.dds">
+        <img src="Art/2DArt/SkillIcons/passives/trapsmax.png" alt="status icon" title="Trap Test">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/desecrated.dds">
+        <img src="Art/2DArt/BuffIcons/desecrated.png" alt="status icon" title="Desecrated Ground">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/consecrated.dds">
+        <img src="Art/2DArt/BuffIcons/consecrated.png" alt="status icon" title="Consecrated Ground">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ProfaneGroundBuff.dds">
+        <img src="Art/2DArt/BuffIcons/ProfaneGroundBuff.png" alt="status icon" title="Profane Ground">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/DivinationDistillateFlaskBuff.dds">
+        <img src="Art/2DArt/BuffIcons/DivinationDistillateFlaskBuff.png" alt="status icon" title="Divination Distillate">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Onslaught.dds">
+        <img src="Art/2DArt/BuffIcons/Onslaught.png" alt="status icon" title="Onslaught / Radiant Crusade&#x27;s Onslaught / Undying Rage">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/leercastbuff.dds">
+        <img src="Art/2DArt/BuffIcons/leercastbuff.png" alt="status icon" title="Damage Aura / Mana Regeneration Aura">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/Reave.dds">
+        <img src="Art/2DArt/SkillIcons/Reave.png" alt="status icon" title="Reave">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/DemonMark.dds">
+        <img src="Art/2DArt/BuffIcons/DemonMark.png" alt="status icon" title="Mark of Dominus">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ProxShield.dds">
+        <img src="Art/2DArt/BuffIcons/ProxShield.png" alt="status icon" title="Frontal Proximity Shield / Proximity Shield">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/flamethrower.dds">
+        <img src="Art/2DArt/SkillIcons/flamethrower.png" alt="status icon" title="Incinerate">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/SmokeBomb.dds">
+        <img src="Art/2DArt/SkillIcons/SmokeBomb.png" alt="status icon" title="Faster Run">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/iconicetrap.dds">
+        <img src="Art/2DArt/SkillIcons/iconicetrap.png" alt="status icon" title="Freeze Mine">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/chargeblood.dds">
+        <img src="Art/2DArt/BuffIcons/chargeblood.png" alt="status icon" title="Corrupted Blood">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/shrine_regen.dds">
+        <img src="Art/2DArt/BuffIcons/shrine_regen.png" alt="status icon" title="Replenishing Shrine">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/shrine_brutal.dds">
+        <img src="Art/2DArt/BuffIcons/shrine_brutal.png" alt="status icon" title="Brutal Shrine">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/shrine_critical.dds">
+        <img src="Art/2DArt/BuffIcons/shrine_critical.png" alt="status icon" title="Diamond Shrine">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/shrine_speed.dds">
+        <img src="Art/2DArt/BuffIcons/shrine_speed.png" alt="status icon" title="Acceleration Shrine">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/shrine_defence.dds">
+        <img src="Art/2DArt/BuffIcons/shrine_defence.png" alt="status icon" title="Impenetrable Shrine / Thorned Shrine">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/shrine_fire.dds">
+        <img src="Art/2DArt/BuffIcons/shrine_fire.png" alt="status icon" title="Burning Shrine">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/shrine_lightning.dds">
+        <img src="Art/2DArt/BuffIcons/shrine_lightning.png" alt="status icon" title="Lightning Shrine / Static Shrine">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/shrine_cold.dds">
+        <img src="Art/2DArt/BuffIcons/shrine_cold.png" alt="status icon" title="Freezing Shrine">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/shrine_smoke.dds">
+        <img src="Art/2DArt/BuffIcons/shrine_smoke.png" alt="status icon" title="Shrouded Shrine">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/shrine_massive.dds">
+        <img src="Art/2DArt/BuffIcons/shrine_massive.png" alt="status icon" title="Massive Shrine">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/shrine_resistance.dds">
+        <img src="Art/2DArt/BuffIcons/shrine_resistance.png" alt="status icon" title="Resistance Shrine">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/shrine_godmode.dds">
+        <img src="Art/2DArt/BuffIcons/shrine_godmode.png" alt="status icon" title="Divine Shrine">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/shrine_echoing.dds">
+        <img src="Art/2DArt/BuffIcons/shrine_echoing.png" alt="status icon" title="Echoing Shrine">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/shrine_curses.dds">
+        <img src="Art/2DArt/BuffIcons/shrine_curses.png" alt="status icon" title="Gloom Shrine / Hexing Shrine">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/shrine_skeleton.dds">
+        <img src="Art/2DArt/BuffIcons/shrine_skeleton.png" alt="status icon" title="Skeletal Shrine">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/WarlordShrineBuff.dds">
+        <img src="Art/2DArt/BuffIcons/WarlordShrineBuff.png" alt="status icon" title="Warlord&#x27;s Shrine">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/CrusaderShrineBuff.dds">
+        <img src="Art/2DArt/BuffIcons/CrusaderShrineBuff.png" alt="status icon" title="Crusader&#x27;s Shrine">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/RedeemerShrineBuff.dds">
+        <img src="Art/2DArt/BuffIcons/RedeemerShrineBuff.png" alt="status icon" title="Redeemer&#x27;s Shrine">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/HunterShrineBuff.dds">
+        <img src="Art/2DArt/BuffIcons/HunterShrineBuff.png" alt="status icon" title="Hunter&#x27;s Shrine">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/AtziriShrineBuff.dds">
+        <img src="Art/2DArt/BuffIcons/AtziriShrineBuff.png" alt="status icon" title="Vaal Shrine">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ShrineofEvolutionShrineBuff.dds">
+        <img src="Art/2DArt/BuffIcons/ShrineofEvolutionShrineBuff.png" alt="status icon" title="Evolving Shrine">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/BloodOfTheKaruiFlaskBuff.dds">
+        <img src="Art/2DArt/BuffIcons/BloodOfTheKaruiFlaskBuff.png" alt="status icon" title="Blood of the Karui / Tawhoa&#x27;s Remedies">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/LaviangasSpiritFlaskBuff.dds">
+        <img src="Art/2DArt/BuffIcons/LaviangasSpiritFlaskBuff.png" alt="status icon" title="Lavianga&#x27;s Cup">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Doomed.dds">
+        <img src="Art/2DArt/BuffIcons/Doomed.png" alt="status icon" title="Doomed">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/flagred.dds">
+        <img src="Art/2DArt/BuffIcons/flagred.png" alt="status icon" title="You have the Red Flag">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/flagblue.dds">
+        <img src="Art/2DArt/BuffIcons/flagblue.png" alt="status icon" title="You have the Blue Flag / You have the Green Flag">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/increaseddmgred.dds">
+        <img src="Art/2DArt/BuffIcons/increaseddmgred.png" alt="status icon" title="">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/increaseddmgblue.dds">
+        <img src="Art/2DArt/BuffIcons/increaseddmgblue.png" alt="status icon" title="">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/silence.dds">
+        <img src="Art/2DArt/SkillIcons/silence.png" alt="status icon" title="Silence">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/SoulEaterBuff.dds">
+        <img src="Art/2DArt/BuffIcons/SoulEaterBuff.png" alt="status icon" title="Soul Eater">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Regeneration.dds">
+        <img src="Art/2DArt/BuffIcons/Regeneration.png" alt="status icon" title="Life Regeneration / Rumblemarch Life Regen / Soothing Salve">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/chaosresist.dds">
+        <img src="Art/2DArt/SkillIcons/passives/chaosresist.png" alt="status icon" title="">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/LightningSearingBond.dds">
+        <img src="Art/2DArt/BuffIcons/LightningSearingBond.png" alt="status icon" title="Degeneration Aura / Lightning Beam / Lightning Bond / Piety Beam / Scientist&#x27;s Beam / Thunderous Roar">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/ChargedBlast.dds">
+        <img src="Art/2DArt/SkillIcons/ChargedBlast.png" alt="status icon" title="Flameblast">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/cannotbechilled.dds">
+        <img src="Art/2DArt/BuffIcons/cannotbechilled.png" alt="status icon" title="Chill Immunity / Chill Prevention">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/cannotbefrozen.dds">
+        <img src="Art/2DArt/BuffIcons/cannotbefrozen.png" alt="status icon" title="Freeze Immunity / Freeze Prevention / Hoarfrost">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/cannotbeignited.dds">
+        <img src="Art/2DArt/BuffIcons/cannotbeignited.png" alt="status icon" title="Ignite Immunity / Ignite Prevention">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/cannotbeshocked.dds">
+        <img src="Art/2DArt/BuffIcons/cannotbeshocked.png" alt="status icon" title="Shock Immunity / Shock Prevention">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/cannotbepoisoned.dds">
+        <img src="Art/2DArt/BuffIcons/cannotbepoisoned.png" alt="status icon" title="Poison Immunity">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/undyingbreath.dds">
+        <img src="Art/2DArt/BuffIcons/undyingbreath.png" alt="status icon" title="Blackflame Ignite / Dying Breath / Ghostflame Graveyard / Ritual of Undeath / Unholy Damage">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/SeaWitchScreech.dds">
+        <img src="Art/2DArt/BuffIcons/SeaWitchScreech.png" alt="status icon" title="Omnitect&#x27;s Paralysis / Screech">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/UnholyMight.dds">
+        <img src="Art/2DArt/BuffIcons/UnholyMight.png" alt="status icon" title="Chaotic Might / Unholy Might">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/FleshOffering.dds">
+        <img src="Art/2DArt/SkillIcons/FleshOffering.png" alt="status icon" title="Flesh Offering">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/BoneOffering.dds">
+        <img src="Art/2DArt/SkillIcons/BoneOffering.png" alt="status icon" title="Bone Offering">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/SpiritOffering.dds">
+        <img src="Art/2DArt/SkillIcons/SpiritOffering.png" alt="status icon" title="Spirit Offering">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/BloodOffering.dds">
+        <img src="Art/2DArt/SkillIcons/BloodOffering.png" alt="status icon" title="Blood Offering">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/buffonfirevaal2.dds">
+        <img src="Art/2DArt/BuffIcons/buffonfirevaal2.png" alt="status icon" title="">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/bufffrozenvaal2.dds">
+        <img src="Art/2DArt/BuffIcons/bufffrozenvaal2.png" alt="status icon" title="">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/buffshockedvaal2.dds">
+        <img src="Art/2DArt/BuffIcons/buffshockedvaal2.png" alt="status icon" title="">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/stunstrvaal2.dds">
+        <img src="Art/2DArt/BuffIcons/stunstrvaal2.png" alt="status icon" title="Serpent Extract">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/AtzirisPromiseFlaskBuff.dds">
+        <img src="Art/2DArt/BuffIcons/AtzirisPromiseFlaskBuff.png" alt="status icon" title="Atziri&#x27;s Promise">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/rainofarrows.dds">
+        <img src="Art/2DArt/SkillIcons/rainofarrows.png" alt="status icon" title="Pinned">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/BloodCloudDebuff.dds">
+        <img src="Art/2DArt/BuffIcons/BloodCloudDebuff.png" alt="status icon" title="Boiling Blood">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/DivinationDistillate.dds">
+        <img src="Art/2DArt/BuffIcons/DivinationDistillate.png" alt="status icon" title="Hyrri&#x27;s Reward">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ForbiddenTasteFlaskBuff.dds">
+        <img src="Art/2DArt/BuffIcons/ForbiddenTasteFlaskBuff.png" alt="status icon" title="Forbidden Taste">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/RumisConcoctionFlaskBuff.dds">
+        <img src="Art/2DArt/BuffIcons/RumisConcoctionFlaskBuff.png" alt="status icon" title="Rumi&#x27;s Concoction">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/MasterQuest.dds">
+        <img src="Art/2DArt/BuffIcons/MasterQuest.png" alt="status icon" title="You have the Karui Spirit">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/NullandVoidRampage.dds">
+        <img src="Art/2DArt/BuffIcons/NullandVoidRampage.png" alt="status icon" title="Physical Damage Immunity">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Phasing.dds">
+        <img src="Art/2DArt/BuffIcons/Phasing.png" alt="status icon" title="Phasing Buff">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/HeraldofAsh.dds">
+        <img src="Art/2DArt/BuffIcons/HeraldofAsh.png" alt="status icon" title="Chieftain&#x27;s Wrath / Herald Of Ash">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/HeraldofIce.dds">
+        <img src="Art/2DArt/BuffIcons/HeraldofIce.png" alt="status icon" title="Herald Of Ice">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/HeraldofThunder.dds">
+        <img src="Art/2DArt/BuffIcons/HeraldofThunder.png" alt="status icon" title="Herald Of Thunder">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Sandstorm.dds">
+        <img src="Art/2DArt/BuffIcons/Sandstorm.png" alt="status icon" title="Garukhan&#x27;s Sandstorm / Quicksand / Quicksand  / Sandstorm">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ChaosSandstorm.dds">
+        <img src="Art/2DArt/BuffIcons/ChaosSandstorm.png" alt="status icon" title="Chaos Sandstorm">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/FrostVortex.dds">
+        <img src="Art/2DArt/SkillIcons/FrostVortex.png" alt="status icon" title="Redeemer&#x27;s Storm / Soaked to the Bone / Vortex / WIP">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/WhakawairuaTuahu.dds">
+        <img src="Art/2DArt/BuffIcons/WhakawairuaTuahu.png" alt="status icon" title="Creeping Darkness">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/PrismWeave.dds">
+        <img src="Art/2DArt/BuffIcons/PrismWeave.png" alt="status icon" title="">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/TormentedSpiritTouched.dds">
+        <img src="Art/2DArt/BuffIcons/TormentedSpiritTouched.png" alt="status icon" title="Fairgraves&#x27; Tricorne / Possession">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/PhysicalDegenerationAura.dds">
+        <img src="Art/2DArt/BuffIcons/PhysicalDegenerationAura.png" alt="status icon" title="Degeneration Aura">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/TasteOfHasteFlaskBuff.dds">
+        <img src="Art/2DArt/BuffIcons/TasteOfHasteFlaskBuff.png" alt="status icon" title="Taste of Hate">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/CoruscatingElixirFlaskBuff.dds">
+        <img src="Art/2DArt/BuffIcons/CoruscatingElixirFlaskBuff.png" alt="status icon" title="Coruscating Elixir">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ReducedManaLifeShield.dds">
+        <img src="Art/2DArt/BuffIcons/ReducedManaLifeShield.png" alt="status icon" title="Restore / Smothered">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/StaticStrikeBuff.dds">
+        <img src="Art/2DArt/BuffIcons/StaticStrikeBuff.png" alt="status icon" title="Static Strike">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/elementalequilibrium.dds">
+        <img src="Art/2DArt/BuffIcons/elementalequilibrium.png" alt="status icon" title="">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/thorns.dds">
+        <img src="Art/2DArt/BuffIcons/thorns.png" alt="status icon" title="The Bull&#x27;s Horns">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/holygroundfire.dds">
+        <img src="Art/2DArt/SkillIcons/holygroundfire.png" alt="status icon" title="">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/InspiringCry.dds">
+        <img src="Art/2DArt/SkillIcons/InspiringCry.png" alt="status icon" title="Empowering Howl / Rallying Cry">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/AbyssalCry.dds">
+        <img src="Art/2DArt/SkillIcons/AbyssalCry.png" alt="status icon" title="Abyssal Cry">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/cannotbleed.dds">
+        <img src="Art/2DArt/BuffIcons/cannotbleed.png" alt="status icon" title="Bleeding Immunity">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/CorruptedBloodImmunityIcon.dds">
+        <img src="Art/2DArt/BuffIcons/CorruptedBloodImmunityIcon.png" alt="status icon" title="Corrupted Blood Immunity">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/shapersseed.dds">
+        <img src="Art/2DArt/BuffIcons/shapersseed.png" alt="status icon" title="Shaper&#x27;s Seed">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/GluttonyOfElements.dds">
+        <img src="Art/2DArt/SkillIcons/GluttonyOfElements.png" alt="status icon" title="Gluttony of Elements">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/IceElementalSummon.dds">
+        <img src="Art/2DArt/SkillIcons/IceElementalSummon.png" alt="status icon" title="Ice Golem">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/FireElementalSummon.dds">
+        <img src="Art/2DArt/SkillIcons/FireElementalSummon.png" alt="status icon" title="Flame Golem">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/LightningGolem.dds">
+        <img src="Art/2DArt/SkillIcons/LightningGolem.png" alt="status icon" title="Lightning Golem">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/ChaosElementalSummon.dds">
+        <img src="Art/2DArt/SkillIcons/ChaosElementalSummon.png" alt="status icon" title="Chaos Golem">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/PietyDebuff.dds">
+        <img src="Art/2DArt/BuffIcons/PietyDebuff.png" alt="status icon" title="Piety&#x27;s Rage">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/WarCryEnduring.dds">
+        <img src="Art/2DArt/SkillIcons/WarCryEnduring.png" alt="status icon" title="Enduring Cry">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/punishmentbuff.dds">
+        <img src="Art/2DArt/BuffIcons/punishmentbuff.png" alt="status icon" title="Punisher">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/LionsRoarFlaskBuff.dds">
+        <img src="Art/2DArt/BuffIcons/LionsRoarFlaskBuff.png" alt="status icon" title="Lion&#x27;s Roar">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/TempestWhite.dds">
+        <img src="Art/2DArt/BuffIcons/TempestWhite.png" alt="status icon" title="Resisting Tempest / Scathing Tempest / Shivering Tempest / Stinging Tempest">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/TempestPink.dds">
+        <img src="Art/2DArt/BuffIcons/TempestPink.png" alt="status icon" title="Restorative Tempest">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/TempestBlue.dds">
+        <img src="Art/2DArt/BuffIcons/TempestBlue.png" alt="status icon" title="Echoing Tempest">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/TempestLightening.dds">
+        <img src="Art/2DArt/BuffIcons/TempestLightening.png" alt="status icon" title="Radiating Tempest / Resplendent Tempest / Shining Tempest">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/TempestRed.dds">
+        <img src="Art/2DArt/BuffIcons/TempestRed.png" alt="status icon" title="Corrupting Tempest / Devouring Tempest / Enlarging Tempest / Revealing Tempest">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/TempestGreen.dds">
+        <img src="Art/2DArt/BuffIcons/TempestGreen.png" alt="status icon" title="Shrinking Tempest">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/TempestFire.dds">
+        <img src="Art/2DArt/BuffIcons/TempestFire.png" alt="status icon" title="Seething Tempest">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/TempestIce.dds">
+        <img src="Art/2DArt/BuffIcons/TempestIce.png" alt="status icon" title="Galvanizing Tempest">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/TempestBasic.dds">
+        <img src="Art/2DArt/BuffIcons/TempestBasic.png" alt="status icon" title="Obscuring Tempest / Refining Tempest / Veiling Tempest">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/TempestTeal.dds">
+        <img src="Art/2DArt/BuffIcons/TempestTeal.png" alt="status icon" title="Ethereal Tempest / Sharding Tempest">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/TempestPurple.dds">
+        <img src="Art/2DArt/BuffIcons/TempestPurple.png" alt="status icon" title="Abyssal Tempest / Arcane Tempest">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/TempestOrange.dds">
+        <img src="Art/2DArt/BuffIcons/TempestOrange.png" alt="status icon" title="Consuming Tempest / Emberstorm / Transmogrifying Tempest">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/TentacleGroundDebuff.dds">
+        <img src="Art/2DArt/BuffIcons/TentacleGroundDebuff.png" alt="status icon" title="Ground Spores">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/KingMaker2.dds">
+        <img src="Art/2DArt/BuffIcons/KingMaker2.png" alt="status icon" title="Kingmaker&#x27;s Presence">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/stormcall.dds">
+        <img src="Art/2DArt/SkillIcons/stormcall.png" alt="status icon" title="Static Tether">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/FrostBomb.dds">
+        <img src="Art/2DArt/SkillIcons/FrostBomb.png" alt="status icon" title="Frost Bomb / Frost Nova">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/LightningBomb.dds">
+        <img src="Art/2DArt/BuffIcons/LightningBomb.png" alt="status icon" title="Lightning Bomb">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Inspirational.dds">
+        <img src="Art/2DArt/BuffIcons/Inspirational.png" alt="status icon" title="Inspirational">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/Contagion.dds">
+        <img src="Art/2DArt/SkillIcons/Contagion.png" alt="status icon" title="Contagion / Plague / Sewage Toxins / WIP">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/Siphon.dds">
+        <img src="Art/2DArt/SkillIcons/Siphon.png" alt="status icon" title="Drained Essence / Essence Drain / Essence Drain Regeneration">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Fire.dds">
+        <img src="Art/2DArt/BuffIcons/Fire.png" alt="status icon" title="Offering Of Judgement">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/CrippleDebuff.dds">
+        <img src="Art/2DArt/BuffIcons/CrippleDebuff.png" alt="status icon" title="Hinder / Singularity">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/Wither.dds">
+        <img src="Art/2DArt/SkillIcons/Wither.png" alt="status icon" title="Withered">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Chaos.dds">
+        <img src="Art/2DArt/BuffIcons/Chaos.png" alt="status icon" title="Offering Of Judgement">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/GoddessUnleasedBurningIcon.dds">
+        <img src="Art/2DArt/BuffIcons/GoddessUnleasedBurningIcon.png" alt="status icon" title="Her Blessing / Her Embrace">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/VesselOfVinktarFlaskBuff.dds">
+        <img src="Art/2DArt/BuffIcons/VesselOfVinktarFlaskBuff.png" alt="status icon" title="Vessel of Vinktar">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/GraspingOrnaments.dds">
+        <img src="Art/2DArt/BuffIcons/GraspingOrnaments.png" alt="status icon" title="Grasping Ornaments">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ParasiticSquidDebuff.dds">
+        <img src="Art/2DArt/BuffIcons/ParasiticSquidDebuff.png" alt="status icon" title="Grasping Pincers / Grasping Tentacles / Instability">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Ascendancy/PrayerOfGlory.dds">
+        <img src="Art/2DArt/BuffIcons/Ascendancy/PrayerOfGlory.png" alt="status icon" title="Radiant Faith">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/Inquistitor/ElementalDominationSmall.dds">
+        <img src="Art/2DArt/SkillIcons/passives/Inquistitor/ElementalDominationSmall.png" alt="status icon" title="Augury of Penitence">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/Gladiator/GLADViolentRetaliationSmall.dds">
+        <img src="Art/2DArt/SkillIcons/passives/Gladiator/GLADViolentRetaliationSmall.png" alt="status icon" title="Arena Master&#x27;s Presence / Violent Retaliation">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/MaimBuff.dds">
+        <img src="Art/2DArt/BuffIcons/MaimBuff.png" alt="status icon" title="Maimed">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Bonespire.dds">
+        <img src="Art/2DArt/BuffIcons/Bonespire.png" alt="status icon" title="Bone Roil">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/SpinningEtherealBlades.dds">
+        <img src="Art/2DArt/SkillIcons/SpinningEtherealBlades.png" alt="status icon" title="Blade Vortex">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/LocustFire.dds">
+        <img src="Art/2DArt/BuffIcons/LocustFire.png" alt="status icon" title="Fire Swarm">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/LocustIce.dds">
+        <img src="Art/2DArt/BuffIcons/LocustIce.png" alt="status icon" title="Cold Swarm">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/LocustLightning.dds">
+        <img src="Art/2DArt/BuffIcons/LocustLightning.png" alt="status icon" title="Lightning Swarm">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Petrified.dds">
+        <img src="Art/2DArt/BuffIcons/Petrified.png" alt="status icon" title="Stone Gaze">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Ascendancy/VoidBeacon.dds">
+        <img src="Art/2DArt/BuffIcons/Ascendancy/VoidBeacon.png" alt="status icon" title="No Chaos Resistance / Void Beacon">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/Blight.dds">
+        <img src="Art/2DArt/SkillIcons/Blight.png" alt="status icon" title="Blight / Darktongue&#x27;s Kiss">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/RockGolemSummon.dds">
+        <img src="Art/2DArt/SkillIcons/RockGolemSummon.png" alt="status icon" title="Stone Golem">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/Chieftain/ArohunguiMoonsPresenceSmallIcon.dds">
+        <img src="Art/2DArt/SkillIcons/passives/Chieftain/ArohunguiMoonsPresenceSmallIcon.png" alt="status icon" title="Moon&#x27;s Presence">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ShrinkDebuff.dds">
+        <img src="Art/2DArt/BuffIcons/ShrinkDebuff.png" alt="status icon" title="Shrink">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Ascendancy/ShieldMastery.dds">
+        <img src="Art/2DArt/BuffIcons/Ascendancy/ShieldMastery.png" alt="status icon" title="Bastion of Hope">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/RhysSword.dds">
+        <img src="Art/2DArt/BuffIcons/RhysSword.png" alt="status icon" title="Dancing Dervish">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/SorrowOfTheDivineFlaskBuff.dds">
+        <img src="Art/2DArt/BuffIcons/SorrowOfTheDivineFlaskBuff.png" alt="status icon" title="Eldritch Battery / Zealot&#x27;s Oath">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/liferegentoenergyshield.dds">
+        <img src="Art/2DArt/BuffIcons/liferegentoenergyshield.png" alt="status icon" title="WIP">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/BuffElementalOverload.dds">
+        <img src="Art/2DArt/BuffIcons/BuffElementalOverload.png" alt="status icon" title="Elemental Overload">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Ascendancy/HarmonyOfPurpose.dds">
+        <img src="Art/2DArt/BuffIcons/Ascendancy/HarmonyOfPurpose.png" alt="status icon" title="Harmony of Purpose">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Ascendancy/SoulCatalyst.dds">
+        <img src="Art/2DArt/BuffIcons/Ascendancy/SoulCatalyst.png" alt="status icon" title="Vile Bastion">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Ascendancy/SpiritualEmpowerment.dds">
+        <img src="Art/2DArt/BuffIcons/Ascendancy/SpiritualEmpowerment.png" alt="status icon" title="Pursuit of Faith">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ElementalConflux.dds">
+        <img src="Art/2DArt/BuffIcons/ElementalConflux.png" alt="status icon" title="Elemental Conflux">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ColdConflux.dds">
+        <img src="Art/2DArt/BuffIcons/ColdConflux.png" alt="status icon" title="Chilling Conflux">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/LightningConflux.dds">
+        <img src="Art/2DArt/BuffIcons/LightningConflux.png" alt="status icon" title="Shocking Conflux">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/FireConflux.dds">
+        <img src="Art/2DArt/BuffIcons/FireConflux.png" alt="status icon" title="Igniting Conflux">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/LightningGolemAura.dds">
+        <img src="Art/2DArt/SkillIcons/LightningGolemAura.png" alt="status icon" title="Lightning Golem Wrath">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/BaneOfTheLoyalBuff.dds">
+        <img src="Art/2DArt/BuffIcons/BaneOfTheLoyalBuff.png" alt="status icon" title="Bane of the Loyal">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/HeartOfTheGargoyleBuff.dds">
+        <img src="Art/2DArt/BuffIcons/HeartOfTheGargoyleBuff.png" alt="status icon" title="Heart of the Gargoyle">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/PowerDampenerBuff.dds">
+        <img src="Art/2DArt/BuffIcons/PowerDampenerBuff.png" alt="status icon" title="Cube of Absorbtion">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/OrbOfElementalEssenceBuff.dds">
+        <img src="Art/2DArt/BuffIcons/OrbOfElementalEssenceBuff.png" alt="status icon" title="Orb of Elemental Essence">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/RodOfDestructionBuff.dds">
+        <img src="Art/2DArt/BuffIcons/RodOfDestructionBuff.png" alt="status icon" title="Rod of Detonation">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/SandsOfEternityBuff.dds">
+        <img src="Art/2DArt/BuffIcons/SandsOfEternityBuff.png" alt="status icon" title="Sand of Eternity">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/CogsOfDisruption.dds">
+        <img src="Art/2DArt/BuffIcons/CogsOfDisruption.png" alt="status icon" title="Cogs of Disruption">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/PortalShredderBuff.dds">
+        <img src="Art/2DArt/BuffIcons/PortalShredderBuff.png" alt="status icon" title="Portal Shredder">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/ChargedAttack.dds">
+        <img src="Art/2DArt/SkillIcons/ChargedAttack.png" alt="status icon" title="Blade Flurry / Vaal Blade Flurry">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/IncreasedDamageTaken.dds">
+        <img src="Art/2DArt/BuffIcons/IncreasedDamageTaken.png" alt="status icon" title="Endless Pain">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/DamageTakenOnMovementSkullUse.dds">
+        <img src="Art/2DArt/BuffIcons/DamageTakenOnMovementSkullUse.png" alt="status icon" title="Binding Chains / Endless Hazard / Ethereal Tendrils / Grasping Chains / Grasping Vines / Toxic Rain Spore Pod">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Taunt.dds">
+        <img src="Art/2DArt/BuffIcons/Taunt.png" alt="status icon" title="Taunted">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/OverflowingChalice.dds">
+        <img src="Art/2DArt/BuffIcons/OverflowingChalice.png" alt="status icon" title="Overflowing Chalice">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/KiarasDetermination.dds">
+        <img src="Art/2DArt/BuffIcons/KiarasDetermination.png" alt="status icon" title="Kiara&#x27;s Determination">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ReducedCold.dds">
+        <img src="Art/2DArt/BuffIcons/ReducedCold.png" alt="status icon" title="Essence of Hatred">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ReducedLightning.dds">
+        <img src="Art/2DArt/BuffIcons/ReducedLightning.png" alt="status icon" title="Essence of Wrath">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ReducedFire.dds">
+        <img src="Art/2DArt/BuffIcons/ReducedFire.png" alt="status icon" title="Essence of Anger">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ChaosDebuff.dds">
+        <img src="Art/2DArt/BuffIcons/ChaosDebuff.png" alt="status icon" title="Essence of Misery">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/PhoenixDebuff.dds">
+        <img src="Art/2DArt/BuffIcons/PhoenixDebuff.png" alt="status icon" title="Heat">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/PhoenixDebuff2.dds">
+        <img src="Art/2DArt/BuffIcons/PhoenixDebuff2.png" alt="status icon" title="Phoenix Fire Bomb">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ZerphisLastBreathFlaskBuff.dds">
+        <img src="Art/2DArt/BuffIcons/ZerphisLastBreathFlaskBuff.png" alt="status icon" title="Zerphi&#x27;s Last Breath">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/CorruptionDegenDebuff.dds">
+        <img src="Art/2DArt/BuffIcons/CorruptionDegenDebuff.png" alt="status icon" title="Corruption of the Awakener / Remnant of Corruption">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Decay.dds">
+        <img src="Art/2DArt/BuffIcons/Decay.png" alt="status icon" title="Spatial Decay">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/CoveredInSpiders.dds">
+        <img src="Art/2DArt/BuffIcons/CoveredInSpiders.png" alt="status icon" title="Covered in Spiders / Covered in Webs">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/WitchfireBrewFlaskBuff.dds">
+        <img src="Art/2DArt/BuffIcons/WitchfireBrewFlaskBuff.png" alt="status icon" title="Witchfire Brew">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/DyingSunFlaskBuff.dds">
+        <img src="Art/2DArt/BuffIcons/DyingSunFlaskBuff.png" alt="status icon" title="Dying Sun">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/GroundHaste.dds">
+        <img src="Art/2DArt/BuffIcons/GroundHaste.png" alt="status icon" title="Slipstream / Spectral Swiftness / The Flow Untethered / The Torrent&#x27;s Reclamation">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/FireBeam.dds">
+        <img src="Art/2DArt/SkillIcons/FireBeam.png" alt="status icon" title="Scorching Ray / Vilenta&#x27;s Beam">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/CoveredInAsh.dds">
+        <img src="Art/2DArt/BuffIcons/CoveredInAsh.png" alt="status icon" title="Covered In Ash">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/MFbuff.dds">
+        <img src="Art/2DArt/BuffIcons/MFbuff.png" alt="status icon" title="Alva&#x27;s Gift / Asset Lock Buff / Balek&#x27;s Gift">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/MFbuffdisabled.dds">
+        <img src="Art/2DArt/BuffIcons/MFbuffdisabled.png" alt="status icon" title="Asset Lock Inactive / TAS Lock">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/AbberathsHooves.dds">
+        <img src="Art/2DArt/SkillIcons/AbberathsHooves.png" alt="status icon" title="Abberath&#x27;s Fury">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/DivineBeam.dds">
+        <img src="Art/2DArt/BuffIcons/DivineBeam.png" alt="status icon" title="Divine Beam / Doryani&#x27;s Conflagration">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/NetThrow.dds">
+        <img src="Art/2DArt/BuffIcons/NetThrow.png" alt="status icon" title="Net Throw">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/buffspeedaura.dds">
+        <img src="Art/2DArt/BuffIcons/buffspeedaura.png" alt="status icon" title="Victario&#x27;s Flight">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/DoedreRed.dds">
+        <img src="Art/2DArt/BuffIcons/DoedreRed.png" alt="status icon" title="Doedre&#x27;s Torment / RED BUFF / Red Effluent">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/DoedreGreen.dds">
+        <img src="Art/2DArt/BuffIcons/DoedreGreen.png" alt="status icon" title="Doedre&#x27;s Withering / GREEN BUFF / Green Effluent">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/DoedrePurple.dds">
+        <img src="Art/2DArt/BuffIcons/DoedrePurple.png" alt="status icon" title="Doedre&#x27;s Suffering / PURPLE BUFF / Purple Effluent">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Infested.dds">
+        <img src="Art/2DArt/BuffIcons/Infested.png" alt="status icon" title="Infested">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Despair.dds">
+        <img src="Art/2DArt/BuffIcons/Despair.png" alt="status icon" title="Gruthkul&#x27;s Despair">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/TidalWave.dds">
+        <img src="Art/2DArt/BuffIcons/TidalWave.png" alt="status icon" title="Aegis of the Sea / Tidal Wave">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/LunarisAndSolaris.dds">
+        <img src="Art/2DArt/BuffIcons/LunarisAndSolaris.png" alt="status icon" title="Dark Vortex">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ArcaneSurge.dds">
+        <img src="Art/2DArt/BuffIcons/ArcaneSurge.png" alt="status icon" title="Arcane Surge">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/lightningint.dds">
+        <img src="Art/2DArt/SkillIcons/passives/lightningint.png" alt="status icon" title="Innervate">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/SummonHarbinger.dds">
+        <img src="Art/2DArt/SkillIcons/SummonHarbinger.png" alt="status icon" title="The Enmity Divine / The Fracturing Spinner / The Immortal Will / The Shattered Divinity / The Surging Thoughts / The Unshattered Will / The Yielding Mortality">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/VoidGaze.dds">
+        <img src="Art/2DArt/SkillIcons/VoidGaze.png" alt="status icon" title="Void Gaze">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/EnduringThaumaturgy.dds">
+        <img src="Art/2DArt/BuffIcons/EnduringThaumaturgy.png" alt="status icon" title="Malachai&#x27;s Endurance">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/FrenziedThaumaturgy.dds">
+        <img src="Art/2DArt/BuffIcons/FrenziedThaumaturgy.png" alt="status icon" title="Malachai&#x27;s Frenzy">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/PowerfulThaumaturgy.dds">
+        <img src="Art/2DArt/BuffIcons/PowerfulThaumaturgy.png" alt="status icon" title="Malachai&#x27;s Power">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/CoralitosSignatureFlaskBuff.dds">
+        <img src="Art/2DArt/BuffIcons/CoralitosSignatureFlaskBuff.png" alt="status icon" title="Coralito&#x27;s Signature / Sands of Shakari">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/FireAegis.dds">
+        <img src="Art/2DArt/BuffIcons/FireAegis.png" alt="status icon" title="Annihilating Light / Fire Aegis">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ColdAegis.dds">
+        <img src="Art/2DArt/BuffIcons/ColdAegis.png" alt="status icon" title="Cold Aegis / Crushing Darkness">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/LightningAegis.dds">
+        <img src="Art/2DArt/BuffIcons/LightningAegis.png" alt="status icon" title="Lightning Aegis">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Elemental.dds">
+        <img src="Art/2DArt/BuffIcons/Elemental.png" alt="status icon" title="Elemental Aegis">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/PhysicalAegis.dds">
+        <img src="Art/2DArt/BuffIcons/PhysicalAegis.png" alt="status icon" title="Physical Aegis">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/FireAegisGrey.dds">
+        <img src="Art/2DArt/BuffIcons/FireAegisGrey.png" alt="status icon" title="Fire Aegis">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ColdAegisGrey.dds">
+        <img src="Art/2DArt/BuffIcons/ColdAegisGrey.png" alt="status icon" title="Cold Aegis">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/LightningAegisGrey.dds">
+        <img src="Art/2DArt/BuffIcons/LightningAegisGrey.png" alt="status icon" title="Lightning Aegis">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ElementalGrey.dds">
+        <img src="Art/2DArt/BuffIcons/ElementalGrey.png" alt="status icon" title="Elemental Aegis">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/PhysicalAegisGrey.dds">
+        <img src="Art/2DArt/BuffIcons/PhysicalAegisGrey.png" alt="status icon" title="Physical Aegis">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/Vaal Skill Icons/Vaalaurafireresist.dds">
+        <img src="Art/2DArt/SkillIcons/Vaal Skill Icons/Vaalaurafireresist.png" alt="status icon" title="Impurity of Fire / Vaal Impurity of Fire">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/Vaal Skill Icons/Vaalauracoldresist.dds">
+        <img src="Art/2DArt/SkillIcons/Vaal Skill Icons/Vaalauracoldresist.png" alt="status icon" title="Impurity of Ice / Vaal Impurity of Ice">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/Vaal Skill Icons/Vaalauralightningresist.dds">
+        <img src="Art/2DArt/SkillIcons/Vaal Skill Icons/Vaalauralightningresist.png" alt="status icon" title="Impurity of Lightning / Vaal Impurity of Lightning">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ShakariCausticStrike.dds">
+        <img src="Art/2DArt/BuffIcons/ShakariCausticStrike.png" alt="status icon" title="Caustic Strike">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/KalisasGrace.dds">
+        <img src="Art/2DArt/SkillIcons/passives/KalisasGrace.png" alt="status icon" title="Kalisa&#x27;s Grace / Replica Kalisa&#x27;s Grace">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/StormBarrier.dds">
+        <img src="Art/2DArt/BuffIcons/StormBarrier.png" alt="status icon" title="">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/DebilitatingPresence.dds">
+        <img src="Art/2DArt/BuffIcons/DebilitatingPresence.png" alt="status icon" title="Malignant Madness">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ElderSiphon.dds">
+        <img src="Art/2DArt/BuffIcons/ElderSiphon.png" alt="status icon" title="Fed Upon / Sprouting Madness">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ElderSuperSiphon.dds">
+        <img src="Art/2DArt/BuffIcons/ElderSuperSiphon.png" alt="status icon" title="Crystalised Fear / Immobilised">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/DeathWalk.dds">
+        <img src="Art/2DArt/SkillIcons/DeathWalk.png" alt="status icon" title="Death Walk">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/Despair.dds">
+        <img src="Art/2DArt/SkillIcons/Despair.png" alt="status icon" title="Despair">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ElderAvatarOfFire.dds">
+        <img src="Art/2DArt/BuffIcons/ElderAvatarOfFire.png" alt="status icon" title="Avatar of Fire">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ElderIronReflexes.dds">
+        <img src="Art/2DArt/BuffIcons/ElderIronReflexes.png" alt="status icon" title="Iron Reflexes">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ElderElementalOverload.dds">
+        <img src="Art/2DArt/BuffIcons/ElderElementalOverload.png" alt="status icon" title="Elemental Overload">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/AbyssShadowForm.dds">
+        <img src="Art/2DArt/BuffIcons/AbyssShadowForm.png" alt="status icon" title="Darkness / Shade Form">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/PhysicalThorns.dds">
+        <img src="Art/2DArt/BuffIcons/PhysicalThorns.png" alt="status icon" title="Physical Thorns">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ElementalThorns.dds">
+        <img src="Art/2DArt/BuffIcons/ElementalThorns.png" alt="status icon" title="Elemental Thorns">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ElderGroundEffects.dds">
+        <img src="Art/2DArt/BuffIcons/ElderGroundEffects.png" alt="status icon" title="Eldritch Decay">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/TimeAnomaly.dds">
+        <img src="Art/2DArt/SkillIcons/TimeAnomaly.png" alt="status icon" title="Temporal Anomaly">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/KiracsMasterBuff.dds">
+        <img src="Art/2DArt/BuffIcons/KiracsMasterBuff.png" alt="status icon" title="Combat-Ready / Kirac&#x27;s Boon">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/AvianBuff1.dds">
+        <img src="Art/2DArt/BuffIcons/AvianBuff1.png" alt="status icon" title="Avian&#x27;s Flight">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/AvianBuff2.dds">
+        <img src="Art/2DArt/BuffIcons/AvianBuff2.png" alt="status icon" title="Avian&#x27;s Might">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/CatBuff.dds">
+        <img src="Art/2DArt/BuffIcons/CatBuff.png" alt="status icon" title="Cat&#x27;s Stealth / Polymorphed">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/CatBuff2.dds">
+        <img src="Art/2DArt/BuffIcons/CatBuff2.png" alt="status icon" title="Cat&#x27;s Agility">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/CrabBuff.dds">
+        <img src="Art/2DArt/BuffIcons/CrabBuff.png" alt="status icon" title="Crab Aspect">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/SpiderDebuff.dds">
+        <img src="Art/2DArt/BuffIcons/SpiderDebuff.png" alt="status icon" title="Hallucination / Spider&#x27;s Web / Trapped in cocoon / Webbed">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/CrabDebuff.dds">
+        <img src="Art/2DArt/BuffIcons/CrabDebuff.png" alt="status icon" title="Craiceann&#x27;s Torment">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/Champion/FirstStrikeLastFall.dds">
+        <img src="Art/2DArt/SkillIcons/passives/Champion/FirstStrikeLastFall.png" alt="status icon" title="Adrenaline">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/WarCryIntimidating.dds">
+        <img src="Art/2DArt/SkillIcons/WarCryIntimidating.png" alt="status icon" title="Intimidating Cry">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/CurseNova.dds">
+        <img src="Art/2DArt/SkillIcons/CurseNova.png" alt="status icon" title="Elemental Warding">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/Guardian/ShieldMastery.dds">
+        <img src="Art/2DArt/SkillIcons/passives/Guardian/ShieldMastery.png" alt="status icon" title="Bastion of Hope">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/DeadEye/GatherWinds.dds">
+        <img src="Art/2DArt/SkillIcons/passives/DeadEye/GatherWinds.png" alt="status icon" title="Tailwind">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Bestiary.dds">
+        <img src="Art/2DArt/BuffIcons/Bestiary.png" alt="status icon" title="Craicic Presence / Deep One&#x27;s Presence / Farric Presence / Fenumal Presence / Fertile Presence / Saqawine Presence / [DNT] Call of the Wild">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/PoisonWebDebuff.dds">
+        <img src="Art/2DArt/BuffIcons/PoisonWebDebuff.png" alt="status icon" title="Venomous Web">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/Berserker/CombatFrenzy.dds">
+        <img src="Art/2DArt/SkillIcons/passives/Berserker/CombatFrenzy.png" alt="status icon" title="Rage">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/newtitanicmight.dds">
+        <img src="Art/2DArt/SkillIcons/passives/newtitanicmight.png" alt="status icon" title="">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/ChargedDash.dds">
+        <img src="Art/2DArt/SkillIcons/ChargedDash.png" alt="status icon" title="Charged Dash">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/IceSiphon.dds">
+        <img src="Art/2DArt/SkillIcons/IceSiphon.png" alt="status icon" title="Frigid Beam / Siphoning Trap">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/BreachPortal.dds">
+        <img src="Art/2DArt/SkillIcons/BreachPortal.png" alt="status icon" title="Breach Void">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/iconinnerfire.dds">
+        <img src="Art/2DArt/SkillIcons/iconinnerfire.png" alt="status icon" title="Infernal Blow">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/QuakeSlam.dds">
+        <img src="Art/2DArt/SkillIcons/QuakeSlam.png" alt="status icon" title="Vaal Earthquake">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/iconarc.dds">
+        <img src="Art/2DArt/SkillIcons/iconarc.png" alt="status icon" title="Lucky Arc">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/iconcoldsnap.dds">
+        <img src="Art/2DArt/SkillIcons/iconcoldsnap.png" alt="status icon" title="Cold Snap / Vaal Cold Snap">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/Smite.dds">
+        <img src="Art/2DArt/SkillIcons/Smite.png" alt="status icon" title="Vaal Smite Aura">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/PerquilsToe.dds">
+        <img src="Art/2DArt/BuffIcons/PerquilsToe.png" alt="status icon" title="Perquil&#x27;s Toe">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/StaticStrikeSkillIcon.dds">
+        <img src="Art/2DArt/SkillIcons/StaticStrikeSkillIcon.png" alt="status icon" title="Static Strike">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/HolyRelicSkillIcon.dds">
+        <img src="Art/2DArt/SkillIcons/HolyRelicSkillIcon.png" alt="status icon" title="Holy Relic&#x27;s Boon">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/HeraldOfAgony.dds">
+        <img src="Art/2DArt/SkillIcons/HeraldOfAgony.png" alt="status icon" title="Herald Of Agony / Virulence">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/HeraldOfLight.dds">
+        <img src="Art/2DArt/SkillIcons/HeraldOfLight.png" alt="status icon" title="Herald of Purity">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/VirulentArrowSkillIcon.dds">
+        <img src="Art/2DArt/SkillIcons/VirulentArrowSkillIcon.png" alt="status icon" title="Scourge Arrow">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/AzuriteDebuff.dds">
+        <img src="Art/2DArt/BuffIcons/AzuriteDebuff.png" alt="status icon" title="Coated in Azurite">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/DelveResist.dds">
+        <img src="Art/2DArt/BuffIcons/DelveResist.png" alt="status icon" title="Chaos Resistance Loss / Cold Resistance Loss / Elemental Damage Taken Increase / Fire Resistance Loss / Lightning Resistance Loss / Physical Damage Taken Increase">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/DelveResist2.dds">
+        <img src="Art/2DArt/BuffIcons/DelveResist2.png" alt="status icon" title="Aul&#x27;s Uprising / Crown of the Tyrant">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ImpaleDebuff.dds">
+        <img src="Art/2DArt/BuffIcons/ImpaleDebuff.png" alt="status icon" title="Impaled">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/EinharLifeAura.dds">
+        <img src="Art/2DArt/BuffIcons/EinharLifeAura.png" alt="status icon" title="Boon of the First Ones">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/DjinnFocus.dds">
+        <img src="Art/2DArt/SkillIcons/DjinnFocus.png" alt="status icon" title="Focused / [UNUSED] Brand Detonate Buff">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/FrostFury.dds">
+        <img src="Art/2DArt/SkillIcons/FrostFury.png" alt="status icon" title="Winter Orb">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/WarBanner.dds">
+        <img src="Art/2DArt/SkillIcons/WarBanner.png" alt="status icon" title="War Banner">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/WarbannerDebuff.dds">
+        <img src="Art/2DArt/BuffIcons/WarbannerDebuff.png" alt="status icon" title="">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/DreadBanner.dds">
+        <img src="Art/2DArt/SkillIcons/DreadBanner.png" alt="status icon" title="Dread Banner">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/DreadBannerDebuff.dds">
+        <img src="Art/2DArt/BuffIcons/DreadBannerDebuff.png" alt="status icon" title="">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/ArmourandEvasionBanner.dds">
+        <img src="Art/2DArt/SkillIcons/ArmourandEvasionBanner.png" alt="status icon" title="Defiance Banner">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ArmourandEvasionBannerBuff.dds">
+        <img src="Art/2DArt/BuffIcons/ArmourandEvasionBannerBuff.png" alt="status icon" title="">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/DefaultBanner.dds">
+        <img src="Art/2DArt/SkillIcons/DefaultBanner.png" alt="status icon" title="Valour">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/ConduitSigil.dds">
+        <img src="Art/2DArt/SkillIcons/ConduitSigil.png" alt="status icon" title="Storm Brand">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ShapersPresence.dds">
+        <img src="Art/2DArt/BuffIcons/ShapersPresence.png" alt="status icon" title="Shaper&#x27;s Presence">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/ArakaalisFang.dds">
+        <img src="Art/2DArt/SkillIcons/ArakaalisFang.png" alt="status icon" title="Raised Spider">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/ArmageddonBrand.dds">
+        <img src="Art/2DArt/SkillIcons/ArmageddonBrand.png" alt="status icon" title="Armageddon Brand">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/Champion/ImpalePassiveNotable.dds">
+        <img src="Art/2DArt/SkillIcons/passives/Champion/ImpalePassiveNotable.png" alt="status icon" title="Master of Metal">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/OverpoweredDebuff.dds">
+        <img src="Art/2DArt/BuffIcons/OverpoweredDebuff.png" alt="status icon" title="Overpowered">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/arcticbreath.dds">
+        <img src="Art/2DArt/SkillIcons/arcticbreath.png" alt="status icon" title="Creeping Frost">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ScorchedBuff.dds">
+        <img src="Art/2DArt/BuffIcons/ScorchedBuff.png" alt="status icon" title="Scorched / Scorched Ground / Warm Campfire">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/BrittleBuff.dds">
+        <img src="Art/2DArt/BuffIcons/BrittleBuff.png" alt="status icon" title="Brittle / Brittle Ground">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/SappedBuff.dds">
+        <img src="Art/2DArt/BuffIcons/SappedBuff.png" alt="status icon" title="Aukuna&#x27;s Hunt / Sapped / Sapped Ground">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/UniqueLifeRegenAura.dds">
+        <img src="Art/2DArt/BuffIcons/UniqueLifeRegenAura.png" alt="status icon" title="Life Regeneration Aura">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/Soulrend.dds">
+        <img src="Art/2DArt/SkillIcons/Soulrend.png" alt="status icon" title="Soulrend">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/SynthesisVoidSand.dds">
+        <img src="Art/2DArt/BuffIcons/SynthesisVoidSand.png" alt="status icon" title="Gravity Well / Void Pit">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/DarkRitual.dds">
+        <img src="Art/2DArt/SkillIcons/DarkRitual.png" alt="status icon" title="Bane">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/InfusionBuff.dds">
+        <img src="Art/2DArt/BuffIcons/InfusionBuff.png" alt="status icon" title="">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/SpellDamageAura.dds">
+        <img src="Art/2DArt/SkillIcons/SpellDamageAura.png" alt="status icon" title="Zealotry Aura">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/DivineTempest.dds">
+        <img src="Art/2DArt/SkillIcons/DivineTempest.png" alt="status icon" title="Divine Ire">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/DeliriumAura.dds">
+        <img src="Art/2DArt/SkillIcons/DeliriumAura.png" alt="status icon" title="Malevolence Aura">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ColdSoulrend.dds">
+        <img src="Art/2DArt/BuffIcons/ColdSoulrend.png" alt="status icon" title="Soulchill">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/resistfire.dds">
+        <img src="Art/2DArt/BuffIcons/resistfire.png" alt="status icon" title="Fire Exposure / Firebreather Mead">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/resistcold.dds">
+        <img src="Art/2DArt/BuffIcons/resistcold.png" alt="status icon" title="Cold Exposure">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/Trickster/AcrobaticWillpower.dds">
+        <img src="Art/2DArt/SkillIcons/passives/Trickster/AcrobaticWillpower.png" alt="status icon" title="Ghost Shroud">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/SynthesisDebuff.dds">
+        <img src="Art/2DArt/BuffIcons/SynthesisDebuff.png" alt="status icon" title="Decaying Memory / Void Lens / Void Snare">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Divinity.dds">
+        <img src="Art/2DArt/BuffIcons/Divinity.png" alt="status icon" title="Divinity / Garb of the Ephemeral">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/SynthesisDroneDebuff.dds">
+        <img src="Art/2DArt/BuffIcons/SynthesisDroneDebuff.png" alt="status icon" title="Mark of the Synthete">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/StormBurst.dds">
+        <img src="Art/2DArt/SkillIcons/StormBurst.png" alt="status icon" title="Storm Burst">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/QuickGuard.dds">
+        <img src="Art/2DArt/BuffIcons/QuickGuard.png" alt="status icon" title="Steelskin">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/QuickGuard2.dds">
+        <img src="Art/2DArt/BuffIcons/QuickGuard2.png" alt="status icon" title="Bone Armour">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/nobuff.dds">
+        <img src="Art/2DArt/BuffIcons/nobuff.png" alt="status icon" title="Eternal Empire Aura / Maven&#x27;s Grace / Rampage / [UNUSED] Quick Block">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/cyclone.dds">
+        <img src="Art/2DArt/SkillIcons/cyclone.png" alt="status icon" title="Cyclone">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/SandBladeStorm.dds">
+        <img src="Art/2DArt/SkillIcons/SandBladeStorm.png" alt="status icon" title="Sand Bladestorm">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/BloodBladeStorm.dds">
+        <img src="Art/2DArt/SkillIcons/BloodBladeStorm.png" alt="status icon" title="Blood Bladestorm">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/SandStance.dds">
+        <img src="Art/2DArt/BuffIcons/SandStance.png" alt="status icon" title="Sand Stance">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/BloodStance.dds">
+        <img src="Art/2DArt/BuffIcons/BloodStance.png" alt="status icon" title="Blood Stance">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/DoubleSlash.dds">
+        <img src="Art/2DArt/SkillIcons/DoubleSlash.png" alt="status icon" title="">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ResonatingShrine.dds">
+        <img src="Art/2DArt/BuffIcons/ResonatingShrine.png" alt="status icon" title="Charged Shrine">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Beserk.dds">
+        <img src="Art/2DArt/BuffIcons/Beserk.png" alt="status icon" title="Berserk / Frenzied">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/SandArmour.dds">
+        <img src="Art/2DArt/SkillIcons/SandArmour.png" alt="status icon" title="Stone">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/BloodArmour.dds">
+        <img src="Art/2DArt/SkillIcons/BloodArmour.png" alt="status icon" title="Flesh">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/LioneyeArrowStuckInPlayerDebuff.dds">
+        <img src="Art/2DArt/BuffIcons/LioneyeArrowStuckInPlayerDebuff.png" alt="status icon" title="Lioneye&#x27;s Arrows">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/Berserker/Blitz.dds">
+        <img src="Art/2DArt/SkillIcons/passives/Berserker/Blitz.png" alt="status icon" title="Blitz Charge">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/Slayer/Overwhelm.dds">
+        <img src="Art/2DArt/SkillIcons/passives/Slayer/Overwhelm.png" alt="status icon" title="Overwhelm">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/iconblinkstrike.dds">
+        <img src="Art/2DArt/SkillIcons/iconblinkstrike.png" alt="status icon" title="Flicker Strike">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/MarakethBossSkill1.dds">
+        <img src="Art/2DArt/SkillIcons/MarakethBossSkill1.png" alt="status icon" title="Aukuna&#x27;s Lasso">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/KoreaPCBang.dds">
+        <img src="Art/2DArt/BuffIcons/KoreaPCBang.png" alt="status icon" title="PC Bang Entitlements">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/Gladiator/GLADBloodAndSand.dds">
+        <img src="Art/2DArt/SkillIcons/passives/Gladiator/GLADBloodAndSand.png" alt="status icon" title="Challenger Charges">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/CloseCombatMovementBuff.dds">
+        <img src="Art/2DArt/BuffIcons/CloseCombatMovementBuff.png" alt="status icon" title="Combat Rush">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/WitheringStep.dds">
+        <img src="Art/2DArt/SkillIcons/WitheringStep.png" alt="status icon" title="Withering Step">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/Guardian/Radient Crusade.dds">
+        <img src="Art/2DArt/SkillIcons/passives/Guardian/Radient Crusade.png" alt="status icon" title="Radiant Crusade">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/Guardian/Unwavering Crusade.dds">
+        <img src="Art/2DArt/SkillIcons/passives/Guardian/Unwavering Crusade.png" alt="status icon" title="Unwavering Crusade">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/PlagueBearerStoring.dds">
+        <img src="Art/2DArt/SkillIcons/PlagueBearerStoring.png" alt="status icon" title="Plague Bearer">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ElusiveBuff.dds">
+        <img src="Art/2DArt/BuffIcons/ElusiveBuff.png" alt="status icon" title="Elusive">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/OffensiveMinion.dds">
+        <img src="Art/2DArt/SkillIcons/OffensiveMinion.png" alt="status icon" title="Feeding Frenzy">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/Necromancer/EssenceGlutton.dds">
+        <img src="Art/2DArt/SkillIcons/passives/Necromancer/EssenceGlutton.png" alt="status icon" title="Essence Glutton">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/Necromancer/PlagueBringer.dds">
+        <img src="Art/2DArt/SkillIcons/passives/Necromancer/PlagueBringer.png" alt="status icon" title="Plaguebringer">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/PlagueBearerMaxPoison.dds">
+        <img src="Art/2DArt/SkillIcons/PlagueBearerMaxPoison.png" alt="status icon" title="">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/PlagueBearerUnleashing.dds">
+        <img src="Art/2DArt/SkillIcons/PlagueBearerUnleashing.png" alt="status icon" title="Plague Bearer">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/MinionFocusFire.dds">
+        <img src="Art/2DArt/SkillIcons/MinionFocusFire.png" alt="status icon" title="Signalled Prey">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/LightningExplosionMine.dds">
+        <img src="Art/2DArt/SkillIcons/LightningExplosionMine.png" alt="status icon" title="Stormblast Mines">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/LightningFireSkitterbots.dds">
+        <img src="Art/2DArt/SkillIcons/LightningFireSkitterbots.png" alt="status icon" title="Skitterbots">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/DebuffRemoteMine.dds">
+        <img src="Art/2DArt/BuffIcons/DebuffRemoteMine.png" alt="status icon" title="High-Impact Mines">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/ColdProjectileMine.dds">
+        <img src="Art/2DArt/SkillIcons/ColdProjectileMine.png" alt="status icon" title="Icicle Mines">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/FireMortarBarrageMine.dds">
+        <img src="Art/2DArt/SkillIcons/FireMortarBarrageMine.png" alt="status icon" title="Pyroclast Mines">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/MambaStrike.dds">
+        <img src="Art/2DArt/SkillIcons/MambaStrike.png" alt="status icon" title="Pestilent Strike">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/MambaStrikeDot.dds">
+        <img src="Art/2DArt/SkillIcons/MambaStrikeDot.png" alt="status icon" title="Pestilent Strike Damage">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/BlightTowerBuffIcon.dds">
+        <img src="Art/2DArt/BuffIcons/BlightTowerBuffIcon.png" alt="status icon" title="Tower Imbuement">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/SnappingAdder.dds">
+        <img src="Art/2DArt/SkillIcons/SnappingAdder.png" alt="status icon" title="Vaal Venom Gyre / Venom Gyre Blades">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/SummonCarrionGolem.dds">
+        <img src="Art/2DArt/SkillIcons/SummonCarrionGolem.png" alt="status icon" title="Carrion Golem">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/FungalGroundBuff.dds">
+        <img src="Art/2DArt/BuffIcons/FungalGroundBuff.png" alt="status icon" title="Fungal Ground">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/Chieftain/NgamahuFlamesAdvance.dds">
+        <img src="Art/2DArt/SkillIcons/passives/Chieftain/NgamahuFlamesAdvance.png" alt="status icon" title="Magmatic Strikes">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ManaRuneDebuff.dds">
+        <img src="Art/2DArt/BuffIcons/ManaRuneDebuff.png" alt="status icon" title="Baranite Cleric&#x27;s Aura / Mana Rune">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/firearrow.dds">
+        <img src="Art/2DArt/SkillIcons/firearrow.png" alt="status icon" title="Burning Arrow">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/EnsnaringArrow.dds">
+        <img src="Art/2DArt/SkillIcons/EnsnaringArrow.png" alt="status icon" title="Snared">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/EyeOfMaliceDebuff.dds">
+        <img src="Art/2DArt/BuffIcons/EyeOfMaliceDebuff.png" alt="status icon" title="Eye of Malice">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/SummonedPhantasms.dds">
+        <img src="Art/2DArt/SkillIcons/SummonedPhantasms.png" alt="status icon" title="Phantasmal Might">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/ArcaneCloak.dds">
+        <img src="Art/2DArt/SkillIcons/ArcaneCloak.png" alt="status icon" title="Arcane Cloak">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Intimidate.dds">
+        <img src="Art/2DArt/BuffIcons/Intimidate.png" alt="status icon" title="Crushed / Intimidated">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Unnerve.dds">
+        <img src="Art/2DArt/BuffIcons/Unnerve.png" alt="status icon" title="Unnerve">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/LeagueItemDebuff.dds">
+        <img src="Art/2DArt/BuffIcons/LeagueItemDebuff.png" alt="status icon" title="Glorious Madness">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/AfflictionReducedRecoveryDebuff.dds">
+        <img src="Art/2DArt/BuffIcons/AfflictionReducedRecoveryDebuff.png" alt="status icon" title="Eternal Scourge / Wasting Touch">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/AfflictionSlowerActionSpeedDebuff.dds">
+        <img src="Art/2DArt/BuffIcons/AfflictionSlowerActionSpeedDebuff.png" alt="status icon" title="Paralysing Touch">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/AfflictionIncreasedDamageTakenDebuff.dds">
+        <img src="Art/2DArt/BuffIcons/AfflictionIncreasedDamageTakenDebuff.png" alt="status icon" title="Eroding Touch">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/AfflictionReducedFlaskEffectDebuff.dds">
+        <img src="Art/2DArt/BuffIcons/AfflictionReducedFlaskEffectDebuff.png" alt="status icon" title="Diluting Touch">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/VomitSlowDebuff.dds">
+        <img src="Art/2DArt/BuffIcons/VomitSlowDebuff.png" alt="status icon" title="Explosive Retch">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/Spellslinger.dds">
+        <img src="Art/2DArt/SkillIcons/Spellslinger.png" alt="status icon" title="Spellslinger">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/SnipeSkillIcon.dds">
+        <img src="Art/2DArt/SkillIcons/SnipeSkillIcon.png" alt="status icon" title="Snipe">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/DeathZoneInner.dds">
+        <img src="Art/2DArt/BuffIcons/DeathZoneInner.png" alt="status icon" title="Electrifying Gaze / Electrifying Sight">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/DeathZoneOuter.dds">
+        <img src="Art/2DArt/BuffIcons/DeathZoneOuter.png" alt="status icon" title="Chilling Vision">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/SeismicCry.dds">
+        <img src="Art/2DArt/SkillIcons/SeismicCry.png" alt="status icon" title="Seismic Cry">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/WarCryAncestral.dds">
+        <img src="Art/2DArt/SkillIcons/WarCryAncestral.png" alt="status icon" title="Ancestral Cry">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/PhysicalLightningBrand.dds">
+        <img src="Art/2DArt/SkillIcons/PhysicalLightningBrand.png" alt="status icon" title="Penance / Penance Brand">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/FragileRegrowth.dds">
+        <img src="Art/2DArt/BuffIcons/FragileRegrowth.png" alt="status icon" title="Fragile Regrowth">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/WarCryInfernal.dds">
+        <img src="Art/2DArt/SkillIcons/WarCryInfernal.png" alt="status icon" title="Infernal Cry">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/HarvestDebuffCold.dds">
+        <img src="Art/2DArt/BuffIcons/HarvestDebuffCold.png" alt="status icon" title="Frigid Roar">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/HarvestDebuffSlow.dds">
+        <img src="Art/2DArt/BuffIcons/HarvestDebuffSlow.png" alt="status icon" title="Bestial Roar / Noxious Fumes">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/ColdBrand.dds">
+        <img src="Art/2DArt/SkillIcons/ColdBrand.png" alt="status icon" title="Wintertide / Wintertide Brand / Wintertide&#x27;s End">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/RallyingCry.dds">
+        <img src="Art/2DArt/SkillIcons/RallyingCry.png" alt="status icon" title="Rallied">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/RavenBossScreech.dds">
+        <img src="Art/2DArt/BuffIcons/RavenBossScreech.png" alt="status icon" title="Shrill Screech">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/cannotbeimpaled.dds">
+        <img src="Art/2DArt/BuffIcons/cannotbeimpaled.png" alt="status icon" title="The Impaled">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/AlchemistsGenius.dds">
+        <img src="Art/2DArt/BuffIcons/AlchemistsGenius.png" alt="status icon" title="Alchemist&#x27;s Genius">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/ConduitSigilPurple.dds">
+        <img src="Art/2DArt/SkillIcons/ConduitSigilPurple.png" alt="status icon" title="Arcanist Brand">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/debilitationdebuff.dds">
+        <img src="Art/2DArt/BuffIcons/debilitationdebuff.png" alt="status icon" title="Debilitate">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/Occultist/FatefulEchoes.dds">
+        <img src="Art/2DArt/SkillIcons/passives/Occultist/FatefulEchoes.png" alt="status icon" title="Malediction">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/Berserker/WarBringer.dds">
+        <img src="Art/2DArt/SkillIcons/passives/Berserker/WarBringer.png" alt="status icon" title="War Bringer">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/OshabiSacredAshes.dds">
+        <img src="Art/2DArt/BuffIcons/OshabiSacredAshes.png" alt="status icon" title="Sacred Ashes / Sacred Suffering">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/IllusionaryWolf.dds">
+        <img src="Art/2DArt/SkillIcons/IllusionaryWolf.png" alt="status icon" title="Spectral Pack">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/OshabiColourPhasesBlue.dds">
+        <img src="Art/2DArt/BuffIcons/OshabiColourPhasesBlue.png" alt="status icon" title="Primal Malady">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/OshabiColourPhasesGreen.dds">
+        <img src="Art/2DArt/BuffIcons/OshabiColourPhasesGreen.png" alt="status icon" title="Vivid Malady">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/OshabiColourPhasesRed.dds">
+        <img src="Art/2DArt/BuffIcons/OshabiColourPhasesRed.png" alt="status icon" title="Wild Malady">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/FrostGlobe.dds">
+        <img src="Art/2DArt/SkillIcons/FrostGlobe.png" alt="status icon" title="Frost Shield">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ImpactingSteelBuff.dds">
+        <img src="Art/2DArt/BuffIcons/ImpactingSteelBuff.png" alt="status icon" title="Steel Shard">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/CircleofPower.dds">
+        <img src="Art/2DArt/SkillIcons/CircleofPower.png" alt="status icon" title="Sigil of Power">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/DisturbtheDead.dds">
+        <img src="Art/2DArt/SkillIcons/DisturbtheDead.png" alt="status icon" title="Corpse Walk">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/Deathwish.dds">
+        <img src="Art/2DArt/SkillIcons/Deathwish.png" alt="status icon" title="Death Wish">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/HeistCausticCloud.dds">
+        <img src="Art/2DArt/BuffIcons/HeistCausticCloud.png" alt="status icon" title="">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/ShatteringSteel.dds">
+        <img src="Art/2DArt/SkillIcons/ShatteringSteel.png" alt="status icon" title="Steel Ward">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/EverglassBarrier.dds">
+        <img src="Art/2DArt/SkillIcons/EverglassBarrier.png" alt="status icon" title="Shattered Shield">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ScorchingConflux.dds">
+        <img src="Art/2DArt/BuffIcons/ScorchingConflux.png" alt="status icon" title="Scorching Conflux">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/SappingConflux.dds">
+        <img src="Art/2DArt/BuffIcons/SappingConflux.png" alt="status icon" title="Beidat&#x27;s Wrath / Sapping Conflux">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/BrittleConflux.dds">
+        <img src="Art/2DArt/BuffIcons/BrittleConflux.png" alt="status icon" title="Brittle Conflux">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/GhostfireBuff.dds">
+        <img src="Art/2DArt/BuffIcons/GhostfireBuff.png" alt="status icon" title="Engulfed by Ghostfire / Soulfire">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/Elementalist/PendulumOfDestruction.dds">
+        <img src="Art/2DArt/SkillIcons/passives/Elementalist/PendulumOfDestruction.png" alt="status icon" title="Convergence">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/PrimalAegis.dds">
+        <img src="Art/2DArt/BuffIcons/PrimalAegis.png" alt="status icon" title="Primal Aegis">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/FireElementalSummonInactive.dds">
+        <img src="Art/2DArt/SkillIcons/FireElementalSummonInactive.png" alt="status icon" title="Reviving Flame">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/IceElementalSummonInactive.dds">
+        <img src="Art/2DArt/SkillIcons/IceElementalSummonInactive.png" alt="status icon" title="Reviving Ice">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/LightningGolemInactive.dds">
+        <img src="Art/2DArt/SkillIcons/LightningGolemInactive.png" alt="status icon" title="Reviving Lightning">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/RockGolemSummonInactive.dds">
+        <img src="Art/2DArt/SkillIcons/RockGolemSummonInactive.png" alt="status icon" title="Reviving Stone">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/ChaosElementalSummonInactive.dds">
+        <img src="Art/2DArt/SkillIcons/ChaosElementalSummonInactive.png" alt="status icon" title="Reviving Chaos">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/SummonCarrionGolemInactive.dds">
+        <img src="Art/2DArt/SkillIcons/SummonCarrionGolemInactive.png" alt="status icon" title="Reviving Carrion">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/GaleForceBuff.dds">
+        <img src="Art/2DArt/BuffIcons/GaleForceBuff.png" alt="status icon" title="Gale Force">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/GripofSacrificeBuff.dds">
+        <img src="Art/2DArt/BuffIcons/GripofSacrificeBuff.png" alt="status icon" title="Sacrificial Zeal">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/fanatacismcharge.dds">
+        <img src="Art/2DArt/SkillIcons/passives/fanatacismcharge.png" alt="status icon" title="Fanatic Charges">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/FanatascismBuffIcon.dds">
+        <img src="Art/2DArt/BuffIcons/FanatascismBuffIcon.png" alt="status icon" title="Fanaticism">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/SpectralRagingSpirit.dds">
+        <img src="Art/2DArt/SkillIcons/SpectralRagingSpirit.png" alt="status icon" title="Rupture">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/AtlasTrees/DelveNotable2.dds">
+        <img src="Art/2DArt/SkillIcons/passives/AtlasTrees/DelveNotable2.png" alt="status icon" title="Sulphite Intoxication">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ChillingBeam.dds">
+        <img src="Art/2DArt/BuffIcons/ChillingBeam.png" alt="status icon" title="Deathly Chill">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/CoinShowerBuff.dds">
+        <img src="Art/2DArt/BuffIcons/CoinShowerBuff.png" alt="status icon" title="Gambler&#x27;s Greed">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/JackTheAxe.dds">
+        <img src="Art/2DArt/SkillIcons/JackTheAxe.png" alt="status icon" title="Thirst for Blood">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/DemigodAura.dds">
+        <img src="Art/2DArt/BuffIcons/DemigodAura.png" alt="status icon" title="Demigod&#x27;s Authority">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/brutalcharge.dds">
+        <img src="Art/2DArt/BuffIcons/brutalcharge.png" alt="status icon" title="Brutal Charges">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/afflictioncharge.dds">
+        <img src="Art/2DArt/BuffIcons/afflictioncharge.png" alt="status icon" title="Affliction Charges">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/absorptioncharge.dds">
+        <img src="Art/2DArt/BuffIcons/absorptioncharge.png" alt="status icon" title="Absorption Charges">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/Hydrosphere.dds">
+        <img src="Art/2DArt/SkillIcons/Hydrosphere.png" alt="status icon" title="Drenched">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/BloodTotemEffigyBuff.dds">
+        <img src="Art/2DArt/BuffIcons/BloodTotemEffigyBuff.png" alt="status icon" title="Fading Flesh">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/BloodQuicksand.dds">
+        <img src="Art/2DArt/SkillIcons/BloodQuicksand.png" alt="status icon" title="Smothering Mist">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/SpeedDaemon.dds">
+        <img src="Art/2DArt/SkillIcons/SpeedDaemon.png" alt="status icon" title="Speed Gale">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/ChaosVines.dds">
+        <img src="Art/2DArt/SkillIcons/ChaosVines.png" alt="status icon" title="Thorned Vines / Toxic Vines">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/UnhingeSkill.dds">
+        <img src="Art/2DArt/SkillIcons/UnhingeSkill.png" alt="status icon" title="Insanity">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ForbiddenTaste.dds">
+        <img src="Art/2DArt/BuffIcons/ForbiddenTaste.png" alt="status icon" title="Eldritch Empowerment">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/RuinDebuff.dds">
+        <img src="Art/2DArt/BuffIcons/RuinDebuff.png" alt="status icon" title="Ruin">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/MavenBuff.dds">
+        <img src="Art/2DArt/BuffIcons/MavenBuff.png" alt="status icon" title="Maven&#x27;s Game / Maven&#x27;s Punishment">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/BloodTendrilsSkill.dds">
+        <img src="Art/2DArt/SkillIcons/BloodTendrilsSkill.png" alt="status icon" title="Exsanguinate">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/CorruptedBloodStream.dds">
+        <img src="Art/2DArt/SkillIcons/CorruptedBloodStream.png" alt="status icon" title="Corrupting Fever">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/EscalatingVulnerability.dds">
+        <img src="Art/2DArt/BuffIcons/EscalatingVulnerability.png" alt="status icon" title="Escalating Vulnerability / Resolve Weakness">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/CrueltySupport.dds">
+        <img src="Art/2DArt/BuffIcons/CrueltySupport.png" alt="status icon" title="Cruelty">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/LightningVortex.dds">
+        <img src="Art/2DArt/SkillIcons/LightningVortex.png" alt="status icon" title="Vortex">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/PetrifiedBlood.dds">
+        <img src="Art/2DArt/SkillIcons/PetrifiedBlood.png" alt="status icon" title="Petrified Blood">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/Bloodreap.dds">
+        <img src="Art/2DArt/SkillIcons/Bloodreap.png" alt="status icon" title="Blood Charges / Reap / Vaal Reap">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/GolemBeam.dds">
+        <img src="Art/2DArt/BuffIcons/GolemBeam.png" alt="status icon" title="Burning Bond">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/GolemBeamCold.dds">
+        <img src="Art/2DArt/BuffIcons/GolemBeamCold.png" alt="status icon" title="Chilling Bond">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/GolemBeamLightning.dds">
+        <img src="Art/2DArt/BuffIcons/GolemBeamLightning.png" alt="status icon" title="Electrifying Bond">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/GolemBeamChaos.dds">
+        <img src="Art/2DArt/BuffIcons/GolemBeamChaos.png" alt="status icon" title="Chaotic Bond">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/GolemBeamRuin.dds">
+        <img src="Art/2DArt/BuffIcons/GolemBeamRuin.png" alt="status icon" title="Ruinous Burning Bond / Ruinous Chaotic Bond / Ruinous Chilling Bond / Ruinous Electrifying Bond">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/EverlastingSacrificeBuff.dds">
+        <img src="Art/2DArt/BuffIcons/EverlastingSacrificeBuff.png" alt="status icon" title="Everlasting Sacrifice">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/LifeTapBuff.dds">
+        <img src="Art/2DArt/BuffIcons/LifeTapBuff.png" alt="status icon" title="Lifetap">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/PhysicalTotem.dds">
+        <img src="Art/2DArt/BuffIcons/PhysicalTotem.png" alt="status icon" title="Costly Might">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ElementalTotem.dds">
+        <img src="Art/2DArt/BuffIcons/ElementalTotem.png" alt="status icon" title="Costly Potency">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/OccasionalImpotenceDebuff.dds">
+        <img src="Art/2DArt/BuffIcons/OccasionalImpotenceDebuff.png" alt="status icon" title="Impotence">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/Berserker/DefyPain.dds">
+        <img src="Art/2DArt/SkillIcons/passives/Berserker/DefyPain.png" alt="status icon" title="Defiance">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/CreepingMiasma.dds">
+        <img src="Art/2DArt/BuffIcons/CreepingMiasma.png" alt="status icon" title="Choking Miasma / Inner Choking Miasma">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/TrialmasterTetherBuff.dds">
+        <img src="Art/2DArt/BuffIcons/TrialmasterTetherBuff.png" alt="status icon" title="Trialmaster&#x27;s Tether">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/DivineCry.dds">
+        <img src="Art/2DArt/SkillIcons/DivineCry.png" alt="status icon" title="Battlemage&#x27;s Cry">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/iconcleave.dds">
+        <img src="Art/2DArt/SkillIcons/iconcleave.png" alt="status icon" title="Behead / Executioner">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/VoidburstIcon.dds">
+        <img src="Art/2DArt/SkillIcons/VoidburstIcon.png" alt="status icon" title="Voltaxic Burst">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/TraumaBuff.dds">
+        <img src="Art/2DArt/BuffIcons/TraumaBuff.png" alt="status icon" title="Trauma">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/AmbushIcon.dds">
+        <img src="Art/2DArt/SkillIcons/AmbushIcon.png" alt="status icon" title="Ambush">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ExpeditionColdResistance.dds">
+        <img src="Art/2DArt/BuffIcons/ExpeditionColdResistance.png" alt="status icon" title="Indifference of the Cosmos">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ExpeditionReducedSpeed.dds">
+        <img src="Art/2DArt/BuffIcons/ExpeditionReducedSpeed.png" alt="status icon" title="Glimpse of Infinity / Impedance">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Corrosion.dds">
+        <img src="Art/2DArt/BuffIcons/Corrosion.png" alt="status icon" title="Corrosion / Death Geas">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/VoranaStorm.dds">
+        <img src="Art/2DArt/BuffIcons/VoranaStorm.png" alt="status icon" title="Heretic&#x27;s Ire / Portent Vapors / The Black Reaping">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Olrothdebuff3.dds">
+        <img src="Art/2DArt/BuffIcons/Olrothdebuff3.png" alt="status icon" title="Exterminating Flame / Restless Ground / Righteous Fire">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Olrothdebuff2.dds">
+        <img src="Art/2DArt/BuffIcons/Olrothdebuff2.png" alt="status icon" title="Enervation">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Olrothdebuff1.dds">
+        <img src="Art/2DArt/BuffIcons/Olrothdebuff1.png" alt="status icon" title="Brutally Pinned">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/HellscapeLeagueDebuff.dds">
+        <img src="Art/2DArt/BuffIcons/HellscapeLeagueDebuff.png" alt="status icon" title="Exposed to Corruption / Lethality">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/Frostblink.dds">
+        <img src="Art/2DArt/SkillIcons/Frostblink.png" alt="status icon" title="Temporal Rift">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ThunderWeb.dds">
+        <img src="Art/2DArt/BuffIcons/ThunderWeb.png" alt="status icon" title="Magnetic Storm / Thunder Web">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/StormBlade.dds">
+        <img src="Art/2DArt/SkillIcons/StormBlade.png" alt="status icon" title="Energy Blade">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/SoulLink.dds">
+        <img src="Art/2DArt/SkillIcons/SoulLink.png" alt="status icon" title="Soul Link">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/FlameLink.dds">
+        <img src="Art/2DArt/SkillIcons/FlameLink.png" alt="status icon" title="Flame Link">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/LeechLink.dds">
+        <img src="Art/2DArt/SkillIcons/LeechLink.png" alt="status icon" title="Vampiric Link">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/BlockLink.dds">
+        <img src="Art/2DArt/SkillIcons/BlockLink.png" alt="status icon" title="Protective Link">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/TriggerLink.dds">
+        <img src="Art/2DArt/SkillIcons/TriggerLink.png" alt="status icon" title="Intuitive Link">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/CriticalLink.dds">
+        <img src="Art/2DArt/SkillIcons/CriticalLink.png" alt="status icon" title="Destructive Link">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/HellscapeDemonEliteScreech.dds">
+        <img src="Art/2DArt/BuffIcons/HellscapeDemonEliteScreech.png" alt="status icon" title="Piercing Screech">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/HinderImmunity.dds">
+        <img src="Art/2DArt/BuffIcons/HinderImmunity.png" alt="status icon" title="Hinder Immunity">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Maimimmunity.dds">
+        <img src="Art/2DArt/BuffIcons/Maimimmunity.png" alt="status icon" title="Maim Immunity">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/LifeRecoveryFlask.dds">
+        <img src="Art/2DArt/BuffIcons/LifeRecoveryFlask.png" alt="status icon" title="Additional Life Recovery">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/HellscapeHookedDebuff.dds">
+        <img src="Art/2DArt/BuffIcons/HellscapeHookedDebuff.png" alt="status icon" title="Grasping Hooks">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/Trickster/ImmuneToDoT.dds">
+        <img src="Art/2DArt/SkillIcons/passives/Trickster/ImmuneToDoT.png" alt="status icon" title="Heartstopper">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/CoveredinFrost.dds">
+        <img src="Art/2DArt/BuffIcons/CoveredinFrost.png" alt="status icon" title="Covered In Frost">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ExecutionerAura.dds">
+        <img src="Art/2DArt/BuffIcons/ExecutionerAura.png" alt="status icon" title="Executioner&#x27;s Presence">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/FlaskDrainAura.dds">
+        <img src="Art/2DArt/BuffIcons/FlaskDrainAura.png" alt="status icon" title="Drought / Flask Drain">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/TimeBubbleAura.dds">
+        <img src="Art/2DArt/BuffIcons/TimeBubbleAura.png" alt="status icon" title="Temporal Bubble">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ManaDonut.dds">
+        <img src="Art/2DArt/BuffIcons/ManaDonut.png" alt="status icon" title="Siphoning Ring">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/OppressorAura.dds">
+        <img src="Art/2DArt/BuffIcons/OppressorAura.png" alt="status icon" title="Oppression">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/VoodooDollMod.dds">
+        <img src="Art/2DArt/BuffIcons/VoodooDollMod.png" alt="status icon" title="Effigy">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/RejuvenatingSporesDebuff.dds">
+        <img src="Art/2DArt/BuffIcons/RejuvenatingSporesDebuff.png" alt="status icon" title="Verdant Spores">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/GlacialCage.dds">
+        <img src="Art/2DArt/BuffIcons/GlacialCage.png" alt="status icon" title="Imprisoned">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/GreedShrinebuff.dds">
+        <img src="Art/2DArt/BuffIcons/GreedShrinebuff.png" alt="status icon" title="Covetous Shrine">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/InfiniteHungerDrowning.dds">
+        <img src="Art/2DArt/BuffIcons/InfiniteHungerDrowning.png" alt="status icon" title="Drowning">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/TangleTentacleOrbDebuff.dds">
+        <img src="Art/2DArt/BuffIcons/TangleTentacleOrbDebuff.png" alt="status icon" title="Inescapable Doom / Livewire">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/EaterOfWorldsDrowning.dds">
+        <img src="Art/2DArt/BuffIcons/EaterOfWorldsDrowning.png" alt="status icon" title="Drowning">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Extinguish.dds">
+        <img src="Art/2DArt/BuffIcons/Extinguish.png" alt="status icon" title="Extinguish">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/SearingDebuff.dds">
+        <img src="Art/2DArt/BuffIcons/SearingDebuff.png" alt="status icon" title="Cauterised Flesh / Searing Rune">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/TaintedFrenzyBuff.dds">
+        <img src="Art/2DArt/BuffIcons/TaintedFrenzyBuff.png" alt="status icon" title="Tainted Frenzy Charges">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/TaintedEnduranceBuff.dds">
+        <img src="Art/2DArt/BuffIcons/TaintedEnduranceBuff.png" alt="status icon" title="Tainted Endurance Charges">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/TaintedPowerBuff.dds">
+        <img src="Art/2DArt/BuffIcons/TaintedPowerBuff.png" alt="status icon" title="Tainted Power Charges">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/DoomBossDebuff.dds">
+        <img src="Art/2DArt/BuffIcons/DoomBossDebuff.png" alt="status icon" title="Corrosive Hunger">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/WrathOfTheCosmosKeystone.dds">
+        <img src="Art/2DArt/SkillIcons/passives/WrathOfTheCosmosKeystone.png" alt="status icon" title="Wrath of the Cosmos">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/GalvanicField.dds">
+        <img src="Art/2DArt/SkillIcons/GalvanicField.png" alt="status icon" title="Galvanic Field">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/Trickster/ImmuneToDoT2.dds">
+        <img src="Art/2DArt/SkillIcons/passives/Trickster/ImmuneToDoT2.png" alt="status icon" title="Heartstopper">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/Trickster/OneStepAheadTrickster.dds">
+        <img src="Art/2DArt/SkillIcons/passives/Trickster/OneStepAheadTrickster.png" alt="status icon" title="One Step Ahead">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ShrineBrineKing.dds">
+        <img src="Art/2DArt/BuffIcons/ShrineBrineKing.png" alt="status icon" title="Tsoagoth Shrine">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ShrineLunaris.dds">
+        <img src="Art/2DArt/BuffIcons/ShrineLunaris.png" alt="status icon" title="Lunaris Shrine">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ShrineSolaris.dds">
+        <img src="Art/2DArt/BuffIcons/ShrineSolaris.png" alt="status icon" title="Solaris Shrine">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ShrineArakali.dds">
+        <img src="Art/2DArt/BuffIcons/ShrineArakali.png" alt="status icon" title="Arakaali Shrine">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/AncestorTotemSkill.dds">
+        <img src="Art/2DArt/SkillIcons/AncestorTotemSkill.png" alt="status icon" title="Ancestral Protector">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/SlamAncestorTotem.dds">
+        <img src="Art/2DArt/SkillIcons/SlamAncestorTotem.png" alt="status icon" title="Ancestral Warchief">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/SlashAncestorTotem.dds">
+        <img src="Art/2DArt/SkillIcons/SlashAncestorTotem.png" alt="status icon" title="Ancestral Earthbreaker">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/BoonBuffAssassinsBlade.dds">
+        <img src="Art/2DArt/BuffIcons/BoonBuffAssassinsBlade.png" alt="status icon" title="Assassin&#x27;s Blade">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/BoonBuffSilverDescry.dds">
+        <img src="Art/2DArt/BuffIcons/BoonBuffSilverDescry.png" alt="status icon" title="Silver Descry">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/VaalArcticArmourBuff.dds">
+        <img src="Art/2DArt/BuffIcons/VaalArcticArmourBuff.png" alt="status icon" title="Vaal Arctic Armour Buff">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/MomentumMovementSpeed.dds">
+        <img src="Art/2DArt/BuffIcons/MomentumMovementSpeed.png" alt="status icon" title="Swiftness">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/MomentumAttackSpeed.dds">
+        <img src="Art/2DArt/BuffIcons/MomentumAttackSpeed.png" alt="status icon" title="Momentum">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/Champion/Fortitude.dds">
+        <img src="Art/2DArt/SkillIcons/passives/Champion/Fortitude.png" alt="status icon" title="Unstoppable Hero">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/NgamahuTribeSkill.dds">
+        <img src="Art/2DArt/SkillIcons/NgamahuTribeSkill.png" alt="status icon" title="Kaom&#x27;s Leadership">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/KitavaTribeSkill.dds">
+        <img src="Art/2DArt/SkillIcons/KitavaTribeSkill.png" alt="status icon" title="Spiritual Thirst / Utula&#x27;s Leadership">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/TukohamaTribeSkill.dds">
+        <img src="Art/2DArt/SkillIcons/TukohamaTribeSkill.png" alt="status icon" title="Akoya&#x27;s Leadership">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/RongokuraiTribeSkill.dds">
+        <img src="Art/2DArt/SkillIcons/RongokuraiTribeSkill.png" alt="status icon" title="Kahuturoa&#x27;s Leadership">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/TasalioTribeSkill.dds">
+        <img src="Art/2DArt/SkillIcons/TasalioTribeSkill.png" alt="status icon" title="Rakiata&#x27;s Leadership / Tasalio&#x27;s Blessing">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/ArohonguiTribeSkill.dds">
+        <img src="Art/2DArt/SkillIcons/ArohonguiTribeSkill.png" alt="status icon" title="Arohongui&#x27;s Blessing / Ikiaho&#x27;s Leadership">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/RamakoTribeSkill.dds">
+        <img src="Art/2DArt/SkillIcons/RamakoTribeSkill.png" alt="status icon" title="Ahuana&#x27;s Leadership / Chilling Barrier">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/HinekoraTribeSkill.dds">
+        <img src="Art/2DArt/SkillIcons/HinekoraTribeSkill.png" alt="status icon" title="Hinekora&#x27;s Aid / Spirit Containment / Tawhanuku&#x27;s Leadership">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/TawhoaTribeSkill.dds">
+        <img src="Art/2DArt/SkillIcons/TawhoaTribeSkill.png" alt="status icon" title="Forest&#x27;s Blessing / Maata&#x27;s Leadership">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/ValakoTribeSkill.dds">
+        <img src="Art/2DArt/SkillIcons/ValakoTribeSkill.png" alt="status icon" title="Kiloava&#x27;s Leadership">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/Guardian/HarmonyOfPurpose.dds">
+        <img src="Art/2DArt/SkillIcons/passives/Guardian/HarmonyOfPurpose.png" alt="status icon" title="Harmony of Purpose">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ChannelInterruptionDebuff.dds">
+        <img src="Art/2DArt/BuffIcons/ChannelInterruptionDebuff.png" alt="status icon" title="Death Draw">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/Barkskin.dds">
+        <img src="Art/2DArt/SkillIcons/Barkskin.png" alt="status icon" title="Bark">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/icondoubleswing.dds">
+        <img src="Art/2DArt/SkillIcons/icondoubleswing.png" alt="status icon" title="Double Strike">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/AzmeriSwampGround.dds">
+        <img src="Art/2DArt/BuffIcons/AzmeriSwampGround.png" alt="status icon" title="Viscous Swamp">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/PenanceMark.dds">
+        <img src="Art/2DArt/SkillIcons/PenanceMark.png" alt="status icon" title="Penance Mark">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/EbonAffliction.dds">
+        <img src="Art/2DArt/BuffIcons/EbonAffliction.png" alt="status icon" title="Ebon Affliction">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/AzmeriScreecherDeathAura.dds">
+        <img src="Art/2DArt/BuffIcons/AzmeriScreecherDeathAura.png" alt="status icon" title="Aura of Death / Mystic Miasma">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/VoodooShaman.dds">
+        <img src="Art/2DArt/SkillIcons/VoodooShaman.png" alt="status icon" title="Pacified / Pacify">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Eldritch.dds">
+        <img src="Art/2DArt/BuffIcons/Eldritch.png" alt="status icon" title="Ravenous - Eldritch">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Demon.dds">
+        <img src="Art/2DArt/BuffIcons/Demon.png" alt="status icon" title="Ravenous - Demon">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Construct.dds">
+        <img src="Art/2DArt/BuffIcons/Construct.png" alt="status icon" title="Ravenous - Construct">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Undead.dds">
+        <img src="Art/2DArt/BuffIcons/Undead.png" alt="status icon" title="Ravenous - Undead">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Beast.dds">
+        <img src="Art/2DArt/BuffIcons/Beast.png" alt="status icon" title="Ravenous - Beast">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Humanoid.dds">
+        <img src="Art/2DArt/BuffIcons/Humanoid.png" alt="status icon" title="Ravenous - Humanoid">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/AzmeriEffigyBuff.dds">
+        <img src="Art/2DArt/BuffIcons/AzmeriEffigyBuff.png" alt="status icon" title="Ancient Wisdom / Dark Gift / Sacred Infusion">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/VoodooKingDeathEffigyMultiply.dds">
+        <img src="Art/2DArt/BuffIcons/VoodooKingDeathEffigyMultiply.png" alt="status icon" title="Shadow Surge">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/MinionSacrifice.dds">
+        <img src="Art/2DArt/SkillIcons/MinionSacrifice.png" alt="status icon" title="Affliction Regeneration">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/VoodooKingPunishmentStationary.dds">
+        <img src="Art/2DArt/BuffIcons/VoodooKingPunishmentStationary.png" alt="status icon" title="Ritual of Meditation">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/VoodooKingPunishmentMoving.dds">
+        <img src="Art/2DArt/BuffIcons/VoodooKingPunishmentMoving.png" alt="status icon" title="Ritual of Dance">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/VoodooKingPlantSlow.dds">
+        <img src="Art/2DArt/BuffIcons/VoodooKingPlantSlow.png" alt="status icon" title="Slow Aura">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/voodookingmaze.dds">
+        <img src="Art/2DArt/BuffIcons/voodookingmaze.png" alt="status icon" title="Branching Affliction">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/AzmeriShepherd.dds">
+        <img src="Art/2DArt/BuffIcons/AzmeriShepherd.png" alt="status icon" title="Demon&#x27;s Power">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Kuduku.dds">
+        <img src="Art/2DArt/BuffIcons/Kuduku.png" alt="status icon" title="Spirit&#x27;s Blessing">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Sword.dds">
+        <img src="Art/2DArt/BuffIcons/Sword.png" alt="status icon" title="Additional Impale / Attack Impale Chance / Impale Effect">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/CasterDemon.dds">
+        <img src="Art/2DArt/BuffIcons/CasterDemon.png" alt="status icon" title="Critical Strike Multiplier">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/RobotArgus.dds">
+        <img src="Art/2DArt/BuffIcons/RobotArgus.png" alt="status icon" title="Charged Up">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/AzmeriAltarBat.dds">
+        <img src="Art/2DArt/BuffIcons/AzmeriAltarBat.png" alt="status icon" title="Chiropteran Procession">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/AzmeriAltarBear.dds">
+        <img src="Art/2DArt/BuffIcons/AzmeriAltarBear.png" alt="status icon" title="Ursine Procession">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/AzmeriAltarCat.dds">
+        <img src="Art/2DArt/BuffIcons/AzmeriAltarCat.png" alt="status icon" title="Feline Procession">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/AzmeriAltarCrow.dds">
+        <img src="Art/2DArt/BuffIcons/AzmeriAltarCrow.png" alt="status icon" title="Corvine Procession">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/AzmeriAltarDeer.dds">
+        <img src="Art/2DArt/BuffIcons/AzmeriAltarDeer.png" alt="status icon" title="Cervine Procession">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/AzmeriAltarLemur.dds">
+        <img src="Art/2DArt/BuffIcons/AzmeriAltarLemur.png" alt="status icon" title="Lemuroid Procession">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/AzmeriAltarRabbit.dds">
+        <img src="Art/2DArt/BuffIcons/AzmeriAltarRabbit.png" alt="status icon" title="Leporine Procession">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/AzmeriAltarRaccoon.dds">
+        <img src="Art/2DArt/BuffIcons/AzmeriAltarRaccoon.png" alt="status icon" title="Procyonic Procession">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/AzmeriAltarRat.dds">
+        <img src="Art/2DArt/BuffIcons/AzmeriAltarRat.png" alt="status icon" title="Murine Procession">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/AzmeriAltarToad.dds">
+        <img src="Art/2DArt/BuffIcons/AzmeriAltarToad.png" alt="status icon" title="Batrachian Procession">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/BeyondCrownBuff.dds">
+        <img src="Art/2DArt/BuffIcons/BeyondCrownBuff.png" alt="status icon" title="Beidat&#x27;s Magnificence / Ghorr&#x27;s Magnificence / K&#x27;tash&#x27;s Magnificence">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/BeastBestiaryBuff.dds">
+        <img src="Art/2DArt/BuffIcons/BeastBestiaryBuff.png" alt="status icon" title="Hunters&#x27; Cunning">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/MarkedForDeathDebuff.dds">
+        <img src="Art/2DArt/BuffIcons/MarkedForDeathDebuff.png" alt="status icon" title="Marked for Death">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/AutomationSkill.dds">
+        <img src="Art/2DArt/SkillIcons/AutomationSkill.png" alt="status icon" title="Automation">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/CalltoArmsSkill.dds">
+        <img src="Art/2DArt/SkillIcons/CalltoArmsSkill.png" alt="status icon" title="Autoexertion">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DItems/Currency/Scarabs/SuperScarab6.dds">
+        <img src="Art/2DItems/Currency/Scarabs/SuperScarab6.png" alt="status icon" title="Horned Scarab of Glittering">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/NecropolisBuff.dds">
+        <img src="Art/2DArt/BuffIcons/NecropolisBuff.png" alt="status icon" title="Gravekeeper&#x27;s Boon">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/NoPauseDebuff.dds">
+        <img src="Art/2DArt/BuffIcons/NoPauseDebuff.png" alt="status icon" title="[DNT] Temporal Interference">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/RageWarcrySkill.dds">
+        <img src="Art/2DArt/SkillIcons/RageWarcrySkill.png" alt="status icon" title="Vengeful Cry">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/WardenAilmentBearer.dds">
+        <img src="Art/2DArt/SkillIcons/WardenAilmentBearer.png" alt="status icon" title="Unbound / Unbound Fury">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/FirestormV2.dds">
+        <img src="Art/2DArt/SkillIcons/FirestormV2.png" alt="status icon" title="K&#x27;tash&#x27;s Anger">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/RitualWispBuff.dds">
+        <img src="Art/2DArt/BuffIcons/RitualWispBuff.png" alt="status icon" title="Wisp&#x27;s Blessing">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/TinctureManaBurnDebuff.dds">
+        <img src="Art/2DArt/BuffIcons/TinctureManaBurnDebuff.png" alt="status icon" title="Mana Burn">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/TinctureToxicityDebuff.dds">
+        <img src="Art/2DArt/BuffIcons/TinctureToxicityDebuff.png" alt="status icon" title="Weeping Wounds">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/Warden/WardenFireAilments.dds">
+        <img src="Art/2DArt/SkillIcons/passives/Warden/WardenFireAilments.png" alt="status icon" title="Flaming Runesurge">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/Warden/WardenColdAilments.dds">
+        <img src="Art/2DArt/SkillIcons/passives/Warden/WardenColdAilments.png" alt="status icon" title="Icy Runesurge">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/Warden/WardenLightningAilments.dds">
+        <img src="Art/2DArt/SkillIcons/passives/Warden/WardenLightningAilments.png" alt="status icon" title="Crackling Runesurge">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/SkillIcons/passives/AtlasTrees/BlightInfectedMap.dds">
+        <img src="Art/2DArt/SkillIcons/passives/AtlasTrees/BlightInfectedMap.png" alt="status icon" title="Blightreach">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/PrismaticTintureBuff.dds">
+        <img src="Art/2DArt/BuffIcons/PrismaticTintureBuff.png" alt="status icon" title="Prismatic Tincture">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/RosethornTintureBuff.dds">
+        <img src="Art/2DArt/BuffIcons/RosethornTintureBuff.png" alt="status icon" title="Rosethorn Tincture">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/IronwoodTintureBuff.dds">
+        <img src="Art/2DArt/BuffIcons/IronwoodTintureBuff.png" alt="status icon" title="Ironwood Tincture">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/AshbarkTintureBuff.dds">
+        <img src="Art/2DArt/BuffIcons/AshbarkTintureBuff.png" alt="status icon" title="Ashbark Tincture">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/BorealwoodTintureBuff.dds">
+        <img src="Art/2DArt/BuffIcons/BorealwoodTintureBuff.png" alt="status icon" title="Borealwood Tincture">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/FulguriteTintureBuff.dds">
+        <img src="Art/2DArt/BuffIcons/FulguriteTintureBuff.png" alt="status icon" title="Fulgurite Tincture">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/PoisonberryTintureBuff.dds">
+        <img src="Art/2DArt/BuffIcons/PoisonberryTintureBuff.png" alt="status icon" title="Poisonberry Tincture">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/BloodSapTintureBuff.dds">
+        <img src="Art/2DArt/BuffIcons/BloodSapTintureBuff.png" alt="status icon" title="Blood Sap Tincture">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/OakbranchTintureBuff.dds">
+        <img src="Art/2DArt/BuffIcons/OakbranchTintureBuff.png" alt="status icon" title="Oakbranch Tincture">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/SporebloomTintureBuff.dds">
+        <img src="Art/2DArt/BuffIcons/SporebloomTintureBuff.png" alt="status icon" title="Sporebloom Tincture">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/IncreasedShockFreezeIgniteDurationTinctureBuff.dds">
+        <img src="Art/2DArt/BuffIcons/IncreasedShockFreezeIgniteDurationTinctureBuff.png" alt="status icon" title="Tincture Sadism">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/IncreasedDamageOverTimeTinctureBuff.dds">
+        <img src="Art/2DArt/BuffIcons/IncreasedDamageOverTimeTinctureBuff.png" alt="status icon" title="Tincture Excruciation">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ElementalResistancePenetrationTinctureBuff.dds">
+        <img src="Art/2DArt/BuffIcons/ElementalResistancePenetrationTinctureBuff.png" alt="status icon" title="Tincture Elemental Scourging">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/CriticalStrikeDamageTinctureBuff.dds">
+        <img src="Art/2DArt/BuffIcons/CriticalStrikeDamageTinctureBuff.png" alt="status icon" title="Tincture Destruction">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/AttackSpeedTinctureBuff.dds">
+        <img src="Art/2DArt/BuffIcons/AttackSpeedTinctureBuff.png" alt="status icon" title="Tincture Swiftness">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/DamageAgainstEnemiesLowLifeTinctureBuff.dds">
+        <img src="Art/2DArt/BuffIcons/DamageAgainstEnemiesLowLifeTinctureBuff.png" alt="status icon" title="Tincture Execution">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/LifeGainedOnHitTinctureBuff.dds">
+        <img src="Art/2DArt/BuffIcons/LifeGainedOnHitTinctureBuff.png" alt="status icon" title="Tincture Life Thievery">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/LifeGainedOnKillTinctureBuff.dds">
+        <img src="Art/2DArt/BuffIcons/LifeGainedOnKillTinctureBuff.png" alt="status icon" title="Tincture Life Thirst">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ManaGainedOnHitTinctureBuff.dds">
+        <img src="Art/2DArt/BuffIcons/ManaGainedOnHitTinctureBuff.png" alt="status icon" title="Tincture Mana Thievery">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/ManaGainedOnKillTinctureBuff.dds">
+        <img src="Art/2DArt/BuffIcons/ManaGainedOnKillTinctureBuff.png" alt="status icon" title="Tincture Mana Thirst">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/IncreasedFlaskChargesGainedTinctureBuff.dds">
+        <img src="Art/2DArt/BuffIcons/IncreasedFlaskChargesGainedTinctureBuff.png" alt="status icon" title="Tincture Crush / Tincture Flask Thievery">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Unique1TintureBuff.dds">
+        <img src="Art/2DArt/BuffIcons/Unique1TintureBuff.png" alt="status icon" title="Sap of the Seasons">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Unique2TintureBuff.dds">
+        <img src="Art/2DArt/BuffIcons/Unique2TintureBuff.png" alt="status icon" title="Mightblood Ire">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Unique3TintureBuff.dds">
+        <img src="Art/2DArt/BuffIcons/Unique3TintureBuff.png" alt="status icon" title="Wildfire Phloem">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Unique4TintureBuff.dds">
+        <img src="Art/2DArt/BuffIcons/Unique4TintureBuff.png" alt="status icon" title="The Battle Within">
+    </a>
+  </div>
+  <div>
+    <a href="buff_visuals.html#Art/2DArt/BuffIcons/Unique5TintureBuff.dds">
+        <img src="Art/2DArt/BuffIcons/Unique5TintureBuff.png" alt="status icon" title="Grasping Nightshade">
+    </a>
+  </div>
+</body>
+</html>
